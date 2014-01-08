@@ -131,6 +131,12 @@
 	// CPLocaleQuotationEndDelimiterKey
 	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.quotationEnd"] forKey:CPLocaleQuotationEndDelimiterKey];
 
+	// CPLocaleAlternateQuotationBeginDelimiterKey
+	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.alternateQuotationStart"] forKey:CPLocaleAlternateQuotationBeginDelimiterKey];
+
+	// CPLocaleAlternateQuotationEndDelimiterKey
+	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.alternateQuotationEnd"] forKey:CPLocaleAlternateQuotationEndDelimiterKey];
+
 	return additionalData;
 }
 

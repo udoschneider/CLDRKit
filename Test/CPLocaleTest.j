@@ -163,4 +163,16 @@
 	[self assert:@"”" equals:[usLocale objectForKey:CPLocaleQuotationEndDelimiterKey]];
 }
 
+- (void)testCPLocaleAlternateQuotationBeginDelimiterKey
+{
+	[self assert:@"‚" equals:[germanLocale objectForKey:CPLocaleAlternateQuotationBeginDelimiterKey]];
+	[self assert:@"‘" equals:[usLocale objectForKey:CPLocaleAlternateQuotationBeginDelimiterKey]];
+}
+
+- (void)testCPLocaleAlternateQuotationEndDelimiterKey
+{
+	[self assert:@"‘" equals:[germanLocale objectForKey:CPLocaleAlternateQuotationEndDelimiterKey]];
+	[self assert:@"’" equals:[usLocale objectForKey:CPLocaleAlternateQuotationEndDelimiterKey]];
+}
+
 @end
