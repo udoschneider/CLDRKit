@@ -105,7 +105,6 @@
 	// TODO: CPLocaleCollationIdentifier
 }
 
-
 - (void)testCPLocaleUsesMetricSystem
 {
 	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
@@ -113,6 +112,15 @@
 
 	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
 	[self assertFalse:[locale objectForKey:CPLocaleUsesMetricSystem]];
+}
+
+- (void)testCPLocaleMeasurementSystem
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	[self assert:@"Metric" equals:[locale objectForKey:CPLocaleMeasurementSystem]];
+
+	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+	[self assert:@"U.S." equals:[locale objectForKey:CPLocaleMeasurementSystem]];
 }
 
 @end

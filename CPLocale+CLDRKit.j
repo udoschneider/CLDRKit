@@ -93,11 +93,21 @@
 	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier];
 	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"characters.exemplarCharacters"]] forKey:CPLocaleExemplarCharacterSet];
 
+	// TODO: CPLocaleCalendar - unsure how to find the "default" calendar for a given locale
+
+	// TODO: CPLocaleCollationIdentifier
+
 	// http://stackoverflow.com/questions/14038491/how-do-i-know-the-measurement-units-corresponding-to-a-given-locale
-	if (aLocaleIdentifier.match(/.*_(MM|LR|US|UK|GB).*/))
+	if (aLocaleIdentifier.match(/.*_(MM|LR|US).*/))
+	{
 		[additionalData setObject:NO forKey:CPLocaleUsesMetricSystem];
+		[additionalData setObject:@"U.S." forKey:CPLocaleMeasurementSystem];
+	}
 	else
+	{
 		[additionalData setObject:YES forKey:CPLocaleUsesMetricSystem];
+		[additionalData setObject:@"Metric" forKey:CPLocaleMeasurementSystem];
+	}
 
 	return additionalData;
 }
