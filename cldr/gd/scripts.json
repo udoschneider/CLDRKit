@@ -1,0 +1,56 @@
+{
+  "main": {
+    "gd": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "gd"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Arabach",
+          "Armn": "Airmeineach",
+          "Brai": "Braille",
+          "Cyrl": "Cirileach",
+          "Deva": "Devanagari",
+          "Ethi": "Geez",
+          "Geor": "Cairtbheileach",
+          "Grek": "Greugach",
+          "Hang": "Hangul",
+          "Hani": "Han",
+          "Hebr": "Eabhrach",
+          "Hira": "Hiragana",
+          "Hrkt": "Katakana no Hiragana",
+          "Jpan": "Seapanach",
+          "Kana": "Katakana",
+          "Khmr": "Cmèarach",
+          "Knda": "Kannada",
+          "Kore": "Coireanach",
+          "Latg": "Gàidhealach Laideannach",
+          "Latn": "Laideannach",
+          "Mlym": "Malayalam",
+          "Mong": "Mongolach",
+          "Ogam": "Ogham-chraobh",
+          "Runr": "Rùn-sgrìobhach",
+          "Sinh": "Sinhala",
+          "Taml": "Taimil",
+          "Telu": "Telugu",
+          "Tfng": "Tifinagh",
+          "Tglg": "Tagalog",
+          "Thai": "Tàidh",
+          "Tibt": "Tibeiteach",
+          "Zmth": "Comharran matamataig",
+          "Zsym": "Comharran",
+          "Zxxx": "Gun sgrìobhadh",
+          "Zyyy": "Coitcheann",
+          "Zzzz": "Sgrìobhadh neo-aithnichte"
+        }
+      }
+    }
+  }
+}

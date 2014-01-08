@@ -1,0 +1,100 @@
+{
+  "main": {
+    "sah": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9196 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-10 01:39:57 -0500 (Sat, 10 Aug 2013) $"
+        },
+        "language": "sah"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Ээрэ"
+          },
+          "year": {
+            "displayName": "Сыл",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} сылынан"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} сыл ынараа өттүгэр"
+            }
+          },
+          "month": {
+            "displayName": "Ый",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} ыйынан"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} ый ынараа өттүгэр"
+            }
+          },
+          "week": {
+            "displayName": "Нэдиэлэ",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} нэдиэлэннэн"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} нэдиэлэ ынараа өттүгэр"
+            }
+          },
+          "day": {
+            "displayName": "Күн",
+            "relative-type--2": "Иллэрээ күн",
+            "relative-type--1": "Бэҕэһээ",
+            "relative-type-0": "Бүгүн",
+            "relative-type-1": "Сарсын",
+            "relative-type-2": "Өйүүн",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} күнүнэн"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} күн ынараа өттүгэр"
+            }
+          },
+          "weekday": {
+            "displayName": "Нэдиэлэ күнэ"
+          },
+          "dayperiod": {
+            "displayName": "ЭИ/ЭК"
+          },
+          "hour": {
+            "displayName": "Чаас",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} чааһынан"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} чаас ынараа өттүгэр"
+            }
+          },
+          "minute": {
+            "displayName": "Мүнүүтэ",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} мүнүүтэннэн"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} мүнүүтэ ынараа өттүгэр"
+            }
+          },
+          "second": {
+            "displayName": "Сөкүүндэ",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} сөкүүндэннэн"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} сөкүүндэ ынараа өттүгэр"
+            }
+          },
+          "zone": {
+            "displayName": "Кэм балаһата"
+          }
+        }
+      }
+    }
+  }
+}

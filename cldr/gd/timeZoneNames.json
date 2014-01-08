@@ -1,0 +1,79 @@
+{
+  "main": {
+    "gd": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "gd"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "regionFormat": "{0} Time",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "Europe": {
+              "Dublin": {
+                "long": {
+                  "daylight": "Tìde Samhraidh na h-Èireann"
+                },
+                "short": {
+                  "daylight": "TSÈ (Èirinn)"
+                },
+                "exemplarCity": "Baile Àtha Cliath"
+              },
+              "London": {
+                "long": {
+                  "daylight": "Tìde Samhraidh Bhreatainn"
+                },
+                "short": {
+                  "daylight": "TSB"
+                },
+                "exemplarCity": "Dùn Èideann/Lunnainn"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Neo-Aithnichte"
+              }
+            }
+          },
+          "metazone": {
+            "Europe_Central": {
+              "short": {
+                "generic": "CET",
+                "standard": "CET",
+                "daylight": "CEST"
+              }
+            },
+            "Europe_Eastern": {
+              "short": {
+                "generic": "EET",
+                "standard": "EET",
+                "daylight": "EEST"
+              }
+            },
+            "Europe_Western": {
+              "short": {
+                "generic": "WET",
+                "standard": "WET",
+                "daylight": "WEST"
+              }
+            },
+            "GMT": {
+              "short": {
+                "standard": "GMT"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

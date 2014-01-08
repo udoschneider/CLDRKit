@@ -1,0 +1,826 @@
+{
+  "main": {
+    "ky": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ky"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Бириккен Араб Эмираттары дирхамы",
+            "displayName-count-one": "БАЭ дирхамы",
+            "displayName-count-other": "БАЭ дирхамы"
+          },
+          "AFN": {
+            "displayName": "Афганстан афганиси",
+            "displayName-count-one": "Афганстан афганиси",
+            "displayName-count-other": "Афганстан афганиси"
+          },
+          "ALL": {
+            "displayName": "Албания леги",
+            "displayName-count-one": "Албания леги",
+            "displayName-count-other": "Албания леги"
+          },
+          "AMD": {
+            "displayName": "Армения драмы",
+            "displayName-count-one": "Армения драмы",
+            "displayName-count-other": "Армения драмы"
+          },
+          "ANG": {
+            "displayName": "Нидерланд Антил гулдени",
+            "displayName-count-one": "Нидерланд Антил гулдени",
+            "displayName-count-other": "Нидерланд Антил гулдени"
+          },
+          "AOA": {
+            "displayName": "Ангола кванзасы",
+            "displayName-count-one": "Ангола кванзасы",
+            "displayName-count-other": "Ангола кванзасы"
+          },
+          "ARS": {
+            "displayName": "Аргентина песосу",
+            "displayName-count-one": "Аргентина песосу",
+            "displayName-count-other": "Аргентина песосу"
+          },
+          "AUD": {
+            "displayName": "Австралия доллары",
+            "displayName-count-one": "Австралия доллары",
+            "displayName-count-other": "Австралия доллары",
+            "symbol": "AUD"
+          },
+          "AWG": {
+            "displayName": "Аруба флорини",
+            "displayName-count-one": "Аруба флорини",
+            "displayName-count-other": "Аруба флорини"
+          },
+          "AZN": {
+            "displayName": "Азербайжан манаты",
+            "displayName-count-one": "Азербайжан манаты",
+            "displayName-count-other": "Азербайжан манаты"
+          },
+          "BAM": {
+            "displayName": "Босния-Герцеговина оодарылма маркы",
+            "displayName-count-one": "Босния-Герцеговина оодарылма маркы",
+            "displayName-count-other": "Босния-Герцеговина оодарылма маркы"
+          },
+          "BBD": {
+            "displayName": "Барбадос доллары",
+            "displayName-count-one": "Барбадос доллары",
+            "displayName-count-other": "Барбадос доллары"
+          },
+          "BDT": {
+            "displayName": "Бангладеш такасы",
+            "displayName-count-one": "Бангладеш такасы",
+            "displayName-count-other": "Бангладеш такасы"
+          },
+          "BGN": {
+            "displayName": "Болгария леви",
+            "displayName-count-one": "Болгария леви",
+            "displayName-count-other": "Болгария леви"
+          },
+          "BHD": {
+            "displayName": "Бахрейн динары",
+            "displayName-count-one": "Бахрейн динары",
+            "displayName-count-other": "Бахрейн динары"
+          },
+          "BIF": {
+            "displayName": "Бурунди франкы",
+            "displayName-count-one": "Бурунди франкы",
+            "displayName-count-other": "Бурунди франкы"
+          },
+          "BMD": {
+            "displayName": "Бермуд доллары",
+            "displayName-count-one": "Бермуд доллары",
+            "displayName-count-other": "Бермуд доллары"
+          },
+          "BND": {
+            "displayName": "Бруней доллары",
+            "displayName-count-one": "Бруней доллары",
+            "displayName-count-other": "Бруней доллары"
+          },
+          "BOB": {
+            "displayName": "Боливия боливианосу",
+            "displayName-count-one": "Боливия боливианосу",
+            "displayName-count-other": "Боливия боливианосу"
+          },
+          "BRL": {
+            "displayName": "Бразилия реалы",
+            "displayName-count-one": "Бразилия реалы",
+            "displayName-count-other": "Бразилия реалы",
+            "symbol": "BRL"
+          },
+          "BSD": {
+            "displayName": "Багама доллары",
+            "displayName-count-one": "Багама доллары",
+            "displayName-count-other": "Багама доллары"
+          },
+          "BTN": {
+            "displayName": "Бутан нгултруму",
+            "displayName-count-one": "Бутан нгултруму",
+            "displayName-count-other": "Бутан нгултруму"
+          },
+          "BWP": {
+            "displayName": "Ботсвана пуласы",
+            "displayName-count-one": "Ботсвана пуласы",
+            "displayName-count-other": "Ботсвана пуласы"
+          },
+          "BYR": {
+            "displayName": "Беларусь рублу",
+            "displayName-count-one": "Беларусь рублу",
+            "displayName-count-other": "Беларусь рублу"
+          },
+          "BZD": {
+            "displayName": "Белиз доллары",
+            "displayName-count-one": "Белиз доллары",
+            "displayName-count-other": "Белиз доллары"
+          },
+          "CAD": {
+            "displayName": "Канада доллары",
+            "displayName-count-one": "Канада доллары",
+            "displayName-count-other": "Канада доллары",
+            "symbol": "CAD"
+          },
+          "CDF": {
+            "displayName": "Конго франкы",
+            "displayName-count-one": "Конго франкы",
+            "displayName-count-other": "Конго франкы"
+          },
+          "CHF": {
+            "displayName": "Швейцария франкы",
+            "displayName-count-one": "Швейцария франкы",
+            "displayName-count-other": "Швейцария франкы"
+          },
+          "CLP": {
+            "displayName": "Чили песосу",
+            "displayName-count-one": "Чили песосу",
+            "displayName-count-other": "Чили песосу"
+          },
+          "CNY": {
+            "displayName": "Кытай юаны",
+            "displayName-count-one": "Кытай юаны",
+            "displayName-count-other": "Кытай юаны",
+            "symbol": "CN¥"
+          },
+          "COP": {
+            "displayName": "Колумбия песосу",
+            "displayName-count-one": "Колумбия песосу",
+            "displayName-count-other": "Колумбия песосу"
+          },
+          "CRC": {
+            "displayName": "Коста Рика колону",
+            "displayName-count-one": "Коста Рика колону",
+            "displayName-count-other": "Коста Рика колону"
+          },
+          "CUC": {
+            "displayName": "Куба оодарылма песосу",
+            "displayName-count-one": "Куба оодарылма песосу",
+            "displayName-count-other": "Куба оодарылма песосу"
+          },
+          "CUP": {
+            "displayName": "Куба песосу",
+            "displayName-count-one": "Куба песосу",
+            "displayName-count-other": "Куба песосу"
+          },
+          "CVE": {
+            "displayName": "Капе Верде эскудосу",
+            "displayName-count-one": "Капе Верде эскудосу",
+            "displayName-count-other": "Капе Верде эскудосу"
+          },
+          "CZK": {
+            "displayName": "Чехия корунасы",
+            "displayName-count-one": "Чехия корунасы",
+            "displayName-count-other": "Чехия корунасы"
+          },
+          "DJF": {
+            "displayName": "Жибути франкы",
+            "displayName-count-one": "Жибути франкы",
+            "displayName-count-other": "Жибути франкы"
+          },
+          "DKK": {
+            "displayName": "Дания крону",
+            "displayName-count-one": "Дания крону",
+            "displayName-count-other": "Дания крону"
+          },
+          "DOP": {
+            "displayName": "Доминика песосу",
+            "displayName-count-one": "Доминика песосу",
+            "displayName-count-other": "Доминика песосу"
+          },
+          "DZD": {
+            "displayName": "Алжир динары",
+            "displayName-count-one": "Алжир динары",
+            "displayName-count-other": "Алжир динары"
+          },
+          "EGP": {
+            "displayName": "Мисир фунту",
+            "displayName-count-one": "Мисир фунту",
+            "displayName-count-other": "Мисир фунту"
+          },
+          "ERN": {
+            "displayName": "Эритреа накфасы",
+            "displayName-count-one": "Эритреа накфасы",
+            "displayName-count-other": "Эритреа накфасы"
+          },
+          "ETB": {
+            "displayName": "Эфиопия бирри",
+            "displayName-count-one": "Эфиопия бирри",
+            "displayName-count-other": "Эфиопия бирри"
+          },
+          "EUR": {
+            "displayName": "Евро",
+            "displayName-count-one": "евро",
+            "displayName-count-other": "евро"
+          },
+          "FJD": {
+            "displayName": "Фижи доллары",
+            "displayName-count-one": "Фижи доллары",
+            "displayName-count-other": "Фижи доллары"
+          },
+          "FKP": {
+            "displayName": "Фолкленд аралдарынын фунту",
+            "displayName-count-one": "Фолкленд аралдарынын фунту",
+            "displayName-count-other": "Фолкленд аралдарынын фунту"
+          },
+          "GBP": {
+            "displayName": "Британия фунт стерлинги",
+            "displayName-count-one": "Британия фунт стерлинги",
+            "displayName-count-other": "Британия фунт стерлинги",
+            "symbol": "GBP"
+          },
+          "GEL": {
+            "displayName": "Грузия лариси",
+            "displayName-count-one": "Грузия лариси",
+            "displayName-count-other": "Грузия лариси"
+          },
+          "GHS": {
+            "displayName": "Гана седиси",
+            "displayName-count-one": "Гана седиси",
+            "displayName-count-other": "Гана седиси"
+          },
+          "GIP": {
+            "displayName": "Гибралтар фунту",
+            "displayName-count-one": "Гибралтар фунту",
+            "displayName-count-other": "Гибралтар фунту"
+          },
+          "GMD": {
+            "displayName": "Гамбия даласиси",
+            "displayName-count-one": "Гамбия даласиси",
+            "displayName-count-other": "Гамбия даласиси"
+          },
+          "GNF": {
+            "displayName": "Гине франкы",
+            "displayName-count-one": "Гине франкы",
+            "displayName-count-other": "Гине франкы"
+          },
+          "GTQ": {
+            "displayName": "Гватемала кетсалы",
+            "displayName-count-one": "Гватемала кетсалы",
+            "displayName-count-other": "Гватемала кетсалы"
+          },
+          "GYD": {
+            "displayName": "Гуйана доллары",
+            "displayName-count-one": "Гуйана доллары",
+            "displayName-count-other": "Гуйана доллары"
+          },
+          "HKD": {
+            "displayName": "Гоӊ Коӊ доллары",
+            "displayName-count-one": "Гоӊ Коӊ доллары",
+            "displayName-count-other": "Гоӊ Коӊ доллары",
+            "symbol": "HKD"
+          },
+          "HNL": {
+            "displayName": "Гондурас лемпирасы",
+            "displayName-count-one": "Гондурас лемпирасы",
+            "displayName-count-other": "Гондурас лемпирасы"
+          },
+          "HRK": {
+            "displayName": "Хорватия кунасы",
+            "displayName-count-one": "Хорватия кунасы",
+            "displayName-count-other": "Хорватия кунасы"
+          },
+          "HTG": {
+            "displayName": "Гаити гурду",
+            "displayName-count-one": "Гаити гурду",
+            "displayName-count-other": "Гаити гурду"
+          },
+          "HUF": {
+            "displayName": "Венгрия форинти",
+            "displayName-count-one": "Венгрия форинти",
+            "displayName-count-other": "Венгрия форинти"
+          },
+          "IDR": {
+            "displayName": "Индонезия рупийасы",
+            "displayName-count-one": "Индонезия рупийасы",
+            "displayName-count-other": "Индонезия рупийасы"
+          },
+          "ILS": {
+            "displayName": "Израил жаӊы шегели",
+            "displayName-count-one": "Израил жаӊы шегели",
+            "displayName-count-other": "Израил жаӊы шегели",
+            "symbol": "ILS"
+          },
+          "INR": {
+            "displayName": "Индия руписи",
+            "displayName-count-one": "Индия руписи",
+            "displayName-count-other": "Индия руписи",
+            "symbol": "INR"
+          },
+          "IQD": {
+            "displayName": "Ирак динары",
+            "displayName-count-one": "Ирак динары",
+            "displayName-count-other": "Ирак динары"
+          },
+          "IRR": {
+            "displayName": "Иран риалы",
+            "displayName-count-one": "Иран риалы",
+            "displayName-count-other": "Иран риалы"
+          },
+          "ISK": {
+            "displayName": "Исландия крону",
+            "displayName-count-one": "Исландия крону",
+            "displayName-count-other": "Исландия крону"
+          },
+          "JMD": {
+            "displayName": "Жамайка доллары",
+            "displayName-count-one": "Жамайка доллары",
+            "displayName-count-other": "Жамайка доллары"
+          },
+          "JOD": {
+            "displayName": "Йордания динары",
+            "displayName-count-one": "Йордания динары",
+            "displayName-count-other": "Йордания динары"
+          },
+          "JPY": {
+            "displayName": "Жапан йени",
+            "displayName-count-one": "Жапан йени",
+            "displayName-count-other": "Жапан йени",
+            "symbol": "JP¥"
+          },
+          "KES": {
+            "displayName": "Кения шиллинги",
+            "displayName-count-one": "Кения шиллинги",
+            "displayName-count-other": "Кения шиллинги"
+          },
+          "KGS": {
+            "displayName": "Кыргызстан сому",
+            "displayName-count-one": "Кыргызстан сому",
+            "displayName-count-other": "Кыргызстан сому",
+            "symbol": "сом"
+          },
+          "KHR": {
+            "displayName": "Камбожа риели",
+            "displayName-count-one": "Камбожа риели",
+            "displayName-count-other": "Камбожа риели"
+          },
+          "KMF": {
+            "displayName": "Коморос франкы",
+            "displayName-count-one": "Коморос франкы",
+            "displayName-count-other": "Коморос франкы"
+          },
+          "KPW": {
+            "displayName": "Түндүк Корея уону",
+            "displayName-count-one": "Түндүк Корея уону",
+            "displayName-count-other": "Түндүк Корея уону"
+          },
+          "KRW": {
+            "displayName": "Түштүк Корея уону",
+            "displayName-count-one": "Түштүк Корея уону",
+            "displayName-count-other": "Түштүк Корея уону",
+            "symbol": "KRW"
+          },
+          "KWD": {
+            "displayName": "Кувейт динары",
+            "displayName-count-one": "Кувейт динары",
+            "displayName-count-other": "Кувейт динары"
+          },
+          "KYD": {
+            "displayName": "Кайман доллары",
+            "displayName-count-one": "Кайман доллары",
+            "displayName-count-other": "Кайман доллары"
+          },
+          "KZT": {
+            "displayName": "Казакстан теӊгеси",
+            "displayName-count-one": "Казакстан теӊгеси",
+            "displayName-count-other": "Казакстан теӊгеси"
+          },
+          "LAK": {
+            "displayName": "Лаос киби",
+            "displayName-count-one": "Лаос киби",
+            "displayName-count-other": "Лаос киби"
+          },
+          "LBP": {
+            "displayName": "Ливан фунту",
+            "displayName-count-one": "Ливан фунту",
+            "displayName-count-other": "Ливан фунту"
+          },
+          "LKR": {
+            "displayName": "Шри Ланка руписи",
+            "displayName-count-one": "Шри Ланка руписи",
+            "displayName-count-other": "Шри Ланка руписи"
+          },
+          "LRD": {
+            "displayName": "Либерия доллары",
+            "displayName-count-one": "Либерия доллары",
+            "displayName-count-other": "Либерия доллары"
+          },
+          "LTL": {
+            "displayName": "Литва литасы",
+            "displayName-count-one": "Литва литасы",
+            "displayName-count-other": "Литва литасы"
+          },
+          "LVL": {
+            "displayName": "Латвия латсы",
+            "displayName-count-one": "Латвия латсы",
+            "displayName-count-other": "Латвия латсы"
+          },
+          "LYD": {
+            "displayName": "Ливия динары",
+            "displayName-count-one": "Ливия динары",
+            "displayName-count-other": "Ливия динары"
+          },
+          "MAD": {
+            "displayName": "Марокко дирхамы",
+            "displayName-count-one": "Марокко дирхамы",
+            "displayName-count-other": "Марокко дирхамы"
+          },
+          "MDL": {
+            "displayName": "Молдова лейи",
+            "displayName-count-one": "Молдова лейи",
+            "displayName-count-other": "Молдова лейи"
+          },
+          "MGA": {
+            "displayName": "Мадагаскар ариариси",
+            "displayName-count-one": "Мадагаскар ариариси",
+            "displayName-count-other": "Мадагаскар ариариси"
+          },
+          "MKD": {
+            "displayName": "Македония денары",
+            "displayName-count-one": "Македония денары",
+            "displayName-count-other": "Македония денары"
+          },
+          "MMK": {
+            "displayName": "Мйанмар кйаты",
+            "displayName-count-one": "Мйанмар кйаты",
+            "displayName-count-other": "Мйанмар кйаты"
+          },
+          "MNT": {
+            "displayName": "Монгол тугриги",
+            "displayName-count-one": "Монгол тугриги",
+            "displayName-count-other": "Монгол тугриги"
+          },
+          "MOP": {
+            "displayName": "Макау патакасы",
+            "displayName-count-one": "Макау патакасы",
+            "displayName-count-other": "Макау патакасы"
+          },
+          "MRO": {
+            "displayName": "Мавритания угиясы",
+            "displayName-count-one": "Мавритания угиясы",
+            "displayName-count-other": "Мавритания угиясы"
+          },
+          "MUR": {
+            "displayName": "Мавританий руписи",
+            "displayName-count-one": "Мавританий руписи",
+            "displayName-count-other": "Мавританий руписи"
+          },
+          "MVR": {
+            "displayName": "Малдив Руфийасы",
+            "displayName-count-one": "Малдив Руфийасы",
+            "displayName-count-other": "Малдив Руфийасы"
+          },
+          "MWK": {
+            "displayName": "Малави квачасы",
+            "displayName-count-one": "Малави квачасы",
+            "displayName-count-other": "Малави квачасы"
+          },
+          "MXN": {
+            "displayName": "Мексика песосу",
+            "displayName-count-one": "Мексика песосу",
+            "displayName-count-other": "Мексика песосу",
+            "symbol": "MXN"
+          },
+          "MYR": {
+            "displayName": "Малайзия ринггити",
+            "displayName-count-one": "Малайзия ринггити",
+            "displayName-count-other": "Малайзия ринггити"
+          },
+          "MZN": {
+            "displayName": "Мозамбик метикалы",
+            "displayName-count-one": "Мозамбик метикалы",
+            "displayName-count-other": "Мозамбик метикалы"
+          },
+          "NAD": {
+            "displayName": "Намибия доллары",
+            "displayName-count-one": "Намибия доллары",
+            "displayName-count-other": "Намибия доллары"
+          },
+          "NGN": {
+            "displayName": "Нигерия найрасы",
+            "displayName-count-one": "Нигерия найрасы",
+            "displayName-count-other": "Нигерия найрасы"
+          },
+          "NIO": {
+            "displayName": "Никарагуа кордобасы",
+            "displayName-count-one": "Никарагуа кордобасы",
+            "displayName-count-other": "Никарагуа кордобасы"
+          },
+          "NOK": {
+            "displayName": "Норвегия крону",
+            "displayName-count-one": "Норвегия крону",
+            "displayName-count-other": "Норвегия крону"
+          },
+          "NPR": {
+            "displayName": "Непал руписи",
+            "displayName-count-one": "Непал руписи",
+            "displayName-count-other": "Непал руписи"
+          },
+          "NZD": {
+            "displayName": "Жаӊы Зеландия доллары",
+            "displayName-count-one": "Жаӊы Зеландия доллары",
+            "displayName-count-other": "Жаӊы Зеландия доллары",
+            "symbol": "NZD"
+          },
+          "OMR": {
+            "displayName": "Оман риалы",
+            "displayName-count-one": "Оман риалы",
+            "displayName-count-other": "Оман риалы"
+          },
+          "PAB": {
+            "displayName": "Панама балбоасы",
+            "displayName-count-one": "Панама балбоасы",
+            "displayName-count-other": "Панама балбоасы"
+          },
+          "PEN": {
+            "displayName": "Перу нуэво солу",
+            "displayName-count-one": "Перу нуэво солу",
+            "displayName-count-other": "Перу нуэво солу"
+          },
+          "PGK": {
+            "displayName": "Папуа Жаӊы Гине кинасы",
+            "displayName-count-one": "Папуа Жаӊы Гине кинасы",
+            "displayName-count-other": "Папуа Жаӊы Гине кинасы"
+          },
+          "PHP": {
+            "displayName": "Филиппин песосу",
+            "displayName-count-one": "Филиппин песосу",
+            "displayName-count-other": "Филиппин песосу"
+          },
+          "PKR": {
+            "displayName": "Пакистан руписи",
+            "displayName-count-one": "Пакистан руписи",
+            "displayName-count-other": "Пакистан руписи"
+          },
+          "PLN": {
+            "displayName": "Польша злотыйы",
+            "displayName-count-one": "Польша злотыйы",
+            "displayName-count-other": "Польша злотыйы"
+          },
+          "PYG": {
+            "displayName": "Парагвай гуараниси",
+            "displayName-count-one": "Парагвай гуараниси",
+            "displayName-count-other": "Парагвай гуараниси"
+          },
+          "QAR": {
+            "displayName": "Катар риалы",
+            "displayName-count-one": "Катар риалы",
+            "displayName-count-other": "Катар риалы"
+          },
+          "RON": {
+            "displayName": "Румыния лейи",
+            "displayName-count-one": "Румыния лейи",
+            "displayName-count-other": "Румыния лейи"
+          },
+          "RSD": {
+            "displayName": "Сербия динары",
+            "displayName-count-one": "Сербия динары",
+            "displayName-count-other": "Сербия динары"
+          },
+          "RUB": {
+            "displayName": "Орусия рублу",
+            "displayName-count-one": "Орусия рублу",
+            "displayName-count-other": "Орусия рублу"
+          },
+          "RWF": {
+            "displayName": "Руанда франкы",
+            "displayName-count-one": "Руанда франкы",
+            "displayName-count-other": "Руанда франкы"
+          },
+          "SAR": {
+            "displayName": "Сауд риалы",
+            "displayName-count-one": "Сауд риалы",
+            "displayName-count-other": "Сауд риалы"
+          },
+          "SBD": {
+            "displayName": "Соломон доллары",
+            "displayName-count-one": "Соломон доллары",
+            "displayName-count-other": "Соломон доллары"
+          },
+          "SCR": {
+            "displayName": "Сейшел руписи",
+            "displayName-count-one": "Сейшел руписи",
+            "displayName-count-other": "Сейшел руписи"
+          },
+          "SDG": {
+            "displayName": "Судан фунту",
+            "displayName-count-one": "Судан фунту",
+            "displayName-count-other": "Судан фунту"
+          },
+          "SEK": {
+            "displayName": "Швеция крону",
+            "displayName-count-one": "Швеция крону",
+            "displayName-count-other": "Швеция крону"
+          },
+          "SGD": {
+            "displayName": "Сингапур доллары",
+            "displayName-count-one": "Сингапур доллары",
+            "displayName-count-other": "Сингапур доллары"
+          },
+          "SHP": {
+            "displayName": "Ыйык Елена фунту",
+            "displayName-count-one": "Ыйык Елена фунту",
+            "displayName-count-other": "Ыйык Елена фунту"
+          },
+          "SLL": {
+            "displayName": "Сиерра Леоне леонеси",
+            "displayName-count-one": "Сиерра Леоне леонеси",
+            "displayName-count-other": "Сиерра Леоне леонеси"
+          },
+          "SOS": {
+            "displayName": "Сомали шиллинги",
+            "displayName-count-one": "Сомали шиллинги",
+            "displayName-count-other": "Сомали шиллинги"
+          },
+          "SRD": {
+            "displayName": "Суринам доллары",
+            "displayName-count-one": "Суринам доллары",
+            "displayName-count-other": "Суринам доллары"
+          },
+          "SSP": {
+            "displayName": "Түштүк Судан фунту",
+            "displayName-count-one": "Түштүк Судан фунту",
+            "displayName-count-other": "Түштүк Судан фунту"
+          },
+          "STD": {
+            "displayName": "Сао Томе жана Принсипе добрасы",
+            "displayName-count-one": "Сао Томе жана Принсипе добрасы",
+            "displayName-count-other": "Сао Томе жана Принсипе добрасы"
+          },
+          "SYP": {
+            "displayName": "Сирия фунту",
+            "displayName-count-one": "Сирия фунту",
+            "displayName-count-other": "Сирия фунту"
+          },
+          "SZL": {
+            "displayName": "Свази лилангени",
+            "displayName-count-one": "Свази лилангени",
+            "displayName-count-other": "Свази эмалангени"
+          },
+          "THB": {
+            "displayName": "Тай баты",
+            "displayName-count-one": "Тай баты",
+            "displayName-count-other": "Тай баты",
+            "symbol": "฿"
+          },
+          "TJS": {
+            "displayName": "Тажикстан сомониси",
+            "displayName-count-one": "Тажикстан сомониси",
+            "displayName-count-other": "Тажикстан сомониси"
+          },
+          "TMT": {
+            "displayName": "Түркмөнстан манаты",
+            "displayName-count-one": "Түркмөнстан манаты",
+            "displayName-count-other": "Түркмөнстан манаты"
+          },
+          "TND": {
+            "displayName": "Тунис динары",
+            "displayName-count-one": "Тунис динары",
+            "displayName-count-other": "Тунис динары"
+          },
+          "TOP": {
+            "displayName": "Тонга паангасы",
+            "displayName-count-one": "Тонга паангасы",
+            "displayName-count-other": "Тонга паангасы"
+          },
+          "TRY": {
+            "displayName": "Түркия лирасы",
+            "displayName-count-one": "Түркия лирасы",
+            "displayName-count-other": "Түркия лирасы"
+          },
+          "TTD": {
+            "displayName": "Тринидад жана Тобаго доллары",
+            "displayName-count-one": "Тринидад жана Тобаго доллары",
+            "displayName-count-other": "Тринидад жана Тобаго доллары"
+          },
+          "TWD": {
+            "displayName": "Тайвань жаӊы доллары",
+            "displayName-count-one": "Тайвань жаӊы доллары",
+            "displayName-count-other": "Тайвань жаӊы доллары",
+            "symbol": "TWD"
+          },
+          "TZS": {
+            "displayName": "Танзания шиллинги",
+            "displayName-count-one": "Танзания шиллинги",
+            "displayName-count-other": "Танзания шиллинги"
+          },
+          "UAH": {
+            "displayName": "Украина гривени",
+            "displayName-count-one": "Украина гривени",
+            "displayName-count-other": "Украина гривени"
+          },
+          "UGX": {
+            "displayName": "Уганда шиллинги",
+            "displayName-count-one": "Уганда шиллинги",
+            "displayName-count-other": "Уганда шиллинги"
+          },
+          "USD": {
+            "displayName": "АКШ доллары",
+            "displayName-count-one": "АКШ доллары",
+            "displayName-count-other": "АКШ доллары",
+            "symbol": "USD"
+          },
+          "UYU": {
+            "displayName": "Уругвай песосу",
+            "displayName-count-one": "Уругвай песосу",
+            "displayName-count-other": "Уругвай песосу"
+          },
+          "UZS": {
+            "displayName": "Өзбекстан сому",
+            "displayName-count-one": "Өзбекстан сому",
+            "displayName-count-other": "Өзбекстан сому"
+          },
+          "VEF": {
+            "displayName": "Венесуэла боливары",
+            "displayName-count-one": "Венесуэла боливары",
+            "displayName-count-other": "Венесуэла боливары"
+          },
+          "VND": {
+            "displayName": "Вьетнам доӊу",
+            "displayName-count-one": "Вьетнам доӊу",
+            "displayName-count-other": "Вьетнам доӊу",
+            "symbol": "₫"
+          },
+          "VUV": {
+            "displayName": "Вануату ватусу",
+            "displayName-count-one": "Вануату ватусу",
+            "displayName-count-other": "Вануату ватусу"
+          },
+          "WST": {
+            "displayName": "Самоа таласы",
+            "displayName-count-one": "Самоа таласы",
+            "displayName-count-other": "Самоа таласы"
+          },
+          "XAF": {
+            "displayName": "Борбор Африка CFA франкы",
+            "displayName-count-one": "Борбор Африка CFA франкы",
+            "displayName-count-other": "Борбор Африка CFA франкы",
+            "symbol": "FCFA"
+          },
+          "XCD": {
+            "displayName": "Чыгыш Кариб доллары",
+            "displayName-count-one": "Чыгыш Кариб доллары",
+            "displayName-count-other": "Чыгыш Кариб доллары",
+            "symbol": "XCD"
+          },
+          "XOF": {
+            "displayName": "Батыш Африка CFA франкы",
+            "displayName-count-one": "Батыш Африка CFA франкы",
+            "displayName-count-other": "Батыш Африка CFA франкы",
+            "symbol": "CFA"
+          },
+          "XPF": {
+            "displayName": "CFP франкы",
+            "displayName-count-one": "CFP франкы",
+            "displayName-count-other": "CFP франкы",
+            "symbol": "CFPF"
+          },
+          "XXX": {
+            "displayName": "Белгисиз акча",
+            "displayName-count-one": "Белгисиз акча",
+            "displayName-count-other": "Белгисиз акча"
+          },
+          "YER": {
+            "displayName": "Йемен риалы",
+            "displayName-count-one": "Йемен риалы",
+            "displayName-count-other": "Йемен риалы"
+          },
+          "ZAR": {
+            "displayName": "Түштүк Африка ранды",
+            "displayName-count-one": "Түштүк Африка ранды",
+            "displayName-count-other": "Түштүк Африка ранды"
+          },
+          "ZMW": {
+            "displayName": "Замбия квачасы",
+            "displayName-count-one": "Замбия квачасы",
+            "displayName-count-other": "Замбия квачасы"
+          }
+        }
+      }
+    }
+  }
+}

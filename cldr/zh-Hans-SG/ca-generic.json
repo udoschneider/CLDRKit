@@ -1,0 +1,74 @@
+{
+  "main": {
+    "zh-Hans-SG": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hans",
+        "territory": "SG"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "Gy年M月d日EEEE",
+              "long": "Gy年M月d日",
+              "medium": "Gy年M月d日",
+              "short": "dd/MM/yyGGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "M-d",
+                "MEd": "M-dE",
+                "MMdd": "MM-dd",
+                "MMMMdd": "M月d日",
+                "yyyyMd": "Gy年M月d日",
+                "yyyyMEd": "Gy年M月d日，E"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0}至{1}",
+                "Hmv": {
+                  "H": "vHH:mm–HH:mm",
+                  "m": "vHH:mm–HH:mm"
+                },
+                "Hv": {
+                  "H": "vHH–HH"
+                },
+                "Md": {
+                  "d": "M-d至M-d",
+                  "M": "M-d至M-d"
+                },
+                "MEd": {
+                  "d": "M-dE至M-dE",
+                  "M": "M-dE至M-dE"
+                },
+                "MMMEd": {
+                  "d": "M月d日E至M月d日E"
+                },
+                "yM": {
+                  "M": "y年M月至y年M月"
+                },
+                "yMd": {
+                  "d": "d/M/y至d/M/y",
+                  "M": "d/M/y至d/M/y",
+                  "y": "d/M/y至d/M/y"
+                },
+                "yMEd": {
+                  "d": "d/M/yE至d/M/yE",
+                  "M": "d/M/yE至d/M/yE",
+                  "y": "d/M/yE至d/M/yE"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

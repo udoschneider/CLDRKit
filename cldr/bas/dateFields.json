@@ -1,0 +1,56 @@
+{
+  "main": {
+    "bas": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bas"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "kèk"
+          },
+          "year": {
+            "displayName": "ŋwìi"
+          },
+          "month": {
+            "displayName": "soŋ"
+          },
+          "week": {
+            "displayName": "sɔndɛ̂"
+          },
+          "day": {
+            "displayName": "kɛl",
+            "relative-type--1": "yààni",
+            "relative-type-0": "lɛ̀n",
+            "relative-type-1": "yàni"
+          },
+          "weekday": {
+            "displayName": "hìlɔ hi sɔndɛ̂"
+          },
+          "dayperiod": {
+            "displayName": "njǎmùha"
+          },
+          "hour": {
+            "displayName": "ŋgɛŋ"
+          },
+          "minute": {
+            "displayName": "ŋget"
+          },
+          "second": {
+            "displayName": "hìŋgeŋget"
+          },
+          "zone": {
+            "displayName": "komboo i ŋgɛŋ"
+          }
+        }
+      }
+    }
+  }
+}

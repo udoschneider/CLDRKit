@@ -1,0 +1,185 @@
+{
+  "main": {
+    "sg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sg"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "dirâm tî âEmirâti tî Arâbo Ôko"
+          },
+          "AOA": {
+            "displayName": "kwânza tî Angoläa"
+          },
+          "AUD": {
+            "displayName": "dolära tî Ostralïi"
+          },
+          "BHD": {
+            "displayName": "dolùara tî Bahrâina"
+          },
+          "BIF": {
+            "displayName": "farânga tî Burundïi"
+          },
+          "BWP": {
+            "displayName": "pûla tî Botswana"
+          },
+          "CAD": {
+            "displayName": "dolära tî kanadäa"
+          },
+          "CDF": {
+            "displayName": "farânga tî Kongöo"
+          },
+          "CHF": {
+            "displayName": "farânga tî Sûîsi"
+          },
+          "CNY": {
+            "displayName": "yuan renminbi tî Shîni"
+          },
+          "CVE": {
+            "displayName": "eskûêdo tî Kâpo-Vêre"
+          },
+          "DJF": {
+            "displayName": "farânga tî Dibutïi"
+          },
+          "DZD": {
+            "displayName": "dinäri tî Alzerïi"
+          },
+          "EGP": {
+            "displayName": "pôndo tî Kâmitâ"
+          },
+          "ERN": {
+            "displayName": "nakafa tî Eritrëe"
+          },
+          "ETB": {
+            "displayName": "bir tî Etiopïi"
+          },
+          "EUR": {
+            "displayName": "zoröo"
+          },
+          "GBP": {
+            "displayName": "pôndo tî Anglëe"
+          },
+          "GHC": {
+            "displayName": "sêdi tî Ganäa"
+          },
+          "GMD": {
+            "displayName": "dalasi tî gambïi"
+          },
+          "GNS": {
+            "displayName": "sili tî Ginëe"
+          },
+          "INR": {
+            "displayName": "rupïi tî Ênnde"
+          },
+          "JPY": {
+            "displayName": "yêni tî Zapön"
+          },
+          "KES": {
+            "displayName": "shilîngi tî Kenyäa"
+          },
+          "KMF": {
+            "displayName": "farânga tî Kömôro"
+          },
+          "LRD": {
+            "displayName": "dolära tî Liberïa"
+          },
+          "LSL": {
+            "displayName": "loti tî Lesôtho"
+          },
+          "LYD": {
+            "displayName": "dinäar tî Libïi"
+          },
+          "MAD": {
+            "displayName": "dirâm tî Marôko"
+          },
+          "MGA": {
+            "displayName": "ariâri tî Madagasikära"
+          },
+          "MRO": {
+            "displayName": "ugîya tî Moritanïi"
+          },
+          "MUR": {
+            "displayName": "rupïi tî Mörîsi"
+          },
+          "MWK": {
+            "displayName": "kwâtia tî Malawïi"
+          },
+          "MZM": {
+            "displayName": "metikala tî Mozambîka"
+          },
+          "NAD": {
+            "displayName": "dolära tî Namibïi"
+          },
+          "NGN": {
+            "displayName": "nâîra tî Nizerïa"
+          },
+          "RWF": {
+            "displayName": "farânga tî Ruandäa"
+          },
+          "SAR": {
+            "displayName": "riâli tî Saûdi Arabïi"
+          },
+          "SCR": {
+            "displayName": "rupïi tî Sëyshêle"
+          },
+          "SDG": {
+            "displayName": "pôndo tî Sudäan"
+          },
+          "SHP": {
+            "displayName": "pôndo tî Zûâ Sênt-Helêna"
+          },
+          "SLL": {
+            "displayName": "leône tî Sierâ-Leône"
+          },
+          "SOS": {
+            "displayName": "shilîngi tî Somalïi"
+          },
+          "STD": {
+            "displayName": "dôbra tî Sâô Tomë na Prinsîpe"
+          },
+          "SZL": {
+            "displayName": "lilangùeni tî Swazïlânde"
+          },
+          "TND": {
+            "displayName": "dinära tî Tunizïi"
+          },
+          "TZS": {
+            "displayName": "shilîngi tî Tanzanïi"
+          },
+          "UGX": {
+            "displayName": "shilîngi tî Ugandäa"
+          },
+          "USD": {
+            "displayName": "dol$ara ttî äLetäa-Ôko tî Amerîka"
+          },
+          "XAF": {
+            "displayName": "farânga CFA (BEAC)"
+          },
+          "XOF": {
+            "displayName": "farânga CFA (BCEAO)"
+          },
+          "ZAR": {
+            "displayName": "rânde tî Mbongo-Afrîka"
+          },
+          "ZMK": {
+            "displayName": "kwâtia tî Zambïi (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "kwâtia tî Zambïi"
+          },
+          "ZWD": {
+            "displayName": "dolära tî Zimbäbwe"
+          }
+        }
+      }
+    }
+  }
+}

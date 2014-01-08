@@ -1,0 +1,186 @@
+{
+  "main": {
+    "ak": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ak"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Ɛmirete Arab Nkabɔmu Deram"
+          },
+          "AOA": {
+            "displayName": "Angola Kwanza"
+          },
+          "AUD": {
+            "displayName": "Ɔstrelia Dɔla"
+          },
+          "BHD": {
+            "displayName": "Baren Dina"
+          },
+          "BIF": {
+            "displayName": "Burundi Frank"
+          },
+          "BWP": {
+            "displayName": "Botswana Pula"
+          },
+          "CAD": {
+            "displayName": "Kanada Dɔla"
+          },
+          "CDF": {
+            "displayName": "Kongo Frank"
+          },
+          "CNY": {
+            "displayName": "Yuan"
+          },
+          "CVE": {
+            "displayName": "Ɛskudo"
+          },
+          "DJF": {
+            "displayName": "Gyebuti Frank"
+          },
+          "DZD": {
+            "displayName": "Ɔlgyeria Dina"
+          },
+          "EGP": {
+            "displayName": "Egypt Pɔn"
+          },
+          "ERN": {
+            "displayName": "Ɛretereya Nakfa"
+          },
+          "ETB": {
+            "displayName": "Itiopia Bir"
+          },
+          "EUR": {
+            "displayName": "Iro"
+          },
+          "GBP": {
+            "displayName": "Breten Pɔn"
+          },
+          "GHC": {
+            "displayName": "Ghana Sidi (1979–2007)"
+          },
+          "GHS": {
+            "displayName": "Ghana Sidi",
+            "symbol": "GH₵"
+          },
+          "GMD": {
+            "displayName": "Gambia Dalasi"
+          },
+          "GNS": {
+            "displayName": "Gini Frank"
+          },
+          "INR": {
+            "displayName": "India Rupi"
+          },
+          "JPY": {
+            "displayName": "Gyapan Yɛn"
+          },
+          "KES": {
+            "displayName": "Kenya Hyelen"
+          },
+          "KMF": {
+            "displayName": "Komoro Frank"
+          },
+          "LRD": {
+            "displayName": "Laeberia Dɔla"
+          },
+          "LSL": {
+            "displayName": "Lesoto Loti"
+          },
+          "LYD": {
+            "displayName": "Libya Dina"
+          },
+          "MAD": {
+            "displayName": "Moroko Diram"
+          },
+          "MGA": {
+            "displayName": "Madagasi Frank"
+          },
+          "MRO": {
+            "displayName": "Mɔretenia Ouguiya"
+          },
+          "MUR": {
+            "displayName": "Mɔrehyeɔs Rupi"
+          },
+          "MWK": {
+            "displayName": "Malawi Kwacha"
+          },
+          "MZM": {
+            "displayName": "Mozambik Metical"
+          },
+          "NAD": {
+            "displayName": "Namibia Dɔla"
+          },
+          "NGN": {
+            "displayName": "Naegyeria Naira"
+          },
+          "RWF": {
+            "displayName": "Rewanda Frank"
+          },
+          "SAR": {
+            "displayName": "Saudi Riyal"
+          },
+          "SCR": {
+            "displayName": "Seyhyɛls Rupi"
+          },
+          "SDG": {
+            "displayName": "Sudan Dina"
+          },
+          "SDP": {
+            "displayName": "Sudan Pɔn"
+          },
+          "SHP": {
+            "displayName": "St Helena Pɔn"
+          },
+          "SLL": {
+            "displayName": "Leone"
+          },
+          "SOS": {
+            "displayName": "Somailia Hyelen"
+          },
+          "STD": {
+            "displayName": "Sao Tome ne Principe Dobra"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Tunisia Dina"
+          },
+          "TZS": {
+            "displayName": "Tanzania Hyelen"
+          },
+          "UGX": {
+            "displayName": "Uganda Hyelen"
+          },
+          "USD": {
+            "displayName": "Amɛrika Dɔla"
+          },
+          "XAF": {
+            "displayName": "Sefa"
+          },
+          "ZAR": {
+            "displayName": "Afrika Anaafo Rand"
+          },
+          "ZMK": {
+            "displayName": "Zambia Kwacha (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Zambia Kwacha"
+          },
+          "ZWD": {
+            "displayName": "Zimbabwe Dɔla"
+          }
+        }
+      }
+    }
+  }
+}

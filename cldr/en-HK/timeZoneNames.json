@@ -1,0 +1,60 @@
+{
+  "main": {
+    "en-HK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "HK"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "zone": {
+            "Europe": {
+              "London": {
+                "short": {
+                  "daylight": "∅∅∅"
+                }
+              }
+            }
+          },
+          "metazone": {
+            "Europe_Central": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Europe_Eastern": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Europe_Western": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Hong_Kong": {
+              "short": {
+                "generic": "HKT",
+                "standard": "HKT",
+                "daylight": "HKST"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

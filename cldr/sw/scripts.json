@@ -1,0 +1,62 @@
+{
+  "main": {
+    "sw": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sw"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Kiarabu",
+          "Arab-alt-variant": "Kiajemi/Kiarabu",
+          "Armn": "Kiarmenia",
+          "Beng": "Kibengali",
+          "Bopo": "Kibopomofo",
+          "Brai": "Braille",
+          "Cyrl": "Kisiriliki",
+          "Deva": "Kidevanagari",
+          "Ethi": "Kiethiopia",
+          "Geor": "Kijojia",
+          "Grek": "Kigiriki",
+          "Gujr": "Kigujarati",
+          "Guru": "Kigurmukhi",
+          "Hang": "Kihangul",
+          "Hani": "Kihan",
+          "Hans": "Rahisi",
+          "Hans-alt-stand-alone": "Kihan Rahisi",
+          "Hant": "Kihan cha Jadi",
+          "Hant-alt-stand-alone": "Kihan cha Jadi",
+          "Hebr": "Kiebrania",
+          "Hira": "Kihiragana",
+          "Jpan": "Kijapani",
+          "Kana": "Kikatakana",
+          "Khmr": "Kikambodia",
+          "Knda": "Kikannada",
+          "Kore": "Kikorea",
+          "Laoo": "Kilaosi",
+          "Latn": "Kilatini",
+          "Mlym": "Kimalayalam",
+          "Mong": "Mongolia",
+          "Mymr": "Myama",
+          "Orya": "Kioriya",
+          "Sinh": "Kisinhala",
+          "Taml": "Kitamil",
+          "Telu": "Kitelugu",
+          "Thaa": "Kithaana",
+          "Thai": "Kitai",
+          "Tibt": "Kitibeti",
+          "Zsym": "Alama",
+          "Zxxx": "Haiandikwi",
+          "Zyyy": "Kawaida",
+          "Zzzz": "Hati isiyojulikana"
+        }
+      }
+    }
+  }
+}

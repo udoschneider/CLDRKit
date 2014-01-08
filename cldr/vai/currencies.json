@@ -1,0 +1,180 @@
+{
+  "main": {
+    "vai": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "vai"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "ꖳꕯꔤꗳ ꕉꕟꔬ ꗡꕆꔓꔻ ꔵꕌꕆ"
+          },
+          "AOA": {
+            "displayName": "ꕉꖐꕞ ꖴꕎꘋꕤ"
+          },
+          "AUD": {
+            "displayName": "ꖺꔻꖤꔃꔷꕩ ꕜꕞꕌ"
+          },
+          "BHD": {
+            "displayName": "ꕑꗸꘋ"
+          },
+          "BIF": {
+            "displayName": "ꖜꖩꔺ ꖢꕟꘋꕃ"
+          },
+          "BWP": {
+            "displayName": "ꕷꖬꕎꕯ ꖛꕞ"
+          },
+          "CAD": {
+            "displayName": "ꕪꕯꕜ ꕜꕞꕌ"
+          },
+          "CDF": {
+            "displayName": "ꖏꖐꕱ ꖢꕟꘋꕃ"
+          },
+          "CHF": {
+            "displayName": "ꖬꔃꕤ ꖨꕮꕊ ꖢꕟꘋꕃ"
+          },
+          "CNY": {
+            "displayName": "ꕦꕇꔧ ꖳꕎꘋ ꔓꕆꘋꔬ"
+          },
+          "CVE": {
+            "displayName": "ꗡꔻꖴꖁ ꕪꕷꗲꗡꔵꕩꖆ"
+          },
+          "DJF": {
+            "displayName": "ꕀꖜꔳ ꖢꕟꘋꕃ"
+          },
+          "DZD": {
+            "displayName": "ꕉꔷꕀꔸꕩ ꔵꕯ"
+          },
+          "EGP": {
+            "displayName": "ꕆꔻꕞ ꗁꖻꘋ"
+          },
+          "ERN": {
+            "displayName": "ꔀꔸꔳꕟ ꗁꖻꘋ"
+          },
+          "ETB": {
+            "displayName": "ꔤꕿꖎꔪꕩ ꔫꔤ"
+          },
+          "EUR": {
+            "displayName": "ꖳꖄ"
+          },
+          "GBP": {
+            "displayName": "ꔛꔟꔻ ꗁꖻꘋ ꔻꗳꔷꘋ"
+          },
+          "GHC": {
+            "displayName": "ꕭꕌꕯ ꔻꔵ"
+          },
+          "GMD": {
+            "displayName": "ꕭꔭꕩ ꕜꕞꔻ"
+          },
+          "GNS": {
+            "displayName": "ꕅꔤꕇ ꖢꕟꘋꕃ"
+          },
+          "INR": {
+            "displayName": "ꔤꔺꕩ ꖩꔪ"
+          },
+          "JPY": {
+            "displayName": "ꕧꕐꕇꔧ ꘂꘋ"
+          },
+          "KES": {
+            "displayName": "ꔞꕰ ꔻꔝꘋ"
+          },
+          "KMF": {
+            "displayName": "ꖏꖒꖄ ꖢꕟꘋꕃ"
+          },
+          "LRD": {
+            "displayName": "ꕞꔤꔫꕩ ꕜꕞꕌ",
+            "symbol": "$"
+          },
+          "LSL": {
+            "displayName": "ꔷꖇꕿ ꖃꔳ"
+          },
+          "LYD": {
+            "displayName": "ꔷꔫꕩ ꔵꕯ"
+          },
+          "MAD": {
+            "displayName": "ꗞꕟꖏ ꔵꕌꕆ"
+          },
+          "MGA": {
+            "displayName": "ꕮꕞꕭꕌꔻ ꕉꔸꕩꔸ"
+          },
+          "MRO": {
+            "displayName": "ꗞꔸꕚꕇꕰ ꖳꕅꕩ"
+          },
+          "MUR": {
+            "displayName": "ꗞꔓꗔ ꖩꔪ"
+          },
+          "MWK": {
+            "displayName": "ꕮꕞꕌꔨ ꖴꕎꕦ"
+          },
+          "MZM": {
+            "displayName": "ꗞꕤꔭꕃ ꕆꔳꕪ"
+          },
+          "NAD": {
+            "displayName": "ꕯꕆꔫꕩ ꕜꕞꕌ"
+          },
+          "NGN": {
+            "displayName": "ꕯꔤꕀꔸꕩ ꕯꔤꕟ"
+          },
+          "RWF": {
+            "displayName": "ꕟꖙꕡ ꖢꕟꘋꕃ"
+          },
+          "SAR": {
+            "displayName": "ꕢꖙꔵ ꔸꕩꔷ"
+          },
+          "SCR": {
+            "displayName": "ꔖꗼꔷ ꖩꔪ"
+          },
+          "SDG": {
+            "displayName": "ꖬꗵꘋ ꗁꖻꘋ"
+          },
+          "SHP": {
+            "displayName": "ꔻꘋ ꗥꔷꕯ ꗁꖻꘋ"
+          },
+          "SLL": {
+            "displayName": "ꔷꗚꘋ"
+          },
+          "SOS": {
+            "displayName": "ꖇꕮꔷ ꔻꔝꘋ"
+          },
+          "STD": {
+            "displayName": "ꕢꕴ ꕿꔈ ꗪ ꕉ ꕗꕴ ꖁꖜꕟ"
+          },
+          "SZL": {
+            "displayName": "ꔷꕞꔟꕇ"
+          },
+          "TND": {
+            "displayName": "ꖤꕇꔻꕩ ꔵꕯ"
+          },
+          "TZS": {
+            "displayName": "ꕚꘋꕤꕇꕰ ꔻꔝꘋ"
+          },
+          "UGX": {
+            "displayName": "ꖳꕭꕡ ꔻꔝꘋ"
+          },
+          "USD": {
+            "displayName": "ꕶꕱ ꕜꕞ"
+          },
+          "ZAR": {
+            "displayName": "ꕉꔱꔸꕪ ꗛꔤ ꔒꘋꗣ ꗏ ꕟꘋꔵ"
+          },
+          "ZMK": {
+            "displayName": "ꕤꔭꕩ ꖴꕎꕦ (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "ꕤꔭꕩ ꖴꕎꕦ"
+          },
+          "ZWD": {
+            "displayName": "ꔽꕓꖜꔃ ꕜꕞ"
+          }
+        }
+      }
+    }
+  }
+}

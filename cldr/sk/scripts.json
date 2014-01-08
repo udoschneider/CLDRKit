@@ -1,0 +1,71 @@
+{
+  "main": {
+    "sk": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sk"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "arabské",
+          "Arab-alt-variant": "perzsko-arabské",
+          "Armn": "arménske",
+          "Bali": "balijský",
+          "Beng": "bengálske",
+          "Bopo": "bopomofo",
+          "Brai": "braillovo písmo",
+          "Cyrl": "cyrilika",
+          "Deva": "dévanágarí",
+          "Egyp": "egyptské hieroglyfy",
+          "Ethi": "etiópske",
+          "Geor": "gruzínske",
+          "Glag": "hlaholika",
+          "Goth": "gotický",
+          "Grek": "grécke",
+          "Gujr": "gudžarátí",
+          "Guru": "gurmukhi",
+          "Hang": "hangul",
+          "Hani": "han",
+          "Hans": "Zjednodušené čínske",
+          "Hans-alt-stand-alone": "han – zjednodušené",
+          "Hant": "tradičné",
+          "Hant-alt-stand-alone": "han – tradičné",
+          "Hebr": "hebrejské",
+          "Hira": "hiragana",
+          "Jpan": "japonské",
+          "Kana": "katakana",
+          "Khmr": "khmérske",
+          "Knda": "kannadské",
+          "Kore": "kórejské",
+          "Laoo": "laoské",
+          "Latn": "latinka",
+          "Lina": "lineárna A",
+          "Linb": "lineárna B",
+          "Maya": "mayské hieroglyfy",
+          "Mlym": "malajálamske",
+          "Mong": "mongolské",
+          "Mymr": "mjanmarské",
+          "Orya": "uríjske",
+          "Osma": "osmanský",
+          "Runr": "Runové písmo",
+          "Sinh": "sinhálske",
+          "Taml": "tamilské",
+          "Telu": "telugské",
+          "Thaa": "tána",
+          "Thai": "thajské",
+          "Tibt": "tibetské",
+          "Zsym": "symboly",
+          "Zxxx": "bez zápisu",
+          "Zyyy": "všeobecné",
+          "Zzzz": "neznáme písmo"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "main": {
+    "sr-Cyrl-BA": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "sr",
+        "script": "Cyrl",
+        "territory": "BA"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "medium": "G y-MM-dd",
+              "short": "GGGGG yy-MM-dd"
+            },
+            "dateTimeFormats": {
+              "intervalFormats": {
+                "Md": {
+                  "d": "MM-dd - MM-dd",
+                  "M": "MM-dd - MM-dd"
+                },
+                "MEd": {
+                  "d": "E, MM-dd - E, MM-dd",
+                  "M": "E, MM-dd - E, MM-dd"
+                },
+                "yM": {
+                  "M": "y-MM - y-MM",
+                  "y": "y-MM - y-MM"
+                },
+                "yMd": {
+                  "d": "y-MM-dd - y-MM-dd",
+                  "M": "y-MM-dd - y-MM-dd",
+                  "y": "y-MM-dd - y-MM-dd"
+                },
+                "yMEd": {
+                  "d": "E, y-MM-dd - E, y-MM-dd",
+                  "M": "E, y-MM-dd - E, y-MM-dd",
+                  "y": "E, y-MM-dd - E, y-MM-dd"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

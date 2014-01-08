@@ -1,0 +1,48 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} täg",
+            "unitPattern-count-other": "{0} täg"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} stund",
+            "unitPattern-count-other": "{0} stunde"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} minüta",
+            "unitPattern-count-other": "{0} minüte"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} mánet",
+            "unitPattern-count-other": "{0} mánet"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} sekund",
+            "unitPattern-count-other": "{0} sekunde"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} wuča",
+            "unitPattern-count-other": "{0} wučä"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} jár",
+            "unitPattern-count-other": "{0} jár"
+          }
+        }
+      }
+    }
+  }
+}

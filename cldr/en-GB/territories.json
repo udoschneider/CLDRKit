@@ -1,0 +1,29 @@
+{
+  "main": {
+    "en-GB": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "GB"
+      },
+      "localeDisplayNames": {
+        "territories": {
+          "GB": "United Kingdom",
+          "GB-alt-short": "UK",
+          "GS": "South Georgia and the South Sandwich Islands",
+          "HM": "Heard Island and McDonald Islands",
+          "UM": "U.S. Minor Outlying Islands",
+          "US": "United States",
+          "US-alt-short": "US",
+          "VC": "Saint Vincent and the Grenadines"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "main": {
+    "fur": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fur"
+      },
+      "numbers": {
+        "currencies": {
+          "AMD": {
+            "displayName": "Dram armen"
+          },
+          "ARS": {
+            "displayName": "Peso argjentin"
+          },
+          "ATS": {
+            "displayName": "Selin austriac"
+          },
+          "AUD": {
+            "displayName": "dolar australian",
+            "displayName-count-one": "dolar australian",
+            "displayName-count-other": "dolars australians"
+          },
+          "BEF": {
+            "displayName": "Franc de Belgjiche"
+          },
+          "BIF": {
+            "displayName": "Franc burundês"
+          },
+          "BND": {
+            "displayName": "Dolar dal Brunei"
+          },
+          "BRL": {
+            "displayName": "real brasilian",
+            "displayName-count-one": "real brasilian",
+            "displayName-count-other": "real brasilians"
+          },
+          "BYR": {
+            "displayName": "Rubli bielorùs"
+          },
+          "CAD": {
+            "displayName": "dolar canadês",
+            "displayName-count-one": "dolar canadês",
+            "displayName-count-other": "dolars canadês"
+          },
+          "CHF": {
+            "displayName": "franc svuizar",
+            "displayName-count-one": "franc svuizar",
+            "displayName-count-other": "francs svuizars"
+          },
+          "CNY": {
+            "displayName": "yuan cinês",
+            "displayName-count-one": "yuan cinês",
+            "displayName-count-other": "yuan cinês"
+          },
+          "CSD": {
+            "displayName": "Vieri dinar serp"
+          },
+          "CUP": {
+            "displayName": "Peso cuban"
+          },
+          "CZK": {
+            "displayName": "Corone de Republiche Ceche"
+          },
+          "DEM": {
+            "displayName": "Marc todesc"
+          },
+          "DKK": {
+            "displayName": "corone danese",
+            "displayName-count-one": "corone danese",
+            "displayName-count-other": "coronis danesis"
+          },
+          "DZD": {
+            "displayName": "Dinar algerin"
+          },
+          "EUR": {
+            "displayName": "euro",
+            "displayName-count-one": "euro",
+            "displayName-count-other": "euros"
+          },
+          "FRF": {
+            "displayName": "Franc francês"
+          },
+          "GBP": {
+            "displayName": "sterline britaniche",
+            "displayName-count-one": "sterline britaniche",
+            "displayName-count-other": "sterlinis britanichis"
+          },
+          "HKD": {
+            "displayName": "dolar di Hong Kong",
+            "displayName-count-one": "dolar di Hong Kong",
+            "displayName-count-other": "dolars di Hong Kong"
+          },
+          "HRD": {
+            "displayName": "Dinar cravuat"
+          },
+          "HRK": {
+            "displayName": "Kuna cravuate"
+          },
+          "IDR": {
+            "displayName": "rupiah indonesiane",
+            "displayName-count-one": "rupiah indonesiane",
+            "displayName-count-other": "rupiah indonesianis"
+          },
+          "INR": {
+            "displayName": "rupie indiane",
+            "displayName-count-one": "rupie indiane",
+            "displayName-count-other": "rupiis indianis"
+          },
+          "IRR": {
+            "displayName": "Rial iranian"
+          },
+          "ITL": {
+            "displayName": "Lire taliane"
+          },
+          "JPY": {
+            "displayName": "yen gjaponês",
+            "displayName-count-one": "yen gjaponês",
+            "displayName-count-other": "yen gjaponês"
+          },
+          "KRW": {
+            "displayName": "won de Coree dal Sud",
+            "displayName-count-one": "won de Coree dal Sud",
+            "displayName-count-other": "won de Coree dal Sud"
+          },
+          "LVL": {
+            "displayName": "Lats leton"
+          },
+          "MXN": {
+            "displayName": "peso messican",
+            "displayName-count-one": "peso messican",
+            "displayName-count-other": "pesos messicans"
+          },
+          "NAD": {
+            "displayName": "Dolar namibian"
+          },
+          "NIO": {
+            "displayName": "Córdoba oro nicaraguan"
+          },
+          "NOK": {
+            "displayName": "corone norvegjese",
+            "displayName-count-one": "corone norvegjese",
+            "displayName-count-other": "coronis norvegjesis"
+          },
+          "NZD": {
+            "displayName": "Dollar neozelandês"
+          },
+          "PKR": {
+            "displayName": "Rupie pachistane"
+          },
+          "PLN": {
+            "displayName": "zloty polac",
+            "displayName-count-one": "zloty polac",
+            "displayName-count-other": "zloty polacs"
+          },
+          "RSD": {
+            "displayName": "Dinar serp"
+          },
+          "RUB": {
+            "displayName": "rubli rus",
+            "displayName-count-one": "rubli rus",
+            "displayName-count-other": "rublis rus"
+          },
+          "SAR": {
+            "displayName": "riyal de Arabie Saudite",
+            "displayName-count-one": "riyal de Arabie Saudite",
+            "displayName-count-other": "riyals de Arabie Saudite"
+          },
+          "SEK": {
+            "displayName": "corone svedese",
+            "displayName-count-one": "corone svedese",
+            "displayName-count-other": "coronis svedesis"
+          },
+          "SIT": {
+            "displayName": "Talar sloven"
+          },
+          "SKK": {
+            "displayName": "Corone slovache"
+          },
+          "THB": {
+            "displayName": "baht tailandês",
+            "displayName-count-one": "baht tailandês",
+            "displayName-count-other": "baht tailandês"
+          },
+          "TRL": {
+            "displayName": "Viere Lire turche"
+          },
+          "TRY": {
+            "displayName": "lire turche",
+            "displayName-count-one": "lire turche",
+            "displayName-count-other": "liris turchis"
+          },
+          "TWD": {
+            "displayName": "gnûf dolar taiwanês",
+            "displayName-count-one": "gnûf dolar taiwanês",
+            "displayName-count-other": "gnûfs dolars taiwanês"
+          },
+          "USD": {
+            "displayName": "dolar american",
+            "displayName-count-one": "dolar american",
+            "displayName-count-other": "dolars americans"
+          },
+          "USN": {
+            "displayName": "Dolar american (prossime zornade)"
+          },
+          "USS": {
+            "displayName": "Dolar american (stesse zornade)"
+          },
+          "XAG": {
+            "displayName": "Arint"
+          },
+          "XAU": {
+            "displayName": "Aur"
+          },
+          "XBA": {
+            "displayName": "Unitât composite europeane"
+          },
+          "XBB": {
+            "displayName": "Unitât monetarie europeane"
+          },
+          "XBC": {
+            "displayName": "Unitât di acont europeane (XBC)"
+          },
+          "XBD": {
+            "displayName": "Unitât di acont europeane (XBD)"
+          },
+          "XDR": {
+            "displayName": "Dirits speciâi di incas"
+          },
+          "XFO": {
+            "displayName": "Franc aur francês"
+          },
+          "XFU": {
+            "displayName": "Franc UIC francês"
+          },
+          "XPD": {
+            "displayName": "Paladi"
+          },
+          "XPT": {
+            "displayName": "Platin"
+          },
+          "XRE": {
+            "displayName": "fonts RINET"
+          },
+          "XTS": {
+            "displayName": "codiç di verifiche de monede"
+          },
+          "XXX": {
+            "displayName": "Monede no valide o no cognossude",
+            "displayName-count-one": "Monede no valide o no cognossude",
+            "displayName-count-other": "Monedis no validis o no cognossudis"
+          },
+          "ZAR": {
+            "displayName": "rand sudafrican",
+            "displayName-count-one": "rand sudafrican",
+            "displayName-count-other": "rands sudafricans"
+          }
+        }
+      }
+    }
+  }
+}

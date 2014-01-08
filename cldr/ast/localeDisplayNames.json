@@ -1,0 +1,80 @@
+{
+  "main": {
+    "ast": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ast"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}",
+          "localeKeyTypePattern": "{0}: {1}"
+        },
+        "keys": {
+          "calendar": "calendariu",
+          "collation": "orde de clasificación",
+          "currency": "moneda",
+          "numbers": "númberos"
+        },
+        "types": {
+          "calendar": {
+            "gregorian": "gregorianu"
+          },
+          "collation": {
+            "ducet": "orde de clasificación predetermináu d'Unicode",
+            "search": "gueta"
+          },
+          "numbers": {
+            "arab": "arábicos",
+            "arabext": "arábicos estendíos",
+            "armn": "armenios",
+            "armnlow": "armenios en minúscules",
+            "beng": "bengalinos",
+            "deva": "devanagari",
+            "ethi": "etíopes",
+            "fullwide": "anchu completu",
+            "geor": "xeorxanos",
+            "grek": "griegos",
+            "greklow": "griegos en minúscules",
+            "gujr": "gujarati",
+            "guru": "gurmukhi",
+            "hanidec": "chinos decimales",
+            "hans": "chinos simplificaos",
+            "hansfin": "chinos simplificaos financieros",
+            "hant": "chinos tradicionales",
+            "hantfin": "chinos tradicionales financieros",
+            "hebr": "hebreos",
+            "jpan": "xaponeses",
+            "jpanfin": "xaponeses financieros",
+            "khmr": "numberación ḥemer",
+            "knda": "numberación kannada",
+            "laoo": "laosianos",
+            "latn": "occidentales",
+            "mlym": "malayalam",
+            "mymr": "myanmar",
+            "orya": "oriya",
+            "roman": "romanos",
+            "romanlow": "romanos en minúscules",
+            "taml": "tamil tradicional",
+            "tamldec": "tamil",
+            "telu": "telugu",
+            "thai": "tailandeses",
+            "tibt": "tibetanos"
+          }
+        },
+        "codePatterns": {
+          "language": "Llingua: {0}",
+          "script": "Alfabetu: {0}",
+          "territory": "Rexón: {0}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "main": {
+    "jgo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "jgo"
+      },
+      "numbers": {
+        "currencies": {
+          "CAD": {
+            "displayName": "Ndɔ́la-Kanandâ"
+          },
+          "EUR": {
+            "displayName": "Ʉ́lɔ"
+          },
+          "USD": {
+            "displayName": "Ndɔ́la-Amɛlîk"
+          },
+          "XAF": {
+            "displayName": "Fɛlâŋ",
+            "symbol": "FCFA"
+          },
+          "XXX": {
+            "displayName": "ntɛ-ŋkáp yi pɛ́ ká kɛ́ jínɛ"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "main": {
+    "sah": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9196 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-10 01:39:57 -0500 (Sat, 10 Aug 2013) $"
+        },
+        "language": "sah"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-other": "{0} күн"
+          },
+          "duration-hour": {
+            "unitPattern-count-other": "{0} чаас"
+          },
+          "duration-minute": {
+            "unitPattern-count-other": "{0} мүнүүтэ"
+          },
+          "duration-month": {
+            "unitPattern-count-other": "{0} ый"
+          },
+          "duration-second": {
+            "unitPattern-count-other": "{0} сөкүүндэ"
+          },
+          "duration-week": {
+            "unitPattern-count-other": "{0} нэдиэлэ"
+          },
+          "duration-year": {
+            "unitPattern-count-other": "{0} сыл"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "main": {
+    "yo-BJ": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9309 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 16:34:15 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "yo",
+        "territory": "BJ"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Shɛ́rɛ́",
+                  "2": "Èrèlè",
+                  "3": "Ɛrɛ̀nà",
+                  "4": "Ìgbé",
+                  "5": "Ɛ̀bibi",
+                  "6": "Òkúdu",
+                  "7": "Agɛmɔ",
+                  "8": "Ògún",
+                  "9": "Owewe",
+                  "10": "Ɔ̀wàrà",
+                  "11": "Bélú",
+                  "12": "Ɔ̀pɛ̀"
+                },
+                "wide": {
+                  "1": "Oshù Shɛ́rɛ́",
+                  "2": "Oshù Èrèlè",
+                  "3": "Oshù Ɛrɛ̀nà",
+                  "4": "Oshù Ìgbé",
+                  "5": "Oshù Ɛ̀bibi",
+                  "6": "Oshù Òkúdu",
+                  "7": "Oshù Agɛmɔ",
+                  "8": "Oshù Ògún",
+                  "9": "Oshù Owewe",
+                  "10": "Oshù Ɔ̀wàrà",
+                  "11": "Oshù Bélú",
+                  "12": "Oshù Ɔ̀pɛ̀"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "Àìkú",
+                  "mon": "Ajé",
+                  "tue": "Ìsɛ́gun",
+                  "wed": "Ɔjɔ́rú",
+                  "thu": "Ɔjɔ́bɔ",
+                  "fri": "Ɛtì",
+                  "sat": "Àbámɛ́ta"
+                },
+                "wide": {
+                  "sun": "Ɔjɔ́ Àìkú",
+                  "mon": "Ɔjɔ́ Ajé",
+                  "tue": "Ɔjɔ́ Ìsɛ́gun",
+                  "wed": "Ɔjɔ́rú",
+                  "thu": "Ɔjɔ́bɔ",
+                  "fri": "Ɔjɔ́ Ɛtì",
+                  "sat": "Ɔjɔ́ Àbámɛ́ta"
+                }
+              }
+            },
+            "quarters": {
+              "format": {
+                "abbreviated": {
+                  "1": "K1",
+                  "2": "K2",
+                  "3": "K3",
+                  "4": "K4"
+                },
+                "wide": {
+                  "1": "Kɔ́tà Kínní",
+                  "2": "Kɔ́tà Kejì",
+                  "3": "Kɔ́à Keta",
+                  "4": "Kɔ́tà Kɛrin"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "Àárɔ̀",
+                  "pm": "Ɔ̀sán"
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Saju Kristi",
+                "1": "Lehin Kristi"
+              },
+              "eraAbbr": {
+                "0": "SK",
+                "1": "LK"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, d MMMM y",
+              "long": "d MMMM y",
+              "medium": "d MMM y",
+              "short": "dd/MM/y"
+            },
+            "timeFormats": {
+              "full": "h:mm:ss a zzzz",
+              "long": "h:mm:ss a z",
+              "medium": "h:mm:ss a",
+              "short": "h:mm a"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "hm": "h:mm a",
+                "Hm": "HH:mm",
+                "Hms": "HH:mm:ss",
+                "M": "L",
+                "Md": "M/d",
+                "MEd": "E, M/d",
+                "MMM": "LLL",
+                "MMMd": "MMM d",
+                "MMMEd": "E, MMM d",
+                "MMMMd": "MMMM d",
+                "MMMMEd": "E, MMMM d",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "M/y",
+                "yMEd": "E, M/d/y",
+                "yMMM": "MMM y",
+                "yMMMEd": "E, MMM d, y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

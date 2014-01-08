@@ -1,0 +1,28 @@
+{
+  "main": {
+    "pt": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "pt"
+      },
+      "dates": {
+        "calendars": {
+          "japanese": {
+            "dateFormats": {
+              "full": "EEEE, d 'de' MMMM 'de' y G",
+              "long": "d 'de' MMMM 'de' y G",
+              "medium": "dd/MM/y G",
+              "short": "dd/MM/yy GGGGG"
+            }
+          }
+        }
+      }
+    }
+  }
+}

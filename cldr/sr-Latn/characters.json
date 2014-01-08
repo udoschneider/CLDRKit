@@ -1,0 +1,32 @@
+{
+  "main": {
+    "sr-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sr",
+        "script": "Latn"
+      },
+      "characters": {
+        "exemplarCharacters": "[a b c ć č d đ {dž} e f g h i j k l {lj} m n {nj} o p r s š t u v z ž]",
+        "auxiliary": "[å q w x y]",
+        "index": "[A B C Ć Č D {DŽ} E F G H I J K L {LJ} M N {NJ} O P Q R S Š T U V W X Y Z Ž]",
+        "punctuation": "[\\- ‐ – , ; \\: ! ? . … ‘ ‚ “ „ ( ) \\[ \\] \\{ \\} * #]",
+        "ellipsis": {
+          "final": "{0}…",
+          "initial": "…{0}",
+          "medial": "{0}…{1}",
+          "word-final": "{0} …",
+          "word-initial": "… {0}",
+          "word-medial": "{0} … {1}"
+        },
+        "moreInformation": "?"
+      }
+    }
+  }
+}

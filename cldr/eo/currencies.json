@@ -1,0 +1,68 @@
+{
+  "main": {
+    "eo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "eo"
+      },
+      "numbers": {
+        "currencies": {
+          "AUD": {
+            "displayName": "aŭstrala dolaro"
+          },
+          "BRL": {
+            "displayName": "brazila realo"
+          },
+          "CNY": {
+            "displayName": "ĉina juano"
+          },
+          "EUR": {
+            "displayName": "eŭro"
+          },
+          "GBP": {
+            "displayName": "brita sterlinga funto"
+          },
+          "INR": {
+            "displayName": "hinda rupio"
+          },
+          "JPY": {
+            "displayName": "japana eno"
+          },
+          "NOK": {
+            "displayName": "norvega krono"
+          },
+          "RUB": {
+            "displayName": "rusa rublo"
+          },
+          "USD": {
+            "displayName": "usona dolaro"
+          },
+          "XAG": {
+            "displayName": "arĝento"
+          },
+          "XAU": {
+            "displayName": "oro"
+          },
+          "XBB": {
+            "displayName": "eŭropa monunuo"
+          },
+          "XFO": {
+            "displayName": "franca ora franko"
+          },
+          "XPD": {
+            "displayName": "paladio"
+          },
+          "XPT": {
+            "displayName": "plateno"
+          }
+        }
+      }
+    }
+  }
+}

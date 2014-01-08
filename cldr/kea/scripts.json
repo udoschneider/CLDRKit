@@ -1,0 +1,58 @@
+{
+  "main": {
+    "kea": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kea"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "arabiku",
+          "Armn": "armeniu",
+          "Beng": "bengali",
+          "Bopo": "bopomofo",
+          "Cyrl": "siriliku",
+          "Deva": "devanagari",
+          "Ethi": "etiopiku",
+          "Geor": "jorjianu",
+          "Grek": "gregu",
+          "Gujr": "gujarati",
+          "Guru": "gurmuki",
+          "Hang": "angul",
+          "Hani": "han",
+          "Hans": "han simplifikadu",
+          "Hant": "han tradisional",
+          "Hebr": "ebraiku",
+          "Hira": "iragana",
+          "Jpan": "japones",
+          "Kana": "katakana",
+          "Khmr": "kmer",
+          "Knda": "kanares",
+          "Kore": "koreanu",
+          "Laoo": "lausianu",
+          "Latn": "latinu",
+          "Mlym": "malaialam",
+          "Mong": "mongol",
+          "Mymr": "birmanes",
+          "Orya": "oriya",
+          "Sinh": "singales",
+          "Taml": "tamil",
+          "Telu": "telugu",
+          "Thaa": "taana",
+          "Thai": "tailandes",
+          "Tibt": "tibetanu",
+          "Zsym": "simbulus",
+          "Zxxx": "nãu skritu",
+          "Zyyy": "komun",
+          "Zzzz": "skrita diskonxedu"
+        }
+      }
+    }
+  }
+}

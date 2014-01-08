@@ -1,0 +1,76 @@
+{
+  "main": {
+    "sr-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sr",
+        "script": "Latn"
+      },
+      "dates": {
+        "calendars": {
+          "islamic": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Muh.",
+                  "2": "Saf.",
+                  "3": "Reb. 1",
+                  "4": "Reb 2",
+                  "5": "Džum. 1",
+                  "6": "Džum. 2",
+                  "7": "Redž.",
+                  "8": "Ša.",
+                  "9": "Ram.",
+                  "10": "Še.",
+                  "11": "Zul-k.",
+                  "12": "Zul-h."
+                },
+                "wide": {
+                  "1": "Muraham",
+                  "2": "Safar",
+                  "3": "Rabiʻ I",
+                  "4": "Rabiʻ II",
+                  "5": "Jumada I",
+                  "6": "Jumada II",
+                  "7": "Rađab",
+                  "8": "Šaʻban",
+                  "9": "Ramadan",
+                  "10": "Šaval",
+                  "11": "Duʻl-Kiʻda",
+                  "12": "Duʻl-hiđa"
+                }
+              },
+              "stand-alone": {
+                "wide": {
+                  "1": "Muharem",
+                  "2": "Safer",
+                  "3": "Rebi 1",
+                  "4": "Rebi 2",
+                  "5": "Džumade 1",
+                  "6": "Džumade 2",
+                  "7": "Redžeb",
+                  "8": "Šaʻban",
+                  "9": "Ramazan",
+                  "10": "Ševal",
+                  "11": "Zul-kade",
+                  "12": "Zul-hidže"
+                }
+              }
+            },
+            "eras": {
+              "eraAbbr": {
+                "0": "AH"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

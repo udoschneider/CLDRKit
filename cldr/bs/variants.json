@@ -1,0 +1,53 @@
+{
+  "main": {
+    "bs": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9278 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-26 12:26:11 -0500 (Mon, 26 Aug 2013) $"
+        },
+        "language": "bs"
+      },
+      "localeDisplayNames": {
+        "variants": {
+          "1901": "Tradicionalna nemačka ortografija",
+          "1994": "Standardizovana rezijanska ortografija",
+          "1996": "Nemačka ortografija 1996",
+          "1606NICT": "Francuski iz kasnog srednjeg veka do 1606.",
+          "1694ACAD": "Rani moderni francuski",
+          "1959ACAD": "Akademski",
+          "AREVELA": "Istočni jermenski",
+          "AREVMDA": "Zapadno-jermenski",
+          "BAKU1926": "Ujedinjeni turski latinični alfabet",
+          "BISKE": "San Đorđijo/Bila dijalekt",
+          "BOONT": "Buntling",
+          "FONIPA": "IPA fonetika",
+          "FONUPA": "UPA fonetika",
+          "KKCOR": "Uobičajena ortografija",
+          "LIPAW": "Lipovac dijalekt rezijanski",
+          "MONOTON": "Monotonik",
+          "NEDIS": "Natison dijalekt",
+          "NJIVA": "Gnjiva/Njiva dijalekt",
+          "OSOJS": "Oseako/Osojane dijalekt",
+          "PINYIN": "Pinjinska romanizacija",
+          "POLYTON": "Politonik",
+          "POSIX": "Kompjuter",
+          "REVISED": "Revidirana ortigrafija",
+          "ROZAJ": "Rezijan",
+          "SAAHO": "Saho",
+          "SCOTLAND": "Škotski standardni engleski",
+          "SCOUSE": "Skauz",
+          "SOLBA": "Stolvica/Solbica dijalekt",
+          "TARASK": "Taraskijevica ortografija",
+          "UCCOR": "Ujedinjena ortografija",
+          "UCRCOR": "Ujedinjena revidirana ortografija",
+          "VALENCIA": "Valencijski",
+          "WADEGILE": "Vejd-Žajl romanizacija"
+        }
+      }
+    }
+  }
+}

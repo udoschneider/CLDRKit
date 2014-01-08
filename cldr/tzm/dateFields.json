@@ -1,0 +1,56 @@
+{
+  "main": {
+    "tzm": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "tzm"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Tallit"
+          },
+          "year": {
+            "displayName": "Asseggas"
+          },
+          "month": {
+            "displayName": "Ayur"
+          },
+          "week": {
+            "displayName": "Imalass"
+          },
+          "day": {
+            "displayName": "Ass",
+            "relative-type--1": "Assenaṭ",
+            "relative-type-0": "Assa",
+            "relative-type-1": "Asekka"
+          },
+          "weekday": {
+            "displayName": "Ass n Imalass"
+          },
+          "dayperiod": {
+            "displayName": "Zdat azal/Deffir azal"
+          },
+          "hour": {
+            "displayName": "Tasragt"
+          },
+          "minute": {
+            "displayName": "Tusdat"
+          },
+          "second": {
+            "displayName": "Tusnat"
+          },
+          "zone": {
+            "displayName": "Aseglem asergan"
+          }
+        }
+      }
+    }
+  }
+}

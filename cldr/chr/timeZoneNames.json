@@ -1,0 +1,111 @@
+{
+  "main": {
+    "chr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9315 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-05 11:52:00 -0500 (Thu, 05 Sep 2013) $"
+        },
+        "language": "chr"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "gmtZeroFormat": "ᎢᎢᎢ",
+          "regionFormat": "{0} ᎢᏳᏩᎪᏗ",
+          "zone": {
+            "Pacific": {
+              "Honolulu": {
+                "short": {
+                  "generic": "HST",
+                  "standard": "HST",
+                  "daylight": "HDT"
+                }
+              }
+            }
+          },
+          "metazone": {
+            "Alaska": {
+              "short": {
+                "generic": "AKT",
+                "standard": "AKST",
+                "daylight": "AKDT"
+              }
+            },
+            "America_Central": {
+              "long": {
+                "generic": "ᎠᏰᎵ ᎢᏳᏩᎪᏗ",
+                "standard": "ᎠᏰᎵ ᏰᎵᏊ ᏗᏙᎳᎩ ᎢᏳᏩᎪᏗ",
+                "daylight": "ᎠᏰᎵ ᎢᎦ ᎢᏳᏩᎪᏗ"
+              },
+              "short": {
+                "generic": "CT",
+                "standard": "CST",
+                "daylight": "CDT"
+              }
+            },
+            "America_Eastern": {
+              "long": {
+                "generic": "ᎧᎸᎬᎢᏗᏢ ᎢᏳᏩᎪᏗ",
+                "standard": "ᎧᎸᎬᎢᏗᏢ ᏰᎵᏊ ᏗᏙᎳᎩ ᎢᏳᏩᎪᏗ",
+                "daylight": "ᎧᎸᎬᎢᏗᏢ ᎢᎦ ᎢᏳᏩᎪᏗ"
+              },
+              "short": {
+                "generic": "ET",
+                "standard": "EST",
+                "daylight": "EDT"
+              }
+            },
+            "America_Mountain": {
+              "long": {
+                "generic": "ᎣᏓᎸ ᎢᏳᏩᎪᏗ",
+                "standard": "ᎣᏓᎸ ᏰᎵᏊ ᏗᏙᎳᎩ ᎢᏳᏩᎪᏗ",
+                "daylight": "ᎣᏓᎸ ᎢᎦ ᎢᏳᏩᎪᏗ"
+              },
+              "short": {
+                "generic": "MT",
+                "standard": "MST",
+                "daylight": "MDT"
+              }
+            },
+            "America_Pacific": {
+              "long": {
+                "generic": "ᏭᏕᎵᎬ ᎢᏳᏩᎪᏗ",
+                "standard": "ᏭᏕᎵᎬ ᏰᎵᏊ ᏗᏙᎳᎩ ᎢᏳᏩᎪᏗ",
+                "daylight": "ᏭᏕᎵᎬ ᎢᎦ ᎢᏳᏩᎪᏗ"
+              },
+              "short": {
+                "generic": "PT",
+                "standard": "PST",
+                "daylight": "PDT"
+              }
+            },
+            "Atlantic": {
+              "short": {
+                "generic": "AT",
+                "standard": "AST",
+                "daylight": "ADT"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "ᎢᏤ ᎢᏳᏍᏗ ᎢᏳᏩᎪᏗ"
+              }
+            },
+            "Hawaii_Aleutian": {
+              "short": {
+                "generic": "HAT",
+                "standard": "HAST",
+                "daylight": "HADT"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

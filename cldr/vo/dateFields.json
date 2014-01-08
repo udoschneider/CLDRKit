@@ -1,0 +1,67 @@
+{
+  "main": {
+    "vo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "vo"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Epoche"
+          },
+          "year": {
+            "displayName": "yel",
+            "relative-type--1": "äyelo",
+            "relative-type-0": "ayelo",
+            "relative-type-1": "oyelo"
+          },
+          "month": {
+            "displayName": "mul",
+            "relative-type--1": "ämulo",
+            "relative-type-0": "amulo",
+            "relative-type-1": "omulo"
+          },
+          "week": {
+            "displayName": "vig",
+            "relative-type--1": "ävigo",
+            "relative-type-0": "avigo",
+            "relative-type-1": "ovigo"
+          },
+          "day": {
+            "displayName": "Tag",
+            "relative-type--2": "edelo",
+            "relative-type--1": "ädelo",
+            "relative-type-0": "adelo",
+            "relative-type-1": "odelo",
+            "relative-type-2": "udelo"
+          },
+          "weekday": {
+            "displayName": "vodabel"
+          },
+          "dayperiod": {
+            "displayName": "delalaf"
+          },
+          "hour": {
+            "displayName": "düp"
+          },
+          "minute": {
+            "displayName": "minut"
+          },
+          "second": {
+            "displayName": "sekun"
+          },
+          "zone": {
+            "displayName": "zon"
+          }
+        }
+      }
+    }
+  }
+}

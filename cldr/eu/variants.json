@@ -1,0 +1,25 @@
+{
+  "main": {
+    "eu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "eu"
+      },
+      "localeDisplayNames": {
+        "variants": {
+          "POLYTON": "POLITON",
+          "REVISED": "BERRIKUSIA",
+          "SAAHO": "SAHO",
+          "SCOTLAND": "ESKOZIAR INGELESA",
+          "VALENCIA": "VALENTZIERA"
+        }
+      }
+    }
+  }
+}

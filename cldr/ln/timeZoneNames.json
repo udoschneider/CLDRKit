@@ -1,0 +1,49 @@
+{
+  "main": {
+    "ln": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ln"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "regionFormat": "Ngonga ya {0}",
+          "fallbackFormat": "{1} ({0})",
+          "metazone": {
+            "Africa_Central": {
+              "long": {
+                "standard": "Ntángo ya Lubumbashi"
+              }
+            },
+            "Africa_Eastern": {
+              "long": {
+                "standard": "Ntángo ya Afríka ya Ɛ́sita"
+              }
+            },
+            "Africa_Southern": {
+              "long": {
+                "standard": "Ntángo ya Afríka ya Sidi"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Ntángo ya Londoni"
+              }
+            },
+            "Seychelles": {
+              "long": {
+                "standard": "Ntángo ya Seyshel"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "main": {
+    "ks": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ks"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}"
+        },
+        "keys": {
+          "calendar": "کیلنڑر",
+          "currency": "ضَرب"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "بُدَن ہُنٛد کیلنڑَر",
+            "chinese": "چیٖنی کیلَنڑَر",
+            "gregorian": "گرگوریَن کیلنڑَر",
+            "hebrew": "ہِبرِو کیلنڑَر",
+            "islamic": "اِسلٲمی کیلنڑَر",
+            "islamic-civil": "اِسلٲمی اِجتمٲیی کیلنڑَر",
+            "japanese": "جاپٲنۍ کیلنڑَر",
+            "roc": "جموٗریٲتی چیٖنی کیلَنڑَر"
+          },
+          "collation": {
+            "traditional": "رٮ۪وٲتی تَرتیٖب",
+            "big5han": "رٮ۪وٲتی چیٖنی تِرتیٖب",
+            "phonebook": "فون بُک تَرتیٖب",
+            "pinyin": "آسان بَناونہٕ آمُت چیٖنی پیٖنیَن تَرتیٖب",
+            "stroke": "رٮ۪وٲتی چیٖنی سٹروک تَرتیٖب"
+          }
+        },
+        "codePatterns": {
+          "language": "زَبان: {0}",
+          "script": "رَسم الخط: {0}",
+          "territory": "علاقہٕ: {0}"
+        }
+      }
+    }
+  }
+}

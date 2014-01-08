@@ -1,0 +1,55 @@
+{
+  "main": {
+    "zh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9308 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 14:41:52 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "zh"
+      },
+      "dates": {
+        "calendars": {
+          "buddhist": {
+            "eras": {
+              "eraAbbr": {
+                "0": "佛历"
+              }
+            },
+            "dateFormats": {
+              "full": "Gy年M月d日EEEE",
+              "long": "Gy年M月d日",
+              "medium": "Gy年M月d日",
+              "short": "Gy-M-d"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d日",
+                "M": "M月",
+                "Md": "M-d",
+                "MEd": "M-dE",
+                "MMM": "LLL",
+                "MMMd": "M月d日",
+                "MMMEd": "M月d日E",
+                "y": "Gy年",
+                "yyyy": "Gy年",
+                "yyyyM": "Gy-M",
+                "yyyyMd": "Gy-M-d",
+                "yyyyMEd": "Gy-M-d（E）",
+                "yyyyMMM": "Gy年M月",
+                "yyyyMMMd": "Gy年M月d日",
+                "yyyyMMMEd": "Gy年M月d日E",
+                "yyyyMMMM": "Gy年M月",
+                "yyyyQQQ": "Gy年第Q季度",
+                "yyyyQQQQ": "Gy年QQQQ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

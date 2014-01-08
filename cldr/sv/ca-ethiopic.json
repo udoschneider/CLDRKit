@@ -1,0 +1,88 @@
+{
+  "main": {
+    "sv": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sv"
+      },
+      "dates": {
+        "calendars": {
+          "ethiopic": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "mäskäräm",
+                  "2": "teqemt",
+                  "3": "hedar",
+                  "4": "tahesas",
+                  "5": "ter",
+                  "6": "yäkatit",
+                  "7": "mägabit",
+                  "8": "miyazya",
+                  "9": "guenbot",
+                  "10": "säné",
+                  "11": "hamlé",
+                  "12": "nähasé",
+                  "13": "pagumén"
+                },
+                "wide": {
+                  "1": "mäskäräm",
+                  "2": "teqemt",
+                  "3": "hedar",
+                  "4": "tahesas",
+                  "5": "ter",
+                  "6": "yäkatit",
+                  "7": "mägabit",
+                  "8": "miyazya",
+                  "9": "guenbot",
+                  "10": "säné",
+                  "11": "hamlé",
+                  "12": "nähasé",
+                  "13": "pagumén"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Mäskäräm",
+                  "2": "Teqemt",
+                  "3": "Hedar",
+                  "4": "Tahesas",
+                  "5": "Ter",
+                  "6": "Yäkatit",
+                  "7": "Mägabit",
+                  "8": "Miyazya",
+                  "9": "Guenbot",
+                  "10": "Säné",
+                  "11": "Hamlé",
+                  "12": "Nähasé",
+                  "13": "Pagumén"
+                },
+                "wide": {
+                  "1": "Mäskäräm",
+                  "2": "Teqemt",
+                  "3": "Hedar",
+                  "4": "Tahesas",
+                  "5": "Ter",
+                  "6": "Yäkatit",
+                  "7": "Mägabit",
+                  "8": "Miyazya",
+                  "9": "Guenbot",
+                  "10": "Säné",
+                  "11": "Hamlé",
+                  "12": "Nähasé",
+                  "13": "Pagumén"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

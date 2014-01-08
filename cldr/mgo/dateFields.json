@@ -1,0 +1,97 @@
+{
+  "main": {
+    "mgo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mgo"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Era"
+          },
+          "year": {
+            "displayName": "fituʼ"
+          },
+          "month": {
+            "displayName": "iməg",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "+{0} m",
+              "relativeTimePattern-count-other": "+{0} m"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} m",
+              "relativeTimePattern-count-other": "-{0} m"
+            }
+          },
+          "week": {
+            "displayName": "nkap"
+          },
+          "day": {
+            "displayName": "anəg",
+            "relative-type--1": "ikwiri",
+            "relative-type-0": "tèchɔ̀ŋ",
+            "relative-type-1": "isu",
+            "relative-type-2": "isu ywi",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "+{0} d",
+              "relativeTimePattern-count-other": "+{0} d"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} d",
+              "relativeTimePattern-count-other": "-{0} d"
+            }
+          },
+          "weekday": {
+            "displayName": "anəg agu nkap"
+          },
+          "dayperiod": {
+            "displayName": "Dayperiod"
+          },
+          "hour": {
+            "displayName": "Hour",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "+{0} h",
+              "relativeTimePattern-count-other": "+{0} h"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} h",
+              "relativeTimePattern-count-other": "-{0} h"
+            }
+          },
+          "minute": {
+            "displayName": "Minute",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "+{0} min",
+              "relativeTimePattern-count-other": "+{0} min"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} min",
+              "relativeTimePattern-count-other": "-{0} min"
+            }
+          },
+          "second": {
+            "displayName": "Second",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "+{0} s",
+              "relativeTimePattern-count-other": "+{0} s"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "-{0} s",
+              "relativeTimePattern-count-other": "-{0} s"
+            }
+          },
+          "zone": {
+            "displayName": "Zone"
+          }
+        }
+      }
+    }
+  }
+}

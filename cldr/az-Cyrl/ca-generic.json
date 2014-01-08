@@ -1,0 +1,44 @@
+{
+  "main": {
+    "az-Cyrl": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "az",
+        "script": "Cyrl"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, d, MMMM, y G",
+              "long": "d MMMM, y G",
+              "medium": "d MMM, y G",
+              "short": "dd.MM.y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "dd.MM",
+                "MEd": "E, dd.MM",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "E, d, MMM",
+                "yyyyM": "MM.y G",
+                "yyyyMd": "dd.MM.y G",
+                "yyyyMEd": "E, dd.MM.y G",
+                "yyyyMMM": "MMM, y G",
+                "yyyyMMMd": "d MMM, y G",
+                "yyyyMMMEd": "E, d, MMM, y G"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

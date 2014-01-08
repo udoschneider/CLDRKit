@@ -1,0 +1,55 @@
+{
+  "main": {
+    "ga": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ga"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Arabach",
+          "Armn": "Airméanach",
+          "Beng": "Beangálach",
+          "Brai": "Braille",
+          "Cyrl": "Cirilleach",
+          "Deva": "Déiveanágrach",
+          "Ethi": "Aetópach",
+          "Goth": "Gotach",
+          "Grek": "Gréagach",
+          "Gujr": "Gúisearátach",
+          "Guru": "Gurmúcach",
+          "Hang": "Hangalach",
+          "Hani": "Han",
+          "Hans": "Han Símplithe",
+          "Hant": "Han Traidisiúnta",
+          "Hebr": "Eabhrach",
+          "Hira": "Híreagánach",
+          "Hrkt": "Catacánach nó Híreagánach",
+          "Jpan": "Seapánach",
+          "Kana": "Catacánach",
+          "Knda": "Cannadach",
+          "Kore": "Cóiréach",
+          "Latg": "Cló Gaelach",
+          "Latn": "Laidineach",
+          "Mlym": "Mailéalamach",
+          "Mong": "Mongólach",
+          "Ogam": "Ogham",
+          "Orya": "Oiríseach",
+          "Runr": "Rúnach",
+          "Taml": "Tamalach",
+          "Telu": "Teileagúch",
+          "Thai": "Téallanach",
+          "Tibt": "Tibéadach",
+          "Zxxx": "Gan Scríobh",
+          "Zzzz": "Script Anaithnid nó Neamhbhailí"
+        }
+      }
+    }
+  }
+}

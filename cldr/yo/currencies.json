@@ -1,0 +1,189 @@
+{
+  "main": {
+    "yo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "yo"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Diami ti Awon Orílẹ́ède Arabu"
+          },
+          "AOA": {
+            "displayName": "Wansa ti Orílẹ́ède Àngólà"
+          },
+          "AUD": {
+            "displayName": "Dọla ti Orílẹ́ède Ástràlìá"
+          },
+          "BHD": {
+            "displayName": "Dina ti Orílẹ́ède Báránì"
+          },
+          "BIF": {
+            "displayName": "Faransi ti Orílẹ́ède Bùùrúndì"
+          },
+          "BWP": {
+            "displayName": "Pula ti Orílẹ́ède Bọ̀tìsúwánà"
+          },
+          "CAD": {
+            "displayName": "Dọla ti Orílẹ́ède Kánádà"
+          },
+          "CDF": {
+            "displayName": "Faransi ti Orílẹ́ède Kóngò"
+          },
+          "CHF": {
+            "displayName": "Faransi ti Orílẹ́ède Siwisi"
+          },
+          "CNY": {
+            "displayName": "Reminibi ti Orílẹ́ède ṣáínà"
+          },
+          "CVE": {
+            "displayName": "Kabofediano ti Orílẹ́ède Esuodo"
+          },
+          "DJF": {
+            "displayName": "Faransi ti Orílẹ́ède Dibouti"
+          },
+          "DZD": {
+            "displayName": "Dina ti Orílẹ́ède Àlùgèríánì"
+          },
+          "EGP": {
+            "displayName": "pọọn ti Orílẹ́ède Egipiti"
+          },
+          "ERN": {
+            "displayName": "Nakifa ti Orílẹ́ède Eriteriani"
+          },
+          "ETB": {
+            "displayName": "Biri ti Orílẹ́ède Eutopia"
+          },
+          "EUR": {
+            "displayName": "Uro"
+          },
+          "GBP": {
+            "displayName": "Pọọn ti Orílẹ́ède Bírítísì"
+          },
+          "GHC": {
+            "displayName": "ṣidi ti Orílẹ́ède Gana"
+          },
+          "GMD": {
+            "displayName": "Dalasi ti Orílẹ́ède Gamibia"
+          },
+          "GNS": {
+            "displayName": "Faransi ti Orílẹ́ède Gini"
+          },
+          "INR": {
+            "displayName": "Rupi ti Orílẹ́ède Indina"
+          },
+          "JPY": {
+            "displayName": "Yeni ti Orílẹ́ède Japani"
+          },
+          "KES": {
+            "displayName": "ṣiili ti Orílẹ́ède Kenya"
+          },
+          "KMF": {
+            "displayName": "Faransi ti Orílẹ́ède ṣomoriani"
+          },
+          "LRD": {
+            "displayName": "Dọla ti Orílẹ́ède Liberia"
+          },
+          "LSL": {
+            "displayName": "Loti ti Orílẹ́ède Lesoto"
+          },
+          "LYD": {
+            "displayName": "Dina ti Orílẹ́ède Libiya"
+          },
+          "MAD": {
+            "displayName": "Dirami ti Orílẹ́ède Moroko"
+          },
+          "MGA": {
+            "displayName": "Faransi ti Orílẹ́ède Malagasi"
+          },
+          "MRO": {
+            "displayName": "Ouguiya ti Orílẹ́ède Maritania"
+          },
+          "MUR": {
+            "displayName": "Rupi ti Orílẹ́ède Maritiusi"
+          },
+          "MWK": {
+            "displayName": "Kaṣa ti Orílẹ́ède Malawi"
+          },
+          "MZM": {
+            "displayName": "Metika ti Orílẹ́ède Mosamibiki"
+          },
+          "NAD": {
+            "displayName": "Dọla ti Orílẹ́ède Namibia"
+          },
+          "NGN": {
+            "displayName": "Naira ti Orílẹ́ède Nàìjíríà",
+            "symbol": "₦"
+          },
+          "RWF": {
+            "displayName": "Faransi ti Orílẹ́ède Ruwanda"
+          },
+          "SAR": {
+            "displayName": "Riya ti Orílẹ́ède Saudi"
+          },
+          "SCR": {
+            "displayName": "Rupi ti Orílẹ́ède Sayiselesi"
+          },
+          "SDG": {
+            "displayName": "Dina ti Orílẹ́ède Sudani"
+          },
+          "SDP": {
+            "displayName": "Pọọun ti Orílẹ́ède Sudani"
+          },
+          "SHP": {
+            "displayName": "Pọọun ti Orílẹ́ède ̣Elena"
+          },
+          "SLL": {
+            "displayName": "Lioni"
+          },
+          "SOS": {
+            "displayName": "Sile ti Orílẹ́ède Somali"
+          },
+          "STD": {
+            "displayName": "Dobira ti Orílẹ́ède Sao tome Ati Pirisipe"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Dina ti Orílẹ́ède Tunisia"
+          },
+          "TZS": {
+            "displayName": "Sile ti Orílẹ́ède Tansania"
+          },
+          "UGX": {
+            "displayName": "Siile ti Orílẹ́ède Uganda"
+          },
+          "USD": {
+            "displayName": "Dọla ti Orílẹ́ède Amerika"
+          },
+          "XAF": {
+            "displayName": "Faransi ti Orílẹ́ède BEKA"
+          },
+          "XOF": {
+            "displayName": "Faransi ti Orílẹ́ède BIKEAO"
+          },
+          "ZAR": {
+            "displayName": "Randi ti Orílẹ́ède Ariwa Afirika"
+          },
+          "ZMK": {
+            "displayName": "Kawaṣa ti Orílẹ́ède Saabia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kawaṣa ti Orílẹ́ède Saabia"
+          },
+          "ZWD": {
+            "displayName": "Dọla ti Orílẹ́ède Siibabuwe"
+          }
+        }
+      }
+    }
+  }
+}

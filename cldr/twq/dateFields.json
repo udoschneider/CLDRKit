@@ -1,0 +1,53 @@
+{
+  "main": {
+    "twq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "twq"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Zaman"
+          },
+          "year": {
+            "displayName": "Jiiri"
+          },
+          "month": {
+            "displayName": "Handu"
+          },
+          "week": {
+            "displayName": "Hebu"
+          },
+          "day": {
+            "displayName": "Zaari",
+            "relative-type--1": "Bi",
+            "relative-type-0": "Hõo",
+            "relative-type-1": "Suba"
+          },
+          "dayperiod": {
+            "displayName": "Subbaahi/Zaarikay banda"
+          },
+          "hour": {
+            "displayName": "Guuru"
+          },
+          "minute": {
+            "displayName": "Miniti"
+          },
+          "second": {
+            "displayName": "Miti"
+          },
+          "zone": {
+            "displayName": "Leerazuu"
+          }
+        }
+      }
+    }
+  }
+}

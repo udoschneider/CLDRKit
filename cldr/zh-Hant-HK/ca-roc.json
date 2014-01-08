@@ -1,0 +1,52 @@
+{
+  "main": {
+    "zh-Hant-HK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hant",
+        "territory": "HK"
+      },
+      "dates": {
+        "calendars": {
+          "roc": {
+            "dateFormats": {
+              "full": "Gy年M月d日EEEE",
+              "long": "Gy年M月d日",
+              "medium": "Gy年M月d日",
+              "short": "d/M/yGGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Gy": "G y 年",
+                "GyMMM": "G y 年 M 月",
+                "GyMMMd": "G y 年 M 月 d 日",
+                "GyMMMEd": "G y 年 M 月 d 日 (E)",
+                "Md": "d-M",
+                "MEd": "d-M（E）",
+                "MMMd": "M 月 d 日",
+                "MMMEd": "M 月 d 日 (E)",
+                "y": "G y 年",
+                "yyyy": "G y 年",
+                "yyyyM": "M/yGGGGG",
+                "yyyyMd": "d/M/yGGGGG",
+                "yyyyMEd": "E, d/M/yGGGGG",
+                "yyyyMMM": "G y 年 M 月",
+                "yyyyMMMd": "G y 年 M 月 d 日",
+                "yyyyMMMEd": "G y 年 M 月 d 日 (E)",
+                "yyyyQQQ": "G y 年第QQQ",
+                "yyyyQQQQ": "G y 年QQQQ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

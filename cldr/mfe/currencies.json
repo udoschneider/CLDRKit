@@ -1,0 +1,189 @@
+{
+  "main": {
+    "mfe": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "mfe"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "dirham Emira arab ini"
+          },
+          "AOA": {
+            "displayName": "kwanza angole"
+          },
+          "AUD": {
+            "displayName": "dolar ostralien"
+          },
+          "BHD": {
+            "displayName": "dinar bahreïn"
+          },
+          "BIF": {
+            "displayName": "fran burunde"
+          },
+          "BWP": {
+            "displayName": "pula ya botswane"
+          },
+          "CAD": {
+            "displayName": "dolar kanadien"
+          },
+          "CDF": {
+            "displayName": "fran kongole"
+          },
+          "CHF": {
+            "displayName": "fran swis"
+          },
+          "CNY": {
+            "displayName": "yuan renminbi sinwa"
+          },
+          "CVE": {
+            "displayName": "eskudo kapverdien"
+          },
+          "DJF": {
+            "displayName": "fran djiboutien"
+          },
+          "DZD": {
+            "displayName": "dinar alzerien"
+          },
+          "EGP": {
+            "displayName": "liv ezipsien"
+          },
+          "ERN": {
+            "displayName": "nafka erythreen"
+          },
+          "ETB": {
+            "displayName": "birr etiopien"
+          },
+          "EUR": {
+            "displayName": "euro"
+          },
+          "GBP": {
+            "displayName": "liv sterlin"
+          },
+          "GHC": {
+            "displayName": "sedi ganeen"
+          },
+          "GMD": {
+            "displayName": "dalasi gambien"
+          },
+          "GNS": {
+            "displayName": "fran gineen"
+          },
+          "INR": {
+            "displayName": "roupi"
+          },
+          "JPY": {
+            "displayName": "yen zapone"
+          },
+          "KES": {
+            "displayName": "shiling kenyan"
+          },
+          "KMF": {
+            "displayName": "fran komorien"
+          },
+          "LRD": {
+            "displayName": "dolar liberien"
+          },
+          "LSL": {
+            "displayName": "loti lezoto"
+          },
+          "LYD": {
+            "displayName": "dinar libien"
+          },
+          "MAD": {
+            "displayName": "dirham marokin"
+          },
+          "MGA": {
+            "displayName": "fran malgas"
+          },
+          "MRO": {
+            "displayName": "ouguiya moritanien"
+          },
+          "MUR": {
+            "displayName": "roupi morisien",
+            "symbol": "Rs"
+          },
+          "MWK": {
+            "displayName": "kwacha malawit"
+          },
+          "MZM": {
+            "displayName": "metikal mozanbikin"
+          },
+          "NAD": {
+            "displayName": "dolar namibien"
+          },
+          "NGN": {
+            "displayName": "naira nizerian"
+          },
+          "RWF": {
+            "displayName": "fran rwande"
+          },
+          "SAR": {
+            "displayName": "rial saoudien"
+          },
+          "SCR": {
+            "displayName": "roupi seselwa"
+          },
+          "SDG": {
+            "displayName": "dinar soudane"
+          },
+          "SDP": {
+            "displayName": "liv soudane"
+          },
+          "SHP": {
+            "displayName": "liv Sainte-Hélène"
+          },
+          "SLL": {
+            "displayName": "leonn Sierra-Leone"
+          },
+          "SOS": {
+            "displayName": "shilingi somalien"
+          },
+          "STD": {
+            "displayName": "dobra santomeen"
+          },
+          "SZL": {
+            "displayName": "lilangeni swazi"
+          },
+          "TND": {
+            "displayName": "dinar tinizien"
+          },
+          "TZS": {
+            "displayName": "shiling tanzanien"
+          },
+          "UGX": {
+            "displayName": "shiling ougande"
+          },
+          "USD": {
+            "displayName": "dolar amerikin"
+          },
+          "XAF": {
+            "displayName": "fran CFA (BEAC)"
+          },
+          "XOF": {
+            "displayName": "fran CFA (BCEAO)"
+          },
+          "ZAR": {
+            "displayName": "rand sid-afrikin"
+          },
+          "ZMK": {
+            "displayName": "kwacha zanbien (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "kwacha zanbien"
+          },
+          "ZWD": {
+            "displayName": "dolar zimbawe"
+          }
+        }
+      }
+    }
+  }
+}

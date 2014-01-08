@@ -1,0 +1,838 @@
+{
+  "main": {
+    "eu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "eu"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Arabiar Emirerri Batuetako dirhama",
+            "displayName-count-one": "Arabiar Emirerri Batuetako dirham",
+            "displayName-count-other": "Arabiar Emirerri Batuetako dirham"
+          },
+          "AFN": {
+            "displayName": "Afganistango afghania",
+            "displayName-count-one": "Afganistango afghani",
+            "displayName-count-other": "Afganistango afghani"
+          },
+          "ALL": {
+            "displayName": "Albaniako leka",
+            "displayName-count-one": "Albaniako lek",
+            "displayName-count-other": "Albaniako lek"
+          },
+          "AMD": {
+            "displayName": "Armeniako drama",
+            "displayName-count-one": "Armeniako dram",
+            "displayName-count-other": "Armeniako dram"
+          },
+          "ANG": {
+            "displayName": "Holandarren Antilletako guilderra",
+            "displayName-count-one": "Holandarren Antilletako guilder",
+            "displayName-count-other": "Holandarren Antilletako guilder"
+          },
+          "AOA": {
+            "displayName": "Angolako kwanza",
+            "displayName-count-one": "Angolako kwanza",
+            "displayName-count-other": "Angolako kwanza"
+          },
+          "ARS": {
+            "displayName": "Argentinako pesoa",
+            "displayName-count-one": "Argentinako peso",
+            "displayName-count-other": "Argentinako peso"
+          },
+          "AUD": {
+            "displayName": "Australiako dolarra",
+            "displayName-count-one": "Australiako dolar",
+            "displayName-count-other": "Australiako dolar",
+            "symbol": "A$"
+          },
+          "AWG": {
+            "displayName": "Arubeko florina",
+            "displayName-count-one": "Arubeko florin",
+            "displayName-count-other": "Arubeko florin"
+          },
+          "AZN": {
+            "displayName": "Azerbaijango manata",
+            "displayName-count-one": "Azerbaijango manat",
+            "displayName-count-other": "Azerbaijango manat"
+          },
+          "BAM": {
+            "displayName": "Bosnia-Herzegovinako marko trukakorra",
+            "displayName-count-one": "Bosnia-Herzegovinako marko trukakor",
+            "displayName-count-other": "Bosnia-Herzegovinako marko trukakor"
+          },
+          "BBD": {
+            "displayName": "Barbadosetako dolarra",
+            "displayName-count-one": "Barbadosetako dolar",
+            "displayName-count-other": "Barbadosetako dolar"
+          },
+          "BDT": {
+            "displayName": "Bangladesheko taka",
+            "displayName-count-one": "Bangladesheko taka",
+            "displayName-count-other": "Bangladesheko taka"
+          },
+          "BGN": {
+            "displayName": "Bulgariako leva",
+            "displayName-count-one": "Bulgariako lev",
+            "displayName-count-other": "Bulgariako lev"
+          },
+          "BHD": {
+            "displayName": "Bahraingo dinarra",
+            "displayName-count-one": "Bahraingo dinar",
+            "displayName-count-other": "Bahraingo dinar"
+          },
+          "BIF": {
+            "displayName": "Burundiko frankoa",
+            "displayName-count-one": "Burundiko franko",
+            "displayName-count-other": "Burundiko franko"
+          },
+          "BMD": {
+            "displayName": "Bermudetako dolarra",
+            "displayName-count-one": "Bermudetako dolar",
+            "displayName-count-other": "Bermudetako dolar"
+          },
+          "BND": {
+            "displayName": "Bruneiko dolarra",
+            "displayName-count-one": "Bruneiko dolar",
+            "displayName-count-other": "Bruneiko dolar"
+          },
+          "BOB": {
+            "displayName": "Boliviako bolivianoa",
+            "displayName-count-one": "Boliviako boliviano",
+            "displayName-count-other": "Boliviako boliviano"
+          },
+          "BRL": {
+            "displayName": "Brasilgo erreala",
+            "displayName-count-one": "Brasilgo erreal",
+            "displayName-count-other": "Brasilgo erreal",
+            "symbol": "R$"
+          },
+          "BSD": {
+            "displayName": "Bahametako dolarra",
+            "displayName-count-one": "Bahametako dolar",
+            "displayName-count-other": "Bahametako dolar"
+          },
+          "BTN": {
+            "displayName": "Bhutango ngultruma",
+            "displayName-count-one": "Bhutango ngultrum",
+            "displayName-count-other": "Bhutango ngultrum"
+          },
+          "BWP": {
+            "displayName": "Bosniako pula",
+            "displayName-count-one": "Bosniako pula",
+            "displayName-count-other": "Bosniako pula"
+          },
+          "BYR": {
+            "displayName": "Bielorrusiako errubloa",
+            "displayName-count-one": "Bielorrusiako errublo",
+            "displayName-count-other": "Bielorrusiako errublo"
+          },
+          "BZD": {
+            "displayName": "Belizeko dolarra",
+            "displayName-count-one": "Belizeko dolar",
+            "displayName-count-other": "Belizeko dolar"
+          },
+          "CAD": {
+            "displayName": "Kanadako dolarra",
+            "displayName-count-one": "Kanadako dolar",
+            "displayName-count-other": "Kanadako dolar",
+            "symbol": "CA$"
+          },
+          "CDF": {
+            "displayName": "Kongoko frankoa",
+            "displayName-count-one": "Kongoko franko",
+            "displayName-count-other": "Kongoko franko"
+          },
+          "CHF": {
+            "displayName": "Suitzako frankoa",
+            "displayName-count-one": "Suitzako franko",
+            "displayName-count-other": "Suitzako franko"
+          },
+          "CLP": {
+            "displayName": "Txileko pesoa",
+            "displayName-count-one": "Txileko peso",
+            "displayName-count-other": "Txileko peso"
+          },
+          "CNY": {
+            "displayName": "Txinako yuana",
+            "displayName-count-one": "Txinako yuan",
+            "displayName-count-other": "Txinako yuan",
+            "symbol": "CN¥"
+          },
+          "COP": {
+            "displayName": "Kolonbiako pesoa",
+            "displayName-count-one": "Kolonbiako peso",
+            "displayName-count-other": "Kolonbiako peso"
+          },
+          "CRC": {
+            "displayName": "Costa Ricako colona",
+            "displayName-count-one": "Costa Ricako colon",
+            "displayName-count-other": "Costa Ricako colon"
+          },
+          "CUC": {
+            "displayName": "Kubako peso trukakorra",
+            "displayName-count-one": "Kubako peso trukakor",
+            "displayName-count-other": "Kubako peso trukakor"
+          },
+          "CUP": {
+            "displayName": "Kubako pesoa",
+            "displayName-count-one": "Kubako peso",
+            "displayName-count-other": "Kubako peso"
+          },
+          "CVE": {
+            "displayName": "Cabo Verdeko ezkutua",
+            "displayName-count-one": "Cabo Verdeko ezkutu",
+            "displayName-count-other": "Cabo Verdeko ezkutu"
+          },
+          "CZK": {
+            "displayName": "Txekiar Errepublikako koroa",
+            "displayName-count-one": "Txekiar Errepublikako koroa",
+            "displayName-count-other": "Txekiar Errepublikako koroa"
+          },
+          "DJF": {
+            "displayName": "Djibouteko frankoa",
+            "displayName-count-one": "Djibouteko franko",
+            "displayName-count-other": "Djibouteko franko"
+          },
+          "DKK": {
+            "displayName": "Danimarkako koroa",
+            "displayName-count-one": "Danimarkako koroa",
+            "displayName-count-other": "Danimarkako koroa"
+          },
+          "DOP": {
+            "displayName": "Dominikar Errepublikako pesoa",
+            "displayName-count-one": "Dominikar Errepublikako peso",
+            "displayName-count-other": "Dominikar Errepublikako peso"
+          },
+          "DZD": {
+            "displayName": "Algeriako dinarra",
+            "displayName-count-one": "Algeriako dinar",
+            "displayName-count-other": "Algeriako dinar"
+          },
+          "EGP": {
+            "displayName": "Egiptoko libera",
+            "displayName-count-one": "Egiptoko libera",
+            "displayName-count-other": "Egiptoko libera"
+          },
+          "ERN": {
+            "displayName": "Eritreako nakfa",
+            "displayName-count-one": "Eritreako nakfa",
+            "displayName-count-other": "Eritreako nakfa"
+          },
+          "ESP": {
+            "pattern": "¤ #,##0.00",
+            "symbol": "₧",
+            "decimal": ",",
+            "group": "."
+          },
+          "ETB": {
+            "displayName": "Etiopiako birra",
+            "displayName-count-one": "Etiopiako birra",
+            "displayName-count-other": "Etiopiako birra"
+          },
+          "EUR": {
+            "displayName": "Euroa",
+            "displayName-count-one": "euro",
+            "displayName-count-other": "euro",
+            "symbol": "€"
+          },
+          "FJD": {
+            "displayName": "Fijiko dolarra",
+            "displayName-count-one": "Fijiko dolar",
+            "displayName-count-other": "Fijiko dolar"
+          },
+          "FKP": {
+            "displayName": "Falkland uharteetako libera",
+            "displayName-count-one": "Falkland uharteetako libera",
+            "displayName-count-other": "Falkland uharteetako libera"
+          },
+          "GBP": {
+            "displayName": "Libera esterlina",
+            "displayName-count-one": "libera esterlina",
+            "displayName-count-other": "libera esterlina",
+            "symbol": "£"
+          },
+          "GEL": {
+            "displayName": "Georgiako laria",
+            "displayName-count-one": "Georgiako lari",
+            "displayName-count-other": "Georgiako lari"
+          },
+          "GHS": {
+            "displayName": "Ghanako cedia",
+            "displayName-count-one": "Ghanako cedi",
+            "displayName-count-other": "Ghanako cedi"
+          },
+          "GIP": {
+            "displayName": "Gibraltarreko libera",
+            "displayName-count-one": "Gibraltarreko libera",
+            "displayName-count-other": "Gibraltarreko libera"
+          },
+          "GMD": {
+            "displayName": "Ganbiako dalasia",
+            "displayName-count-one": "Ganbiako dalasi",
+            "displayName-count-other": "Ganbiako dalasi"
+          },
+          "GNF": {
+            "displayName": "Gineako frankoa",
+            "displayName-count-one": "Gineako franko",
+            "displayName-count-other": "Gineako franko"
+          },
+          "GTQ": {
+            "displayName": "Guatemalako quetzala",
+            "displayName-count-one": "Guatemalako quetzal",
+            "displayName-count-other": "Guatemalako quetzal"
+          },
+          "GYD": {
+            "displayName": "Guyanako dolarra",
+            "displayName-count-one": "Guyanako dolar",
+            "displayName-count-other": "Guyanako dolar"
+          },
+          "HKD": {
+            "displayName": "Hong Kongeko dolarra",
+            "displayName-count-one": "Hong Kongeko dolar",
+            "displayName-count-other": "Hong Kongeko dolar",
+            "symbol": "HK$"
+          },
+          "HNL": {
+            "displayName": "Hondurasko lempira",
+            "displayName-count-one": "Hondurasko lempira",
+            "displayName-count-other": "Hondurasko lempira"
+          },
+          "HRK": {
+            "displayName": "Kroaziako kuna",
+            "displayName-count-one": "Kroaziako kuna",
+            "displayName-count-other": "Kroaziako kuna"
+          },
+          "HTG": {
+            "displayName": "Haitiko gourdea",
+            "displayName-count-one": "Haitiko gourde",
+            "displayName-count-other": "Haitiko gourde"
+          },
+          "HUF": {
+            "displayName": "Hungariako florina",
+            "displayName-count-one": "Hungariako florin",
+            "displayName-count-other": "Hungariako florin"
+          },
+          "IDR": {
+            "displayName": "Indonesiako errupia",
+            "displayName-count-one": "Indonesiako errupia",
+            "displayName-count-other": "Indonesiako errupia"
+          },
+          "ILS": {
+            "displayName": "Israeleko sheqel berria",
+            "displayName-count-one": "Israeleko sheqel berri",
+            "displayName-count-other": "Israeleko sheqel berri",
+            "symbol": "₪"
+          },
+          "INR": {
+            "displayName": "Indiako errupia",
+            "displayName-count-one": "Indiako errupia",
+            "displayName-count-other": "Indiako errupia",
+            "symbol": "₹"
+          },
+          "IQD": {
+            "displayName": "Irakeko dinarra",
+            "displayName-count-one": "Irakeko dinar",
+            "displayName-count-other": "Irakeko dinar"
+          },
+          "IRR": {
+            "displayName": "Irango riala",
+            "displayName-count-one": "Irango rial",
+            "displayName-count-other": "Irango rial"
+          },
+          "ISK": {
+            "displayName": "Islandiako koroa",
+            "displayName-count-one": "Islandiako koroa",
+            "displayName-count-other": "Islandiako koroa"
+          },
+          "JMD": {
+            "displayName": "Jamaikako dolarra",
+            "displayName-count-one": "Jamaikako dolar",
+            "displayName-count-other": "Jamaikako dolar"
+          },
+          "JOD": {
+            "displayName": "Jordaniako dinarra",
+            "displayName-count-one": "Jordaniako dinar",
+            "displayName-count-other": "Jordaniako dinar"
+          },
+          "JPY": {
+            "displayName": "Japoniako yena",
+            "displayName-count-one": "Japoniako yen",
+            "displayName-count-other": "Japoniako yen",
+            "symbol": "JP¥"
+          },
+          "KES": {
+            "displayName": "Kenyako txelina",
+            "displayName-count-one": "Kenyako txelin",
+            "displayName-count-other": "Kenyako txelin"
+          },
+          "KGS": {
+            "displayName": "Kirgizistango soma",
+            "displayName-count-one": "Kirgizistango som",
+            "displayName-count-other": "Kirgizistango som"
+          },
+          "KHR": {
+            "displayName": "Kanbodiako riela",
+            "displayName-count-one": "Kanbodiako riel",
+            "displayName-count-other": "Kanbodiako riel"
+          },
+          "KMF": {
+            "displayName": "Komoreetako frankoa",
+            "displayName-count-one": "Komoreetako franko",
+            "displayName-count-other": "Komoreetako franko"
+          },
+          "KPW": {
+            "displayName": "Ipar Koreako wona",
+            "displayName-count-one": "Ipar Koreako won",
+            "displayName-count-other": "Ipar Koreako won"
+          },
+          "KRW": {
+            "displayName": "Hego Koreako wona",
+            "displayName-count-one": "Hego Koreako won",
+            "displayName-count-other": "Hego Koreako won",
+            "symbol": "₩"
+          },
+          "KWD": {
+            "displayName": "Kuwaiteko dinarra",
+            "displayName-count-one": "Kuwaiteko dinar",
+            "displayName-count-other": "Kuwaiteko dinar"
+          },
+          "KYD": {
+            "displayName": "Kaiman uharteetako dolarra",
+            "displayName-count-one": "Kaiman uharteetako dolar",
+            "displayName-count-other": "Kaiman uharteetako dolar"
+          },
+          "KZT": {
+            "displayName": "Kazakhstango tengea",
+            "displayName-count-one": "Kazakhstango tenge",
+            "displayName-count-other": "Kazakhstango tenge"
+          },
+          "LAK": {
+            "displayName": "Laoseko kipa",
+            "displayName-count-one": "Laoseko kip",
+            "displayName-count-other": "Laoseko kip"
+          },
+          "LBP": {
+            "displayName": "Libanoko libera",
+            "displayName-count-one": "Libanoko libera",
+            "displayName-count-other": "Libanoko libera"
+          },
+          "LKR": {
+            "displayName": "Sri Lankako errupia",
+            "displayName-count-one": "Sri Lankako errupia",
+            "displayName-count-other": "Sri Lankako errupia"
+          },
+          "LRD": {
+            "displayName": "Liberiako dolarra",
+            "displayName-count-one": "Liberiako dolar",
+            "displayName-count-other": "Liberiako dolar"
+          },
+          "LSL": {
+            "displayName": "Lesothoko lotia"
+          },
+          "LTL": {
+            "displayName": "Lituaniako litasa",
+            "displayName-count-one": "Lituaniako litas",
+            "displayName-count-other": "Lituaniako litas"
+          },
+          "LVL": {
+            "displayName": "Letoniako latsa",
+            "displayName-count-one": "Letoniako lats",
+            "displayName-count-other": "Letoniako lats"
+          },
+          "LYD": {
+            "displayName": "Libiako dinarra",
+            "displayName-count-one": "Libiako dinar",
+            "displayName-count-other": "Libiako dinar"
+          },
+          "MAD": {
+            "displayName": "Marokoko dirhama",
+            "displayName-count-one": "Marokoko dirham",
+            "displayName-count-other": "Marokoko dirham"
+          },
+          "MDL": {
+            "displayName": "Moldaviako leua",
+            "displayName-count-one": "Moldaviako leu",
+            "displayName-count-other": "Moldaviako leu"
+          },
+          "MGA": {
+            "displayName": "Madagaskarreko ariarya",
+            "displayName-count-one": "Madagaskarreko ariary",
+            "displayName-count-other": "Madagaskarreko ariary"
+          },
+          "MKD": {
+            "displayName": "Mazedoniako denara",
+            "displayName-count-one": "Mazedoniako dinar",
+            "displayName-count-other": "Mazedoniako dinar"
+          },
+          "MMK": {
+            "displayName": "Myanmarreko kyata",
+            "displayName-count-one": "Myanmarreko kyat",
+            "displayName-count-other": "Myanmarreko kyat"
+          },
+          "MNT": {
+            "displayName": "Mongoliako tugrika",
+            "displayName-count-one": "Mongoliako tugrik",
+            "displayName-count-other": "Mongoliako tugrik"
+          },
+          "MOP": {
+            "displayName": "Macanako pataca",
+            "displayName-count-one": "Macanako pataca",
+            "displayName-count-other": "Macanako pataca"
+          },
+          "MRO": {
+            "displayName": "Mauritaniako ouguiya",
+            "displayName-count-one": "Mauritaniako ouguiya",
+            "displayName-count-other": "Mauritaniako ouguiya"
+          },
+          "MUR": {
+            "displayName": "Maurizio uharteetako errupia",
+            "displayName-count-one": "Maurizio uharteetako errupia",
+            "displayName-count-other": "Maurizio uharteetako errupia"
+          },
+          "MVR": {
+            "displayName": "Maldivetako rufiyaa",
+            "displayName-count-one": "Maldivetako rufiyaa",
+            "displayName-count-other": "Maldivetako rufiyaa"
+          },
+          "MWK": {
+            "displayName": "Malawiko kwacha",
+            "displayName-count-one": "Malawiko kwacha",
+            "displayName-count-other": "Malawiko kwacha"
+          },
+          "MXN": {
+            "displayName": "Mexikoko pesoa",
+            "displayName-count-one": "Mexikoko peso",
+            "displayName-count-other": "Mexikoko peso",
+            "symbol": "MX$"
+          },
+          "MYR": {
+            "displayName": "Malaysiako ringgita",
+            "displayName-count-one": "Malaysiako ringgit",
+            "displayName-count-other": "Malaysiako ringgit"
+          },
+          "MZN": {
+            "displayName": "Mozambikeko metikala",
+            "displayName-count-one": "Mozambikeko metikal",
+            "displayName-count-other": "Mozambikeko metikal"
+          },
+          "NAD": {
+            "displayName": "Namibiako dolarra",
+            "displayName-count-one": "Namibiako dolar",
+            "displayName-count-other": "Namibiako dolar"
+          },
+          "NGN": {
+            "displayName": "Nigeriako naira",
+            "displayName-count-one": "Nigeriako naira",
+            "displayName-count-other": "Nigeriako naira"
+          },
+          "NIO": {
+            "displayName": "Nikaraguako cordoba",
+            "displayName-count-one": "Nikaraguako cordoba",
+            "displayName-count-other": "Nikaraguako cordoba"
+          },
+          "NOK": {
+            "displayName": "Norvegiako koroa",
+            "displayName-count-one": "Norvegiako koroa",
+            "displayName-count-other": "Norvegiako koroa"
+          },
+          "NPR": {
+            "displayName": "Nepalgo errupia",
+            "displayName-count-one": "Nepalgo errupia",
+            "displayName-count-other": "Nepalgo errupia"
+          },
+          "NZD": {
+            "displayName": "Zeelanda Berriko dolarra",
+            "displayName-count-one": "Zeelanda Berriko dolar",
+            "displayName-count-other": "Zeelanda Berriko dolar",
+            "symbol": "NZ$"
+          },
+          "OMR": {
+            "displayName": "Omango riala",
+            "displayName-count-one": "Omango rial",
+            "displayName-count-other": "Omango rial"
+          },
+          "PAB": {
+            "displayName": "Panamako balboa",
+            "displayName-count-one": "Panamako balboa",
+            "displayName-count-other": "Panamako balboa"
+          },
+          "PEN": {
+            "displayName": "Peruko sol berria",
+            "displayName-count-one": "Peruko sol berri",
+            "displayName-count-other": "Peruko sol berri"
+          },
+          "PGK": {
+            "displayName": "Papua Ginea Berriko kina",
+            "displayName-count-one": "Papua Ginea Berriko kina",
+            "displayName-count-other": "Papua Ginea Berriko kina"
+          },
+          "PHP": {
+            "displayName": "Filipinetako pesoa",
+            "displayName-count-one": "Filipinetako peso",
+            "displayName-count-other": "Filipinetako peso"
+          },
+          "PKR": {
+            "displayName": "Pakistango errupia",
+            "displayName-count-one": "Pakistango errupia",
+            "displayName-count-other": "Pakistango errupia"
+          },
+          "PLN": {
+            "displayName": "Poloniako zlotya",
+            "displayName-count-one": "Poloniako zloty",
+            "displayName-count-other": "Poloniako zloty"
+          },
+          "PYG": {
+            "displayName": "Paraguaiko guarania",
+            "displayName-count-one": "Paraguaiko guarani",
+            "displayName-count-other": "Paraguaiko guarani"
+          },
+          "QAR": {
+            "displayName": "Qatarreko riala",
+            "displayName-count-one": "Qatarreko rial",
+            "displayName-count-other": "Qatarreko rial"
+          },
+          "RON": {
+            "displayName": "Errumaniako leua",
+            "displayName-count-one": "Errumaniako leu",
+            "displayName-count-other": "Errumaniako leu"
+          },
+          "RSD": {
+            "displayName": "Serbiako dinarra",
+            "displayName-count-one": "Serbiako dinar",
+            "displayName-count-other": "Serbiako dinar"
+          },
+          "RUB": {
+            "displayName": "Errusiako errubloa",
+            "displayName-count-one": "Errusiako errublo",
+            "displayName-count-other": "Errusiako errublo"
+          },
+          "RWF": {
+            "displayName": "Ruandako frankoa",
+            "displayName-count-one": "Ruandako franko",
+            "displayName-count-other": "Ruandako franko"
+          },
+          "SAR": {
+            "displayName": "Saudiko riala",
+            "displayName-count-one": "Saudiko rial",
+            "displayName-count-other": "Saudiko rial"
+          },
+          "SBD": {
+            "displayName": "Salomon uharteetako dolarra",
+            "displayName-count-one": "Salomon uharteetako dolar",
+            "displayName-count-other": "Salomon uharteetako dolar"
+          },
+          "SCR": {
+            "displayName": "Seychelleetako errupia",
+            "displayName-count-one": "Seychelleetako errupia",
+            "displayName-count-other": "Seychelleetako errupia"
+          },
+          "SDG": {
+            "displayName": "Sudango libera",
+            "displayName-count-one": "Sudango libera",
+            "displayName-count-other": "Sudango libera"
+          },
+          "SEK": {
+            "displayName": "Suediako koroa",
+            "displayName-count-one": "Suediako koroa",
+            "displayName-count-other": "Suediako koroa"
+          },
+          "SGD": {
+            "displayName": "Singapurreko dolarra",
+            "displayName-count-one": "Singapurreko dolar",
+            "displayName-count-other": "Singapurreko dolar"
+          },
+          "SHP": {
+            "displayName": "Santa Helenako libera",
+            "displayName-count-one": "Santa Helenako libera",
+            "displayName-count-other": "Santa Helenako libera"
+          },
+          "SLL": {
+            "displayName": "Sierra Leonako leona",
+            "displayName-count-one": "Sierra Leonako leona",
+            "displayName-count-other": "Sierra Leonako leona"
+          },
+          "SOS": {
+            "displayName": "Somaliako txelina",
+            "displayName-count-one": "Somaliako txelin",
+            "displayName-count-other": "Somaliako txelin"
+          },
+          "SRD": {
+            "displayName": "Surinameko dolarra",
+            "displayName-count-one": "Surinameko dolar",
+            "displayName-count-other": "Surinameko dolar"
+          },
+          "SSP": {
+            "displayName": "Hego Sudango libera",
+            "displayName-count-one": "Hego Sudango libera",
+            "displayName-count-other": "Hego Sudango libera"
+          },
+          "STD": {
+            "displayName": "Sao Tomeko eta Principeko dobra",
+            "displayName-count-one": "Sao Tomeko eta Principeko dobra",
+            "displayName-count-other": "Sao Tomeko eta Principeko dobra"
+          },
+          "SYP": {
+            "displayName": "Siriako libera",
+            "displayName-count-one": "Siriako libera",
+            "displayName-count-other": "Siriako libera"
+          },
+          "SZL": {
+            "displayName": "Swaziko lilangenia",
+            "displayName-count-one": "Swaziko lilangeni",
+            "displayName-count-other": "Swaziko lilangeni"
+          },
+          "THB": {
+            "displayName": "Thailandiako bahta",
+            "displayName-count-one": "Thailandiako baht",
+            "displayName-count-other": "Thailandiako baht",
+            "symbol": "฿"
+          },
+          "TJS": {
+            "displayName": "Tajikistango somonia",
+            "displayName-count-one": "Tajikistango somoni",
+            "displayName-count-other": "Tajikistango somoni"
+          },
+          "TMT": {
+            "displayName": "Turkmenistango manata",
+            "displayName-count-one": "Turkmenistango manat",
+            "displayName-count-other": "Turkmenistango manat"
+          },
+          "TND": {
+            "displayName": "Tunisiako dinarra",
+            "displayName-count-one": "Tunisiako dinar",
+            "displayName-count-other": "Tunisiako dinar"
+          },
+          "TOP": {
+            "displayName": "Tongako Paʻanga",
+            "displayName-count-one": "Tongako Paʻanga",
+            "displayName-count-other": "Tongako Paʻanga"
+          },
+          "TRY": {
+            "displayName": "Turkiako lira",
+            "displayName-count-one": "Turkiako lira",
+            "displayName-count-other": "Turkiako lira"
+          },
+          "TTD": {
+            "displayName": "Trinidadeko eta Tobagoko dolarra",
+            "displayName-count-one": "Trinidadeko eta Tobagoko dolar",
+            "displayName-count-other": "Trinidadeko eta Tobagoko dolar"
+          },
+          "TWD": {
+            "displayName": "Taiwango dolar berria",
+            "displayName-count-one": "Taiwango dolar berri",
+            "displayName-count-other": "Taiwango dolar berri",
+            "symbol": "NT$"
+          },
+          "TZS": {
+            "displayName": "Tanzaniako txelina",
+            "displayName-count-one": "Tanzaniako txelin",
+            "displayName-count-other": "Tanzaniako txelin"
+          },
+          "UAH": {
+            "displayName": "Ukrainako hryvnia",
+            "displayName-count-one": "Ukrainako hryvnia",
+            "displayName-count-other": "Ukrainako hryvnia"
+          },
+          "UGX": {
+            "displayName": "Ugandako txelina",
+            "displayName-count-one": "Ugandako txelin",
+            "displayName-count-other": "Ugandako txelin"
+          },
+          "USD": {
+            "displayName": "AEBetako dolarra",
+            "displayName-count-one": "AEBetako dolar",
+            "displayName-count-other": "AEBetako dolar",
+            "symbol": "US$"
+          },
+          "UYU": {
+            "displayName": "Uruguaiko pesoa",
+            "displayName-count-one": "Uruguaiko peso",
+            "displayName-count-other": "Uruguaiko peso"
+          },
+          "UZS": {
+            "displayName": "Uzbekistango soma",
+            "displayName-count-one": "Uzbekistango som",
+            "displayName-count-other": "Uzbekistango som"
+          },
+          "VEF": {
+            "displayName": "Venezuelako bolivarra",
+            "displayName-count-one": "Venezuelako bolivar",
+            "displayName-count-other": "Venezuelako bolivar"
+          },
+          "VND": {
+            "displayName": "Vietnameko donga",
+            "displayName-count-one": "Vietnameko dong",
+            "displayName-count-other": "Vietnameko dong",
+            "symbol": "₫"
+          },
+          "VUV": {
+            "displayName": "Vanuatuko vatua",
+            "displayName-count-one": "Vanuatuko vatu",
+            "displayName-count-other": "Vanuatuko vatu"
+          },
+          "WST": {
+            "displayName": "Samoko tala",
+            "displayName-count-one": "Samoko tala",
+            "displayName-count-other": "Samoko tala"
+          },
+          "XAF": {
+            "displayName": "Afrika erdialdeko frankoa BEAC",
+            "displayName-count-one": "Afrika erdialdeko franko BEAC",
+            "displayName-count-other": "Afrika erdialdeko franko BEAC",
+            "symbol": "FCFA"
+          },
+          "XCD": {
+            "displayName": "Karibe ekialdeko dolarra",
+            "displayName-count-one": "Karibe ekialdeko dolar",
+            "displayName-count-other": "Karibe ekialdeko dolar",
+            "symbol": "EC$"
+          },
+          "XOF": {
+            "displayName": "Afrika ekialdeko frankoa BCEAO",
+            "displayName-count-one": "Afrika ekialdeko franko BCEAO",
+            "displayName-count-other": "Afrika ekialdeko franko BCEAO",
+            "symbol": "CFA"
+          },
+          "XPF": {
+            "displayName": "CFP frankoa",
+            "displayName-count-one": "CFP franko",
+            "displayName-count-other": "CFP franko",
+            "symbol": "CFPF"
+          },
+          "XXX": {
+            "displayName": "Moneta ezezaguna",
+            "displayName-count-one": "(moneta ezezaguna)",
+            "displayName-count-other": "(moneta ezezaguna)"
+          },
+          "YER": {
+            "displayName": "Yemengo riala",
+            "displayName-count-one": "Yemengo rial",
+            "displayName-count-other": "Yemengo rial"
+          },
+          "ZAR": {
+            "displayName": "Hegoafrikako randa",
+            "displayName-count-one": "Hegoafrikako randa",
+            "displayName-count-other": "Hegoafrikako randa"
+          },
+          "ZMK": {
+            "displayName": "Zambiako kwacha (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Zambiako kwacha",
+            "displayName-count-one": "Zambiako kwacha",
+            "displayName-count-other": "Zambiako kwacha"
+          }
+        }
+      }
+    }
+  }
+}

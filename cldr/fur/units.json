@@ -1,0 +1,48 @@
+{
+  "main": {
+    "fur": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fur"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} zornade",
+            "unitPattern-count-other": "{0} zornadis"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} ore",
+            "unitPattern-count-other": "{0} oris"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} minût",
+            "unitPattern-count-other": "{0} minûts"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} mês",
+            "unitPattern-count-other": "{0} mês"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} secont",
+            "unitPattern-count-other": "{0} seconts"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} setemane",
+            "unitPattern-count-other": "{0} setemanis"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} an",
+            "unitPattern-count-other": "{0} agns"
+          }
+        }
+      }
+    }
+  }
+}

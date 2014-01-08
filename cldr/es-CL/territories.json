@@ -1,0 +1,29 @@
+{
+  "main": {
+    "es-CL": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "es",
+        "territory": "CL"
+      },
+      "localeDisplayNames": {
+        "territories": {
+          "005": "Sudamérica",
+          "AN": "Antillas Holandesas",
+          "AZ": "Azerbayán",
+          "BD": "Bangladesh",
+          "EH": "Sahara Occidental",
+          "PS": "Territorio Palestino",
+          "RO": "Rumania",
+          "SA": "Arabia Saudita"
+        }
+      }
+    }
+  }
+}

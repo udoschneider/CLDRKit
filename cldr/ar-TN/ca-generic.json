@@ -1,0 +1,52 @@
+{
+  "main": {
+    "ar-TN": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ar",
+        "territory": "TN"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "medium": "G y/MM/dd",
+              "short": "GGGGG y/M/d"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "M/d",
+                "MMdd": "MM/dd",
+                "yyyyM": "G y/M",
+                "yyyyMM": "G y/MM"
+              },
+              "intervalFormats": {
+                "d": {
+                  "d": "d‏-d"
+                },
+                "M": {
+                  "M": "M‏-M"
+                },
+                "MMMd": {
+                  "d": "d‏-d MMM"
+                },
+                "y": {
+                  "y": "G y‏-y"
+                },
+                "yMMMd": {
+                  "d": "d‏-d MMM، y G"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

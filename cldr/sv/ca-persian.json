@@ -1,0 +1,89 @@
+{
+  "main": {
+    "sv": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sv"
+      },
+      "dates": {
+        "calendars": {
+          "persian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "farvardin",
+                  "2": "ordibehesht",
+                  "3": "khordād",
+                  "4": "tir",
+                  "5": "mordād",
+                  "6": "shahrivar",
+                  "7": "mehr",
+                  "8": "ābān",
+                  "9": "āzar",
+                  "10": "dey",
+                  "11": "bahman",
+                  "12": "esfand"
+                },
+                "wide": {
+                  "1": "farvardin",
+                  "2": "ordibehesht",
+                  "3": "khordād",
+                  "4": "tir",
+                  "5": "mordād",
+                  "6": "shahrivar",
+                  "7": "mehr",
+                  "8": "ābān",
+                  "9": "āzar",
+                  "10": "dey",
+                  "11": "bahman",
+                  "12": "esfand"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Farvardin",
+                  "2": "Ordibehesht",
+                  "3": "Khordād",
+                  "4": "Tir",
+                  "5": "Mordād",
+                  "6": "Shahrivar",
+                  "7": "Mehr",
+                  "8": "Ābān",
+                  "9": "Āzar",
+                  "10": "Dey",
+                  "11": "Bahman",
+                  "12": "Esfand"
+                },
+                "wide": {
+                  "1": "Farvardin",
+                  "2": "Ordibehesht",
+                  "3": "Khordād",
+                  "4": "Tir",
+                  "5": "Mordād",
+                  "6": "Shahrivar",
+                  "7": "Mehr",
+                  "8": "Ābān",
+                  "9": "Āzar",
+                  "10": "Dey",
+                  "11": "Bahman",
+                  "12": "Esfand"
+                }
+              }
+            },
+            "eras": {
+              "eraAbbr": {
+                "0": "AP"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

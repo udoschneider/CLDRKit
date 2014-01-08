@@ -1,0 +1,57 @@
+{
+  "main": {
+    "shi-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "shi",
+        "script": "Latn"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "tasut"
+          },
+          "year": {
+            "displayName": "asggʷas"
+          },
+          "month": {
+            "displayName": "ayyur"
+          },
+          "week": {
+            "displayName": "imalass"
+          },
+          "day": {
+            "displayName": "ass",
+            "relative-type--1": "iḍlli",
+            "relative-type-0": "assa",
+            "relative-type-1": "askka"
+          },
+          "weekday": {
+            "displayName": "ass g imalass"
+          },
+          "dayperiod": {
+            "displayName": "tizi g wass: tifawt / tadggʷat"
+          },
+          "hour": {
+            "displayName": "tasragt"
+          },
+          "minute": {
+            "displayName": "tusdidt"
+          },
+          "second": {
+            "displayName": "tasint"
+          },
+          "zone": {
+            "displayName": "akud n ugmmaḍ"
+          }
+        }
+      }
+    }
+  }
+}

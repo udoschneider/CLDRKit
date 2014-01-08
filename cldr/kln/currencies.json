@@ -1,0 +1,186 @@
+{
+  "main": {
+    "kln": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kln"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Rabisiekab Kibagegeitab arabuk"
+          },
+          "AOA": {
+            "displayName": "Rabisiekab Angolan"
+          },
+          "AUD": {
+            "displayName": "Dolaitab Australian"
+          },
+          "BHD": {
+            "displayName": "Rabisiekab Bahrain"
+          },
+          "BIF": {
+            "displayName": "Rabisiekab Burundi"
+          },
+          "BWP": {
+            "displayName": "Rabisiekab Botswana"
+          },
+          "CAD": {
+            "displayName": "Dolaitab Kanada"
+          },
+          "CDF": {
+            "displayName": "Rabisiekab Congo"
+          },
+          "CHF": {
+            "displayName": "Rabisiekab Swiss"
+          },
+          "CNY": {
+            "displayName": "Rabisiekab China"
+          },
+          "CVE": {
+            "displayName": "Rabisiekab Kepuvede"
+          },
+          "DJF": {
+            "displayName": "Rabisiekab Jibuti"
+          },
+          "DZD": {
+            "displayName": "Rabisiekab Algerian"
+          },
+          "EGP": {
+            "displayName": "Pauditab Misri"
+          },
+          "ERN": {
+            "displayName": "Rabisiekab Eritrea"
+          },
+          "ETB": {
+            "displayName": "Rabisiekab Ethiopia"
+          },
+          "EUR": {
+            "displayName": "Yuroit"
+          },
+          "GBP": {
+            "displayName": "pounditab Uingereza"
+          },
+          "GHC": {
+            "displayName": "Rabisiekab Ghana"
+          },
+          "GMD": {
+            "displayName": "Rabisiekab Gambia"
+          },
+          "GNS": {
+            "displayName": "Rabisiekab Guinea"
+          },
+          "INR": {
+            "displayName": "Rabisiekab India"
+          },
+          "JPY": {
+            "displayName": "Rabisiekab Japan"
+          },
+          "KES": {
+            "displayName": "Silingitab ya Kenya",
+            "symbol": "Ksh"
+          },
+          "KMF": {
+            "displayName": "Rabisiekab Komoro"
+          },
+          "LRD": {
+            "displayName": "Dolaitab Liberia"
+          },
+          "LSL": {
+            "displayName": "Rabisiekab Lesoto"
+          },
+          "LYD": {
+            "displayName": "Rabisiekab Libya"
+          },
+          "MAD": {
+            "displayName": "Rabisiekab Moroccan"
+          },
+          "MGA": {
+            "displayName": "Rabisiekab Malagasy"
+          },
+          "MRO": {
+            "displayName": "Rabisiekab Mauritania"
+          },
+          "MUR": {
+            "displayName": "Rabisiekab Mauritius"
+          },
+          "MWK": {
+            "displayName": "Rabisiekaby Malawi"
+          },
+          "MZM": {
+            "displayName": "Rabisiekab Msumbiji"
+          },
+          "NAD": {
+            "displayName": "Dolaitab Namibia"
+          },
+          "NGN": {
+            "displayName": "Rabisiekab Nigeria"
+          },
+          "RWF": {
+            "displayName": "Rabisiekab Rwanda"
+          },
+          "SAR": {
+            "displayName": "Rabisiekab Saudia"
+          },
+          "SCR": {
+            "displayName": "Rabisiekab Shelisheli"
+          },
+          "SDG": {
+            "displayName": "Pouditab Sudan"
+          },
+          "SHP": {
+            "displayName": "Pouditab helena ne tilil"
+          },
+          "SLL": {
+            "displayName": "Leonit"
+          },
+          "SOS": {
+            "displayName": "siligitab Somalia"
+          },
+          "STD": {
+            "displayName": "Rabisiekab Sao Tome ak Principe"
+          },
+          "SZL": {
+            "displayName": "Lilangenit"
+          },
+          "TND": {
+            "displayName": "RabisiekabTunisia"
+          },
+          "TZS": {
+            "displayName": "silingitab Tanzania"
+          },
+          "UGX": {
+            "displayName": "Silingitab Uganda"
+          },
+          "USD": {
+            "displayName": "Dolaitab ya Amareka"
+          },
+          "XAF": {
+            "displayName": "Rabisiekab CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Rabisiekab CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Randitab Afrika nebo murot tai"
+          },
+          "ZMK": {
+            "displayName": "Kwachaitab Zambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kwachaitab Zambia"
+          },
+          "ZWD": {
+            "displayName": "Dolaitab ya Zimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

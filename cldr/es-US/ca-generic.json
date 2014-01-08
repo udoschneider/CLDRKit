@@ -1,0 +1,126 @@
+{
+  "main": {
+    "es-US": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "es",
+        "territory": "US"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "medium": "MMM d, y G",
+              "short": "M/d/yy GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "GyMMMd": "MMM d, y G",
+                "GyMMMEd": "E, MMM d, y G",
+                "GyMMMM": "MMMM 'de' y G",
+                "GyMMMMd": "d 'de' MMMM 'de' y G",
+                "GyMMMMEd": "E, d 'de' MMMM 'de' y G",
+                "Md": "M/d",
+                "MEd": "E, MM/dd",
+                "MMd": "MM/d",
+                "MMMd": "MMM d",
+                "MMMEd": "E, MMM d",
+                "MMMMEd": "E, d 'de' MMMM",
+                "yyyyM": "M/y G",
+                "yyyyMd": "M/d/y G",
+                "yyyyMEd": "E, M/d/y G",
+                "yyyyMMMd": "MMM d, y G",
+                "yyyyMMMEd": "E, MMM d, y G",
+                "yyyyMMMMd": "d 'de' MMMM 'de' y G",
+                "yyyyMMMMEd": "E, d 'de' MMMM 'de' y G"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} a el {1}",
+                "d": {
+                  "d": "d-d"
+                },
+                "h": {
+                  "a": "h a - h a",
+                  "h": "h-h a"
+                },
+                "hm": {
+                  "a": "h:mm a - h:mm a",
+                  "h": "h:mm-h:mm a",
+                  "m": "h:mm-h:mm a"
+                },
+                "hmv": {
+                  "a": "h:mm a - h:mm a v",
+                  "h": "h:mm-h:mm a v",
+                  "m": "h:mm-h:mm a v"
+                },
+                "hv": {
+                  "a": "h a - h a v",
+                  "h": "h-h a v"
+                },
+                "M": {
+                  "M": "M-M"
+                },
+                "Md": {
+                  "d": "M/d - M/d",
+                  "M": "M/d - M/d"
+                },
+                "MEd": {
+                  "d": "E M/d - E M/d",
+                  "M": "E M/d - E M/d"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "d-d 'de' MMM",
+                  "M": "d 'de' MMM 'al' d 'de' MMM"
+                },
+                "MMMEd": {
+                  "d": "E d 'al' E d 'de' MMM",
+                  "M": "E d 'de' MMM 'al' E d 'de' MMM"
+                },
+                "y": {
+                  "y": "y-y G"
+                },
+                "yM": {
+                  "M": "M/y - M/y G",
+                  "y": "M/y - M/y G"
+                },
+                "yMd": {
+                  "d": "M/d/y - M/d/y G",
+                  "M": "M/d/y - M/d/y G",
+                  "y": "M/d/y - M/d/y G"
+                },
+                "yMEd": {
+                  "d": "E M/d/y - E M/d/y G",
+                  "M": "E M/d/y - E M/d/y G",
+                  "y": "E M/d/y - E M/d/y G"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM 'de' y G",
+                  "y": "MMM 'de' y 'a' MMM 'de' y G"
+                },
+                "yMMMd": {
+                  "d": "d-d 'de' MMM 'de' y G",
+                  "M": "d 'de' MMM 'al' d 'de' MMM 'de' y G",
+                  "y": "d 'de' MMM 'de' y 'al' d 'de' MMM 'de' y G"
+                },
+                "yMMMEd": {
+                  "d": "E d 'al' E d 'de' MMM 'de' y G",
+                  "M": "E d 'de' MMM 'al' E d 'de' MMM 'de' y G",
+                  "y": "E d 'de' MMM 'de' y 'al' E d 'de' MMM 'de' y G"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

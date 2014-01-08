@@ -1,0 +1,56 @@
+{
+  "main": {
+    "sg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sg"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Kùotângo"
+          },
+          "year": {
+            "displayName": "Ngû"
+          },
+          "month": {
+            "displayName": "Nze"
+          },
+          "week": {
+            "displayName": "Dimâsi"
+          },
+          "day": {
+            "displayName": "Lâ",
+            "relative-type--1": "Bîrï",
+            "relative-type-0": "Lâsô",
+            "relative-type-1": "Kêkerêke"
+          },
+          "weekday": {
+            "displayName": "Bïkua"
+          },
+          "dayperiod": {
+            "displayName": "Na lâ"
+          },
+          "hour": {
+            "displayName": "Ngbonga"
+          },
+          "minute": {
+            "displayName": "Ndurü ngbonga"
+          },
+          "second": {
+            "displayName": "Nzîna ngbonga"
+          },
+          "zone": {
+            "displayName": "Zukangbonga"
+          }
+        }
+      }
+    }
+  }
+}

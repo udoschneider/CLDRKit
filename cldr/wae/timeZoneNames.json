@@ -1,0 +1,202 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "regionFormat": "{0} zit",
+          "zone": {
+            "America": {
+              "Cayman": {
+                "exemplarCity": "Kaimaninsla"
+              },
+              "Cordoba": {
+                "exemplarCity": "Kordoba"
+              },
+              "Havana": {
+                "exemplarCity": "Hawanna"
+              },
+              "Jamaica": {
+                "exemplarCity": "Jamaika"
+              },
+              "Montserrat": {
+                "exemplarCity": "Monserat"
+              }
+            },
+            "Atlantic": {
+              "Reykjavik": {
+                "exemplarCity": "Rikjawik"
+              }
+            },
+            "Europe": {
+              "Amsterdam": {
+                "exemplarCity": "Amšterdam"
+              },
+              "Belgrade": {
+                "exemplarCity": "Belgrad"
+              },
+              "Brussels": {
+                "exemplarCity": "Brüssel"
+              },
+              "Bucharest": {
+                "exemplarCity": "Bukarešt"
+              },
+              "Budapest": {
+                "exemplarCity": "Budapešt"
+              },
+              "Copenhagen": {
+                "exemplarCity": "Kopehage"
+              },
+              "Istanbul": {
+                "exemplarCity": "Konštantinopel"
+              },
+              "Kaliningrad": {
+                "exemplarCity": "Königsbärg"
+              },
+              "Ljubljana": {
+                "exemplarCity": "Laibač"
+              },
+              "Prague": {
+                "exemplarCity": "Prag"
+              },
+              "Rome": {
+                "exemplarCity": "Rom"
+              },
+              "Tallinn": {
+                "exemplarCity": "Reval"
+              },
+              "Tirane": {
+                "exemplarCity": "Tiran"
+              },
+              "Vatican": {
+                "exemplarCity": "Vatikan"
+              },
+              "Vienna": {
+                "exemplarCity": "Wien"
+              },
+              "Vilnius": {
+                "exemplarCity": "Wilna"
+              },
+              "Volgograd": {
+                "exemplarCity": "Wolgograd"
+              },
+              "Warsaw": {
+                "exemplarCity": "Waršau"
+              },
+              "Zurich": {
+                "exemplarCity": "Zürič"
+              }
+            },
+            "Africa": {
+              "Accra": {
+                "exemplarCity": "Akra"
+              },
+              "Algiers": {
+                "exemplarCity": "Algier"
+              },
+              "Cairo": {
+                "exemplarCity": "Kairo"
+              },
+              "Djibouti": {
+                "exemplarCity": "Dšibuti"
+              },
+              "Khartoum": {
+                "exemplarCity": "Kartum"
+              },
+              "Mogadishu": {
+                "exemplarCity": "Mogadišu"
+              },
+              "Ouagadougou": {
+                "exemplarCity": "Wagadugu"
+              },
+              "Tripoli": {
+                "exemplarCity": "Tripolis"
+              }
+            },
+            "Asia": {
+              "Baghdad": {
+                "exemplarCity": "Bagdad"
+              },
+              "Damascus": {
+                "exemplarCity": "Damaskus"
+              },
+              "Hong_Kong": {
+                "exemplarCity": "Hongkong"
+              },
+              "Singapore": {
+                "exemplarCity": "Singapur"
+              },
+              "Tokyo": {
+                "exemplarCity": "Tokio"
+              }
+            },
+            "Australia": {
+              "Sydney": {
+                "exemplarCity": "Sidnei"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Unbekannti Stadt"
+              }
+            }
+          },
+          "metazone": {
+            "Atlantic": {
+              "long": {
+                "generic": "Atlantiši Zit",
+                "standard": "Atlantiši Standardzit",
+                "daylight": "Atlantiši Summerzit"
+              }
+            },
+            "Europe_Central": {
+              "long": {
+                "generic": "Mitteleuropäiši Zit",
+                "standard": "Mitteleuropäiši Standardzit",
+                "daylight": "Mitteleuropäiši Summerzit"
+              },
+              "short": {
+                "generic": "MEZ",
+                "standard": "MEZ",
+                "daylight": "MESZ"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Ošteuropäiši Zit",
+                "standard": "Ošteuropäiši Standardzit",
+                "daylight": "Ošteuropäiši Summerzit"
+              },
+              "short": {
+                "generic": "OEZ",
+                "standard": "OEZ",
+                "daylight": "OESZ"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Wešteuropäiši Zit",
+                "standard": "Wešteuropäiši Standardzit",
+                "daylight": "Wešteuropäiši Summerzit"
+              },
+              "short": {
+                "generic": "WEZ",
+                "standard": "WEZ",
+                "daylight": "WESZ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "main": {
+    "en-SD": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9258 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-22 18:59:54 -0500 (Thu, 22 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "SD"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "metazone": {
+            "Africa_Central": {
+              "short": {
+                "standard": "CAT"
+              }
+            },
+            "Africa_Eastern": {
+              "short": {
+                "standard": "EAT"
+              }
+            },
+            "Africa_Southern": {
+              "short": {
+                "standard": "SAST"
+              }
+            },
+            "Africa_Western": {
+              "short": {
+                "generic": "WAT",
+                "standard": "WAT",
+                "daylight": "WAST"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

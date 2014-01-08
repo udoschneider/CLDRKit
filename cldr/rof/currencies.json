@@ -1,0 +1,186 @@
+{
+  "main": {
+    "rof": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "rof"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "heleri sa Falme za Kiarabu"
+          },
+          "AOA": {
+            "displayName": "heleri sa Angola"
+          },
+          "AUD": {
+            "displayName": "heleri sa Australia"
+          },
+          "BHD": {
+            "displayName": "heleri sa Bahareni"
+          },
+          "BIF": {
+            "displayName": "heleri sa Burundi"
+          },
+          "BWP": {
+            "displayName": "heleri sa Botswana"
+          },
+          "CAD": {
+            "displayName": "heleri sa Kanada"
+          },
+          "CDF": {
+            "displayName": "heleri sa Kongo"
+          },
+          "CHF": {
+            "displayName": "heleri sa Uswisi"
+          },
+          "CNY": {
+            "displayName": "heleri sa China"
+          },
+          "CVE": {
+            "displayName": "heleri sa Kepuvede"
+          },
+          "DJF": {
+            "displayName": "heleri sa Jibuti"
+          },
+          "DZD": {
+            "displayName": "heleri sa Aljeria"
+          },
+          "EGP": {
+            "displayName": "heleri sa Misri"
+          },
+          "ERN": {
+            "displayName": "heleri sa Eritrea"
+          },
+          "ETB": {
+            "displayName": "heleri sa Uhabeshi"
+          },
+          "EUR": {
+            "displayName": "yuro"
+          },
+          "GBP": {
+            "displayName": "heleri sa Uingereza"
+          },
+          "GHC": {
+            "displayName": "heleri sa Ghana"
+          },
+          "GMD": {
+            "displayName": "heleri sa Gambia"
+          },
+          "GNS": {
+            "displayName": "heleri sa Gine"
+          },
+          "INR": {
+            "displayName": "heleri sa India"
+          },
+          "JPY": {
+            "displayName": "heleri sa Japani"
+          },
+          "KES": {
+            "displayName": "heleri sa Kenya"
+          },
+          "KMF": {
+            "displayName": "heleri sa Komoro"
+          },
+          "LRD": {
+            "displayName": "heleri sa Liberia"
+          },
+          "LSL": {
+            "displayName": "heleri sa Lesoto"
+          },
+          "LYD": {
+            "displayName": "heleri sa Libya"
+          },
+          "MAD": {
+            "displayName": "heleri sa Moroko"
+          },
+          "MGA": {
+            "displayName": "heleri sa Bukini"
+          },
+          "MRO": {
+            "displayName": "heleri sa Moritania"
+          },
+          "MUR": {
+            "displayName": "heleri sa Morisi"
+          },
+          "MWK": {
+            "displayName": "heleri sa Malawi"
+          },
+          "MZM": {
+            "displayName": "heleri sa Msumbiji"
+          },
+          "NAD": {
+            "displayName": "heleri sa Namibia"
+          },
+          "NGN": {
+            "displayName": "heleri sa Nijeria"
+          },
+          "RWF": {
+            "displayName": "heleri sa Rwanda"
+          },
+          "SAR": {
+            "displayName": "heleri sa Saudia"
+          },
+          "SCR": {
+            "displayName": "heleri sa Shelisheli"
+          },
+          "SDG": {
+            "displayName": "heleri sa Sudani"
+          },
+          "SHP": {
+            "displayName": "heleri sa Santahelena"
+          },
+          "SLL": {
+            "displayName": "leoni"
+          },
+          "SOS": {
+            "displayName": "heleri sa Somalia"
+          },
+          "STD": {
+            "displayName": "heleri sa Sao Tome na Principe"
+          },
+          "SZL": {
+            "displayName": "lilangeni"
+          },
+          "TND": {
+            "displayName": "heleri sa Tunisia"
+          },
+          "TZS": {
+            "displayName": "heleri sa Tanzania",
+            "symbol": "TSh"
+          },
+          "UGX": {
+            "displayName": "heleri sa Uganda"
+          },
+          "USD": {
+            "displayName": "heleri sa Marekani"
+          },
+          "XAF": {
+            "displayName": "heleri sa CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "heleri sa CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "heleri sa Afrika Kusini"
+          },
+          "ZMK": {
+            "displayName": "heleri sa Zambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "heleri sa Zambia"
+          },
+          "ZWD": {
+            "displayName": "heleri sa Zimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "main": {
+    "fa-AF": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "fa",
+        "territory": "AF"
+      },
+      "numbers": {
+        "currencies": {
+          "AUD": {
+            "displayName": "دالر آسترالیا"
+          },
+          "BND": {
+            "displayName": "دالر برونی"
+          },
+          "BYR": {
+            "displayName": "روبل روسیهٔ سفید"
+          },
+          "CAD": {
+            "displayName": "دالر کانادا"
+          },
+          "CHF": {
+            "displayName": "فرانک سویس"
+          },
+          "DKK": {
+            "displayName": "کرون دنمارک"
+          },
+          "JPY": {
+            "displayName": "ین جاپان"
+          },
+          "MXN": {
+            "displayName": "پزوی مکسیکو"
+          },
+          "NLG": {
+            "displayName": "گیلدر هالند"
+          },
+          "NOK": {
+            "displayName": "کرون ناروی"
+          },
+          "SEK": {
+            "displayName": "کرون سویدن"
+          },
+          "SGD": {
+            "displayName": "دالر سینگاپور"
+          },
+          "TJS": {
+            "displayName": "سامانی تاجکستان"
+          },
+          "USD": {
+            "displayName": "دالر امریکا"
+          }
+        }
+      }
+    }
+  }
+}

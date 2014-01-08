@@ -1,0 +1,37 @@
+{
+  "main": {
+    "zh-Hans-MO": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hans",
+        "territory": "MO"
+      },
+      "dates": {
+        "calendars": {
+          "roc": {
+            "dateFormats": {
+              "full": "Gy年M月d日EEEE",
+              "long": "Gy年M月d日",
+              "medium": "Gy年M月d日",
+              "short": "Gd/M/yy"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "M-d",
+                "MEd": "M-dE",
+                "MMM": "M月"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

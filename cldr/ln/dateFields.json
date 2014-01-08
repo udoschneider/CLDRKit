@@ -1,0 +1,56 @@
+{
+  "main": {
+    "ln": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ln"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Ntángo"
+          },
+          "year": {
+            "displayName": "Mobú"
+          },
+          "month": {
+            "displayName": "Sánzá"
+          },
+          "week": {
+            "displayName": "Pɔ́sɔ"
+          },
+          "day": {
+            "displayName": "Mokɔlɔ",
+            "relative-type--1": "Lóbi elékí",
+            "relative-type-0": "Lɛlɔ́",
+            "relative-type-1": "Lóbi ekoyâ"
+          },
+          "weekday": {
+            "displayName": "Mokɔlɔ ya pɔ́sɔ"
+          },
+          "dayperiod": {
+            "displayName": "Eleko ya mokɔlɔ"
+          },
+          "hour": {
+            "displayName": "Ngonga"
+          },
+          "minute": {
+            "displayName": "Monúti"
+          },
+          "second": {
+            "displayName": "Sɛkɔ́ndɛ"
+          },
+          "zone": {
+            "displayName": "Ntáká ya ngonga"
+          }
+        }
+      }
+    }
+  }
+}

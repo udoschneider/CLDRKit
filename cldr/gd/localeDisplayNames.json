@@ -1,0 +1,89 @@
+{
+  "main": {
+    "gd": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "gd"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}"
+        },
+        "keys": {
+          "calendar": "Mìosachan",
+          "collation": "Colaideachadh",
+          "currency": "Airgeadra",
+          "numbers": "Àireamhan"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "Am Mìosachan Budach",
+            "chinese": "Am Mìosachan Sìneach",
+            "coptic": "Am Mìosachan Coptach",
+            "ethiopic": "Mìosachan na h-Itioipe",
+            "ethiopic-amete-alem": "Mìosachan Itiopach Amete Alem",
+            "gregorian": "Am Mìosachan Griogarach",
+            "hebrew": "Am Mìosachan Eabhrach",
+            "indian": "Mìosachan Nàiseanta nan Innseachan",
+            "islamic": "Am Mìosachan Ioslamach",
+            "japanese": "Am Mìosachan Seapanach",
+            "persian": "Am Míosachan Pearsach",
+            "roc": "Am Míosachan Minguo"
+          },
+          "collation": {
+            "traditional": "Òrdugh Seòrsachaidh Tradaiseanta",
+            "big5han": "Òrdugh Seòrsachaidh na Sìnise Tradaiseanta - Big5",
+            "gb2312han": "Òrdugh Seòrsachaidh na Sìnise Simplichte - GB2312",
+            "phonebook": "Òrdugh Seòrsachaidh nan Leabhraichean-Fòn",
+            "pinyin": "Òrdugh Seòrsachaidh Pinyin na Sìnise Simplichte",
+            "search": "Lorg Coitcheann",
+            "stroke": "Òrdugh Stràcan na Sìnis Tradaiseanta"
+          },
+          "numbers": {
+            "arab": "Figearan Arbanach-Innseanach",
+            "arabext": "Figearan Arbanach-Innseanach Leudaichte",
+            "armn": "Àireamhan Airmeineach",
+            "deva": "Figearan Devanagari",
+            "ethi": "Àireamhan Itiopach",
+            "fullwide": "Figearan Làn-Leud",
+            "geor": "Àireamhan Cairthbheileach",
+            "grek": "Àireamhan Greugach",
+            "greklow": "Àireamhan Greugach Beaga",
+            "gujr": "Figearan Gujarati",
+            "guru": "Figearan Gurmukhi",
+            "hans": "Àireamhan Sìneach Simplichte",
+            "hant": "Àireamhan Sìneach Tradaiseanta",
+            "hebr": "Àireamhan Eabhrach",
+            "jpan": "Àireamhan Seapanach",
+            "khmr": "Figearan Cmèar",
+            "knda": "Figearan Kannada",
+            "laoo": "Figearan Làtho",
+            "latn": "Figearan Iarach",
+            "mlym": "Figearan Malayalam",
+            "mong": "Figearan nam Mongol",
+            "mymr": "Figearan Miànmar",
+            "orya": "Figearan Oriya",
+            "roman": "Àireamhan Ròmanach",
+            "romanlow": "Àireamhan Beaga Ròmanach",
+            "taml": "Àireamhan Taimileach",
+            "telu": "Figearan Telugu",
+            "thai": "Figearan Tàidh",
+            "tibt": "Figearan Tibeiteach"
+          }
+        },
+        "codePatterns": {
+          "language": "Cànan: {0}",
+          "script": "Sgrìobhadh: {0}",
+          "territory": "Sgìre: {0}"
+        }
+      }
+    }
+  }
+}

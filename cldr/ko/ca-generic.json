@@ -1,0 +1,179 @@
+{
+  "main": {
+    "ko": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ko"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "G y년 M월 d일 EEEE",
+              "long": "G y년 M월 d일",
+              "medium": "G y. M. d.",
+              "short": "G y. M. d."
+            },
+            "dateTimeFormats": {
+              "full": "{1} {0}",
+              "long": "{1} {0}",
+              "medium": "{1} {0}",
+              "short": "{1} {0}",
+              "availableFormats": {
+                "d": "d일",
+                "Ed": "d일 (E)",
+                "EEEEd": "d일 EEEE",
+                "Gy": "G y년",
+                "GyMMM": "G y년 MMM",
+                "GyMMMd": "G y년 MMM d일",
+                "GyMMMEd": "G y년 MMM d일 (E)",
+                "GyMMMEEEEd": "G y년 MMM d일 EEEE",
+                "h": "a h시",
+                "H": "H시",
+                "HHmmss": "HH:mm:ss",
+                "hm": "a h:mm",
+                "Hm": "HH:mm",
+                "hms": "a h:mm:ss",
+                "Hms": "H시 m분 s초",
+                "M": "M월",
+                "Md": "M. d.",
+                "MEd": "M. d. (E)",
+                "MEEEEd": "M. d. EEEE",
+                "MMM": "LLL",
+                "MMMd": "MMM d일",
+                "MMMEd": "MMM d일 (E)",
+                "MMMEEEEd": "MMM d일 EEEE",
+                "ms": "mm:ss",
+                "y": "G y년",
+                "yyyy": "G y년",
+                "yyyyM": "G y. M.",
+                "yyyyMd": "G y. M. d.",
+                "yyyyMEd": "G y. M. d. (E)",
+                "yyyyMEEEEd": "G y. M. d. EEEE",
+                "yyyyMMM": "G y년 MMM",
+                "yyyyMMMd": "G y년 MMM d일",
+                "yyyyMMMEd": "G y년 MMM d일 (E)",
+                "yyyyMMMEEEEd": "G y년 MMM d일 EEEE",
+                "yyyyQQQ": "G y년 QQQ",
+                "yyyyQQQQ": "G y년 QQQQ"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} ~ {1}",
+                "d": {
+                  "d": "d일 ~ d일"
+                },
+                "h": {
+                  "a": "a h시 ~ a h시",
+                  "h": "a h시 ~ h시"
+                },
+                "H": {
+                  "H": "HH ~ HH시"
+                },
+                "hm": {
+                  "a": "a h:mm ~ a h:mm",
+                  "h": "a h:mm~h:mm",
+                  "m": "a h:mm~h:mm"
+                },
+                "Hm": {
+                  "H": "HH:mm ~ HH:mm",
+                  "m": "HH:mm ~ HH:mm"
+                },
+                "hmv": {
+                  "a": "a h:mm ~ a h:mm v",
+                  "h": "a h:mm~h:mm v",
+                  "m": "a h:mm~h:mm v"
+                },
+                "Hmv": {
+                  "H": "HH:mm ~ HH:mm v",
+                  "m": "HH:mm ~ HH:mm v"
+                },
+                "hv": {
+                  "a": "a h시 ~ a h시(v)",
+                  "h": "a h시 ~ h시(v)"
+                },
+                "Hv": {
+                  "H": "HH ~ HH시 v"
+                },
+                "M": {
+                  "M": "M월 ~ M월"
+                },
+                "Md": {
+                  "d": "M. d ~ M. d",
+                  "M": "M. d ~ M. d"
+                },
+                "MEd": {
+                  "d": "M. d (E) ~ M. d (E)",
+                  "M": "M. d (E) ~ M. d (E)"
+                },
+                "MMM": {
+                  "M": "MMM ~ MMM"
+                },
+                "MMMd": {
+                  "d": "M월 d일 ~ d일",
+                  "M": "M월 d일 ~ M월 d일"
+                },
+                "MMMEd": {
+                  "d": "M월 d일 (E) ~ d일 (E)",
+                  "M": "M월 d일 (E) ~ M월 d일 (E)"
+                },
+                "MMMEEEEd": {
+                  "d": "M월 d일 EEEE ~ d일 EEEE",
+                  "M": "M월 d일 EEEE ~ M월 d일 EEEE"
+                },
+                "MMMM": {
+                  "M": "LLLL-LLLL"
+                },
+                "y": {
+                  "y": "G y년 ~ y년"
+                },
+                "yM": {
+                  "M": "G y. M ~ y. M",
+                  "y": "G y. M ~ y. M"
+                },
+                "yMd": {
+                  "d": "G y. M. d. ~ y. M. d.",
+                  "M": "G y. M. d. ~ y. M. d.",
+                  "y": "G y. M. d. ~ y. M. d."
+                },
+                "yMEd": {
+                  "d": "G y. M. d. (E) ~ y. M. d. (E)",
+                  "M": "G y. M. d. (E) ~ y. M. d. (E)",
+                  "y": "G y. M. d. (E) ~ y. M. d. (E)"
+                },
+                "yMMM": {
+                  "M": "G y년 M월~M월",
+                  "y": "G y년 M월 ~ y년 M월"
+                },
+                "yMMMd": {
+                  "d": "G y년 M월 d일~d일",
+                  "M": "G y년 M월 d일 ~ M월 d일",
+                  "y": "G y년 M월 d일 ~ y년 M월 d일"
+                },
+                "yMMMEd": {
+                  "d": "G y년 M월 d일 (E) ~ d일 (E)",
+                  "M": "G y년 M월 d일 (E) ~ M월 d일 (E)",
+                  "y": "G y년 M월 d일 (E) ~ y년 M월 d일 (E)"
+                },
+                "yMMMEEEEd": {
+                  "d": "G y년 M월 d일 EEEE ~ d일 EEEE",
+                  "M": "G y년 M월 d일 EEEE ~ M월 d일 EEEE",
+                  "y": "G y년 M월 d일 EEEE ~ y년 M월 d일 EEEE"
+                },
+                "yMMMM": {
+                  "M": "G y년 MM월 ~ MM월",
+                  "y": "G y년 MM월 ~ y년 MM월"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

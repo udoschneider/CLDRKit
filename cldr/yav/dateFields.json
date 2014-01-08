@@ -1,0 +1,56 @@
+{
+  "main": {
+    "yav": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "yav"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "kipéŋén"
+          },
+          "year": {
+            "displayName": "yɔɔŋ"
+          },
+          "month": {
+            "displayName": "oóli"
+          },
+          "week": {
+            "displayName": "sɔ́ndiɛ"
+          },
+          "day": {
+            "displayName": "puɔ́sɛ́",
+            "relative-type--1": "púyoó",
+            "relative-type-0": "ínaan",
+            "relative-type-1": "nakinyám"
+          },
+          "weekday": {
+            "displayName": "metúk mɔ́sɔ́ndiɛ"
+          },
+          "dayperiod": {
+            "displayName": "kiɛmɛ́ɛm,kisɛ́ndɛ"
+          },
+          "hour": {
+            "displayName": "kisikɛl,"
+          },
+          "minute": {
+            "displayName": "minít"
+          },
+          "second": {
+            "displayName": "síkɛn"
+          },
+          "zone": {
+            "displayName": "kinúki kisikɛl ɔ́ pitɔŋ"
+          }
+        }
+      }
+    }
+  }
+}

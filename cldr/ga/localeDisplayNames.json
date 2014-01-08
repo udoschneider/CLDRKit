@@ -1,0 +1,43 @@
+{
+  "main": {
+    "ga": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ga"
+      },
+      "localeDisplayNames": {
+        "keys": {
+          "calendar": "Féilire",
+          "collation": "Ord Sórtála",
+          "currency": "Airgeadra",
+          "numbers": "Uimhreacha"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "Féilire Búdaíoch",
+            "chinese": "Féilire Síneach",
+            "gregorian": "Féilire Greagórach",
+            "hebrew": "Féilire Eabhrach",
+            "islamic": "Féilire Ioslamach",
+            "islamic-civil": "Féilire Ioslamach Sibhialta",
+            "japanese": "Féilire Seapánach"
+          },
+          "collation": {
+            "traditional": "Ord sórtála traidisiúnta",
+            "big5han": "Ord sórtála Síneach traidisiúnta - Big5",
+            "gb2312han": "Ord sórtála Síneach simplithe - GB 2312",
+            "phonebook": "Ord sórtála an eolaire teileafóin",
+            "pinyin": "Ord sórtála pinyin",
+            "stroke": "Ord sórtála stríce"
+          }
+        }
+      }
+    }
+  }
+}

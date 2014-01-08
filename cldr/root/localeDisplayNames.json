@@ -1,0 +1,28 @@
+{
+  "main": {
+    "root": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9308 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 14:41:52 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "root"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}",
+          "localeKeyTypePattern": "{0}: {1}"
+        },
+        "codePatterns": {
+          "language": "{0}",
+          "script": "{0}",
+          "territory": "{0}"
+        }
+      }
+    }
+  }
+}

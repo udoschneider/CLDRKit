@@ -1,0 +1,89 @@
+{
+  "main": {
+    "yav": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "yav"
+      },
+      "numbers": {
+        "currencies": {
+          "AOA": {
+            "displayName": "kuansa wu angolá"
+          },
+          "AUD": {
+            "displayName": "toláal wu ostalalí"
+          },
+          "BHD": {
+            "displayName": "tináal wu paaléen"
+          },
+          "BIF": {
+            "displayName": "faláŋɛ u pulundí"
+          },
+          "BWP": {
+            "displayName": "pula pu posuána"
+          },
+          "CAD": {
+            "displayName": "toláal u kanáta"
+          },
+          "CDF": {
+            "displayName": "́faláŋɛ u kongó"
+          },
+          "CNY": {
+            "displayName": "yuan ɛlɛnmimbí"
+          },
+          "CVE": {
+            "displayName": "ɛskúdo u kápfɛ́ɛl"
+          },
+          "DJF": {
+            "displayName": "́faláŋɛ u síputí"
+          },
+          "DZD": {
+            "displayName": "tináal wu alselí"
+          },
+          "EGP": {
+            "displayName": "lífilɛ wu isípit"
+          },
+          "ERN": {
+            "displayName": "náfka wu elitilée"
+          },
+          "ETB": {
+            "displayName": "píil wu etiopí"
+          },
+          "EUR": {
+            "displayName": "olóo"
+          },
+          "GBP": {
+            "displayName": "lífilɛ sitelelíiŋ"
+          },
+          "GHC": {
+            "displayName": "setí"
+          },
+          "GMD": {
+            "displayName": "talasí u kaambí"
+          },
+          "GNS": {
+            "displayName": "silí u kiiné"
+          },
+          "INR": {
+            "displayName": "ulupí"
+          },
+          "JPY": {
+            "displayName": "yɛ́ɛn u sapɔ́ɔŋ"
+          },
+          "KES": {
+            "displayName": "síliŋ u kénia"
+          },
+          "KMF": {
+            "displayName": "́faláŋɛ u kɔmɔ́ɔl"
+          }
+        }
+      }
+    }
+  }
+}

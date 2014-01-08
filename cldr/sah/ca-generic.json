@@ -1,0 +1,28 @@
+{
+  "main": {
+    "sah": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9196 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-10 01:39:57 -0500 (Sat, 10 Aug 2013) $"
+        },
+        "language": "sah"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "G y 'сыл' MMMM d 'күнэ', EEEE",
+              "long": "G y, MMMM d",
+              "medium": "G y, MMM d",
+              "short": "GGGGG yy/M/d"
+            }
+          }
+        }
+      }
+    }
+  }
+}

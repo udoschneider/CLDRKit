@@ -1,0 +1,61 @@
+{
+  "main": {
+    "sq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sq"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Arabik",
+          "Armn": "Armen",
+          "Beng": "Bengal",
+          "Bopo": "Bopomof",
+          "Brai": "Brail",
+          "Cyrl": "Cirilik",
+          "Deva": "Devanagar",
+          "Ethi": "Etiopian",
+          "Geor": "Gjeorgjian",
+          "Grek": "Grek",
+          "Gujr": "Guxharatas",
+          "Guru": "Gurmuk",
+          "Hang": "Hangul",
+          "Hani": "Han",
+          "Hans": "I Thjeshtuar",
+          "Hans-alt-stand-alone": "Han i Thjeshtësuar",
+          "Hant": "Tradicional",
+          "Hant-alt-stand-alone": "Han Tradicional",
+          "Hebr": "Hebraik",
+          "Hira": "Hiragan",
+          "Jpan": "Japonez",
+          "Kana": "Katakan",
+          "Khmr": "Kmer",
+          "Knda": "Kanada",
+          "Kore": "Korean",
+          "Laoo": "Lao",
+          "Latn": "Latin",
+          "Mlym": "Malajalam",
+          "Mong": "Mongol",
+          "Mymr": "Birman",
+          "Orya": "Orija",
+          "Sinh": "Sinhal",
+          "Taml": "Tamil",
+          "Telu": "Telug",
+          "Thaa": "Tana",
+          "Thai": "Tajlandez",
+          "Tibt": "Tibetian",
+          "Zsym": "Me simbole",
+          "Zxxx": "I pashkruar",
+          "Zyyy": "I zakonshëm",
+          "Zzzz": "I panjohur"
+        }
+      }
+    }
+  }
+}

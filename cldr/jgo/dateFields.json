@@ -1,0 +1,81 @@
+{
+  "main": {
+    "jgo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "jgo"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "Nǔu ŋguꞋ {0}",
+              "relativeTimePattern-count-other": "Nǔu ŋguꞋ {0}"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "Ɛ́gɛ́ mɔ́ ŋguꞋ {0}",
+              "relativeTimePattern-count-other": "Ɛ́gɛ́ mɔ́ ŋguꞋ {0}"
+            }
+          },
+          "month": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "Nǔu {0} saŋ",
+              "relativeTimePattern-count-other": "Nǔu {0} saŋ"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "ɛ́ gɛ́ mɔ́ pɛsaŋ {0}",
+              "relativeTimePattern-count-other": "ɛ́ gɛ́ mɔ́ pɛsaŋ {0}"
+            }
+          },
+          "week": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "Nǔu ŋgap-mbi {0}",
+              "relativeTimePattern-count-other": "Nǔu ŋgap-mbi {0}"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "Ɛ́ gɛ́ mɔ {0} ŋgap-mbi",
+              "relativeTimePattern-count-other": "Ɛ́ gɛ́ mɔ {0} ŋgap-mbi"
+            }
+          },
+          "day": {
+            "relative-type-0": "lɔꞋɔ",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "Nǔu lɛ́Ꞌ {0}",
+              "relativeTimePattern-count-other": "Nǔu lɛ́Ꞌ {0}"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "Ɛ́ gɛ́ mɔ́ lɛ́Ꞌ {0}",
+              "relativeTimePattern-count-other": "Ɛ́ gɛ́ mɔ́ lɛ́Ꞌ {0}"
+            }
+          },
+          "hour": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "nǔu háwa {0}",
+              "relativeTimePattern-count-other": "nǔu háwa {0}"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "ɛ́ gɛ mɔ́ {0} háwa",
+              "relativeTimePattern-count-other": "ɛ́ gɛ mɔ́ {0} háwa"
+            }
+          },
+          "minute": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "nǔu {0} minút",
+              "relativeTimePattern-count-other": "nǔu {0} minút"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "ɛ́ gɛ́ mɔ́ minút {0}",
+              "relativeTimePattern-count-other": "ɛ́ gɛ́ mɔ́ minút {0}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

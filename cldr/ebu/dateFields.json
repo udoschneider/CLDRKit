@@ -1,0 +1,53 @@
+{
+  "main": {
+    "ebu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ebu"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Ivinda"
+          },
+          "year": {
+            "displayName": "Mwaka"
+          },
+          "month": {
+            "displayName": "Mweri"
+          },
+          "week": {
+            "displayName": "Kiumia"
+          },
+          "day": {
+            "displayName": "Mũthenya",
+            "relative-type--1": "Ĩgoro",
+            "relative-type-0": "Ũmũnthĩ",
+            "relative-type-1": "Rũciũ"
+          },
+          "weekday": {
+            "displayName": "Mũthenya kiumia-inĩ"
+          },
+          "hour": {
+            "displayName": "Ithaa"
+          },
+          "minute": {
+            "displayName": "Ndagĩka"
+          },
+          "second": {
+            "displayName": "Sekondi"
+          },
+          "zone": {
+            "displayName": "Gĩthaa"
+          }
+        }
+      }
+    }
+  }
+}

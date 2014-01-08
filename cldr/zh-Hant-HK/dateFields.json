@@ -1,0 +1,42 @@
+{
+  "main": {
+    "zh-Hant-HK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hant",
+        "territory": "HK"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "relative-type--1": "上年",
+            "relative-type-0": "本年",
+            "relative-type-1": "下年"
+          },
+          "month": {
+            "relative-type--1": "上月",
+            "relative-type-1": "下月",
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} 月前"
+            }
+          },
+          "day": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-other": "{0} 日後"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-other": "{0} 日前"
+            }
+          }
+        }
+      }
+    }
+  }
+}

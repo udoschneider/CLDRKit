@@ -1,0 +1,131 @@
+{
+  "main": {
+    "be": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "be"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "regionFormat": "Час: {0}",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "America": {
+              "Anchorage": {
+                "exemplarCity": "Анкорыдж"
+              },
+              "Campo_Grande": {
+                "exemplarCity": "Кампа Грандэ"
+              },
+              "Chicago": {
+                "exemplarCity": "Чыкага"
+              },
+              "Denver": {
+                "exemplarCity": "Дэнвэр"
+              },
+              "Indianapolis": {
+                "exemplarCity": "Індыянапаліс"
+              },
+              "Los_Angeles": {
+                "exemplarCity": "Лос-Анджэлас"
+              },
+              "New_York": {
+                "exemplarCity": "Нью-Ёрк"
+              },
+              "Phoenix": {
+                "exemplarCity": "Фэнікс"
+              },
+              "Rio_Branco": {
+                "exemplarCity": "Рыё Бранка"
+              },
+              "Sao_Paulo": {
+                "exemplarCity": "Сан-Паўлу"
+              }
+            },
+            "Pacific": {
+              "Honolulu": {
+                "exemplarCity": "Ганалулу"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Невядомы"
+              }
+            }
+          },
+          "metazone": {
+            "America_Central": {
+              "long": {
+                "generic": "Паўночнаамэрыканскі цэнтральны час",
+                "standard": "Паўночнаамэрыканскі цэнтральны стандартны час",
+                "daylight": "Паўночнаамэрыканскі цэнтральны летні час"
+              }
+            },
+            "America_Eastern": {
+              "long": {
+                "generic": "Паўночнаамэрыканскі усходні час",
+                "standard": "Паўночнаамэрыканскі усходні стандартны час",
+                "daylight": "Паўночнаамэрыканскі усходні летні час"
+              }
+            },
+            "America_Mountain": {
+              "long": {
+                "generic": "Паўночнаамэрыканскі горны час",
+                "standard": "Паўночнаамэрыканскі горны стандартны час",
+                "daylight": "Паўночнаамэрыканскі горны летні час"
+              }
+            },
+            "America_Pacific": {
+              "long": {
+                "generic": "Ціхаакіянскі час",
+                "standard": "Ціхаакіянскі стандартны час",
+                "daylight": "Ціхаакіянскі летні час"
+              }
+            },
+            "Atlantic": {
+              "long": {
+                "generic": "Атлянтычны час",
+                "standard": "Атлянтычны стандартны час",
+                "daylight": "Атлянтычны летні час"
+              }
+            },
+            "Europe_Central": {
+              "long": {
+                "generic": "Цэнтральнаэўрапейскі час",
+                "standard": "Цэнтральнаэўрапейскі стандартны час",
+                "daylight": "Цэнтральнаэўрапейскі летні час"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Усходнеэўрапейскі час",
+                "standard": "Усходнеэўрапейскі стандартны час",
+                "daylight": "Усходнеэўрапейскі летні час"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Заходнеэўрапейскі час",
+                "standard": "Заходнеэўрапейскі стандартны час",
+                "daylight": "Заходнеэўрапейскі летні час"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Грынвічскі час"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "main": {
+    "km": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "km"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "ម៉ែត្រ",
+          "UK": "ចក្រភព​អង់គ្លេស",
+          "US": "សហរដ្ឋអាមេរិក"
+        }
+      }
+    }
+  }
+}

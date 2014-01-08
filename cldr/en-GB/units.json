@@ -1,0 +1,110 @@
+{
+  "main": {
+    "en-GB": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "GB"
+      },
+      "units": {
+        "long": {
+          "angle-arc-minute": {
+            "unitPattern-count-one": "{0} minute",
+            "unitPattern-count-other": "{0} minutes"
+          },
+          "angle-arc-second": {
+            "unitPattern-count-one": "{0} second",
+            "unitPattern-count-other": "{0} seconds"
+          },
+          "area-square-kilometer": {
+            "unitPattern-count-one": "{0} square kilometre",
+            "unitPattern-count-other": "{0} square kilometres"
+          },
+          "area-square-meter": {
+            "unitPattern-count-one": "{0} square metre",
+            "unitPattern-count-other": "{0} square metres"
+          },
+          "length-centimeter": {
+            "unitPattern-count-one": "{0} centimetre",
+            "unitPattern-count-other": "{0} centimetres"
+          },
+          "length-kilometer": {
+            "unitPattern-count-one": "{0} kilometre",
+            "unitPattern-count-other": "{0} kilometres"
+          },
+          "length-meter": {
+            "unitPattern-count-one": "{0} metre",
+            "unitPattern-count-other": "{0} metres"
+          },
+          "length-millimeter": {
+            "unitPattern-count-one": "{0} millimetre",
+            "unitPattern-count-other": "{0} millimetres"
+          },
+          "length-picometer": {
+            "unitPattern-count-one": "{0} picometre",
+            "unitPattern-count-other": "{0} picometres"
+          },
+          "speed-kilometer-per-hour": {
+            "unitPattern-count-one": "{0} kilometre per hour",
+            "unitPattern-count-other": "{0} kilometres per hour"
+          },
+          "speed-meter-per-second": {
+            "unitPattern-count-one": "{0} metre per second",
+            "unitPattern-count-other": "{0} metres per second"
+          },
+          "volume-cubic-kilometer": {
+            "unitPattern-count-one": "{0} cubic kilometre",
+            "unitPattern-count-other": "{0} cubic kilometres"
+          },
+          "volume-liter": {
+            "unitPattern-count-one": "{0} litre",
+            "unitPattern-count-other": "{0} litres"
+          }
+        },
+        "short": {
+          "angle-arc-minute": {
+            "unitPattern-count-one": "{0} min",
+            "unitPattern-count-other": "{0} min"
+          },
+          "angle-arc-second": {
+            "unitPattern-count-one": "{0} sec",
+            "unitPattern-count-other": "{0} secs"
+          }
+        },
+        "narrow": {
+          "acceleration-g-force": {
+            "unitPattern-count-one": "{0}G",
+            "unitPattern-count-other": "{0}G"
+          },
+          "duration-millisecond": {
+            "unitPattern-count-one": "{0} ms",
+            "unitPattern-count-other": "{0} ms"
+          },
+          "mass-pound": {
+            "unitPattern-count-one": "{0}lb",
+            "unitPattern-count-other": "{0}lb"
+          },
+          "temperature-celsius": {
+            "unitPattern-count-one": "{0}°",
+            "unitPattern-count-other": "{0}°"
+          }
+        },
+        "durationUnit-type-hm": {
+          "durationUnitPattern": "h:mm"
+        },
+        "durationUnit-type-hms": {
+          "durationUnitPattern": "h:mm:ss"
+        },
+        "durationUnit-type-ms": {
+          "durationUnitPattern": "m:ss"
+        }
+      }
+    }
+  }
+}

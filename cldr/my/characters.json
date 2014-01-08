@@ -1,0 +1,22 @@
+{
+  "main": {
+    "my": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9316 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-06 12:21:36 -0500 (Fri, 06 Sep 2013) $"
+        },
+        "language": "my"
+      },
+      "characters": {
+        "exemplarCharacters": "[\u1036 း \u1037 က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ျ ရ ြ လ ဝ \u103D သ ဿ ဟ \u103E ဠ အ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ာ ါ \u102D \u102E \u102F \u1030 ေ \u1032 \u1039 \u103A]",
+        "auxiliary": "[ၐ ၑ ဢ ၒ ၓ ၔ ၕ ဨ ၖ ၗ \u1058 \u1059]",
+        "index": "[က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ]",
+        "punctuation": "[၊ ။ ‘ ’ “ ”]"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "main": {
+    "en-JM": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "JM"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "short": "d/M/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "d/M",
+                "MEd": "E, d/M",
+                "yyyyMEd": "E, d/M/y G"
+              },
+              "intervalFormats": {
+                "Md": {
+                  "d": "d/M - d/M",
+                  "M": "d/M - d/M"
+                },
+                "MEd": {
+                  "d": "E, d/M - E, d/M",
+                  "M": "E, d/M - E, d/M"
+                },
+                "yMd": {
+                  "d": "d/M/y - d/M/y G",
+                  "M": "d/M/y - d/M/y G",
+                  "y": "d/M/y - d/M/y G"
+                },
+                "yMEd": {
+                  "d": "E, d/M/y - E, d/M/y G",
+                  "M": "E, d/M/y - E, d/M/y G",
+                  "y": "E, d/M/y - E, d/M/y G"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

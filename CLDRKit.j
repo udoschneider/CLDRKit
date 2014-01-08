@@ -30,3 +30,5 @@
 */
 
 @import "CLDRKitClass.j"
+@import "CLDRDatabase.j"
+@import "CPLocale+CLDRKit.j"

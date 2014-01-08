@@ -1,0 +1,39 @@
+{
+  "main": {
+    "nnh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9297 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-30 23:19:50 -0500 (Fri, 30 Aug 2013) $"
+        },
+        "language": "nnh"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE , 'lyɛ'̌ʼ d 'na' MMMM, y G",
+              "long": "'lyɛ'̌ʼ d 'na' MMMM, y G",
+              "medium": "d MMM, y G",
+              "short": "dd/MM/yy GGGGG"
+            },
+            "dateTimeFormats": {
+              "full": "{1},{0}",
+              "long": "{1}, {0}",
+              "availableFormats": {
+                "yMd": "d/M/y",
+                "yMEd": "E , 'lyɛ'̌ʼ d 'na' M, y",
+                "yMMM": "MMM y",
+                "yMMMd": "'lyɛ'̌ʼ d 'na' MMMM, y",
+                "yMMMEd": "E , 'lyɛ'̌ʼ d 'na' MMM, y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "main": {
+    "nmg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "nmg"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Mɔn B ´Arabe"
+          },
+          "AOA": {
+            "displayName": "Mɔn Angola"
+          },
+          "AUD": {
+            "displayName": "Dɔ́llɔ Ɔstralia"
+          },
+          "BHD": {
+            "displayName": "Mɔn Bahrein"
+          },
+          "BIF": {
+            "displayName": "Fraŋ Burundi"
+          },
+          "BWP": {
+            "displayName": "Mɔn Botswana"
+          },
+          "CAD": {
+            "displayName": "Dɔ́llɔ Kanada"
+          },
+          "CDF": {
+            "displayName": "Fraŋ bó Kongolɛ̌"
+          },
+          "CHF": {
+            "displayName": "Fraŋ Suisse"
+          },
+          "CNY": {
+            "displayName": "Mɔn bó Chinois"
+          },
+          "CVE": {
+            "displayName": "Mɔn Kapvɛrt"
+          },
+          "DJF": {
+            "displayName": "Fraŋ Jibuti"
+          },
+          "DZD": {
+            "displayName": "Mɔn Algeria"
+          },
+          "EGP": {
+            "displayName": "Mɔn Ägyptɛn"
+          },
+          "ERN": {
+            "displayName": "Mɔn Erytré"
+          },
+          "ETB": {
+            "displayName": "Mɔn Ethiopia"
+          },
+          "EUR": {
+            "displayName": "Euro"
+          },
+          "GBP": {
+            "displayName": "Mɔn Ngɛ̄lɛ̄n"
+          },
+          "GHC": {
+            "displayName": "Mɔn Gana"
+          },
+          "GMD": {
+            "displayName": "Mɔn Gambia"
+          },
+          "GNS": {
+            "displayName": "Fraŋ Guiné"
+          },
+          "INR": {
+            "displayName": "Mɔn India"
+          },
+          "JPY": {
+            "displayName": "Mɔn Japɔn"
+          },
+          "KES": {
+            "displayName": "Mɔn Kɛnya"
+          },
+          "KMF": {
+            "displayName": "Fraŋ bó Kɔmɔr"
+          },
+          "LRD": {
+            "displayName": "Dɔ́llɔ Liberia"
+          },
+          "LSL": {
+            "displayName": "Mɔn Lesoto"
+          },
+          "LYD": {
+            "displayName": "Mɔn Libya"
+          },
+          "MAD": {
+            "displayName": "Mɔn Marɔk"
+          },
+          "MGA": {
+            "displayName": "Mɔn Madagaskar"
+          },
+          "MRO": {
+            "displayName": "Mɔn Moritania"
+          },
+          "MUR": {
+            "displayName": "Mɔn Moriss"
+          },
+          "MWK": {
+            "displayName": "Mɔn Malawi"
+          },
+          "MZM": {
+            "displayName": "Mɔn Mozambik"
+          },
+          "NAD": {
+            "displayName": "Dɔ́llɔ Namibia"
+          },
+          "NGN": {
+            "displayName": "Naïra Nigeria"
+          },
+          "RWF": {
+            "displayName": "Fraŋ Rwanda"
+          },
+          "SAR": {
+            "displayName": "Mɔn Saudi Arabia"
+          },
+          "SCR": {
+            "displayName": "Mɔn Seychɛlle"
+          },
+          "SDG": {
+            "displayName": "Mɔn Sudan"
+          },
+          "SDP": {
+            "displayName": "Mɔn Sudan (1957–1998)"
+          },
+          "SHP": {
+            "displayName": "Mɔn má Saint Lina"
+          },
+          "SLL": {
+            "displayName": "Mɔn Leɔne"
+          },
+          "SOS": {
+            "displayName": "Mɔn Somalía"
+          },
+          "STD": {
+            "displayName": "Mɔn Sao tomé na prinship"
+          },
+          "SZL": {
+            "displayName": "Mɔn Ligangeni"
+          },
+          "TND": {
+            "displayName": "Mɔn Tunisia"
+          },
+          "TZS": {
+            "displayName": "Mɔn Tanzania"
+          },
+          "UGX": {
+            "displayName": "Mɔn Uganda"
+          },
+          "USD": {
+            "displayName": "Dɔ́llɔ Amɛŕka"
+          },
+          "XAF": {
+            "displayName": "Fraŋ CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Fraŋ CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Mɔn Afrik yí sí"
+          },
+          "ZMK": {
+            "displayName": "Mɔn Zambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Mɔn Zambia"
+          },
+          "ZWD": {
+            "displayName": "Dɔ́llɔ Zimbabwǝ (1980–2008)"
+          }
+        }
+      }
+    }
+  }
+}

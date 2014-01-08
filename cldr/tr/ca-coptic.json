@@ -1,0 +1,41 @@
+{
+  "main": {
+    "tr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "tr"
+      },
+      "dates": {
+        "calendars": {
+          "coptic": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "Tût",
+                  "2": "Bâbe",
+                  "3": "Hatur",
+                  "4": "Keyhek",
+                  "5": "Tûbe",
+                  "6": "Imşir",
+                  "7": "Bermuhat",
+                  "8": "Bermude",
+                  "9": "Peyştes",
+                  "10": "Bune",
+                  "11": "Ebip",
+                  "12": "Mısrî",
+                  "13": "Nesî"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

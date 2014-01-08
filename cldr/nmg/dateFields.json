@@ -1,0 +1,53 @@
+{
+  "main": {
+    "nmg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "nmg"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Pīl/Lahlɛ̄"
+          },
+          "year": {
+            "displayName": "Mbvu"
+          },
+          "month": {
+            "displayName": "Ngwɛn"
+          },
+          "week": {
+            "displayName": "Sɔ́ndɔ"
+          },
+          "day": {
+            "displayName": "Duö",
+            "relative-type--1": "Nakugú",
+            "relative-type-0": "Dɔl",
+            "relative-type-1": "Namáná"
+          },
+          "dayperiod": {
+            "displayName": "Máná, Muó, Kugú, Bvul"
+          },
+          "hour": {
+            "displayName": "Wulā"
+          },
+          "minute": {
+            "displayName": "Mpálâ"
+          },
+          "second": {
+            "displayName": "Nyiɛl"
+          },
+          "zone": {
+            "displayName": "Nkɛ̌l wulā"
+          }
+        }
+      }
+    }
+  }
+}

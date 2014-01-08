@@ -1,0 +1,20 @@
+{
+  "main": {
+    "fa-AF": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "fa",
+        "territory": "AF"
+      },
+      "characters": {
+        "auxiliary": "[\u200C \u200D \u0656 \u0670 ټ ځ څ ډ ړ ږ ښ ګ ڼ ي]"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "main": {
+    "fr-CA": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "fr",
+        "territory": "CA"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab-alt-variant": "Perso-arabe",
+          "Beng": "bengâglî",
+          "Hans": "idéogrammes han simplifiés",
+          "Hans-alt-stand-alone": "chinois simplifié",
+          "Hant": "idéogrammes han traditionnels",
+          "Hant-alt-stand-alone": "chinois traditionnel",
+          "Mlym": "malayâlam",
+          "Orya": "oriyâ",
+          "Sinh": "cingalais"
+        }
+      }
+    }
+  }
+}

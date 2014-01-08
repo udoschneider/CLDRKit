@@ -1,0 +1,164 @@
+{
+  "main": {
+    "zh-Hant": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9308 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 14:41:52 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "zh",
+        "script": "Hant"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "G y 年 M 月 d 日 EEEE",
+              "long": "G y年M月d日",
+              "medium": "G y年M月d日",
+              "short": "G y/M/d"
+            },
+            "dateTimeFormats": {
+              "full": "{1}{0}",
+              "long": "{1} {0}",
+              "medium": "{1} {0}",
+              "short": "{1} {0}",
+              "availableFormats": {
+                "d": "d日",
+                "Ed": "d日（E）",
+                "Gy": "G y 年",
+                "GyMMM": "Gy年M月",
+                "GyMMMd": "G y 年 M 月 d 日",
+                "GyMMMEd": "G y 年 M 月 d 日 E",
+                "h": "ah時",
+                "H": "H時",
+                "hm": "ah:mm",
+                "Hm": "H:mm",
+                "hms": "ah:mm:ss",
+                "Hms": "H:mm:ss",
+                "M": "M月",
+                "Md": "M/d",
+                "MEd": "M/d (E)",
+                "MMM": "LLL",
+                "MMMd": "M月d日",
+                "MMMEd": "M 月 d 日E",
+                "ms": "mm:ss",
+                "y": "G y 年",
+                "yyyy": "G y 年",
+                "yyyyM": "G y/M",
+                "yyyyMd": "G y/M/d",
+                "yyyyMEd": "G y/M/d (E)",
+                "yyyyMMM": "G y 年 M 月",
+                "yyyyMMMd": "G y 年 M 月 d 日",
+                "yyyyMMMEd": "G y 年 M 月 d 日E",
+                "yyyyQQQ": "G y 年 QQQ",
+                "yyyyQQQQ": "G y 年 QQQQ"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0}至{1}",
+                "d": {
+                  "d": "d日至d日"
+                },
+                "h": {
+                  "a": "ah時至ah時",
+                  "h": "ah時至h時"
+                },
+                "H": {
+                  "H": "HH–HH"
+                },
+                "hm": {
+                  "a": "ah:mm至ah:mm",
+                  "h": "ah:mm至h:mm",
+                  "m": "ah:mm至h:mm"
+                },
+                "Hm": {
+                  "H": "HH:mm–HH:mm",
+                  "m": "HH:mm–HH:mm"
+                },
+                "hmv": {
+                  "a": "ah:mm至ah:mm [v]",
+                  "h": "ah:mm至h:mm [v]",
+                  "m": "ah:mm至h:mm [v]"
+                },
+                "Hmv": {
+                  "H": "HH:mm–HH:mm [v]",
+                  "m": "HH:mm–HH:mm [v]"
+                },
+                "hv": {
+                  "a": "ah時至ah時 [v]",
+                  "h": "ah時至h時 [v]"
+                },
+                "Hv": {
+                  "H": "HH–HH [v]"
+                },
+                "M": {
+                  "M": "M月至M月"
+                },
+                "Md": {
+                  "d": "M/d至M/d",
+                  "M": "M/d至M/d"
+                },
+                "MEd": {
+                  "d": "M/d E至 M/d E",
+                  "M": "M/d E至 M/d E"
+                },
+                "MMM": {
+                  "M": "LLL至LLL"
+                },
+                "MMMd": {
+                  "d": "M月d日至d日",
+                  "M": "M月d日至M月d日"
+                },
+                "MMMEd": {
+                  "d": "M 月 d 日E至 d 日E",
+                  "M": "M 月 d 日E至 M 月 d 日E"
+                },
+                "MMMM": {
+                  "M": "LLLL至LLLL"
+                },
+                "y": {
+                  "y": "G y 至 y"
+                },
+                "yM": {
+                  "M": "G y/M 至 y/M",
+                  "y": "G y/M 至 y/M"
+                },
+                "yMd": {
+                  "d": "G y/M/d 至 y/M/d",
+                  "M": "G y/M/d 至 y/M/d",
+                  "y": "G y/M/d 至 y/M/d"
+                },
+                "yMEd": {
+                  "d": "G y/M/d E至 y/M/d E",
+                  "M": "G y/M/d E至 y/M/d E",
+                  "y": "G y/M/d E至 y/M/d E"
+                },
+                "yMMM": {
+                  "M": "G y 年 M 月至 M 月",
+                  "y": "G y年M月至y年M月"
+                },
+                "yMMMd": {
+                  "d": "G y 年 M 月 d 日至 d 日",
+                  "M": "G y 年 M 月 d 日至 M 月 d 日",
+                  "y": "G y 年 M 月 d 日至 y 年 M 月 d 日"
+                },
+                "yMMMEd": {
+                  "d": "G y 年 M 月 d 日E 至 d 日E",
+                  "M": "G y 年 M 月 d 日E至 M 月 d 日E",
+                  "y": "G y 年 M 月 d 日E至 y 年 M 月 d 日E"
+                },
+                "yMMMM": {
+                  "M": "G y 年 M 月至 M 月",
+                  "y": "G y 年 M 月至 y 年 M 月"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

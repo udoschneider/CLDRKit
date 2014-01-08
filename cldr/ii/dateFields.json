@@ -1,0 +1,58 @@
+{
+  "main": {
+    "ii": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "ii"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "ꃅꋊ"
+          },
+          "year": {
+            "displayName": "ꈎ"
+          },
+          "month": {
+            "displayName": "ꆪ"
+          },
+          "week": {
+            "displayName": "ꑭꆏ"
+          },
+          "day": {
+            "displayName": "ꑍ",
+            "relative-type--2": "ꎴꂿꋍꑍ",
+            "relative-type--1": "ꀋꅔꉈ",
+            "relative-type-0": "ꀃꑍ",
+            "relative-type-1": "ꃆꏂꑍ",
+            "relative-type-2": "ꌕꀿꑍ"
+          },
+          "weekday": {
+            "displayName": "ꆏꑍ"
+          },
+          "dayperiod": {
+            "displayName": "ꎸꄑ/ꁯꋒ"
+          },
+          "hour": {
+            "displayName": "ꄮꈉ"
+          },
+          "minute": {
+            "displayName": "ꃏ"
+          },
+          "second": {
+            "displayName": "ꇙ"
+          },
+          "zone": {
+            "displayName": "ꃅꄷꄮꈉ"
+          }
+        }
+      }
+    }
+  }
+}

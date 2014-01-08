@@ -1,0 +1,63 @@
+{
+  "main": {
+    "es-MX": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "es",
+        "territory": "MX"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "árabe",
+          "Arab-alt-variant": "perso-árabe",
+          "Armn": "armenio",
+          "Beng": "bengalí",
+          "Bopo": "bopomofo",
+          "Brai": "braille",
+          "Cyrl": "cirílico",
+          "Deva": "devanagari",
+          "Ethi": "etiópico",
+          "Geor": "georgiano",
+          "Grek": "griego",
+          "Gujr": "gujarati",
+          "Guru": "gurmuji",
+          "Hang": "hangul",
+          "Hani": "han",
+          "Hans": "han simplificado",
+          "Hans-alt-stand-alone": "han simplificado",
+          "Hant": "han tradicional",
+          "Hant-alt-stand-alone": "han tradicional",
+          "Hebr": "hebreo",
+          "Hira": "hiragana",
+          "Jpan": "japonés",
+          "Kana": "katakana",
+          "Khmr": "jemer",
+          "Knda": "canarés",
+          "Kore": "coreano",
+          "Laoo": "lao",
+          "Latn": "latín",
+          "Mlym": "malayalam",
+          "Mong": "mongol",
+          "Mymr": "birmano",
+          "Orya": "oriya",
+          "Sinh": "cingalés",
+          "Taml": "tamil",
+          "Telu": "telugú",
+          "Thaa": "thaana",
+          "Thai": "tailandés",
+          "Tibt": "tibetano",
+          "Zsym": "símbolos",
+          "Zxxx": "no escrito",
+          "Zyyy": "común",
+          "Zzzz": "alfabeto desconocido"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "main": {
+    "uz": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "uz"
+      },
+      "dates": {
+        "calendars": {
+          "islamic": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "Muharram",
+                  "2": "Safar",
+                  "3": "Robiʼ ul-avval",
+                  "4": "Robiʼ ul-oxir",
+                  "5": "Jumad ul-avval",
+                  "6": "Jumad ul-oxir",
+                  "7": "Rajab",
+                  "8": "Shaʼbon",
+                  "9": "Ramazon",
+                  "10": "Shavvol",
+                  "11": "Zul-qaʼda",
+                  "12": "Zul-hijja"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

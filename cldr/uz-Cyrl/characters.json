@@ -1,0 +1,31 @@
+{
+  "main": {
+    "uz-Cyrl": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "uz",
+        "script": "Cyrl"
+      },
+      "characters": {
+        "exemplarCharacters": "[а б в г ғ д е ё ж з и й к қ л м н о п р с т у ў ф х ҳ ч ш ъ э ю я]",
+        "auxiliary": "[ц щ ы ь]",
+        "index": "[А Б В Г Ғ Д Е Ж З И Й К Қ Л М Н О П Р С Т У Ў Ф Х Ҳ Ч Ш Ъ Э Ю Я]",
+        "ellipsis": {
+          "final": "{0}…",
+          "initial": "…{0}",
+          "medial": "{0}…{1}",
+          "word-final": "{0} …",
+          "word-initial": "… {0}",
+          "word-medial": "{0} … {1}"
+        },
+        "moreInformation": "?"
+      }
+    }
+  }
+}

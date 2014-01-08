@@ -1,0 +1,186 @@
+{
+  "main": {
+    "teo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "teo"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Ango'otol lok' Falme za Kiarabu"
+          },
+          "AOA": {
+            "displayName": "Ango'otol lok' Angola"
+          },
+          "AUD": {
+            "displayName": "Ango'otol lok' Australia"
+          },
+          "BHD": {
+            "displayName": "Ango'otol lok' Bahareni"
+          },
+          "BIF": {
+            "displayName": "Ango'otol lok' Burundi"
+          },
+          "BWP": {
+            "displayName": "Ango'otol lok' Botswana"
+          },
+          "CAD": {
+            "displayName": "Edola lok'Kanada"
+          },
+          "CDF": {
+            "displayName": "Ango'otol lok' Kongo"
+          },
+          "CHF": {
+            "displayName": "Ango'otol lok' Uswisi"
+          },
+          "CNY": {
+            "displayName": "Ango'otol lok' China"
+          },
+          "CVE": {
+            "displayName": "Ango'otol lok' Kepuvede"
+          },
+          "DJF": {
+            "displayName": "Ango'otol lok' Jibuti"
+          },
+          "DZD": {
+            "displayName": "Ango'otol lok' Aljeria"
+          },
+          "EGP": {
+            "displayName": "Epaunt lok' Misri"
+          },
+          "ERN": {
+            "displayName": "Ango'otol lok' Eritrea"
+          },
+          "ETB": {
+            "displayName": "Ango'otol lok' Uhabeshi"
+          },
+          "EUR": {
+            "displayName": "Yuro"
+          },
+          "GBP": {
+            "displayName": "Epaunt lok' Uingereza"
+          },
+          "GHC": {
+            "displayName": "Sedi ya Ghana"
+          },
+          "GMD": {
+            "displayName": "Dalasi ya Gambia"
+          },
+          "GNS": {
+            "displayName": "Ango'otol lok' Gine"
+          },
+          "INR": {
+            "displayName": "Ango'otol lok' India"
+          },
+          "JPY": {
+            "displayName": "Ango'otol lok' Kijapani"
+          },
+          "KES": {
+            "displayName": "Ango'otol lok' Kenya"
+          },
+          "KMF": {
+            "displayName": "Ango'otol lok' Komoro"
+          },
+          "LRD": {
+            "displayName": "edola lok' Liberia"
+          },
+          "LSL": {
+            "displayName": "Ango'otol lok' Lesoto"
+          },
+          "LYD": {
+            "displayName": "Ango'otol lok' Libya"
+          },
+          "MAD": {
+            "displayName": "Ango'otol lok' Moroko"
+          },
+          "MGA": {
+            "displayName": "Ango'otol lok' Bukini"
+          },
+          "MRO": {
+            "displayName": "Ango'otol lok' Moritania"
+          },
+          "MUR": {
+            "displayName": "Ango'otol lok' Morisi"
+          },
+          "MWK": {
+            "displayName": "Ango'otol lok' Malawi"
+          },
+          "MZM": {
+            "displayName": "Ango'otol lok' Msumbiji"
+          },
+          "NAD": {
+            "displayName": "Ango'otol lok' Namibia"
+          },
+          "NGN": {
+            "displayName": "Ango'otol lok' Nijeria"
+          },
+          "RWF": {
+            "displayName": "Ango'otol lok' Rwanda"
+          },
+          "SAR": {
+            "displayName": "Ango'otol lok' Saudia"
+          },
+          "SCR": {
+            "displayName": "Ango'otol lok' Shelisheli"
+          },
+          "SDG": {
+            "displayName": "Epaunt Lok' Sudan"
+          },
+          "SHP": {
+            "displayName": "Ango'otol lok' Santahelena"
+          },
+          "SLL": {
+            "displayName": "Leoni"
+          },
+          "SOS": {
+            "displayName": "Ango'otol lok' Somalia"
+          },
+          "STD": {
+            "displayName": "Ango'otol lok' Sao Tome na Principe"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Ango'otol lok' Tunisia"
+          },
+          "TZS": {
+            "displayName": "Ango'otol lok' Tanzania"
+          },
+          "UGX": {
+            "displayName": "Ango'otol lok' Uganda",
+            "symbol": "USh"
+          },
+          "USD": {
+            "displayName": "edola lok' Amareka"
+          },
+          "XAF": {
+            "displayName": "Ango'otol lok' CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Ango'otol lok' CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Ango'otol lok' Afrika Kusini"
+          },
+          "ZMK": {
+            "displayName": "Ango'otol lok' Zambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Ango'otol lok' Zambia"
+          },
+          "ZWD": {
+            "displayName": "Edola lok'Zimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

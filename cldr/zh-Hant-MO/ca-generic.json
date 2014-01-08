@@ -1,0 +1,85 @@
+{
+  "main": {
+    "zh-Hant-MO": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hant",
+        "territory": "MO"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "Gy年MM月dd日EEEE",
+              "long": "Gy年MM月dd日",
+              "medium": "Gy年M月d日",
+              "short": "Gy年M月d日"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "M-d",
+                "MEd": "M-d (E)"
+              },
+              "intervalFormats": {
+                "h": {
+                  "h": "ah至h時"
+                },
+                "Md": {
+                  "d": "M月d日至d日",
+                  "M": "M月d日至M月d日"
+                },
+                "MEd": {
+                  "d": "M月d日E至d日E",
+                  "M": "M月d日E至M月d日E"
+                },
+                "MMMd": {
+                  "d": "MM月d日至d日",
+                  "M": "MM月d日至MM月d日"
+                },
+                "MMMEd": {
+                  "d": "MM月d日E至d日E",
+                  "M": "MM月d日E至MM月d日E"
+                },
+                "yM": {
+                  "M": "Gy年M月至M月",
+                  "y": "Gy年M月至y年M月"
+                },
+                "yMd": {
+                  "d": "Gy年M月d日至d日",
+                  "M": "Gy年M月d日至M月d日",
+                  "y": "Gy年M月d日至y年M月d日"
+                },
+                "yMEd": {
+                  "d": "Gy年M月d日E至d日E",
+                  "M": "Gy年M月d日E至M月d日E",
+                  "y": "Gy年M月d日E至y年M月d日E"
+                },
+                "yMMM": {
+                  "M": "Gy年MM月至MM月",
+                  "y": "Gy年MM月至y年MM月"
+                },
+                "yMMMd": {
+                  "d": "Gy年MM月d日至d日",
+                  "M": "Gy年MM月d日至MM月d日",
+                  "y": "Gy年MM月d日至y年MM月d日"
+                },
+                "yMMMEd": {
+                  "d": "Gy年MM月d日E至d日E",
+                  "M": "Gy年MM月d日E至MM月d日E",
+                  "y": "Gy年MM月d日E至y年MM月d日E"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

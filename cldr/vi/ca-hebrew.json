@@ -1,0 +1,76 @@
+{
+  "main": {
+    "vi": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "vi"
+      },
+      "dates": {
+        "calendars": {
+          "hebrew": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Tishri",
+                  "2": "Heshvan",
+                  "3": "Kislev",
+                  "4": "Tevet",
+                  "5": "Shevat",
+                  "6": "Adar I",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nisan",
+                  "9": "Iyar",
+                  "10": "Sivan",
+                  "11": "Tamuz",
+                  "12": "Av",
+                  "13": "Elul"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Tishri",
+                  "2": "Heshvan",
+                  "3": "Kislev",
+                  "4": "Tevet",
+                  "5": "Shevat",
+                  "6": "Adar I",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nisan",
+                  "9": "Iyar",
+                  "10": "Sivan",
+                  "11": "Tamuz",
+                  "12": "Av",
+                  "13": "Elul"
+                },
+                "wide": {
+                  "1": "Tishri",
+                  "2": "Heshvan",
+                  "3": "Kislev",
+                  "4": "Tevet",
+                  "5": "Shevat",
+                  "6": "Adar I",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nisan",
+                  "9": "Iyar",
+                  "10": "Sivan",
+                  "11": "Tamuz",
+                  "12": "Av",
+                  "13": "Elul"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

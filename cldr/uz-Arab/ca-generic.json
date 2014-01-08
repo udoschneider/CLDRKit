@@ -1,0 +1,35 @@
+{
+  "main": {
+    "uz-Arab": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "uz",
+        "script": "Arab"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "G y نچی ییل d نچی MMMM EEEE کونی",
+              "long": "d نچی MMMM y G",
+              "medium": "d MMM y G",
+              "short": "GGGGG y/M/d"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "M/d",
+                "MMMMd": "d نچی MMMM"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

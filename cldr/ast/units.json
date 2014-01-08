@@ -1,0 +1,78 @@
+{
+  "main": {
+    "ast": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ast"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} dia",
+            "unitPattern-count-other": "{0} díes"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} hora",
+            "unitPattern-count-other": "{0} hores"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} minutu",
+            "unitPattern-count-other": "{0} minutos"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} mes",
+            "unitPattern-count-other": "{0} meses"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} segundu",
+            "unitPattern-count-other": "{0} segundos"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} selmana",
+            "unitPattern-count-other": "{0} selmanes"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} añu",
+            "unitPattern-count-other": "{0} años"
+          }
+        },
+        "short": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} d",
+            "unitPattern-count-other": "{0} d"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} h",
+            "unitPattern-count-other": "{0} h"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} min",
+            "unitPattern-count-other": "{0} min"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} m",
+            "unitPattern-count-other": "{0} m"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} s",
+            "unitPattern-count-other": "{0} s"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} sel",
+            "unitPattern-count-other": "{0} sel"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} a",
+            "unitPattern-count-other": "{0} a"
+          }
+        }
+      }
+    }
+  }
+}

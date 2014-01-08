@@ -1,0 +1,251 @@
+{
+  "main": {
+    "so": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "so"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Kob",
+                  "2": "Lab",
+                  "3": "Sad",
+                  "4": "Afr",
+                  "5": "Sha",
+                  "6": "Lix",
+                  "7": "Tod",
+                  "8": "Sid",
+                  "9": "Sag",
+                  "10": "Tob",
+                  "11": "KIT",
+                  "12": "LIT"
+                },
+                "wide": {
+                  "1": "Bisha Koobaad",
+                  "2": "Bisha Labaad",
+                  "3": "Bisha Saddexaad",
+                  "4": "Bisha Afraad",
+                  "5": "Bisha Shanaad",
+                  "6": "Bisha Lixaad",
+                  "7": "Bisha Todobaad",
+                  "8": "Bisha Sideedaad",
+                  "9": "Bisha Sagaalaad",
+                  "10": "Bisha Tobnaad",
+                  "11": "Bisha Kow iyo Tobnaad",
+                  "12": "Bisha Laba iyo Tobnaad"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "1": "K",
+                  "2": "L",
+                  "3": "S",
+                  "4": "A",
+                  "5": "S",
+                  "6": "L",
+                  "7": "T",
+                  "8": "S",
+                  "9": "S",
+                  "10": "T",
+                  "11": "K",
+                  "12": "L"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "Axd",
+                  "mon": "Isn",
+                  "tue": "Tal",
+                  "wed": "Arb",
+                  "thu": "Kha",
+                  "fri": "Jim",
+                  "sat": "Sab"
+                },
+                "wide": {
+                  "sun": "Axad",
+                  "mon": "Isniin",
+                  "tue": "Talaado",
+                  "wed": "Arbaco",
+                  "thu": "Khamiis",
+                  "fri": "Jimco",
+                  "sat": "Sabti"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "sun": "A",
+                  "mon": "I",
+                  "tue": "T",
+                  "wed": "A",
+                  "thu": "K",
+                  "fri": "J",
+                  "sat": "S"
+                }
+              }
+            },
+            "quarters": {
+              "format": {
+                "abbreviated": {
+                  "1": "R1",
+                  "2": "R2",
+                  "3": "R3",
+                  "4": "R4"
+                },
+                "wide": {
+                  "1": "Rubaca 1aad",
+                  "2": "Rubaca 2aad",
+                  "3": "Rubaca 3aad",
+                  "4": "Rubaca 4aad"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "sn.",
+                  "pm": "gn."
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Ciise ka hor (CS)",
+                "1": "Ciise ka dib (CS)"
+              },
+              "eraAbbr": {
+                "0": "CK",
+                "1": "CD"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, MMMM dd, y",
+              "long": "dd MMMM y",
+              "medium": "dd-MMM-y",
+              "short": "dd/MM/yy"
+            },
+            "timeFormats": {
+              "full": "h:mm:ss a zzzz",
+              "long": "h:mm:ss a z",
+              "medium": "h:mm:ss a",
+              "short": "h:mm a"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "hm": "h:mm a",
+                "Hm": "HH:mm",
+                "Hms": "HH:mm:ss",
+                "M": "L",
+                "Md": "M/d",
+                "MEd": "E, M/d",
+                "MMM": "LLL",
+                "MMMd": "MMM d",
+                "MMMEd": "E, MMM d",
+                "MMMMd": "MMMM d",
+                "MMMMEd": "E, MMMM d",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "M/y",
+                "yMEd": "E, M/d/y",
+                "yMMM": "MMM y",
+                "yMMMEd": "E, MMM d, y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} - {1}",
+                "d": {
+                  "d": "d-d"
+                },
+                "h": {
+                  "a": "h a - h a",
+                  "h": "h-h a"
+                },
+                "hm": {
+                  "a": "h:mm a - h:mm a",
+                  "h": "h:mm-h:mm a",
+                  "m": "h:mm-h:mm a"
+                },
+                "hmv": {
+                  "a": "h:mm a - h:mm a v",
+                  "h": "h:mm-h:mm a v",
+                  "m": "h:mm-h:mm a v"
+                },
+                "hv": {
+                  "a": "h a - h a v",
+                  "h": "h-h a v"
+                },
+                "M": {
+                  "M": "M-M"
+                },
+                "Md": {
+                  "d": "dd/MM - dd/MM",
+                  "M": "dd/MM - dd/MM"
+                },
+                "MEd": {
+                  "d": "E, dd/MM - E, dd/MM",
+                  "M": "E, dd/MM - E, dd/MM"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "dd-dd MMM",
+                  "M": "dd MMM - dd MMM"
+                },
+                "MMMEd": {
+                  "d": "E, dd - E, dd MMM",
+                  "M": "E, dd MMM - E, dd MMM"
+                },
+                "y": {
+                  "y": "y-y"
+                },
+                "yM": {
+                  "M": "MM/y - MM/y",
+                  "y": "MM/y - MM/y"
+                },
+                "yMd": {
+                  "d": "dd/MM/y - dd/MM/y",
+                  "M": "dd/MM/y - dd/MM/y",
+                  "y": "dd/MM/y - dd/MM/y"
+                },
+                "yMEd": {
+                  "d": "E, dd/MM/y - E, dd/MM/y",
+                  "M": "E, dd/MM/y - E, dd/MM/y",
+                  "y": "E, dd/MM/y - E, dd/MM/y"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM y",
+                  "y": "MMM y - MMM y"
+                },
+                "yMMMd": {
+                  "d": "dd-dd MMM y",
+                  "M": "dd MMM - dd MMM y",
+                  "y": "dd MMM y - dd MMM y"
+                },
+                "yMMMEd": {
+                  "d": "E, MMM dd - E, MMM dd, y",
+                  "M": "E, MMM dd - E, MMM dd, y",
+                  "y": "E, MMM dd, y - E, MMM dd, y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

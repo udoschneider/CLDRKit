@@ -1,0 +1,31 @@
+{
+  "main": {
+    "zgh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zgh"
+      },
+      "localeDisplayNames": {
+        "keys": {
+          "calendar": "ⴰⵙⵎⵍⵓⵙⵙⴰⵏ",
+          "collation": "ⴰⵏⵎⴰⵍⴰ ⵏ ⵓⵙⵜⴰⵢ",
+          "currency": "ⴰⴷⵔⵉⵎ"
+        },
+        "types": {
+          "calendar": {
+            "coptic": "ⴰⵙⵎⵍⵓⵙⵙⴰⵏ ⴰⵇⴱⵟⵉ",
+            "ethiopic": "ⴰⵙⵎⵍⵓⵙⵙⴰⵏ ⵏ ⵉⵜⵢⵓⴱⵢⴰ",
+            "gregorian": "ⴰⵙⵎⵍⵓⵙⵙⴰⵏ ⴰⴳⵔⵉⴳⵓⵔ",
+            "islamic": "ⴰⵙⵎⵍⵓⵙⵙⴰⵏ ⵏ ⵍⵉⵙⵍⴰⵎ"
+          }
+        }
+      }
+    }
+  }
+}

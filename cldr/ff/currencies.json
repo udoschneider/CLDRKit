@@ -1,0 +1,185 @@
+{
+  "main": {
+    "ff": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ff"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Dirham Emiraati Araab Dentuɗi"
+          },
+          "AOA": {
+            "displayName": "Kwansaa Anngolaa"
+          },
+          "AUD": {
+            "displayName": "Dolaar Ostaraalii"
+          },
+          "BHD": {
+            "displayName": "Dinaar Bahrayn"
+          },
+          "BIF": {
+            "displayName": "Mbuuɗu Burunndi"
+          },
+          "BWP": {
+            "displayName": "Pulaa Botwanaa"
+          },
+          "CAD": {
+            "displayName": "Dolaar Kandaaa"
+          },
+          "CDF": {
+            "displayName": "Faraa Konngo"
+          },
+          "CHF": {
+            "displayName": "Faraa Suwiis"
+          },
+          "CNY": {
+            "displayName": "Yuam Siin"
+          },
+          "CVE": {
+            "displayName": "Eskudoo Kap Weer"
+          },
+          "DJF": {
+            "displayName": "Faraa Jibutii"
+          },
+          "DZD": {
+            "displayName": "Dinaar Alaseri"
+          },
+          "EGP": {
+            "displayName": "Liibar Ejipt"
+          },
+          "ERN": {
+            "displayName": "Nafka Eriteree"
+          },
+          "ETB": {
+            "displayName": "Biir Ecoppi"
+          },
+          "EUR": {
+            "displayName": "Oroo"
+          },
+          "GBP": {
+            "displayName": "Liibar Sterling"
+          },
+          "GHC": {
+            "displayName": "Sedi Ganaa"
+          },
+          "GMD": {
+            "displayName": "Dalasi Gammbi"
+          },
+          "GNS": {
+            "displayName": "Faraa Gine"
+          },
+          "INR": {
+            "displayName": "Rupii Enndo"
+          },
+          "JPY": {
+            "displayName": "Yen Sapoo"
+          },
+          "KES": {
+            "displayName": "Siling Keñaa"
+          },
+          "KMF": {
+            "displayName": "Faraa Komoor"
+          },
+          "LRD": {
+            "displayName": "Dolaar Liberiyaa"
+          },
+          "LSL": {
+            "displayName": "Loti Lesotoo"
+          },
+          "LYD": {
+            "displayName": "Dinaar Libi"
+          },
+          "MAD": {
+            "displayName": "Diraham Maruk"
+          },
+          "MGA": {
+            "displayName": "Ariyari Madagaskaar"
+          },
+          "MRO": {
+            "displayName": "Ugiyya Muritani"
+          },
+          "MUR": {
+            "displayName": "Rupii Moriis"
+          },
+          "MWK": {
+            "displayName": "Kuwacca Malaawi"
+          },
+          "MZM": {
+            "displayName": "Metikal Mosammbik"
+          },
+          "NAD": {
+            "displayName": "Dolaar Namibii"
+          },
+          "NGN": {
+            "displayName": "Nayraa Nijeriyaa"
+          },
+          "RWF": {
+            "displayName": "Faraa Ruwanndaa"
+          },
+          "SAR": {
+            "displayName": "Riyaal Arabi Sawdit"
+          },
+          "SCR": {
+            "displayName": "Rupii Seysel"
+          },
+          "SDG": {
+            "displayName": "Liibar Sudaan"
+          },
+          "SHP": {
+            "displayName": "Liibar Sent Helen"
+          },
+          "SLL": {
+            "displayName": "Lewoon Seraa Liyon"
+          },
+          "SOS": {
+            "displayName": "Siling Soomali"
+          },
+          "STD": {
+            "displayName": "Dobra Sawo Tome e Prensipe"
+          },
+          "SZL": {
+            "displayName": "Lilangeni Swaasilannda"
+          },
+          "TND": {
+            "displayName": "Dinaar Tunisii"
+          },
+          "TZS": {
+            "displayName": "Siling Tansanii"
+          },
+          "UGX": {
+            "displayName": "Siling Uganndaa"
+          },
+          "USD": {
+            "displayName": "Dolaar Dowlaaji Dentuɗi"
+          },
+          "XAF": {
+            "displayName": "Mbuuɗi Seefaa BEAC"
+          },
+          "XOF": {
+            "displayName": "Mbuuɗu Seefaa BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Rannda Afrik Bŋ Worgo"
+          },
+          "ZMK": {
+            "displayName": "Kuwacca Sammbi (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kuwacca Sammbi"
+          },
+          "ZWD": {
+            "displayName": "Dolaar Simbaabuwe"
+          }
+        }
+      }
+    }
+  }
+}

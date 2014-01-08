@@ -1,0 +1,65 @@
+{
+  "main": {
+    "xog": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "xog"
+      },
+      "localeDisplayNames": {
+        "languages": {
+          "ak": "Oluakaani",
+          "am": "Oluamhariki",
+          "ar": "Oluwarabu",
+          "be": "Olubelarusi",
+          "bg": "Olubulugariya",
+          "bn": "Olubengali",
+          "cs": "Oluceeke",
+          "de": "Oludaaki",
+          "el": "Oluyonaani",
+          "en": "Olungereza",
+          "es": "Olusipanya",
+          "fa": "Oluperusi",
+          "fr": "Olufalansa",
+          "ha": "Oluhawuza",
+          "hi": "Oluhindu",
+          "hu": "Oluhangare",
+          "id": "Oluyindonezya",
+          "ig": "Oluyibo",
+          "it": "Oluyitale",
+          "ja": "Olujapani",
+          "jv": "Olunnajjava",
+          "km": "Olukme",
+          "ko": "Olukoreya",
+          "ms": "Olumalayi",
+          "my": "Olubbama",
+          "ne": "Olunepali",
+          "nl": "Oluholandi",
+          "pa": "Olupunjabi",
+          "pl": "Olupolandi",
+          "pt": "Olupotugiizi",
+          "ro": "Olulomaniya",
+          "ru": "Olulasa",
+          "rw": "Olunarwanda",
+          "so": "Olusomaliya",
+          "sv": "Oluswideni",
+          "ta": "Olutamiiru",
+          "th": "Oluttaayi",
+          "tr": "Olutake",
+          "uk": "Oluyukurayine",
+          "ur": "Olu-urudu",
+          "vi": "Oluvyetinaamu",
+          "xog": "Olusoga",
+          "yo": "Oluyoruba",
+          "zh": "Olucayina",
+          "zu": "Oluzzulu"
+        }
+      }
+    }
+  }
+}

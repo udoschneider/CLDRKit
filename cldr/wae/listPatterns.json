@@ -1,0 +1,22 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "listPatterns": {
+        "listPattern-type-standard": {
+          "end": "{0} und {1}",
+          "2": "{0} und {1}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "main": {
+    "guz": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "guz"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Ebiro"
+          },
+          "year": {
+            "displayName": "Omwaka"
+          },
+          "month": {
+            "displayName": "Omotienyi"
+          },
+          "week": {
+            "displayName": "Omokubio"
+          },
+          "day": {
+            "displayName": "Rituko",
+            "relative-type--1": "Igoro",
+            "relative-type-0": "Rero",
+            "relative-type-1": "Mambia"
+          },
+          "weekday": {
+            "displayName": "Rituko r'ewiki"
+          },
+          "dayperiod": {
+            "displayName": "Mambia gose Morogoba"
+          },
+          "hour": {
+            "displayName": "Ensa"
+          },
+          "minute": {
+            "displayName": "Edakika"
+          },
+          "second": {
+            "displayName": "Esekendi"
+          },
+          "zone": {
+            "displayName": "Chinse 'chimo"
+          }
+        }
+      }
+    }
+  }
+}

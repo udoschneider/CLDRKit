@@ -1,0 +1,62 @@
+{
+  "main": {
+    "zu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zu"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "isi-Arab",
+          "Arab-alt-variant": "i-Perso-Arabic",
+          "Armn": "isi-Armenian",
+          "Beng": "isi-Bengali",
+          "Bopo": "i-Bopomofo",
+          "Brai": "i-Braille",
+          "Cyrl": "i-Cyrillic",
+          "Deva": "i-Devanagari",
+          "Ethi": "i-Ethiopic",
+          "Geor": "isi-Georgian",
+          "Grek": "isi-Greek",
+          "Gujr": "isi-Gujarati",
+          "Guru": "i-Gurmukhi",
+          "Hang": "i-Hangul",
+          "Hani": "i-Han",
+          "Hans": "i-Simplified",
+          "Hans-alt-stand-alone": "i-Simplified Han",
+          "Hant": "Okosiko",
+          "Hant-alt-stand-alone": "i-Traditional Han",
+          "Hebr": "isi-Hebrew",
+          "Hira": "i-Hiragana",
+          "Jpan": "isi-Japanese",
+          "Kana": "i-Katakana",
+          "Khmr": "isi-Khmer",
+          "Knda": "isi-Kannada",
+          "Kore": "isi-Korean",
+          "Laoo": "i-Lao",
+          "Latn": "isi-Latin",
+          "Mlym": "isi-Malayalam",
+          "Mong": "isi-Mongolian",
+          "Mymr": "i-Myanmar",
+          "Orya": "isi-Oriya",
+          "Sinh": "i-Sinhala",
+          "Taml": "isi-Tamil",
+          "Telu": "isi-Telugu",
+          "Thaa": "i-Thaana",
+          "Thai": "isi-Thai",
+          "Tibt": "isi-Tibetan",
+          "Zsym": "Amasimbuli",
+          "Zxxx": "Okungabhaliwe",
+          "Zyyy": "i-Common",
+          "Zzzz": "Iskripthi esingaziwa"
+        }
+      }
+    }
+  }
+}

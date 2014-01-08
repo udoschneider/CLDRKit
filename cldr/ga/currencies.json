@@ -1,0 +1,759 @@
+{
+  "main": {
+    "ga": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ga"
+      },
+      "numbers": {
+        "currencies": {
+          "ADP": {
+            "displayName": "Peseta Andóra"
+          },
+          "AED": {
+            "displayName": "Dirham Aontas na nÉimíríochtaí Arabacha"
+          },
+          "AFA": {
+            "displayName": "Afgainí (1927–2002)"
+          },
+          "AFN": {
+            "displayName": "Afgainí"
+          },
+          "ALL": {
+            "displayName": "Lek Albánach"
+          },
+          "AMD": {
+            "displayName": "Dram Airméanach"
+          },
+          "ANG": {
+            "displayName": "Guilder na nAntillí Ísiltíreach",
+            "symbol": "AÍ f."
+          },
+          "AOA": {
+            "displayName": "Kwanza Angólach"
+          },
+          "AOK": {
+            "displayName": "Kwanza Angólach (1977–1990)"
+          },
+          "AON": {
+            "displayName": "Kwanza Nua Angólach (1990–2000)"
+          },
+          "AOR": {
+            "displayName": "Kwanza Reajustado Angólach (1995–1999)"
+          },
+          "ARA": {
+            "displayName": "Austral Airgintíneach"
+          },
+          "ARP": {
+            "displayName": "Peso na Airgintíne (1983–1985)"
+          },
+          "ARS": {
+            "displayName": "Peso na Airgintíne"
+          },
+          "ATS": {
+            "displayName": "Scilling Ostarach"
+          },
+          "AUD": {
+            "displayName": "Dollar Astrálach"
+          },
+          "AWG": {
+            "displayName": "Guilder Aruba"
+          },
+          "AZM": {
+            "displayName": "Manat Asarbaiseánach"
+          },
+          "BAD": {
+            "displayName": "Dínear Bhoisnia-Heirseagaivéin"
+          },
+          "BAM": {
+            "displayName": "Marc Inathraithe Bhoisnia-Heirseagaivéin"
+          },
+          "BBD": {
+            "displayName": "Dollar Bharbadóis"
+          },
+          "BDT": {
+            "displayName": "Taka Bhanglaidéiseach"
+          },
+          "BEC": {
+            "displayName": "Franc Beilgeach (inathraithe)"
+          },
+          "BEF": {
+            "displayName": "Franc Beilgeach"
+          },
+          "BEL": {
+            "displayName": "Franc Beilgeach (airgeadúil)"
+          },
+          "BGL": {
+            "displayName": "Lev Bulgárach Crua"
+          },
+          "BGN": {
+            "displayName": "Lev Nua Bulgárach"
+          },
+          "BHD": {
+            "displayName": "Dínear na Bairéine"
+          },
+          "BIF": {
+            "displayName": "Franc na Burúine"
+          },
+          "BMD": {
+            "displayName": "Dollar Bheirmiúda"
+          },
+          "BND": {
+            "displayName": "Dollar Bhrúiné"
+          },
+          "BOB": {
+            "displayName": "Boliviano"
+          },
+          "BOP": {
+            "displayName": "Peso na Bolaive"
+          },
+          "BOV": {
+            "displayName": "Mvdol Bolavach"
+          },
+          "BRB": {
+            "displayName": "Cruzeiro Novo Brasaíleach (1967–1986)"
+          },
+          "BRC": {
+            "displayName": "Cruzado Brasaíleach"
+          },
+          "BRE": {
+            "displayName": "Cruzeiro Brasaíleach (1990–1993)"
+          },
+          "BRL": {
+            "displayName": "Real Brasaíleach"
+          },
+          "BRN": {
+            "displayName": "Cruzado Novo Brasaíleach"
+          },
+          "BRR": {
+            "displayName": "Cruzeiro Brasaíleach"
+          },
+          "BSD": {
+            "displayName": "Dollar na mBahámaí"
+          },
+          "BTN": {
+            "displayName": "Ngultrum Bútánach"
+          },
+          "BUK": {
+            "displayName": "Kyat Burmach"
+          },
+          "BWP": {
+            "displayName": "Pula Botsuánach"
+          },
+          "BYB": {
+            "displayName": "Rúbal Nua Béalarúiseach (1994–1999)"
+          },
+          "BYR": {
+            "displayName": "Rúbal Béalarúiseach"
+          },
+          "BZD": {
+            "displayName": "Dollar na Beilíse"
+          },
+          "CAD": {
+            "displayName": "Dollar Ceanada"
+          },
+          "CDF": {
+            "displayName": "Franc Congolais an Chongó"
+          },
+          "CHF": {
+            "displayName": "Franc na hEilvéise"
+          },
+          "CLF": {
+            "displayName": "Unidades de Fomento na Sile"
+          },
+          "CLP": {
+            "displayName": "Peso na Sile"
+          },
+          "CNY": {
+            "displayName": "Yuan Renminbi Síneach"
+          },
+          "COP": {
+            "displayName": "Peso na Colóime"
+          },
+          "CRC": {
+            "displayName": "Colon Chósta Ríce"
+          },
+          "CSK": {
+            "displayName": "Koruna Crua na Seicslóvaice"
+          },
+          "CUP": {
+            "displayName": "Peso Cúba"
+          },
+          "CVE": {
+            "displayName": "Escudo na Rinne Verde"
+          },
+          "CYP": {
+            "displayName": "Punt na Cipire"
+          },
+          "CZK": {
+            "displayName": "Koruna Phoblacht na Seice"
+          },
+          "DDM": {
+            "displayName": "Ostmark na hOirGhearmáine"
+          },
+          "DEM": {
+            "displayName": "Deutsche Mark"
+          },
+          "DJF": {
+            "displayName": "Franc Djibouti"
+          },
+          "DKK": {
+            "displayName": "Krone Danmhargach"
+          },
+          "DOP": {
+            "displayName": "Peso Doimineacach"
+          },
+          "DZD": {
+            "displayName": "Dínear na hAilgéire"
+          },
+          "ECS": {
+            "displayName": "Sucre Eacuadóir"
+          },
+          "ECV": {
+            "displayName": "Unidad de Valor Constante (UVC) Eacuadóir"
+          },
+          "EEK": {
+            "displayName": "Kroon na hEastóine"
+          },
+          "EGP": {
+            "displayName": "Punt na hÉigipte"
+          },
+          "ESP": {
+            "displayName": "Peseta Spáinneach"
+          },
+          "ETB": {
+            "displayName": "Birr na hAetóipe"
+          },
+          "EUR": {
+            "displayName": "Euro"
+          },
+          "FIM": {
+            "displayName": "Markka Fionnlannach"
+          },
+          "FJD": {
+            "displayName": "Dollar Fhidsí"
+          },
+          "FKP": {
+            "displayName": "Punt Oileáin Fháclainne"
+          },
+          "FRF": {
+            "displayName": "Franc Francach"
+          },
+          "GBP": {
+            "displayName": "Punt Steirling"
+          },
+          "GEK": {
+            "displayName": "Kupon Larit na Grúise"
+          },
+          "GEL": {
+            "displayName": "Lari na Grúise"
+          },
+          "GHC": {
+            "displayName": "Cedi Ghána"
+          },
+          "GIP": {
+            "displayName": "Punt Ghiobráltair"
+          },
+          "GMD": {
+            "displayName": "Dalasi Gaimbia"
+          },
+          "GNF": {
+            "displayName": "Franc Guine"
+          },
+          "GNS": {
+            "displayName": "Syli Guine"
+          },
+          "GQE": {
+            "displayName": "Ekwele Guineana na Guine Meánchriosaí"
+          },
+          "GRD": {
+            "displayName": "Drachma Gréagach"
+          },
+          "GTQ": {
+            "displayName": "Quetzal Guatamala"
+          },
+          "GWE": {
+            "displayName": "Escudo na Guine Portaingéalaí"
+          },
+          "GWP": {
+            "displayName": "Peso Guine-Bhissau"
+          },
+          "GYD": {
+            "displayName": "Dollar na Guáine"
+          },
+          "HKD": {
+            "displayName": "Dollar Hong Cong"
+          },
+          "HNL": {
+            "displayName": "Lempira Hondúrais"
+          },
+          "HRD": {
+            "displayName": "Dínear na Cróite"
+          },
+          "HRK": {
+            "displayName": "Kuna Crótach"
+          },
+          "HTG": {
+            "displayName": "Gourde Háití"
+          },
+          "HUF": {
+            "displayName": "Forint Ungárach"
+          },
+          "IDR": {
+            "displayName": "Rupiah Indinéiseach"
+          },
+          "IEP": {
+            "displayName": "Punt Éireannach"
+          },
+          "ILP": {
+            "displayName": "Punt Iosraelach"
+          },
+          "ILS": {
+            "displayName": "Sheqel Nua Iosraelach"
+          },
+          "INR": {
+            "displayName": "Rúipí India"
+          },
+          "IQD": {
+            "displayName": "Dínear Irácach"
+          },
+          "IRR": {
+            "displayName": "Rial Iaránach"
+          },
+          "ISK": {
+            "displayName": "Krona Íoslannach"
+          },
+          "ITL": {
+            "displayName": "Lira Iodálach"
+          },
+          "JMD": {
+            "displayName": "Dollar Iamácach"
+          },
+          "JOD": {
+            "displayName": "Dínear Iordánach"
+          },
+          "JPY": {
+            "displayName": "Yen Seapánach"
+          },
+          "KES": {
+            "displayName": "Scilling Céiniach"
+          },
+          "KGS": {
+            "displayName": "Som na Cirgeastáine"
+          },
+          "KHR": {
+            "displayName": "Riel na Cambóide"
+          },
+          "KMF": {
+            "displayName": "Franc Chomóra"
+          },
+          "KPW": {
+            "displayName": "Won na Cóiré Thuaidh"
+          },
+          "KRW": {
+            "displayName": "Won na Cóiré Theas"
+          },
+          "KWD": {
+            "displayName": "Dínear Cuátach"
+          },
+          "KYD": {
+            "displayName": "Dollar Oileáin Cayman"
+          },
+          "KZT": {
+            "displayName": "Tenge Casacstánach"
+          },
+          "LAK": {
+            "displayName": "Kip Laosach"
+          },
+          "LBP": {
+            "displayName": "Punt na Liobáine"
+          },
+          "LKR": {
+            "displayName": "Rúipí Srí Lanca"
+          },
+          "LRD": {
+            "displayName": "Dollar na Libéire"
+          },
+          "LSL": {
+            "displayName": "Loti Leosóta"
+          },
+          "LTL": {
+            "displayName": "Lita Liotuánach"
+          },
+          "LTT": {
+            "displayName": "Talonas Liotuánach"
+          },
+          "LUF": {
+            "displayName": "Franc Lucsamburg"
+          },
+          "LVL": {
+            "displayName": "Lats Laitviach"
+          },
+          "LVR": {
+            "displayName": "Rúbal Laitviach"
+          },
+          "LYD": {
+            "displayName": "Dínear Libia"
+          },
+          "MAD": {
+            "displayName": "Dirham Mharacó"
+          },
+          "MAF": {
+            "displayName": "Franc Mharacó"
+          },
+          "MDL": {
+            "displayName": "Leu Moldóvach"
+          },
+          "MGA": {
+            "displayName": "Ariary Madagascar"
+          },
+          "MGF": {
+            "displayName": "Franc Madagascar"
+          },
+          "MKD": {
+            "displayName": "Denar na Macadóine"
+          },
+          "MLF": {
+            "displayName": "Franc Mhailí"
+          },
+          "MMK": {
+            "displayName": "Kyat Mhaenmar"
+          },
+          "MNT": {
+            "displayName": "Tugrik Mongólach"
+          },
+          "MOP": {
+            "displayName": "Pataca Macao"
+          },
+          "MRO": {
+            "displayName": "Ouguiya na Maratáine"
+          },
+          "MTL": {
+            "displayName": "Lira Maltach"
+          },
+          "MTP": {
+            "displayName": "Punt Maltach"
+          },
+          "MUR": {
+            "displayName": "Rúipí Oileán Mhuirís"
+          },
+          "MVR": {
+            "displayName": "Maldive Islands Rufiyaa"
+          },
+          "MWK": {
+            "displayName": "Kwacha na Maláive"
+          },
+          "MXN": {
+            "displayName": "Peso Meicsiceo"
+          },
+          "MXP": {
+            "displayName": "Peso Airgid Meicsiceo (1861–1992)"
+          },
+          "MXV": {
+            "displayName": "Unidad de Inversion (UDI) Meicsiceo"
+          },
+          "MYR": {
+            "displayName": "Ringgit Malaeisia"
+          },
+          "MZE": {
+            "displayName": "Escudo Mósaimbíce"
+          },
+          "MZM": {
+            "displayName": "Metical Mósaimbíce"
+          },
+          "NAD": {
+            "displayName": "Dollar na Namaibe"
+          },
+          "NGN": {
+            "displayName": "Naira Nígéarach"
+          },
+          "NIC": {
+            "displayName": "Cordoba Nicearagua"
+          },
+          "NIO": {
+            "displayName": "Cordoba Oro Nicearagua"
+          },
+          "NLG": {
+            "displayName": "Guilder Ísiltíreach"
+          },
+          "NOK": {
+            "displayName": "Krone Ioruach"
+          },
+          "NPR": {
+            "displayName": "Rúipí Neipeáil"
+          },
+          "NZD": {
+            "displayName": "Dollar na Nua-Shéalainne"
+          },
+          "OMR": {
+            "displayName": "Rial Omain"
+          },
+          "PAB": {
+            "displayName": "Balboa Panamach"
+          },
+          "PEI": {
+            "displayName": "Inti Pheiriú"
+          },
+          "PEN": {
+            "displayName": "Sol Nuevo Pheiriú"
+          },
+          "PES": {
+            "displayName": "Sol Pheiriú"
+          },
+          "PGK": {
+            "displayName": "Kina Nua-Ghuine Phapua"
+          },
+          "PHP": {
+            "displayName": "Peso Filipíneach"
+          },
+          "PKR": {
+            "displayName": "Rúipí na Pacastáine"
+          },
+          "PLN": {
+            "displayName": "Zloty Polannach"
+          },
+          "PLZ": {
+            "displayName": "Zloty Polannach (1950–1995)"
+          },
+          "PTE": {
+            "displayName": "Escudo Portaingélach"
+          },
+          "PYG": {
+            "displayName": "Guarani Pharagua"
+          },
+          "QAR": {
+            "displayName": "Rial Catarach"
+          },
+          "ROL": {
+            "displayName": "Leu Rómánach"
+          },
+          "RUB": {
+            "displayName": "Rúbal Rúiseach"
+          },
+          "RUR": {
+            "displayName": "Rúbal Rúiseach (1991–1998)"
+          },
+          "RWF": {
+            "displayName": "Franc Ruanda"
+          },
+          "SAR": {
+            "displayName": "Riyal Sádach"
+          },
+          "SBD": {
+            "displayName": "Dollar Oileáin Solomon"
+          },
+          "SCR": {
+            "displayName": "Rúipí na Séiséil"
+          },
+          "SDD": {
+            "displayName": "Dínear na Súdáine"
+          },
+          "SDP": {
+            "displayName": "Punt na Súdáine"
+          },
+          "SEK": {
+            "displayName": "Krona Sualannach"
+          },
+          "SGD": {
+            "displayName": "Dollar Singeapóir"
+          },
+          "SHP": {
+            "displayName": "Punt San Héilin"
+          },
+          "SIT": {
+            "displayName": "Tolar Slóvénach"
+          },
+          "SKK": {
+            "displayName": "Koruna na Slóvaice"
+          },
+          "SLL": {
+            "displayName": "Leone Shiarra Leon"
+          },
+          "SOS": {
+            "displayName": "Scilling na Sómáile"
+          },
+          "SRG": {
+            "displayName": "Guilder Shuranaim"
+          },
+          "STD": {
+            "displayName": "Dobra Sao Tome agus Principe"
+          },
+          "SUR": {
+            "displayName": "Rúbal Sóvéadach"
+          },
+          "SVC": {
+            "displayName": "Colon na Salvadóire"
+          },
+          "SYP": {
+            "displayName": "Punt Siria"
+          },
+          "SZL": {
+            "displayName": "Lilangeni na Suasalainne"
+          },
+          "THB": {
+            "displayName": "Baht na Téalainne"
+          },
+          "TJR": {
+            "displayName": "Rúbal na Táidsíceastáine"
+          },
+          "TJS": {
+            "displayName": "Somoni na Táidsíceastáine"
+          },
+          "TMM": {
+            "displayName": "Manat na An Tuircméanastáine"
+          },
+          "TND": {
+            "displayName": "Dínear na Túinéise"
+          },
+          "TOP": {
+            "displayName": "Paʻanga Tonga"
+          },
+          "TPE": {
+            "displayName": "Escudo Tíomóir"
+          },
+          "TRL": {
+            "displayName": "Lira Turcach"
+          },
+          "TTD": {
+            "displayName": "Dollar Oileáin na Tríonóide agus Tobága"
+          },
+          "TWD": {
+            "displayName": "Dollar Nua na Téaváine"
+          },
+          "TZS": {
+            "displayName": "Scilling na Tansáine"
+          },
+          "UAH": {
+            "displayName": "Hryvnia Úcránach"
+          },
+          "UAK": {
+            "displayName": "Karbovanetz Úcránach"
+          },
+          "UGS": {
+            "displayName": "Scilling Uganda (1966–1987)"
+          },
+          "UGX": {
+            "displayName": "Scilling Uganda"
+          },
+          "USD": {
+            "displayName": "Dollar S.A.M."
+          },
+          "USN": {
+            "displayName": "Dollar S.A.M. (an chéad lá eile)"
+          },
+          "USS": {
+            "displayName": "Dollar S.A.M. (an la céanna)"
+          },
+          "UYP": {
+            "displayName": "Peso Uragua (1975–1993)"
+          },
+          "UYU": {
+            "displayName": "Peso Uruguayo Uragua"
+          },
+          "UZS": {
+            "displayName": "Sum na hÚisbéiceastáine"
+          },
+          "VEB": {
+            "displayName": "Bolivar Veiniséala (1871–2008)"
+          },
+          "VEF": {
+            "displayName": "Bolivar Veiniséala"
+          },
+          "VND": {
+            "displayName": "Dong Vítneamach"
+          },
+          "VUV": {
+            "displayName": "Vatu Vanuatú"
+          },
+          "WST": {
+            "displayName": "Tala Samó Thiar"
+          },
+          "XAF": {
+            "displayName": "CFA Franc BEAC"
+          },
+          "XAU": {
+            "displayName": "Ór"
+          },
+          "XBA": {
+            "displayName": "Aonad Ilchodach Eorpach"
+          },
+          "XBB": {
+            "displayName": "Aonad Airgeadaíochta Eorpach"
+          },
+          "XBC": {
+            "displayName": "Aonad Cuntais Eorpach (XBC)"
+          },
+          "XBD": {
+            "displayName": "Aonad Cuntais Eorpach (XBD)"
+          },
+          "XCD": {
+            "displayName": "Dollar Oirthear na Cairibe"
+          },
+          "XDR": {
+            "displayName": "Cearta Speisialta Tarraingthe"
+          },
+          "XEU": {
+            "displayName": "Aonad Airgeadra Eorpach"
+          },
+          "XFO": {
+            "displayName": "Franc Ór Francach"
+          },
+          "XFU": {
+            "displayName": "UIC-Franc Francach"
+          },
+          "XOF": {
+            "displayName": "CFA Franc BCEAO"
+          },
+          "XPF": {
+            "displayName": "CFP Franc"
+          },
+          "XXX": {
+            "displayName": "Airgeadra Anaithnid nó Neamhbhailí"
+          },
+          "YDD": {
+            "displayName": "Dínear Éimin"
+          },
+          "YER": {
+            "displayName": "Rial Éimin"
+          },
+          "YUD": {
+            "displayName": "Dínear Crua Iúgslavach"
+          },
+          "YUM": {
+            "displayName": "Noviy Dinar Iúgslavach"
+          },
+          "YUN": {
+            "displayName": "Dínear Inathraithe Iúgslavach"
+          },
+          "ZAL": {
+            "displayName": "Rand na hAfraice Theas (airgeadúil)"
+          },
+          "ZAR": {
+            "displayName": "Rand na hAfraice Theas"
+          },
+          "ZMK": {
+            "displayName": "Kwacha Saimbiach (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kwacha Saimbiach"
+          },
+          "ZRN": {
+            "displayName": "Zaire Nua Sáíreach"
+          },
+          "ZRZ": {
+            "displayName": "Zaire Sáíreach"
+          },
+          "ZWD": {
+            "displayName": "Dollar Siombábach"
+          }
+        }
+      }
+    }
+  }
+}

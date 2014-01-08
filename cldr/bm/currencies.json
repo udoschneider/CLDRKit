@@ -1,0 +1,188 @@
+{
+  "main": {
+    "bm": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bm"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "arabu mara kafoli Diram"
+          },
+          "AOA": {
+            "displayName": "angola Kwanza"
+          },
+          "AUD": {
+            "displayName": "ositirali Dolar"
+          },
+          "BHD": {
+            "displayName": "bareyini Dinar"
+          },
+          "BIF": {
+            "displayName": "burundi Fraŋ"
+          },
+          "BWP": {
+            "displayName": "bɔtisiwana Pula"
+          },
+          "CAD": {
+            "displayName": "kanada Dolar"
+          },
+          "CDF": {
+            "displayName": "kongole Fraŋ"
+          },
+          "CHF": {
+            "displayName": "suwisi Fraŋ"
+          },
+          "CNY": {
+            "displayName": "siniwa Yuwan"
+          },
+          "CVE": {
+            "displayName": "capivɛrdi Esekudo"
+          },
+          "DJF": {
+            "displayName": "jibuti Fraŋ"
+          },
+          "DZD": {
+            "displayName": "alizeri Dinar"
+          },
+          "EGP": {
+            "displayName": "eziputi Livri"
+          },
+          "ERN": {
+            "displayName": "eritere Nafika"
+          },
+          "ETB": {
+            "displayName": "etiopi Bir"
+          },
+          "EUR": {
+            "displayName": "ero"
+          },
+          "GBP": {
+            "displayName": "angilɛ Livri Siterlingi"
+          },
+          "GHC": {
+            "displayName": "gana Sedi"
+          },
+          "GMD": {
+            "displayName": "gambi Dalasi"
+          },
+          "GNS": {
+            "displayName": "gine Fraŋ"
+          },
+          "INR": {
+            "displayName": "Ɛndu Rupi"
+          },
+          "JPY": {
+            "displayName": "zapɔne Yɛn"
+          },
+          "KES": {
+            "displayName": "keniya Siling"
+          },
+          "KMF": {
+            "displayName": "komɔri Fraŋ"
+          },
+          "LRD": {
+            "displayName": "liberiya Dolar"
+          },
+          "LSL": {
+            "displayName": "lesoto Loti"
+          },
+          "LYD": {
+            "displayName": "libi Dinar"
+          },
+          "MAD": {
+            "displayName": "marɔku Diram"
+          },
+          "MGA": {
+            "displayName": "madagasikari Fraŋ"
+          },
+          "MRO": {
+            "displayName": "mɔritani Uguwiya"
+          },
+          "MUR": {
+            "displayName": "morisi Rupi"
+          },
+          "MWK": {
+            "displayName": "malawi Kwaca"
+          },
+          "MZM": {
+            "displayName": "mozanbiki Metikali"
+          },
+          "NAD": {
+            "displayName": "namibi Dolar"
+          },
+          "NGN": {
+            "displayName": "nizeriya Nɛra"
+          },
+          "RWF": {
+            "displayName": "ruwanda Fraŋ"
+          },
+          "SAR": {
+            "displayName": "sawudiya Riyal"
+          },
+          "SCR": {
+            "displayName": "sesɛli Rupi"
+          },
+          "SDG": {
+            "displayName": "sudani Dinar"
+          },
+          "SDP": {
+            "displayName": "sudani Livri"
+          },
+          "SHP": {
+            "displayName": "Ɛlɛni-Senu Livri"
+          },
+          "SLL": {
+            "displayName": "siyeralewɔni Lewɔni"
+          },
+          "SOS": {
+            "displayName": "somali Siling"
+          },
+          "STD": {
+            "displayName": "sawotome Dobra"
+          },
+          "SZL": {
+            "displayName": "swazilandi Lilangeni"
+          },
+          "TND": {
+            "displayName": "tunizi Dinar"
+          },
+          "TZS": {
+            "displayName": "tanzani Siling"
+          },
+          "UGX": {
+            "displayName": "uganda Siling"
+          },
+          "USD": {
+            "displayName": "ameriki Dolar"
+          },
+          "XAF": {
+            "displayName": "sefa Fraŋ (BEAC)"
+          },
+          "XOF": {
+            "displayName": "sefa Fraŋ (BCEAO)"
+          },
+          "ZAR": {
+            "displayName": "sudafriki Randi"
+          },
+          "ZMK": {
+            "displayName": "zambi Kwaca (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "zambi Kwaca"
+          },
+          "ZWD": {
+            "displayName": "zimbabuwe Dolar"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "main": {
+    "ses": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ses"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE d MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d MMM, y G",
+              "short": "d/M/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "M": "M",
+                "Md": "d/M",
+                "MMd": "d/MM",
+                "MMdd": "dd/MM",
+                "MMM": "MMM",
+                "MMMd": "d MMM",
+                "MMMdd": "dd MMM",
+                "MMMEd": "E d MMM",
+                "MMMMd": "d MMMM",
+                "MMMMEd": "E d MMMM",
+                "ms": "m:ss",
+                "y": "y",
+                "yM": "M/y",
+                "yMEd": "E d/M/y",
+                "yMM": "MM/y",
+                "yMMM": "MMM y",
+                "yMMMd": "d MMM y",
+                "yMMMEd": "E d MMM y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

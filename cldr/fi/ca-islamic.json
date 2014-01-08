@@ -1,0 +1,40 @@
+{
+  "main": {
+    "fi": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fi"
+      },
+      "dates": {
+        "calendars": {
+          "islamic": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "muharram",
+                  "2": "safar",
+                  "3": "rabi’ al-awwal",
+                  "4": "rabi’ al-akhir",
+                  "5": "džumada-l-ula",
+                  "6": "džumada-l-akhira",
+                  "7": "radžab",
+                  "8": "ša’ban",
+                  "9": "ramadan",
+                  "10": "šawwal",
+                  "11": "dhu-l-qa’da",
+                  "12": "dhu-l-hiddža"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

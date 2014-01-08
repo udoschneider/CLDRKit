@@ -1,0 +1,107 @@
+{
+  "main": {
+    "bs-Cyrl": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bs",
+        "script": "Cyrl"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} дан",
+            "unitPattern-count-few": "{0} дана",
+            "unitPattern-count-many": "{0} дана",
+            "unitPattern-count-other": "{0} дан"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} сат",
+            "unitPattern-count-few": "{0} сата",
+            "unitPattern-count-many": "{0} сати",
+            "unitPattern-count-other": "{0} сат"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} минут",
+            "unitPattern-count-few": "{0} минута",
+            "unitPattern-count-many": "{0} минута",
+            "unitPattern-count-other": "{0} минут"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} месец",
+            "unitPattern-count-few": "{0} месеца",
+            "unitPattern-count-many": "{0} месеци",
+            "unitPattern-count-other": "{0} месец"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} секунда",
+            "unitPattern-count-few": "{0} секунде",
+            "unitPattern-count-many": "{0} секунди",
+            "unitPattern-count-other": "{0} секунда"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} недеља",
+            "unitPattern-count-few": "{0} недеље",
+            "unitPattern-count-many": "{0} недеља",
+            "unitPattern-count-other": "{0} недеља"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} година",
+            "unitPattern-count-few": "{0} године",
+            "unitPattern-count-many": "{0} година",
+            "unitPattern-count-other": "{0} година"
+          }
+        },
+        "short": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} дан",
+            "unitPattern-count-few": "{0} дана",
+            "unitPattern-count-many": "{0} дана",
+            "unitPattern-count-other": "{0} дан"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} сат",
+            "unitPattern-count-few": "{0} сата",
+            "unitPattern-count-many": "{0} сати",
+            "unitPattern-count-other": "{0} сат"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} мин",
+            "unitPattern-count-few": "{0} мин",
+            "unitPattern-count-many": "{0} мин",
+            "unitPattern-count-other": "{0} мин"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} мес",
+            "unitPattern-count-few": "{0} мес",
+            "unitPattern-count-many": "{0} мес",
+            "unitPattern-count-other": "{0} мес"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} сек",
+            "unitPattern-count-few": "{0} сек",
+            "unitPattern-count-many": "{0} сек",
+            "unitPattern-count-other": "{0} сек"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} нед",
+            "unitPattern-count-few": "{0} нед",
+            "unitPattern-count-many": "{0} нед",
+            "unitPattern-count-other": "{0} нед"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} год",
+            "unitPattern-count-few": "{0} год",
+            "unitPattern-count-many": "{0} год",
+            "unitPattern-count-other": "{0} год"
+          }
+        }
+      }
+    }
+  }
+}

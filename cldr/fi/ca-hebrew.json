@@ -1,0 +1,92 @@
+{
+  "main": {
+    "fi": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fi"
+      },
+      "dates": {
+        "calendars": {
+          "hebrew": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "tišríkuuta",
+                  "2": "hešvánkuuta",
+                  "3": "kislévkuuta",
+                  "4": "tevétkuuta",
+                  "5": "ševátkuuta",
+                  "6": "adárkuuta I",
+                  "7": "adárkuuta",
+                  "7-yeartype-leap": "adárkuuta II",
+                  "8": "nisánkuuta",
+                  "9": "ijjárkuuta",
+                  "10": "sivánkuuta",
+                  "11": "tammúzkuuta",
+                  "12": "abkuuta",
+                  "13": "elúlkuuta"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "tišrí",
+                  "2": "hešván",
+                  "3": "kislév",
+                  "4": "tevét",
+                  "5": "ševát",
+                  "6": "adár I",
+                  "7": "adár",
+                  "7-yeartype-leap": "adár II",
+                  "8": "nisán",
+                  "9": "ijjár",
+                  "10": "siván",
+                  "11": "tammúz",
+                  "12": "ab",
+                  "13": "elúl"
+                },
+                "narrow": {
+                  "1": "T",
+                  "2": "H",
+                  "3": "K",
+                  "4": "T",
+                  "5": "S",
+                  "6": "A",
+                  "7": "A",
+                  "7-yeartype-leap": "A",
+                  "8": "N",
+                  "9": "I",
+                  "10": "S",
+                  "11": "T",
+                  "12": "A",
+                  "13": "E"
+                },
+                "wide": {
+                  "1": "tišríkuu",
+                  "2": "hešvánkuu",
+                  "3": "kislévkuu",
+                  "4": "tevétkuu",
+                  "5": "ševátkuu",
+                  "6": "adárkuu I",
+                  "7": "adárkuu",
+                  "7-yeartype-leap": "adárkuu II",
+                  "8": "nisánkuu",
+                  "9": "ijjárkuu",
+                  "10": "sivánkuu",
+                  "11": "tammúzkuu",
+                  "12": "abkuu",
+                  "13": "elúlkuu"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1163 @@
+{
+  "main": {
+    "bn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bn"
+      },
+      "numbers": {
+        "currencies": {
+          "ADP": {
+            "displayName": "এ্যান্ডোরান পেসেতা"
+          },
+          "AED": {
+            "displayName": "সংযুক্ত আরব আমিরাত দিরহাম",
+            "displayName-count-one": "সংযুক্ত আরব আমিরাত দিরহাম",
+            "displayName-count-other": "সংযুক্ত আরব আমিরাত দিরহাম"
+          },
+          "AFA": {
+            "displayName": "আফগানি (১৯২৭–২০০২)"
+          },
+          "AFN": {
+            "displayName": "আফগানি",
+            "displayName-count-one": "আফগানি",
+            "displayName-count-other": "আফগানি"
+          },
+          "ALL": {
+            "displayName": "আলবেনিয়ান লেক",
+            "displayName-count-one": "আলবেনিয়ান লেক",
+            "displayName-count-other": "আলবেনিয়ান লেক"
+          },
+          "AMD": {
+            "displayName": "আরমেনিয়ান দ্রাম",
+            "displayName-count-one": "আরমেনিয়ান দ্রাম",
+            "displayName-count-other": "আরমেনিয়ান দ্রাম"
+          },
+          "ANG": {
+            "displayName": "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
+            "displayName-count-one": "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
+            "displayName-count-other": "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের"
+          },
+          "AOA": {
+            "displayName": "এ্যাঙ্গোলান কওয়ানজা",
+            "displayName-count-one": "এ্যাঙ্গোলান কওয়ানজা",
+            "displayName-count-other": "এ্যাঙ্গোলান কওয়ানজা"
+          },
+          "AOK": {
+            "displayName": "এ্যাঙ্গোলান কওয়ানজা (১৯৭৭–১৯৯০)"
+          },
+          "AON": {
+            "displayName": "এ্যাঙ্গোলান নতুন কওয়ানজা (১৯৯৫–২০০০)"
+          },
+          "AOR": {
+            "displayName": "এ্যাঙ্গোলান কওয়ানজা (১৯৯৫–১৯৯৯)"
+          },
+          "ARA": {
+            "displayName": "আর্জেন্টিনা অস্ট্রাল"
+          },
+          "ARP": {
+            "displayName": "আর্জেন্টিনা পেসো (১৯৮৩–১৯৮৫)"
+          },
+          "ARS": {
+            "displayName": "আর্জেন্টিনা পেসো",
+            "displayName-count-one": "আর্জেন্টিনা পেসো",
+            "displayName-count-other": "আর্জেন্টিনা পেসো"
+          },
+          "ATS": {
+            "displayName": "অস্ট্রিয়ান শিলিং"
+          },
+          "AUD": {
+            "displayName": "অস্ট্রেলিয়ান ডলার",
+            "displayName-count-one": "অস্ট্রেলিয়ান ডলার",
+            "displayName-count-other": "অস্ট্রেলিয়ান ডলার",
+            "symbol": "A$"
+          },
+          "AWG": {
+            "displayName": "আরুবা গিল্ডার",
+            "displayName-count-one": "আরুবা গিল্ডার",
+            "displayName-count-other": "আরুবা গিল্ডার"
+          },
+          "AZM": {
+            "displayName": "আজারবাইজান মানাত (১৯৯৩–২০০৬)"
+          },
+          "AZN": {
+            "displayName": "আজারবাইজান মানাত",
+            "displayName-count-one": "আজারবাইজান মানাত",
+            "displayName-count-other": "আজারবাইজান মানাত"
+          },
+          "BAD": {
+            "displayName": "বসনিয়া এবং হার্জেগোভিনা দিনার"
+          },
+          "BAM": {
+            "displayName": "বসনিয়া এবং হার্জেগোভিনা মার্ক",
+            "displayName-count-one": "বসনিয়া এবং হার্জেগোভিনা মার্ক",
+            "displayName-count-other": "বসনিয়া এবং হার্জেগোভিনা মার্ক"
+          },
+          "BBD": {
+            "displayName": "বার্বেডোজ ডলার",
+            "displayName-count-one": "বার্বেডোজ ডলার",
+            "displayName-count-other": "বার্বেডোজ ডলার"
+          },
+          "BDT": {
+            "displayName": "বাংলাদেশী টাকা",
+            "displayName-count-one": "বাংলাদেশী টাকা",
+            "displayName-count-other": "বাংলাদেশী টাকা",
+            "symbol": "৳"
+          },
+          "BEC": {
+            "displayName": "বেলজিয়ান ফ্রাঙ্ক (রূপান্তরযোগ্য)"
+          },
+          "BEF": {
+            "displayName": "বেলজিয়ান ফ্রাঙ্ক"
+          },
+          "BEL": {
+            "displayName": "বেলজিয়ান ফ্রাঙ্ক (আর্থিক)"
+          },
+          "BGL": {
+            "displayName": "বুলগেরীয় হার্ড লেভ"
+          },
+          "BGN": {
+            "displayName": "বুলগেরীয় নিউ লেভ",
+            "displayName-count-one": "বুলগেরীয় নিউ লেভ",
+            "displayName-count-other": "বুলগেরীয় নিউ লেভ"
+          },
+          "BHD": {
+            "displayName": "বাহরাইনি দিনার",
+            "displayName-count-one": "বাহরাইনি দিনার",
+            "displayName-count-other": "বাহরাইনি দিনার"
+          },
+          "BIF": {
+            "displayName": "বুরুন্ডি ফ্রাঙ্ক",
+            "displayName-count-one": "বুরুন্ডি ফ্রাঙ্ক",
+            "displayName-count-other": "বুরুন্ডি ফ্রাঙ্ক"
+          },
+          "BMD": {
+            "displayName": "বারমিউডান ডলার",
+            "displayName-count-one": "বারমিউডান ডলার",
+            "displayName-count-other": "বারমিউডান ডলার"
+          },
+          "BND": {
+            "displayName": "ব্রুনেই ডলার",
+            "displayName-count-one": "ব্রুনেই ডলার",
+            "displayName-count-other": "ব্রুনেই ডলার"
+          },
+          "BOB": {
+            "displayName": "বলিভিয়ানো",
+            "displayName-count-one": "বলিভিয়ানো",
+            "displayName-count-other": "বলিভিয়ানো"
+          },
+          "BOP": {
+            "displayName": "বলিভিয়ান পেসো"
+          },
+          "BOV": {
+            "displayName": "বলিভিয়ান মভডোল"
+          },
+          "BRB": {
+            "displayName": "ব্রাজিলিয়ান ক্রুজেয়রোনোভো (১৯৬৭–১৯৮৬)"
+          },
+          "BRC": {
+            "displayName": "ব্রাজিলিয়ান ক্রুজেইডাউ"
+          },
+          "BRE": {
+            "displayName": "ব্রাজিলিয়ান ক্রুজেয়রো (১৯৯০–১৯৯৩)"
+          },
+          "BRL": {
+            "displayName": "ব্রাজিলিয়ান রিয়েল",
+            "displayName-count-one": "ব্রাজিলিয়ান রিয়েল",
+            "displayName-count-other": "ব্রাজিলিয়ান রিয়েল",
+            "symbol": "R$"
+          },
+          "BRN": {
+            "displayName": "ব্রাজিলিয়ান ক্রুজেইডো নোভো"
+          },
+          "BRR": {
+            "displayName": "ব্রাজিলিয়ান ক্রুজেয়রো"
+          },
+          "BSD": {
+            "displayName": "বাহামিয়ান ডলার",
+            "displayName-count-one": "বাহামিয়ান ডলার",
+            "displayName-count-other": "বাহামিয়ান ডলার"
+          },
+          "BTN": {
+            "displayName": "ভুটানি এনগুল্ট্রুম",
+            "displayName-count-one": "ভুটানি এনগুল্ট্রুম",
+            "displayName-count-other": "ভুটানি এনগুল্ট্রুম"
+          },
+          "BUK": {
+            "displayName": "বর্মি কিয়াৎ"
+          },
+          "BWP": {
+            "displayName": "বতসোয়ানা পুলা",
+            "displayName-count-one": "বতসোয়ানা পুলা",
+            "displayName-count-other": "বতসোয়ানা পুলা"
+          },
+          "BYB": {
+            "displayName": "বেলারুশিয়ান নিউ রুবেল (১৯৯৪–১৯৯৯)"
+          },
+          "BYR": {
+            "displayName": "বেলারুশিয়ান রুবেল",
+            "displayName-count-one": "বেলারুশিয়ান রুবেল",
+            "displayName-count-other": "বেলারুশিয়ান রুবেল"
+          },
+          "BZD": {
+            "displayName": "বেলিজ ডলার",
+            "displayName-count-one": "বেলিজ ডলার",
+            "displayName-count-other": "বেলিজ ডলার"
+          },
+          "CAD": {
+            "displayName": "কানাডিয়ান ডলার",
+            "displayName-count-one": "কানাডিয়ান ডলার",
+            "displayName-count-other": "কানাডিয়ান ডলার",
+            "symbol": "CA$"
+          },
+          "CDF": {
+            "displayName": "কঙ্গো ফ্র্যাঙ্ক কঙ্গোলাইস",
+            "displayName-count-one": "কঙ্গো ফ্র্যাঙ্ক কঙ্গোলাইস",
+            "displayName-count-other": "কঙ্গো ফ্র্যাঙ্ক কঙ্গোলাইস"
+          },
+          "CHE": {
+            "displayName": "সুইজারল্যান্ড ইউরো"
+          },
+          "CHF": {
+            "displayName": "সুইস ফ্রাঙ্ক",
+            "displayName-count-one": "সুইস ফ্রাঙ্ক",
+            "displayName-count-other": "সুইস ফ্রাঙ্ক"
+          },
+          "CHW": {
+            "displayName": "সুইজারল্যান্ড ফ্রাঙ্ক"
+          },
+          "CLF": {
+            "displayName": "চিলিয়ান উনিদাদেস দি ফোমেন্তো"
+          },
+          "CLP": {
+            "displayName": "চিলি পেসো",
+            "displayName-count-one": "চিলি পেসো",
+            "displayName-count-other": "চিলি পেসো"
+          },
+          "CNY": {
+            "displayName": "চীনা য়ুয়ান রেন্মিন্‌বি",
+            "displayName-count-one": "চীনা য়ুয়ান রেন্মিন্‌বি",
+            "displayName-count-other": "চীনা য়ুয়ান রেন্মিন্‌বি",
+            "symbol": "CN¥"
+          },
+          "COP": {
+            "displayName": "কলোম্বিয়ান পেসো",
+            "displayName-count-one": "কলোম্বিয়ান পেসো",
+            "displayName-count-other": "কলোম্বিয়ান পেসো"
+          },
+          "COU": {
+            "displayName": "উনিদাদ দি ভ্যালোর রিয়েল"
+          },
+          "CRC": {
+            "displayName": "কোস্টা রিকা কোলোন",
+            "displayName-count-one": "কোস্টা রিকা কোলোন",
+            "displayName-count-other": "কোস্টা রিকা কোলোন"
+          },
+          "CSD": {
+            "displayName": "প্রাচীন সারবিয়ান দিনার"
+          },
+          "CSK": {
+            "displayName": "চেকোস্লোভাক হার্ড কোরুনা"
+          },
+          "CUC": {
+            "displayName": "কিউবান রূপান্তরযোগ্য পেসো",
+            "displayName-count-one": "কিউবান রূপান্তরযোগ্য পেসো",
+            "displayName-count-other": "কিউবান রূপান্তরযোগ্য পেসো"
+          },
+          "CUP": {
+            "displayName": "কিউবান পেসো",
+            "displayName-count-one": "কিউবান পেসো",
+            "displayName-count-other": "কিউবান পেসো"
+          },
+          "CVE": {
+            "displayName": "কেপ ভার্দে এসকুডো",
+            "displayName-count-one": "কেপ ভার্দে এসকুডো",
+            "displayName-count-other": "কেপ ভার্দে এসকুডো"
+          },
+          "CYP": {
+            "displayName": "সাইপ্রাস পাউন্ড"
+          },
+          "CZK": {
+            "displayName": "চেকোস্লোভাক কোরুনা",
+            "displayName-count-one": "চেকোস্লোভাক কোরুনা",
+            "displayName-count-other": "চেকোস্লোভাক কোরুনা"
+          },
+          "DDM": {
+            "displayName": "পূর্ব জার্মান মার্ক"
+          },
+          "DEM": {
+            "displayName": "ডয়চ্ মার্ক"
+          },
+          "DJF": {
+            "displayName": "জিবুতি ফ্রাঙ্ক",
+            "displayName-count-one": "জিবুতি ফ্রাঙ্ক",
+            "displayName-count-other": "জিবুতি ফ্রাঙ্ক"
+          },
+          "DKK": {
+            "displayName": "ড্যানিশ ক্রৌন",
+            "displayName-count-one": "ড্যানিশ ক্রৌন",
+            "displayName-count-other": "ড্যানিশ ক্রৌন"
+          },
+          "DOP": {
+            "displayName": "ডোমিনিকান পেসো",
+            "displayName-count-one": "ডোমিনিকান পেসো",
+            "displayName-count-other": "ডোমিনিকান পেসো"
+          },
+          "DZD": {
+            "displayName": "আলজেরীয় দিনার",
+            "displayName-count-one": "আলজেরীয় দিনার",
+            "displayName-count-other": "আলজেরীয় দিনার"
+          },
+          "ECS": {
+            "displayName": "ইকুয়াডোর সুক্রে"
+          },
+          "ECV": {
+            "displayName": "ইকুয়াডোর উনিদাদেস দি ভেলর কনসতান্তে (ইউভিসি)"
+          },
+          "EEK": {
+            "displayName": "এস্তোনিয়া ক্রুনি"
+          },
+          "EGP": {
+            "displayName": "মিশরীয় পাউন্ড",
+            "displayName-count-one": "মিশরীয় পাউন্ড",
+            "displayName-count-other": "মিশরীয় পাউন্ড"
+          },
+          "ERN": {
+            "displayName": "এরিট্রিয়েন নাকফা",
+            "displayName-count-one": "এরিট্রিয়েন নাকফা",
+            "displayName-count-other": "এরিট্রিয়েন নাকফা"
+          },
+          "ESA": {
+            "displayName": "স্প্যানিশ পেসেতা (একই হিসাব)"
+          },
+          "ESB": {
+            "displayName": "স্প্যানিশ পেসেতা (রূপান্তরযোগ্য হিসাব)"
+          },
+          "ESP": {
+            "displayName": "স্প্যানিশ পেসেতা"
+          },
+          "ETB": {
+            "displayName": "ইথিওপিয়ান বির",
+            "displayName-count-one": "ইথিওপিয়ান বির",
+            "displayName-count-other": "ইথিওপিয়ান বির"
+          },
+          "EUR": {
+            "displayName": "ইউরো",
+            "displayName-count-one": "ইউরো",
+            "displayName-count-other": "ইউরো",
+            "symbol": "€"
+          },
+          "FIM": {
+            "displayName": "ফিনিস মার্কা"
+          },
+          "FJD": {
+            "displayName": "ফিজি ডলার",
+            "displayName-count-one": "ফিজি ডলার",
+            "displayName-count-other": "ফিজি ডলার"
+          },
+          "FKP": {
+            "displayName": "ফকল্যান্ড দ্বীপপুঞ্জ পাউন্ড",
+            "displayName-count-one": "ফকল্যান্ড দ্বীপপুঞ্জ পাউন্ড",
+            "displayName-count-other": "ফকল্যান্ড দ্বীপপুঞ্জ পাউন্ড"
+          },
+          "FRF": {
+            "displayName": "ফরাসি ফ্রাঙ্ক"
+          },
+          "GBP": {
+            "displayName": "ব্রিটিশ পাউন্ড স্টার্লিং",
+            "displayName-count-one": "ব্রিটিশ পাউন্ড স্টার্লিং",
+            "displayName-count-other": "ব্রিটিশ পাউন্ড স্টার্লিং",
+            "symbol": "£"
+          },
+          "GEK": {
+            "displayName": "জর্জিয়ান কুপন লারিট"
+          },
+          "GEL": {
+            "displayName": "জর্জিয়ান লারি",
+            "displayName-count-one": "জর্জিয়ান লারি",
+            "displayName-count-other": "জর্জিয়ান লারি"
+          },
+          "GHC": {
+            "displayName": "ঘানা সেডি (১৯৭৯–২০০৭)"
+          },
+          "GHS": {
+            "displayName": "ঘানা সেডি",
+            "displayName-count-one": "ঘানা সেডি",
+            "displayName-count-other": "ঘানা সেডি"
+          },
+          "GIP": {
+            "displayName": "জিব্রাল্টার পাউন্ড",
+            "displayName-count-one": "জিব্রাল্টার পাউন্ড",
+            "displayName-count-other": "জিব্রাল্টার পাউন্ড"
+          },
+          "GMD": {
+            "displayName": "গাম্বিয়া ডালাসি",
+            "displayName-count-one": "গাম্বিয়া ডালাসি",
+            "displayName-count-other": "গাম্বিয়া ডালাসি"
+          },
+          "GNF": {
+            "displayName": "গিনি ফ্রাঙ্ক",
+            "displayName-count-one": "গিনি ফ্রাঙ্ক",
+            "displayName-count-other": "গিনি ফ্রাঙ্ক"
+          },
+          "GNS": {
+            "displayName": "গিনি সাইলি"
+          },
+          "GQE": {
+            "displayName": "ইকুয়েটোরিয়াল গিনি ইকুয়িলি"
+          },
+          "GRD": {
+            "displayName": "গ্রীক দ্রাচমা"
+          },
+          "GTQ": {
+            "displayName": "গুয়াতেমালা কুয়েৎজাল",
+            "displayName-count-one": "গুয়াতেমালা কুয়েৎজাল",
+            "displayName-count-other": "গুয়াতেমালা কুয়েৎজাল"
+          },
+          "GWE": {
+            "displayName": "পর্তুগিজ গিনি এসকুডো"
+          },
+          "GWP": {
+            "displayName": "গিনি বিসাউ পেসো"
+          },
+          "GYD": {
+            "displayName": "গাইয়েনা ডলার",
+            "displayName-count-one": "গাইয়েনা ডলার",
+            "displayName-count-other": "গাইয়েনা ডলার"
+          },
+          "HKD": {
+            "displayName": "হংকং ডলার",
+            "displayName-count-one": "হংকং ডলার",
+            "displayName-count-other": "হংকং ডলার",
+            "symbol": "HK$"
+          },
+          "HNL": {
+            "displayName": "হন্ডুরাস লেম্পিরা",
+            "displayName-count-one": "হন্ডুরাস লেম্পিরা",
+            "displayName-count-other": "হন্ডুরাস লেম্পিরা"
+          },
+          "HRD": {
+            "displayName": "ক্রোয়েশিয়ান দিনার"
+          },
+          "HRK": {
+            "displayName": "ক্রোয়েশিয়ান কুনা",
+            "displayName-count-one": "ক্রোয়েশিয়ান কুনাস",
+            "displayName-count-other": "ক্রোয়েশিয়ান কুনাস"
+          },
+          "HTG": {
+            "displayName": "হাইতি গৌর্দে",
+            "displayName-count-one": "হাইতি গৌর্দে",
+            "displayName-count-other": "হাইতি গৌর্দে"
+          },
+          "HUF": {
+            "displayName": "হাঙ্গেরিয়ান ফোরিন্ট",
+            "displayName-count-one": "হাঙ্গেরিয়ান ফোরিন্ট",
+            "displayName-count-other": "হাঙ্গেরিয়ান ফোরিন্ট"
+          },
+          "IDR": {
+            "displayName": "ইন্দোনেশিয়ান রুপিয়াহ",
+            "displayName-count-one": "ইন্দোনেশিয়ান রুপিয়াহ",
+            "displayName-count-other": "ইন্দোনেশিয়ান রুপিয়াহ"
+          },
+          "IEP": {
+            "displayName": "ইরিশ পাউন্ড"
+          },
+          "ILP": {
+            "displayName": "ইস্রাইলি পাউন্ড"
+          },
+          "ILS": {
+            "displayName": "ইস্রাইলি নতুন শেকেল",
+            "displayName-count-one": "ইস্রাইলি নতুন শেকেল",
+            "displayName-count-other": "ইস্রাইলি নতুন শেকেল",
+            "symbol": "₪"
+          },
+          "INR": {
+            "displayName": "ভারতীয় রুপি",
+            "displayName-count-one": "ভারতীয় রুপি",
+            "displayName-count-other": "ভারতীয় রুপি",
+            "symbol": "₹"
+          },
+          "IQD": {
+            "displayName": "ইরাকি দিনার",
+            "displayName-count-one": "ইরাকি দিনার",
+            "displayName-count-other": "ইরাকি দিনার"
+          },
+          "IRR": {
+            "displayName": "ইরানিয়ান রিয়াল",
+            "displayName-count-one": "ইরানিয়ান রিয়াল",
+            "displayName-count-other": "ইরানিয়ান রিয়াল"
+          },
+          "ISK": {
+            "displayName": "আইসল্যান্ড ক্রৌন",
+            "displayName-count-one": "আইসল্যান্ড ক্রৌন",
+            "displayName-count-other": "আইসল্যান্ড ক্রৌন"
+          },
+          "ITL": {
+            "displayName": "ইতালীয় লিরা"
+          },
+          "JMD": {
+            "displayName": "জ্যামাইকান ডলার",
+            "displayName-count-one": "জ্যামাইকান ডলার",
+            "displayName-count-other": "জ্যামাইকান ডলার"
+          },
+          "JOD": {
+            "displayName": "জর্ডানিয়ান দিনার",
+            "displayName-count-one": "জর্ডানিয়ান দিনার",
+            "displayName-count-other": "জর্ডানিয়ান দিনার"
+          },
+          "JPY": {
+            "displayName": "জাপানিজ ইয়েন",
+            "displayName-count-one": "জাপানিজ ইয়েন",
+            "displayName-count-other": "জাপানিজ ইয়েন",
+            "symbol": "JP¥"
+          },
+          "KES": {
+            "displayName": "কেনিয়ান শিলিং",
+            "displayName-count-one": "কেনিয়ান শিলিং",
+            "displayName-count-other": "কেনিয়ান শিলিং"
+          },
+          "KGS": {
+            "displayName": "কিরগিজস্তান সোম",
+            "displayName-count-one": "কিরগিজস্তান সোম",
+            "displayName-count-other": "কিরগিজস্তান সোম"
+          },
+          "KHR": {
+            "displayName": "কম্বোডিয়ান রিয়েল",
+            "displayName-count-one": "কম্বোডিয়ান রিয়েল",
+            "displayName-count-other": "কম্বোডিয়ান রিয়েল"
+          },
+          "KMF": {
+            "displayName": "কম্বোরো ফ্রাঙ্ক",
+            "displayName-count-one": "কম্বোরো ফ্রাঙ্ক",
+            "displayName-count-other": "কম্বোরো ফ্রাঙ্ক"
+          },
+          "KPW": {
+            "displayName": "নাইজেরিয়ান পাউন্ড",
+            "displayName-count-one": "নাইজেরিয়ান পাউন্ড",
+            "displayName-count-other": "নাইজেরিয়ান পাউন্ড"
+          },
+          "KRW": {
+            "displayName": "দক্ষিণ কোরিয়ান ওন",
+            "displayName-count-one": "দক্ষিণ কোরিয়ান ওন",
+            "displayName-count-other": "দক্ষিণ কোরিয়ান ওন",
+            "symbol": "₩"
+          },
+          "KWD": {
+            "displayName": "কুয়েতি দিনার",
+            "displayName-count-one": "কুয়েতি দিনার",
+            "displayName-count-other": "কুয়েতি দিনার"
+          },
+          "KYD": {
+            "displayName": "কেম্যান দ্বীপপুঞ্জের ডলার",
+            "displayName-count-one": "কেম্যান দ্বীপপুঞ্জের ডলার",
+            "displayName-count-other": "কেম্যান দ্বীপপুঞ্জের ডলার"
+          },
+          "KZT": {
+            "displayName": "কাজাক্সটান টেঙ্গে",
+            "displayName-count-one": "কাজাক্সটান টেঙ্গে",
+            "displayName-count-other": "কাজাক্সটান টেঙ্গে"
+          },
+          "LAK": {
+            "displayName": "লেউশান কিপ",
+            "displayName-count-one": "লেউশান কিপ",
+            "displayName-count-other": "লেউশান কিপ"
+          },
+          "LBP": {
+            "displayName": "লেবানিজ পাউন্ড",
+            "displayName-count-one": "লেবানিজ পাউন্ড",
+            "displayName-count-other": "লেবানিজ পাউন্ড"
+          },
+          "LKR": {
+            "displayName": "শ্রীলঙ্কান রুপি",
+            "displayName-count-one": "শ্রীলঙ্কান রুপি",
+            "displayName-count-other": "শ্রীলঙ্কান রুপি"
+          },
+          "LRD": {
+            "displayName": "লাইবেরিয়ান ডলার",
+            "displayName-count-one": "লাইবেরিয়ান ডলার",
+            "displayName-count-other": "লাইবেরিয়ান ডলার"
+          },
+          "LSL": {
+            "displayName": "লেসুটু লোটি"
+          },
+          "LTL": {
+            "displayName": "লিথুইনিয়ান লিটা",
+            "displayName-count-one": "লিথুইনিয়ান লিটা",
+            "displayName-count-other": "লিথুইনিয়ান লিটা"
+          },
+          "LTT": {
+            "displayName": "লিথুইনিয়ান টালোন্যাস"
+          },
+          "LUC": {
+            "displayName": "লুক্সেমবার্গ রুপান্তযোগ্য ফ্রাঙ্ক"
+          },
+          "LUF": {
+            "displayName": "লুক্সেমবার্গ ফ্রাঙ্ক"
+          },
+          "LUL": {
+            "displayName": "লুক্সেমবার্গ ফাইনেনশিয়াল ফ্রাঙ্ক"
+          },
+          "LVL": {
+            "displayName": "ল্যাটভিয়ান ল্যাট্‌স",
+            "displayName-count-one": "ল্যাটভিয়ান ল্যাট্‌স",
+            "displayName-count-other": "ল্যাটভিয়ান ল্যাট্‌স"
+          },
+          "LVR": {
+            "displayName": "ল্যাটভিয়ান রুবল"
+          },
+          "LYD": {
+            "displayName": "লিবিয়ান ডলার",
+            "displayName-count-one": "লিবিয়ান ডলার",
+            "displayName-count-other": "লিবিয়ান ডলার"
+          },
+          "MAD": {
+            "displayName": "মোরোক্কান দিরহাম",
+            "displayName-count-one": "মোরোক্কান দিরহাম",
+            "displayName-count-other": "মোরোক্কান দিরহাম"
+          },
+          "MAF": {
+            "displayName": "মোরোক্কান ফ্রাঙ্ক"
+          },
+          "MDL": {
+            "displayName": "মোল্ডোভান লেয়ু",
+            "displayName-count-one": "মোল্ডোভান লেয়ু",
+            "displayName-count-other": "মোল্ডোভান লেয়ু"
+          },
+          "MGA": {
+            "displayName": "মাদাগাস্কার আরিয়ারি",
+            "displayName-count-one": "মাদাগাস্কার আরিয়ারি",
+            "displayName-count-other": "মাদাগাস্কার আরিয়ারি"
+          },
+          "MGF": {
+            "displayName": "মাদাগাস্কার ফ্রাঙ্ক"
+          },
+          "MKD": {
+            "displayName": "ম্যাসেডোনিয়ান দিনার",
+            "displayName-count-one": "ম্যাসেডোনিয়ান দিনার",
+            "displayName-count-other": "ম্যাসেডোনিয়ান দিনার"
+          },
+          "MLF": {
+            "displayName": "মালি ফ্রাঙ্ক"
+          },
+          "MMK": {
+            "displayName": "মায়ানমার কিয়াত",
+            "displayName-count-one": "মায়ানমার কিয়াত",
+            "displayName-count-other": "মায়ানমার কিয়াত"
+          },
+          "MNT": {
+            "displayName": "মঙ্গোলিয়ান তুগরিক",
+            "displayName-count-one": "মঙ্গোলিয়ান তুগরিক",
+            "displayName-count-other": "মঙ্গোলিয়ান তুগরিক"
+          },
+          "MOP": {
+            "displayName": "ম্যাক্যাও পাটাকা",
+            "displayName-count-one": "ম্যাক্যাও পাটাকা",
+            "displayName-count-other": "ম্যাক্যাও পাটাকা"
+          },
+          "MRO": {
+            "displayName": "মৌরিতানিয়ান ওউগুইয়া",
+            "displayName-count-one": "মৌরিতানিয়ান ওউগুইয়া",
+            "displayName-count-other": "মৌরিতানিয়ান ওউগুইয়া"
+          },
+          "MTL": {
+            "displayName": "মাল্টা লিরা"
+          },
+          "MTP": {
+            "displayName": "মাল্টা পাউন্ড"
+          },
+          "MUR": {
+            "displayName": "মৌরিতানিয়ান রুপি",
+            "displayName-count-one": "মৌরিতানিয়ান রুপি",
+            "displayName-count-other": "মৌরিতানিয়ান রুপি"
+          },
+          "MVR": {
+            "displayName": "মালদিভিয়ান রুফিয়া",
+            "displayName-count-one": "মালদিভিয়ান রুফিয়া",
+            "displayName-count-other": "মালদিভিয়ান রুফিয়া"
+          },
+          "MWK": {
+            "displayName": "মালাউইয়ান কওয়াচ",
+            "displayName-count-one": "মালাউইয়ান কওয়াচ",
+            "displayName-count-other": "মালাউইয়ান কওয়াচ"
+          },
+          "MXN": {
+            "displayName": "ম্যাক্সিকান পেসো",
+            "displayName-count-one": "ম্যাক্সিকান পেসো",
+            "displayName-count-other": "ম্যাক্সিকান পেসো",
+            "symbol": "MX$"
+          },
+          "MXP": {
+            "displayName": "ম্যাক্সিকান সিলভার পেসো (১৮৬১–১৯৯২)"
+          },
+          "MXV": {
+            "displayName": "মেক্সিকান উনিদাদ দি ইনভার্সান (UDI)"
+          },
+          "MYR": {
+            "displayName": "মালয়েশিয়ান রিঙ্গিৎ",
+            "displayName-count-one": "মালয়েশিয়ান রিঙ্গিৎ",
+            "displayName-count-other": "মালয়েশিয়ান রিঙ্গিৎ"
+          },
+          "MZE": {
+            "displayName": "মোজাম্বিক এসকুডো"
+          },
+          "MZM": {
+            "displayName": "প্রাচীন মোজাম্বিক মেটিকেল"
+          },
+          "MZN": {
+            "displayName": "মোজাম্বিক মেটিকেল",
+            "displayName-count-one": "মোজাম্বিক মেটিকেল",
+            "displayName-count-other": "মোজাম্বিক মেটিকেল"
+          },
+          "NAD": {
+            "displayName": "নামিবিয়া ডলার",
+            "displayName-count-one": "নামিবিয়া ডলার",
+            "displayName-count-other": "নামিবিয়া ডলার"
+          },
+          "NGN": {
+            "displayName": "নাইজেরিয়ান নায়রা",
+            "displayName-count-one": "নাইজেরিয়ান নায়রা",
+            "displayName-count-other": "নাইজেরিয়ান নায়রা"
+          },
+          "NIC": {
+            "displayName": "নিকারাগুয়ান কর্ডোবা (১৯৮৮–১৯৯১)"
+          },
+          "NIO": {
+            "displayName": "নিকারাগুয়ান কর্ডোবা",
+            "displayName-count-one": "নিকারাগুয়ান কর্ডোবা",
+            "displayName-count-other": "নিকারাগুয়ান কর্ডোবা"
+          },
+          "NLG": {
+            "displayName": "নেদারল্যান্ড গুল্ডের"
+          },
+          "NOK": {
+            "displayName": "নরওয়ে ক্রৌন",
+            "displayName-count-one": "নরওয়ে ক্রৌন",
+            "displayName-count-other": "নরওয়ে ক্রৌন"
+          },
+          "NPR": {
+            "displayName": "নেপালি রুপি",
+            "displayName-count-one": "নেপালি রুপি",
+            "displayName-count-other": "নেপালি রুপি"
+          },
+          "NZD": {
+            "displayName": "নিউজিল্যান্ড ডলার",
+            "displayName-count-one": "নিউজিল্যান্ড ডলার",
+            "displayName-count-other": "নিউজিল্যান্ড ডলার",
+            "symbol": "NZ$"
+          },
+          "OMR": {
+            "displayName": "ওমানি রিয়াল",
+            "displayName-count-one": "ওমানি রিয়াল",
+            "displayName-count-other": "ওমানি রিয়াল"
+          },
+          "PAB": {
+            "displayName": "পানামা বেলবোয়া",
+            "displayName-count-one": "পানামা বেলবোয়া",
+            "displayName-count-other": "পানামা বেলবোয়া"
+          },
+          "PEI": {
+            "displayName": "পেরুভিয়ান ইন্তি"
+          },
+          "PEN": {
+            "displayName": "পেরুভিয়ান সোল নুয়েভো",
+            "displayName-count-one": "পেরুভিয়ান সোল নুয়েভো",
+            "displayName-count-other": "পেরুভিয়ান সোল নুয়েভো"
+          },
+          "PES": {
+            "displayName": "পেরুভিয়ান সোল"
+          },
+          "PGK": {
+            "displayName": "পপুয়ানিউগিনি কিনা",
+            "displayName-count-one": "পপুয়ানিউগিনি কিনা",
+            "displayName-count-other": "পপুয়ানিউগিনি কিনা"
+          },
+          "PHP": {
+            "displayName": "ফিলিপাইন পেসো",
+            "displayName-count-one": "ফিলিপাইন পেসো",
+            "displayName-count-other": "ফিলিপাইন পেসো"
+          },
+          "PKR": {
+            "displayName": "পাকিস্তানি রুপি",
+            "displayName-count-one": "পাকিস্তানি রুপি",
+            "displayName-count-other": "পাকিস্তানি রুপি"
+          },
+          "PLN": {
+            "displayName": "পোলিশ জ্লোটি",
+            "displayName-count-one": "পোলিশ জ্লোটি",
+            "displayName-count-other": "পোলিশ জ্লোটি"
+          },
+          "PLZ": {
+            "displayName": "পোলিশ জ্লোটি (১৯৫০–১৯৯৫)"
+          },
+          "PTE": {
+            "displayName": "পর্তুগিজ এসকুডো"
+          },
+          "PYG": {
+            "displayName": "প্যারগুয়ান",
+            "displayName-count-one": "প্যারগুয়ান",
+            "displayName-count-other": "প্যারগুয়ান"
+          },
+          "QAR": {
+            "displayName": "কাতার রিয়্যাল",
+            "displayName-count-one": "কাতার রিয়্যাল",
+            "displayName-count-other": "কাতার রিয়্যাল"
+          },
+          "RHD": {
+            "displayName": "রোডেশিয়ান ডলার"
+          },
+          "ROL": {
+            "displayName": "প্রাচীন রুমানিয়া লেয়ু"
+          },
+          "RON": {
+            "displayName": "রুমানিয়া লেয়ু",
+            "displayName-count-one": "রুমানিয়া লেয়ু",
+            "displayName-count-other": "রুমানিয়া লেয়ু"
+          },
+          "RSD": {
+            "displayName": "সারবিয়ান দিনার",
+            "displayName-count-one": "সারবিয়ান দিনার",
+            "displayName-count-other": "সারবিয়ান দিনার"
+          },
+          "RUB": {
+            "displayName": "রাশিয়ান রুবেল",
+            "displayName-count-one": "রাশিয়ান রুবেল",
+            "displayName-count-other": "রাশিয়ান রুবেল"
+          },
+          "RUR": {
+            "displayName": "রাশিয়ান রুবল (১৯৯১–১৯৯৮)"
+          },
+          "RWF": {
+            "displayName": "রুয়ান্ডান ফ্রাঙ্ক",
+            "displayName-count-one": "রুয়ান্ডান ফ্রাঙ্ক",
+            "displayName-count-other": "রুয়ান্ডান ফ্রাঙ্ক"
+          },
+          "SAR": {
+            "displayName": "সৌদি রিয়্যাল",
+            "displayName-count-one": "সৌদি রিয়্যাল",
+            "displayName-count-other": "সৌদি রিয়্যাল"
+          },
+          "SBD": {
+            "displayName": "সলোমন দ্বীপপুঞ্জ ডলার",
+            "displayName-count-one": "সলোমন দ্বীপপুঞ্জ ডলার",
+            "displayName-count-other": "সলোমন দ্বীপপুঞ্জ ডলার"
+          },
+          "SCR": {
+            "displayName": "সেয়চেল্লোইস রুপি",
+            "displayName-count-one": "সেয়চেল্লোইস রুপি",
+            "displayName-count-other": "সেয়চেল্লোইস রুপি"
+          },
+          "SDD": {
+            "displayName": "প্রাচীন সুদানি দিনার"
+          },
+          "SDG": {
+            "displayName": "সুদানি পাউন্ড",
+            "displayName-count-one": "সুদানি পাউন্ড",
+            "displayName-count-other": "সুদানি পাউন্ড"
+          },
+          "SDP": {
+            "displayName": "প্রাচীন সুদানি পাউন্ড"
+          },
+          "SEK": {
+            "displayName": "সুইডিশ ক্রোনা",
+            "displayName-count-one": "সুইডিশ ক্রোনা",
+            "displayName-count-other": "সুইডিশ ক্রোনা"
+          },
+          "SGD": {
+            "displayName": "সিঙ্গাপুর ডলার",
+            "displayName-count-one": "সিঙ্গাপুর ডলার",
+            "displayName-count-other": "সিঙ্গাপুর ডলার"
+          },
+          "SHP": {
+            "displayName": "সেন্ট হেলেনা পাউন্ড",
+            "displayName-count-one": "সেন্ট হেলেনা পাউন্ড",
+            "displayName-count-other": "সেন্ট হেলেনা পাউন্ড"
+          },
+          "SIT": {
+            "displayName": "স্লোভানিয়া টোলার"
+          },
+          "SKK": {
+            "displayName": "স্লোভাক কোরুনা"
+          },
+          "SLL": {
+            "displayName": "সিয়েরালিয়ন লিয়ন",
+            "displayName-count-one": "সিয়েরালিয়ন লিয়ন",
+            "displayName-count-other": "সিয়েরালিয়ন লিয়ন"
+          },
+          "SOS": {
+            "displayName": "সোমালি শিলিং",
+            "displayName-count-one": "সোমালি শিলিং",
+            "displayName-count-other": "সোমালি শিলিং"
+          },
+          "SRD": {
+            "displayName": "সুরিনাম ডলার",
+            "displayName-count-one": "সুরিনাম ডলার",
+            "displayName-count-other": "সুরিনাম ডলার"
+          },
+          "SRG": {
+            "displayName": "সুরিনাম গিল্ডার"
+          },
+          "SSP": {
+            "displayName": "দক্ষিণ সুদানি পাউন্ড",
+            "displayName-count-one": "দক্ষিণ সুদানি পাউন্ড",
+            "displayName-count-other": "দক্ষিণ সুদানি পাউন্ড"
+          },
+          "STD": {
+            "displayName": "সাও টোমে এবং প্রিন্সিপে ডোবরা",
+            "displayName-count-one": "সাও টোমে এবং প্রিন্সিপে ডোবরা",
+            "displayName-count-other": "সাও টোমে এবং প্রিন্সিপে ডোবরা"
+          },
+          "SUR": {
+            "displayName": "সোভিয়েত রুবল"
+          },
+          "SVC": {
+            "displayName": "এল স্যালভোডোর কোলোন"
+          },
+          "SYP": {
+            "displayName": "সিরিয়ান পাউন্ড",
+            "displayName-count-one": "সিরিয়ান পাউন্ড",
+            "displayName-count-other": "সিরিয়ান পাউন্ড"
+          },
+          "SZL": {
+            "displayName": "সোয়াজিল্যান্ড লিলাঙ্গেনি",
+            "displayName-count-one": "সোয়াজিল্যান্ড লিলাঙ্গেনি",
+            "displayName-count-other": "সোয়াজিল্যান্ড লিলাঙ্গেনি"
+          },
+          "THB": {
+            "displayName": "থাই বাত",
+            "displayName-count-one": "থাই বাত",
+            "displayName-count-other": "থাই বাত",
+            "symbol": "฿"
+          },
+          "TJR": {
+            "displayName": "তাজিকিস্তান রুবল"
+          },
+          "TJS": {
+            "displayName": "তাজিকিস্তান সোমোনি",
+            "displayName-count-one": "তাজিকিস্তান সোমোনি",
+            "displayName-count-other": "তাজিকিস্তান সোমোনি"
+          },
+          "TMM": {
+            "displayName": "তুর্কমেনিস্টানি মানাত"
+          },
+          "TMT": {
+            "displayName": "তুর্কমেনিস্তান নতুন মানত",
+            "displayName-count-one": "তুর্কমেনিস্তান নতুন মানত",
+            "displayName-count-other": "তুর্কমেনিস্তান নতুন মানত"
+          },
+          "TND": {
+            "displayName": "তিউনেশিয়ান দিনার",
+            "displayName-count-one": "তিউনেশিয়ান দিনার",
+            "displayName-count-other": "তিউনেশিয়ান দিনার"
+          },
+          "TOP": {
+            "displayName": "টোঙ্গা পা’আঙ্গা",
+            "displayName-count-one": "টোঙ্গা পা’আঙ্গা",
+            "displayName-count-other": "টোঙ্গা পা’আঙ্গা"
+          },
+          "TPE": {
+            "displayName": "তিমুর এসকুডো"
+          },
+          "TRL": {
+            "displayName": "প্রাচীন তুর্কি লিরা"
+          },
+          "TRY": {
+            "displayName": "তুর্কি লিরা",
+            "displayName-count-one": "তুর্কি লিরা",
+            "displayName-count-other": "তুর্কি লিরা"
+          },
+          "TTD": {
+            "displayName": "ত্রিনিদাদ এবং টোবাগো ডলার",
+            "displayName-count-one": "ত্রিনিদাদ এবং টোবাগো ডলার",
+            "displayName-count-other": "ত্রিনিদাদ এবং টোবাগো ডলার"
+          },
+          "TWD": {
+            "displayName": "নূতন তাইওয়ান ক্যারাবিয়ান ডলার",
+            "displayName-count-one": "নূতন তাইওয়ান ক্যারাবিয়ান ডলার",
+            "displayName-count-other": "নূতন তাইওয়ান ক্যারাবিয়ান ডলার",
+            "symbol": "NT$"
+          },
+          "TZS": {
+            "displayName": "তাঞ্জনিয়া শিলিং",
+            "displayName-count-one": "তাঞ্জনিয়া শিলিং",
+            "displayName-count-other": "তাঞ্জনিয়া শিলিং"
+          },
+          "UAH": {
+            "displayName": "ইউক্রেইন হৃভনিয়া",
+            "displayName-count-one": "ইউক্রেইন হৃভনিয়া",
+            "displayName-count-other": "ইউক্রেইন হৃভনিয়া"
+          },
+          "UAK": {
+            "displayName": "ইউক্রেইন কার্বোভ্যান্টস"
+          },
+          "UGS": {
+            "displayName": "উগান্ডান শিলিং (১৯৬৬–১৯৮৭)"
+          },
+          "UGX": {
+            "displayName": "উগান্ডান শিলিং",
+            "displayName-count-one": "উগান্ডান শিলিং",
+            "displayName-count-other": "উগান্ডান শিলিং"
+          },
+          "USD": {
+            "displayName": "মার্কিন ডলার",
+            "displayName-count-one": "মার্কিন ডলার",
+            "displayName-count-other": "মার্কিন ডলার",
+            "symbol": "US$"
+          },
+          "USN": {
+            "displayName": "মার্কিন ডলার (পরবর্তী দিন)"
+          },
+          "USS": {
+            "displayName": "মার্কিন ডলার (একই দিন)"
+          },
+          "UYI": {
+            "displayName": "উরুগুয়ায়ান পেসো এন উনিদাদেস ইনডেক্সেডাস"
+          },
+          "UYP": {
+            "displayName": "উরুগুয়ে পেসো (১৯৭৫–১৯৯৩)"
+          },
+          "UYU": {
+            "displayName": "উরুগুয়ে পেসো",
+            "displayName-count-one": "উরুগুয়ে পেসো উরুগুয়েও",
+            "displayName-count-other": "উরুগুয়ে পেসো উরুগুয়েও"
+          },
+          "UZS": {
+            "displayName": "উজবেকিস্তানি সোম",
+            "displayName-count-one": "উজবেকিস্তানি সোম",
+            "displayName-count-other": "উজবেকিস্তানি সোম"
+          },
+          "VEB": {
+            "displayName": "ভেনিজুয়েলান বলিভার (১৮৭১–২০০৮)"
+          },
+          "VEF": {
+            "displayName": "ভেনিজুয়েলীয় বলিভার",
+            "displayName-count-one": "ভেনিজুয়েলীয় বলিভার",
+            "displayName-count-other": "ভেনিজুয়েলীয় বলিভার"
+          },
+          "VND": {
+            "displayName": "ভিয়েতনামি ডঙ্গ",
+            "displayName-count-one": "ভিয়েতনামি ডঙ্গ",
+            "displayName-count-other": "ভিয়েতনামি ডঙ্গ",
+            "symbol": "₫"
+          },
+          "VUV": {
+            "displayName": "ভানুয়াতু ভাতু",
+            "displayName-count-one": "ভানুয়াতু ভাতু",
+            "displayName-count-other": "ভানুয়াতু ভাতু"
+          },
+          "WST": {
+            "displayName": "পশ্চিমাঞ্চলীয় সামোয়ান টালা",
+            "displayName-count-one": "পশ্চিমাঞ্চলীয় সামোয়ান টালা",
+            "displayName-count-other": "পশ্চিমাঞ্চলীয় সামোয়ান টালা"
+          },
+          "XAF": {
+            "displayName": "সিএফএ ফ্র্যাঙ্ক বিইএসি",
+            "displayName-count-one": "সিএফএ ফ্র্যাঙ্ক বিইএসি",
+            "displayName-count-other": "সিএফএ ফ্র্যাঙ্ক বিইএসি",
+            "symbol": "FCFA"
+          },
+          "XAG": {
+            "displayName": "সিলভার"
+          },
+          "XAU": {
+            "displayName": "গোল্ড"
+          },
+          "XBB": {
+            "displayName": "ইউরোপীয় আর্থিক একক"
+          },
+          "XCD": {
+            "displayName": "পূর্ব ক্যারাবিয়ান ডলার",
+            "displayName-count-one": "পূর্ব ক্যারাবিয়ান ডলার",
+            "displayName-count-other": "পূর্ব ক্যারাবিয়ান ডলার",
+            "symbol": "EC$"
+          },
+          "XEU": {
+            "displayName": "ইউরোপীয় মুদ্রা একক"
+          },
+          "XFO": {
+            "displayName": "ফরাসি গোল্ড ফ্রাঙ্ক"
+          },
+          "XFU": {
+            "displayName": "ফরাসি ইউআইসি - ফ্রাঙ্ক"
+          },
+          "XOF": {
+            "displayName": "সিএফএ ফ্র্যাঙ্ক বিসিইএও",
+            "displayName-count-one": "সিএফএ ফ্র্যাঙ্ক বিসিইএও",
+            "displayName-count-other": "সিএফএ ফ্র্যাঙ্ক বিসিইএও",
+            "symbol": "CFA"
+          },
+          "XPD": {
+            "displayName": "প্যালেডিয়াম"
+          },
+          "XPF": {
+            "displayName": "সিএফপি ফ্র্যাঙ্ক",
+            "displayName-count-one": "সিএফপি ফ্র্যাঙ্ক",
+            "displayName-count-other": "সিএফপি ফ্র্যাঙ্ক",
+            "symbol": "CFPF"
+          },
+          "XPT": {
+            "displayName": "প্লাটিনাম"
+          },
+          "XXX": {
+            "displayName": "অজানা বা ভুল মুদ্রা",
+            "displayName-count-one": "অজানা বা ভুল মুদ্রা",
+            "displayName-count-other": "অজানা বা ভুল মুদ্রা"
+          },
+          "YDD": {
+            "displayName": "ইয়েমেনি দিনার"
+          },
+          "YER": {
+            "displayName": "ইয়েমেনি রিয়াল",
+            "displayName-count-one": "ইয়েমেনি রিয়াল",
+            "displayName-count-other": "ইয়েমেনি রিয়াল"
+          },
+          "YUD": {
+            "displayName": "যুগোশ্লাভিয় হার্ড দিনার"
+          },
+          "YUM": {
+            "displayName": "যুগোশ্লাভিয় নোভি দিনার"
+          },
+          "YUN": {
+            "displayName": "যুগোশ্লাভিয় রুপান্তরযোগ্য দিনার"
+          },
+          "ZAL": {
+            "displayName": "দক্ষিণ আফ্রিকান র‌্যান্ড"
+          },
+          "ZAR": {
+            "displayName": "দক্ষিণ আফ্রিকান রেন্ড",
+            "displayName-count-one": "দক্ষিণ আফ্রিকান রেন্ড",
+            "displayName-count-other": "দক্ষিণ আফ্রিকান রেন্ড"
+          },
+          "ZMK": {
+            "displayName": "জাম্বিয়ান কওয়াচা (১৯৬৮–২০১২)"
+          },
+          "ZMW": {
+            "displayName": "জাম্বিয়ান কওয়াচা",
+            "displayName-count-one": "জাম্বিয়ান কওয়াচা",
+            "displayName-count-other": "জাম্বিয়ান কওয়াচা"
+          },
+          "ZRN": {
+            "displayName": "জাইরিয়ান নিউ জাইরে"
+          },
+          "ZRZ": {
+            "displayName": "জাইরিয়ান জাইরে"
+          },
+          "ZWD": {
+            "displayName": "জিম্বাবুয়ে ডলার (১৯৮০–২০০৮)"
+          },
+          "ZWL": {
+            "displayName": "জিম্বাবুয়ে ডলার (২০০৯)"
+          },
+          "ZWR": {
+            "displayName": "জিম্বাবুয়ে ডলার (২০০৮)"
+          }
+        }
+      }
+    }
+  }
+}

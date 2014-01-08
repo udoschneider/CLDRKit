@@ -1,0 +1,158 @@
+{
+  "main": {
+    "sr-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sr",
+        "script": "Latn"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}",
+          "localeKeyTypePattern": "{0}: {1}"
+        },
+        "keys": {
+          "calendar": "Kalendar",
+          "colAlternate": "Sortiranje uz ignorisanje simbola",
+          "colBackwards": "Sortiranje prema obrnutim akcentima",
+          "colCaseFirst": "Ređanje prema malom/velikom slovu",
+          "colCaseLevel": "Sortiranje prema malom/velikom slovu",
+          "colHiraganaQuaternary": "Sortiranje prema kana simbolima",
+          "collation": "Sortiranje",
+          "colNormalization": "Normalizovano sortiranje",
+          "colNumeric": "Numeričko sortiranje",
+          "colStrength": "Sortiranje prema jačini",
+          "currency": "Valuta",
+          "numbers": "Brojevi",
+          "timezone": "Vremenska zona",
+          "va": "Varijanta lokaliteta",
+          "variableTop": "Sortiraj kao simbole",
+          "x": "Privatna upotreba"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "Budistički kalendar",
+            "chinese": "Kineski kalendar",
+            "coptic": "koptski kalendar",
+            "ethiopic": "etiopski kalendar",
+            "ethiopic-amete-alem": "etiopski amet alem kalendar",
+            "gregorian": "Gregorijanski kalendar",
+            "hebrew": "Hebrejski kalendar",
+            "indian": "Indijski nacionalni kalendar",
+            "islamic": "Islamski kalendar",
+            "islamic-civil": "Islamski civilni kalendar",
+            "japanese": "Japanski kalendar",
+            "persian": "persijski kalendar",
+            "roc": "Kalendar Republike Kine"
+          },
+          "collation": {
+            "standard": "standardni redosled sortiranja",
+            "traditional": "Tradicionalno sortiranje",
+            "big5han": "Tradicionalno kinesko sortiranje",
+            "dictionary": "Redosled sortiranja u rečniku",
+            "ducet": "Podrazumevani Unicode redosled sortiranja",
+            "gb2312han": "Pojednostavljeno kinesko sortiranje",
+            "phonebook": "Sortiranje kao telefonski imenik",
+            "phonetic": "Fonetski redosled sortiranja",
+            "pinyin": "Pinjin sortiranje",
+            "reformed": "Reformisani redosled sortiranja",
+            "search": "Opšte namenjena pretraga",
+            "searchjl": "Pretraga prema hangul početnom suglasniku",
+            "stroke": "Sortiranje po broju crta",
+            "unihan": "Redosled sortiranja radikalnim crticama"
+          },
+          "numbers": {
+            "native": "Lokalne cifre",
+            "traditional": "Tradicionalni brojevi",
+            "finance": "Finansijski brojevi",
+            "arab": "arapsko-indijske cifre",
+            "arabext": "produžene arapsko-indijske cifre",
+            "armn": "jermenski brojevi",
+            "armnlow": "mali jermenski brojevi",
+            "beng": "bengalske cifre",
+            "deva": "devangari cifre",
+            "ethi": "etiopski brojevi",
+            "fullwide": "cifre pune širine",
+            "geor": "gruzijski brojevi",
+            "grek": "grčki brojevi",
+            "greklow": "mali grčki brojevi",
+            "gujr": "gudžaratske cifre",
+            "guru": "gurmuki cifre",
+            "hanidec": "kineski decimalni brojevi",
+            "hans": "pojednostavljeni kineski brojevi",
+            "hansfin": "pojednostavljeni kineski finansijski brojevi",
+            "hant": "tradicionalni kineski brojevi",
+            "hantfin": "tradicionalni kineski finansijski brojevi",
+            "hebr": "hebrejski brojevi",
+            "jpan": "japanski brojevi",
+            "jpanfin": "japanski finansijski brojevi",
+            "khmr": "kmerske cifre",
+            "knda": "kanada cifre",
+            "laoo": "laoške cifre",
+            "latn": "zapadne cifre",
+            "mlym": "malajalam cifre",
+            "mong": "mongolske cifre",
+            "mymr": "mijanmarske cifre",
+            "orya": "orija cifre",
+            "roman": "rimski brojevi",
+            "romanlow": "mali rimski brojevi",
+            "taml": "tamilski brojevi",
+            "tamldec": "tamilske cifre",
+            "telu": "telugu cifre",
+            "thai": "tajske cifre",
+            "tibt": "tibetanske cifre",
+            "vaii": "Vai cifre"
+          },
+          "colAlternate": {
+            "non-ignorable": "Sortiraj simbole",
+            "shifted": "Sortiranje uz ignorisanje simbola"
+          },
+          "colBackwards": {
+            "no": "Sortiraj akcente normalno",
+            "yes": "Sortiraj akcente obrnuto"
+          },
+          "colCaseFirst": {
+            "lower": "Sortiraj prvo mala slova",
+            "no": "Sortiraj normalan redosled velikih i malih slova",
+            "upper": "Sortiraj prvo velika slova"
+          },
+          "colCaseLevel": {
+            "no": "Sortiraj bez obzira na velika i mala slova",
+            "yes": "Sortiraj mala i velika slova"
+          },
+          "colHiraganaQuaternary": {
+            "no": "Sortiraj kana simbole odvojeno",
+            "yes": "Sortiraj kana simbole drugačije"
+          },
+          "colNormalization": {
+            "no": "Sortiraj bez normalizacije",
+            "yes": "Sortiraj Unicode normalizovano"
+          },
+          "colNumeric": {
+            "no": "Sortiraj cifre pojedinačno",
+            "yes": "Sortiraj cifre numerički"
+          },
+          "colStrength": {
+            "identical": "Sortiraj sve",
+            "primary": "Sortiraj samo osnovna slova",
+            "quaternary": "Sortiraj akcente/mala i velika slova/širinu/kana simbole",
+            "secondary": "Sortiraj akcente",
+            "tertiary": "Sortiraj akcente/mala i velika slova/širinu"
+          }
+        },
+        "codePatterns": {
+          "language": "Jezik: {0}",
+          "script": "Skript: {0}",
+          "territory": "Region: {0}"
+        }
+      }
+    }
+  }
+}

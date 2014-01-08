@@ -1,0 +1,107 @@
+{
+  "main": {
+    "dyo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "dyo"
+      },
+      "numbers": {
+        "currencies": {
+          "AOA": {
+            "displayName": "kwanza yati Angola"
+          },
+          "AUD": {
+            "displayName": "dolaar yati Ostraalia"
+          },
+          "BHD": {
+            "displayName": "dinaar yati Bahrayn"
+          },
+          "BIF": {
+            "displayName": "fraaŋ yati Burundi"
+          },
+          "BWP": {
+            "displayName": "pula yati Boswana"
+          },
+          "CAD": {
+            "displayName": "dolaar yati Kanada"
+          },
+          "CDF": {
+            "displayName": "fraaŋ yati Kongo"
+          },
+          "CNY": {
+            "displayName": "yuan yati Siin"
+          },
+          "CVE": {
+            "displayName": "eskuudo yati Kap Ver"
+          },
+          "DJF": {
+            "displayName": "fraaŋ yati Jibuti"
+          },
+          "DZD": {
+            "displayName": "dinaar yati Alseri"
+          },
+          "EGP": {
+            "displayName": "liiverey yati Esípt"
+          },
+          "ERN": {
+            "displayName": "nafka yati Eritree"
+          },
+          "ETB": {
+            "displayName": "birr yati Ecoopi"
+          },
+          "EUR": {
+            "displayName": "euro"
+          },
+          "GHC": {
+            "displayName": "cedi yati Gaana"
+          },
+          "GMD": {
+            "displayName": "dalasi yati Gambi"
+          },
+          "GNS": {
+            "displayName": "sili yati Giné"
+          },
+          "INR": {
+            "displayName": "rupii yati End"
+          },
+          "JPY": {
+            "displayName": "yen yati Sapoŋ"
+          },
+          "KES": {
+            "displayName": "silliŋ yati Keniya"
+          },
+          "KMF": {
+            "displayName": "fraaŋ yati Komor"
+          },
+          "LRD": {
+            "displayName": "dolaar yati Liberia"
+          },
+          "LYD": {
+            "displayName": "dinaar yati Libia"
+          },
+          "MGA": {
+            "displayName": "ariari yati Madagaskaar"
+          },
+          "MRO": {
+            "displayName": "ugiiya yati Mooritanii"
+          },
+          "MWK": {
+            "displayName": "kwacha yati Malawi"
+          },
+          "XAF": {
+            "displayName": "seefa BEAC"
+          },
+          "XOF": {
+            "displayName": "seefa yati BCEAO"
+          }
+        }
+      }
+    }
+  }
+}

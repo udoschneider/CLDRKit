@@ -1,0 +1,62 @@
+{
+  "main": {
+    "eu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "eu"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "arabiarra",
+          "Arab-alt-variant": "persiar-arabiarra",
+          "Armn": "armeniera",
+          "Beng": "bengalera",
+          "Bopo": "bopomofoa",
+          "Brai": "braillea",
+          "Cyrl": "zirilikoa",
+          "Deva": "devanagaria",
+          "Ethi": "etiopiarra",
+          "Geor": "georgiera",
+          "Grek": "greziera",
+          "Gujr": "gujaratera",
+          "Guru": "gurmukhia",
+          "Hang": "hangula",
+          "Hani": "idazkera txinatarra",
+          "Hans": "sinplifikatua",
+          "Hans-alt-stand-alone": "idazkera txinatar sinplifikatua",
+          "Hant": "tradizionala",
+          "Hant-alt-stand-alone": "idazkera txinatar tradizionala",
+          "Hebr": "hebreera",
+          "Hira": "hiragana",
+          "Jpan": "japoniera",
+          "Kana": "katakana",
+          "Khmr": "khemerera",
+          "Knda": "kannadera",
+          "Kore": "koreera",
+          "Laoo": "laosera",
+          "Latn": "latina",
+          "Mlym": "malayalamera",
+          "Mong": "mongoliera",
+          "Mymr": "birmaniera",
+          "Orya": "oriya",
+          "Sinh": "sinhala",
+          "Taml": "tamilera",
+          "Telu": "teluguera",
+          "Thaa": "thaana",
+          "Thai": "thailandiera",
+          "Tibt": "tibetera",
+          "Zsym": "ikurrak",
+          "Zxxx": "idatzi gabea",
+          "Zyyy": "ohikoa",
+          "Zzzz": "idazkera ezezaguna"
+        }
+      }
+    }
+  }
+}

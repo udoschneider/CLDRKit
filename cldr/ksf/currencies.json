@@ -1,0 +1,185 @@
+{
+  "main": {
+    "ksf": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ksf"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "mɔni mǝ á bǝlɔŋ bǝ kaksa bɛ táatáaŋzǝn"
+          },
+          "AOA": {
+            "displayName": "mɔni mǝ á angóla"
+          },
+          "AUD": {
+            "displayName": "mɔni mǝ á ɔstralí"
+          },
+          "BHD": {
+            "displayName": "mɔni mǝ á barǝ́n"
+          },
+          "BIF": {
+            "displayName": "mɔni mǝ á burundí"
+          },
+          "BWP": {
+            "displayName": "mɔni mǝ á botswana"
+          },
+          "CAD": {
+            "displayName": "mɔni mǝ á kanada"
+          },
+          "CDF": {
+            "displayName": "mɔni mǝ á kɔngó"
+          },
+          "CHF": {
+            "displayName": "mɔni mǝ á swís"
+          },
+          "CNY": {
+            "displayName": "mɔni mǝ á cín"
+          },
+          "CVE": {
+            "displayName": "mɔni mǝ á kapvɛr"
+          },
+          "DJF": {
+            "displayName": "mɔni mǝ á dyibutí"
+          },
+          "DZD": {
+            "displayName": "mɔni mǝ á aljɛrí"
+          },
+          "EGP": {
+            "displayName": "mɔni mǝ á ɛjípt"
+          },
+          "ERN": {
+            "displayName": "mɔni mǝ á ɛritrɛ́"
+          },
+          "ETB": {
+            "displayName": "mɔni mǝ á ɛtyɔpí"
+          },
+          "EUR": {
+            "displayName": "mɔni mǝ á pɛrɛsǝ́"
+          },
+          "GBP": {
+            "displayName": "mɔni mǝ á ingɛrís"
+          },
+          "GHC": {
+            "displayName": "mɔni mǝ á gána"
+          },
+          "GMD": {
+            "displayName": "mɔni mǝ á gambí"
+          },
+          "GNS": {
+            "displayName": "mɔni mǝ á ginɛ́"
+          },
+          "INR": {
+            "displayName": "mɔni mǝ á indí"
+          },
+          "JPY": {
+            "displayName": "mɔni mǝ á japɔ́ŋ"
+          },
+          "KES": {
+            "displayName": "mɔni mǝ á kɛnya"
+          },
+          "KMF": {
+            "displayName": "mɔni mǝ á komɔr"
+          },
+          "LRD": {
+            "displayName": "mɔni mǝ á libɛrya"
+          },
+          "LSL": {
+            "displayName": "mɔni mǝ á lǝsóto"
+          },
+          "LYD": {
+            "displayName": "mɔni mǝ á libí"
+          },
+          "MAD": {
+            "displayName": "mɔni mǝ á marɔk"
+          },
+          "MGA": {
+            "displayName": "mɔni mǝ á madagaska"
+          },
+          "MRO": {
+            "displayName": "mɔni mǝ á mwaritaní"
+          },
+          "MUR": {
+            "displayName": "mɔni mǝ á mwarís"
+          },
+          "MWK": {
+            "displayName": "mɔni mǝ á malawi"
+          },
+          "MZM": {
+            "displayName": "mɔni mǝ á mosambík"
+          },
+          "NAD": {
+            "displayName": "mɔni mǝ á namibí"
+          },
+          "NGN": {
+            "displayName": "mɔni mǝ á nijɛ́rya"
+          },
+          "RWF": {
+            "displayName": "mɔni mǝ á rwanda"
+          },
+          "SAR": {
+            "displayName": "mɔni mǝ á arabí saodí"
+          },
+          "SCR": {
+            "displayName": "mɔni mǝ á sɛcɛl"
+          },
+          "SDG": {
+            "displayName": "mɔni mǝ á sudan"
+          },
+          "SHP": {
+            "displayName": "mɔni mǝ á sɛntɛ́len"
+          },
+          "SLL": {
+            "displayName": "mɔni mǝ á syɛraleon"
+          },
+          "SOS": {
+            "displayName": "mɔni mǝ á somalí"
+          },
+          "STD": {
+            "displayName": "mɔni mǝ á saotomɛ́ ri priŋsib"
+          },
+          "SZL": {
+            "displayName": "mɔni mǝ á swazilan"
+          },
+          "TND": {
+            "displayName": "mɔni mǝ á tunɛsí"
+          },
+          "TZS": {
+            "displayName": "mɔni mǝ á tanzaní"
+          },
+          "UGX": {
+            "displayName": "mɔni mǝ á uganda"
+          },
+          "USD": {
+            "displayName": "mɔni mǝ á amɛrika"
+          },
+          "XAF": {
+            "displayName": "fráŋ"
+          },
+          "XOF": {
+            "displayName": "mɔni mǝ á afríka aná wɛs"
+          },
+          "ZAR": {
+            "displayName": "mɔni mǝ á afrik anǝ a sud"
+          },
+          "ZMK": {
+            "displayName": "mɔni mǝ á zambí (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "mɔni mǝ á zambí"
+          },
+          "ZWD": {
+            "displayName": "mɔni mǝ á zimbabwɛ́"
+          }
+        }
+      }
+    }
+  }
+}

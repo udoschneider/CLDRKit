@@ -1,0 +1,114 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Epoča"
+          },
+          "year": {
+            "displayName": "Jár",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "I {0} jár",
+              "relativeTimePattern-count-other": "I {0} jár"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} jár",
+              "relativeTimePattern-count-other": "cor {0} jár"
+            }
+          },
+          "month": {
+            "displayName": "Mánet",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "I {0} mánet",
+              "relativeTimePattern-count-other": "I {0} mánet"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} mánet",
+              "relativeTimePattern-count-other": "vor {0} mánet"
+            }
+          },
+          "week": {
+            "displayName": "Wuča",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "i {0} wuča",
+              "relativeTimePattern-count-other": "i {0} wučä"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} wuča",
+              "relativeTimePattern-count-other": "cor {0} wučä"
+            }
+          },
+          "day": {
+            "displayName": "Tag",
+            "relative-type--2": "Vorgešter",
+            "relative-type--1": "Gešter",
+            "relative-type-0": "Hitte",
+            "relative-type-1": "Móre",
+            "relative-type-2": "Ubermóre",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "i {0} tag",
+              "relativeTimePattern-count-other": "i {0} täg"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} tag",
+              "relativeTimePattern-count-other": "vor {0} täg"
+            }
+          },
+          "weekday": {
+            "displayName": "Wučetag"
+          },
+          "dayperiod": {
+            "displayName": "AM/PM"
+          },
+          "hour": {
+            "displayName": "Schtund",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "i {0} stund",
+              "relativeTimePattern-count-other": "i {0} stunde"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} stund",
+              "relativeTimePattern-count-other": "vor {0} stunde"
+            }
+          },
+          "minute": {
+            "displayName": "Mínütta",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "i {0} minüta",
+              "relativeTimePattern-count-other": "i {0} minüte"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} minüta",
+              "relativeTimePattern-count-other": "vor {0} minüte"
+            }
+          },
+          "second": {
+            "displayName": "Sekunda",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "i {0} sekund",
+              "relativeTimePattern-count-other": "i {0} sekunde"
+            },
+            "relativeTime-type-past": {
+              "relativeTimePattern-count-one": "vor {0} sekund",
+              "relativeTimePattern-count-other": "vor {0} sekunde"
+            }
+          },
+          "zone": {
+            "displayName": "Zitzóna"
+          }
+        }
+      }
+    }
+  }
+}

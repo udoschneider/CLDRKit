@@ -1,0 +1,188 @@
+{
+  "main": {
+    "nd": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "nd"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Dola laseArab"
+          },
+          "AOA": {
+            "displayName": "Kwanza yase Angola"
+          },
+          "AUD": {
+            "displayName": "Dola yase Australia"
+          },
+          "BHD": {
+            "displayName": "Dinari yase Bhahareni"
+          },
+          "BIF": {
+            "displayName": "Fulenki yase Bhurundi"
+          },
+          "BWP": {
+            "displayName": "Phula yase Botswana"
+          },
+          "CAD": {
+            "displayName": "Dola yase Khanada"
+          },
+          "CDF": {
+            "displayName": "Fulenki yase Khongo"
+          },
+          "CHF": {
+            "displayName": "Fulenki yase Swisi"
+          },
+          "CNY": {
+            "displayName": "Yuan Renminbi yase China"
+          },
+          "CVE": {
+            "displayName": "Escudo Caboverdiano"
+          },
+          "DJF": {
+            "displayName": "Fulenki yase Jibhuthi"
+          },
+          "DZD": {
+            "displayName": "Dinali yase Aljeriya"
+          },
+          "EGP": {
+            "displayName": "Phawundi laseGibhide"
+          },
+          "ERN": {
+            "displayName": "Nakfa yase Eritrea"
+          },
+          "ETB": {
+            "displayName": "Dola laseEthiopia"
+          },
+          "EUR": {
+            "displayName": "Yuro"
+          },
+          "GBP": {
+            "displayName": "Phawundi yase Ngilandi"
+          },
+          "GHC": {
+            "displayName": "Sedi yase Ghana"
+          },
+          "GMD": {
+            "displayName": "Dalasi yase Gambia"
+          },
+          "GNS": {
+            "displayName": "Fulenki yase Gine"
+          },
+          "INR": {
+            "displayName": "Rupi yase Indiya"
+          },
+          "JPY": {
+            "displayName": "Yeni yase Japhani"
+          },
+          "KES": {
+            "displayName": "Shilingi yase Kenya"
+          },
+          "KMF": {
+            "displayName": "Fulenki yase Khomoro"
+          },
+          "LRD": {
+            "displayName": "Dola yase Libheriya"
+          },
+          "LSL": {
+            "displayName": "Lothi yase Lesotho"
+          },
+          "LYD": {
+            "displayName": "Dinari yase Libya"
+          },
+          "MAD": {
+            "displayName": "Dirham yase Morokho"
+          },
+          "MGA": {
+            "displayName": "Fulenki yase Malagasi"
+          },
+          "MRO": {
+            "displayName": "Ugwiya yase Moritaniya"
+          },
+          "MUR": {
+            "displayName": "Rupi yase Morishasi"
+          },
+          "MWK": {
+            "displayName": "Kwacha yase Malawi"
+          },
+          "MZM": {
+            "displayName": "Metikali yase Mozambiki"
+          },
+          "NAD": {
+            "displayName": "Dola yase Namibiya"
+          },
+          "NGN": {
+            "displayName": "Nayira yase Nijeriya"
+          },
+          "RWF": {
+            "displayName": "Fulenki yase Ruwanda"
+          },
+          "SAR": {
+            "displayName": "Riyal yase Saudi"
+          },
+          "SCR": {
+            "displayName": "Rupi yase Seyisheli"
+          },
+          "SDG": {
+            "displayName": "Dinari yase Sudani"
+          },
+          "SDP": {
+            "displayName": "Phawundi yase Sudani"
+          },
+          "SHP": {
+            "displayName": "Phawundindi laseSt Helena"
+          },
+          "SLL": {
+            "displayName": "Leyoni"
+          },
+          "SOS": {
+            "displayName": "Shilingi yase Somaliya"
+          },
+          "STD": {
+            "displayName": "Dobra yase Sao Tome lo Principe"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Dinari yase Tunisiya"
+          },
+          "TZS": {
+            "displayName": "Shilingi yase Tanzaniya"
+          },
+          "UGX": {
+            "displayName": "Shilingi yase Uganda"
+          },
+          "USD": {
+            "displayName": "Dola yase Amelika"
+          },
+          "XAF": {
+            "displayName": "Fulenki CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Fulenki CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Randi yase Afrika ye Zanzi"
+          },
+          "ZMK": {
+            "displayName": "Kwacha yase Zambiya (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kwacha yase Zambiya"
+          },
+          "ZWD": {
+            "displayName": "Dola yase Zimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

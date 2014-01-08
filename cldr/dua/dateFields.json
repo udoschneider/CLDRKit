@@ -1,0 +1,53 @@
+{
+  "main": {
+    "dua": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "dua"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "póndá"
+          },
+          "year": {
+            "displayName": "mbú"
+          },
+          "month": {
+            "displayName": "mɔ́di"
+          },
+          "week": {
+            "displayName": "disama"
+          },
+          "day": {
+            "displayName": "búnyá",
+            "relative-type--1": "kíɛlɛ nítómb́í",
+            "relative-type-0": "wɛ́ŋgɛ̄",
+            "relative-type-1": "kíɛlɛ"
+          },
+          "weekday": {
+            "displayName": "mínyá má disama"
+          },
+          "dayperiod": {
+            "displayName": "epasi a búnyá"
+          },
+          "hour": {
+            "displayName": "ŋgandɛ"
+          },
+          "minute": {
+            "displayName": "ndɔkɔ"
+          },
+          "second": {
+            "displayName": "píndí"
+          }
+        }
+      }
+    }
+  }
+}

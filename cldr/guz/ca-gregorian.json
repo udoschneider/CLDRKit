@@ -1,0 +1,174 @@
+{
+  "main": {
+    "guz": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "guz"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Can",
+                  "2": "Feb",
+                  "3": "Mac",
+                  "4": "Apr",
+                  "5": "Mei",
+                  "6": "Jun",
+                  "7": "Cul",
+                  "8": "Agt",
+                  "9": "Sep",
+                  "10": "Okt",
+                  "11": "Nob",
+                  "12": "Dis"
+                },
+                "wide": {
+                  "1": "Chanuari",
+                  "2": "Feburari",
+                  "3": "Machi",
+                  "4": "Apiriri",
+                  "5": "Mei",
+                  "6": "Juni",
+                  "7": "Chulai",
+                  "8": "Agosti",
+                  "9": "Septemba",
+                  "10": "Okitoba",
+                  "11": "Nobemba",
+                  "12": "Disemba"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "1": "C",
+                  "2": "F",
+                  "3": "M",
+                  "4": "A",
+                  "5": "M",
+                  "6": "J",
+                  "7": "C",
+                  "8": "A",
+                  "9": "S",
+                  "10": "O",
+                  "11": "N",
+                  "12": "D"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "Cpr",
+                  "mon": "Ctt",
+                  "tue": "Cmn",
+                  "wed": "Cmt",
+                  "thu": "Ars",
+                  "fri": "Icm",
+                  "sat": "Est"
+                },
+                "wide": {
+                  "sun": "Chumapiri",
+                  "mon": "Chumatato",
+                  "tue": "Chumaine",
+                  "wed": "Chumatano",
+                  "thu": "Aramisi",
+                  "fri": "Ichuma",
+                  "sat": "Esabato"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "sun": "C",
+                  "mon": "C",
+                  "tue": "C",
+                  "wed": "C",
+                  "thu": "A",
+                  "fri": "I",
+                  "sat": "E"
+                }
+              }
+            },
+            "quarters": {
+              "format": {
+                "abbreviated": {
+                  "1": "E1",
+                  "2": "E2",
+                  "3": "E3",
+                  "4": "E4"
+                },
+                "wide": {
+                  "1": "Erobo entang'ani",
+                  "2": "Erobo yakabere",
+                  "3": "Erobo yagatato",
+                  "4": "Erobo yakane"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "Ma/Mo",
+                  "pm": "Mambia/Mog"
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Yeso ataiborwa",
+                "1": "Yeso kaiboirwe"
+              },
+              "eraAbbr": {
+                "0": "YA",
+                "1": "YK"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, d MMMM y",
+              "long": "d MMMM y",
+              "medium": "d MMM y",
+              "short": "dd/MM/y"
+            },
+            "timeFormats": {
+              "full": "h:mm:ss a zzzz",
+              "long": "h:mm:ss a z",
+              "medium": "h:mm:ss a",
+              "short": "h:mm a"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "hm": "h:mm a",
+                "Hm": "HH:mm",
+                "Hms": "HH:mm:ss",
+                "M": "L",
+                "Md": "M/d",
+                "MEd": "E, M/d",
+                "MMM": "LLL",
+                "MMMd": "MMM d",
+                "MMMEd": "E, MMM d",
+                "MMMMd": "MMMM d",
+                "MMMMEd": "E, MMMM d",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "M/y",
+                "yMEd": "E, M/d/y",
+                "yMMM": "MMM y",
+                "yMMMEd": "E, MMM d, y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

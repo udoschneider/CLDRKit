@@ -1,0 +1,95 @@
+{
+  "main": {
+    "ksh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ksh"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, 'dä' d. MMMM y G",
+              "long": "d. MMMM y G",
+              "medium": "d. MMM. y G",
+              "short": "d. M. y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "Ed": "E 'dä' d.",
+                "hm": "h:mm a",
+                "Hm": "H:mm",
+                "hms": "h:mm:ss a",
+                "Hms": "H:mm:ss",
+                "M": "L",
+                "MEd": "E d. M.",
+                "MMM": "LLL",
+                "MMMd": "d. MMM",
+                "MMMEd": "E d. MMM",
+                "MMMMd": "d. MMMM",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "Y-MM",
+                "yMd": "y-MM-dd",
+                "yMEd": "E y-MM-dd",
+                "yMMM": "MMM y",
+                "yMMMd": "d. MMM. y",
+                "yMMMEd": "E d. MMM. y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQy",
+                "yQQQQ": "QQQQ y"
+              },
+              "intervalFormats": {
+                "d": {
+                  "d": "d–d"
+                },
+                "hm": {
+                  "a": "h:mm a – h:mm a",
+                  "h": "h:mm–h:mm a",
+                  "m": "h:mm–h:mm a"
+                },
+                "M": {
+                  "M": "M–M"
+                },
+                "Md": {
+                  "d": "dd. – dd. MM."
+                },
+                "MMM": {
+                  "M": "LLL–LLL"
+                },
+                "y": {
+                  "y": "y–y"
+                },
+                "yMEd": {
+                  "d": "E y-MM-dd – E y-MM-dd",
+                  "M": "E y-MM-dd – E y-MM-dd",
+                  "y": "E y-MM-dd – E y-MM-dd"
+                },
+                "yMMM": {
+                  "M": "MMM–MMM y",
+                  "y": "MMM. y – MMM. y"
+                },
+                "yMMMEd": {
+                  "d": "E y-MM-dd – E y-MM-dd",
+                  "M": "E y-MM-dd – E y-MM-dd",
+                  "y": "E y-MM-dd – E y-MM-dd"
+                },
+                "yMMMM": {
+                  "M": "MMMM–MMMM y",
+                  "y": "MMMM y – MMMM y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

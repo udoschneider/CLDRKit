@@ -1,0 +1,43 @@
+{
+  "main": {
+    "be": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "be"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}"
+        },
+        "keys": {
+          "calendar": "каляндар",
+          "collation": "параўнаньне тэксту",
+          "currency": "валюта"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "будысцкі каляндар",
+            "chinese": "кітайскі каляндар",
+            "gregorian": "грэгарыянскі каляндар",
+            "hebrew": "іудэйскі каляндар",
+            "islamic": "мусульманскі каляндар",
+            "islamic-civil": "мусульманскі свецкі каляндар",
+            "japanese": "японскі каляндар"
+          }
+        },
+        "codePatterns": {
+          "language": "Мова: {0}",
+          "script": "Пісьмо: {0}",
+          "territory": "Рэгіён: {0}"
+        }
+      }
+    }
+  }
+}

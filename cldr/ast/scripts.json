@@ -1,0 +1,59 @@
+{
+  "main": {
+    "ast": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ast"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "árabe",
+          "Armn": "armeniu",
+          "Beng": "bengalín",
+          "Bopo": "zhuyin",
+          "Brai": "braille",
+          "Cyrl": "cirílicu",
+          "Deva": "devanagari",
+          "Ethi": "etíope",
+          "Geor": "xeorxanu",
+          "Grek": "griegu",
+          "Gujr": "guyarati",
+          "Guru": "gurmukhi",
+          "Hang": "hangul",
+          "Hani": "escritura china",
+          "Hans": "chinu simplificáu",
+          "Hant": "chinu tradicional",
+          "Hebr": "hebréu",
+          "Hira": "ḥiragana",
+          "Jpan": "xaponés",
+          "Kana": "katakana",
+          "Khmr": "ḥemer",
+          "Knda": "canarés",
+          "Kore": "coreanu",
+          "Laoo": "laosianu",
+          "Latn": "llatín",
+          "Mlym": "malayalam",
+          "Mong": "mongol",
+          "Mymr": "birmanu",
+          "Orya": "oriya",
+          "Sinh": "cingalés",
+          "Taml": "tamil",
+          "Telu": "telugu",
+          "Thaa": "thaana",
+          "Thai": "tailandés",
+          "Tibt": "tibetanu",
+          "Zsym": "símbolos",
+          "Zxxx": "non escritu",
+          "Zyyy": "común",
+          "Zzzz": "escritura desconocida"
+        }
+      }
+    }
+  }
+}

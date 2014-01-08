@@ -1,0 +1,35 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "localeDisplayNames": {
+        "types": {
+          "calendar": {
+            "gregorian": "Gregorianišä Kaländer"
+          },
+          "collation": {
+            "ducet": "Standard Unicode Sortierreiefolg",
+            "search": "Allgmeini Süeč"
+          },
+          "numbers": {
+            "latn": "Arabiši Zálä"
+          }
+        },
+        "codePatterns": {
+          "language": "Sprač: {0}",
+          "script": "Alfabét: {0}",
+          "territory": "Regio: {0}"
+        }
+      }
+    }
+  }
+}

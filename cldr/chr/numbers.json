@@ -1,0 +1,45 @@
+{
+  "main": {
+    "chr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9315 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-05 11:52:00 -0500 (Thu, 05 Sep 2013) $"
+        },
+        "language": "chr"
+      },
+      "numbers": {
+        "symbols-numberSystem-latn": {
+          "decimal": ".",
+          "group": ",",
+          "list": ";",
+          "percentSign": "%",
+          "plusSign": "+",
+          "minusSign": "-",
+          "exponential": "E",
+          "perMille": "‰",
+          "infinity": "∞",
+          "nan": "NaN"
+        },
+        "decimalFormats-numberSystem-latn": {
+          "standard": "#,##0.###"
+        },
+        "scientificFormats-numberSystem-latn": {
+          "standard": "#E0"
+        },
+        "percentFormats-numberSystem-latn": {
+          "standard": "#,##0%"
+        },
+        "currencyFormats-numberSystem-latn": {
+          "standard": "¤#,##0.00",
+          "accounting": "¤#,##0.00;(¤#,##0.00)",
+          "unitPattern-count-one": "{0} {1}",
+          "unitPattern-count-other": "{0} {1}"
+        }
+      }
+    }
+  }
+}

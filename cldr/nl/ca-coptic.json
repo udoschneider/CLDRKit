@@ -1,0 +1,118 @@
+{
+  "main": {
+    "nl": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9308 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 14:41:52 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "nl"
+      },
+      "dates": {
+        "calendars": {
+          "coptic": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Tut",
+                  "2": "Babah",
+                  "3": "Hatur",
+                  "4": "Kiyahk",
+                  "5": "Tubah",
+                  "6": "Amshir",
+                  "7": "Baramhat",
+                  "8": "Baramundah",
+                  "9": "Bashans",
+                  "10": "Ba'unah",
+                  "11": "Abib",
+                  "12": "Misra",
+                  "13": "Nasi"
+                },
+                "narrow": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12",
+                  "13": "13"
+                },
+                "wide": {
+                  "1": "Tut",
+                  "2": "Babah",
+                  "3": "Hatur",
+                  "4": "Kiyahk",
+                  "5": "Tubah",
+                  "6": "Amshir",
+                  "7": "Baramhat",
+                  "8": "Baramundah",
+                  "9": "Bashans",
+                  "10": "Ba'unah",
+                  "11": "Abib",
+                  "12": "Misra",
+                  "13": "Nasi"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Tut",
+                  "2": "Babah",
+                  "3": "Hatur",
+                  "4": "Kiyahk",
+                  "5": "Tubah",
+                  "6": "Amshir",
+                  "7": "Baramhat",
+                  "8": "Baramundah",
+                  "9": "Bashans",
+                  "10": "Ba'unah",
+                  "11": "Abib",
+                  "12": "Misra",
+                  "13": "Nasi"
+                },
+                "narrow": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12",
+                  "13": "13"
+                },
+                "wide": {
+                  "1": "Tut",
+                  "2": "Babah",
+                  "3": "Hatur",
+                  "4": "Kiyahk",
+                  "5": "Tubah",
+                  "6": "Amshir",
+                  "7": "Baramhat",
+                  "8": "Baramundah",
+                  "9": "Bashans",
+                  "10": "Ba'unah",
+                  "11": "Abib",
+                  "12": "Misra",
+                  "13": "Nasi"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

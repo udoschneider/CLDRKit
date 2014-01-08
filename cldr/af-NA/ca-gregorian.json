@@ -1,0 +1,35 @@
+{
+  "main": {
+    "af-NA": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "af",
+        "territory": "NA"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dateFormats": {
+              "full": "EEEE d MMMM y",
+              "long": "d MMMM y",
+              "medium": "d MMM y",
+              "short": "y-MM-dd"
+            },
+            "timeFormats": {
+              "full": "HH:mm:ss zzzz",
+              "long": "HH:mm:ss z",
+              "medium": "HH:mm:ss",
+              "short": "HH:mm"
+            }
+          }
+        }
+      }
+    }
+  }
+}

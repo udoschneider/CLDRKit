@@ -1,0 +1,186 @@
+{
+  "main": {
+    "kab": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kab"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Adirham n Tgeldunin Taɛrabin Yedduklen"
+          },
+          "AOA": {
+            "displayName": "Akwanza n Ungula"
+          },
+          "AUD": {
+            "displayName": "Adular n Lusṭrali"
+          },
+          "BHD": {
+            "displayName": "Adinar Abaḥrini"
+          },
+          "BIF": {
+            "displayName": "Afrank Aburandi"
+          },
+          "BWP": {
+            "displayName": "Apula Abusṭwanan"
+          },
+          "CAD": {
+            "displayName": "Adular Akanadi"
+          },
+          "CDF": {
+            "displayName": "Afrank Akunguli"
+          },
+          "CHF": {
+            "displayName": "Afrank Aswis"
+          },
+          "CNY": {
+            "displayName": "Ayuwan Renminbi Acinwa"
+          },
+          "CVE": {
+            "displayName": "Akabuviradinu Askudi"
+          },
+          "DJF": {
+            "displayName": "Afrank Ajibuti"
+          },
+          "DZD": {
+            "displayName": "Adinar Azzayri",
+            "symbol": "DA"
+          },
+          "EGP": {
+            "displayName": "Apund Amaṣri"
+          },
+          "ERN": {
+            "displayName": "Anakfa Iritiri"
+          },
+          "ETB": {
+            "displayName": "Abir Utyupi"
+          },
+          "EUR": {
+            "displayName": "Uru"
+          },
+          "GBP": {
+            "displayName": "Apund Sterling Aglizi"
+          },
+          "GHC": {
+            "displayName": "Asidi Aɣani"
+          },
+          "GMD": {
+            "displayName": "Adalasi Agambi"
+          },
+          "GNS": {
+            "displayName": "Afrank Aɣini"
+          },
+          "INR": {
+            "displayName": "Arupi Ahendi"
+          },
+          "JPY": {
+            "displayName": "Ayen Ajappuni"
+          },
+          "KES": {
+            "displayName": "Aciling Akini"
+          },
+          "KMF": {
+            "displayName": "Afrank Akamiruni"
+          },
+          "LRD": {
+            "displayName": "Adular Alibiri"
+          },
+          "LSL": {
+            "displayName": "Aluṭi Alizuṭi"
+          },
+          "LYD": {
+            "displayName": "Adinar Alibi"
+          },
+          "MAD": {
+            "displayName": "Adirham Amerruki"
+          },
+          "MGA": {
+            "displayName": "Aryari Amalgac"
+          },
+          "MRO": {
+            "displayName": "Agiya Amuriṭani"
+          },
+          "MUR": {
+            "displayName": "Arupi Amurisi"
+          },
+          "MWK": {
+            "displayName": "Akwaca Amalawi"
+          },
+          "MZM": {
+            "displayName": "Amitikal Amuzembiqi"
+          },
+          "NAD": {
+            "displayName": "Adular Anamibi"
+          },
+          "NGN": {
+            "displayName": "Anayra Anijiri"
+          },
+          "RWF": {
+            "displayName": "Afrank Aruwandi"
+          },
+          "SAR": {
+            "displayName": "Aryal Asuɛudi"
+          },
+          "SCR": {
+            "displayName": "Arupi Aseycili"
+          },
+          "SDG": {
+            "displayName": "Apund Asudani"
+          },
+          "SHP": {
+            "displayName": "Apund Asant Ilini"
+          },
+          "SLL": {
+            "displayName": "Alyun"
+          },
+          "SOS": {
+            "displayName": "Aciling Aṣumali"
+          },
+          "STD": {
+            "displayName": "Asw Ṭum d Udubra Amenzay"
+          },
+          "SZL": {
+            "displayName": "Alilangini"
+          },
+          "TND": {
+            "displayName": "Adinar Atunsi"
+          },
+          "TZS": {
+            "displayName": "Aciling Aṭanẓani"
+          },
+          "UGX": {
+            "displayName": "Aciling Awgandi"
+          },
+          "USD": {
+            "displayName": "Adular WD"
+          },
+          "XAF": {
+            "displayName": "Afrank BCEA CFA"
+          },
+          "XOF": {
+            "displayName": "Afrank BCEAO CFA"
+          },
+          "ZAR": {
+            "displayName": "Arand Afriqi n Wadda"
+          },
+          "ZMK": {
+            "displayName": "Akwaca Azambi (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Akwaca Azambi"
+          },
+          "ZWD": {
+            "displayName": "Adular Azimbabwi"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "main": {
+    "am": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "am"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "ዓረብኛ",
+          "Arab-alt-variant": "ፔርሶ - አረቢክ",
+          "Armn": "አርሜንያዊ",
+          "Beng": "ቤንጋሊ",
+          "Bopo": "ቦፖሞፎ",
+          "Brai": "ብሬይል",
+          "Buhd": "ቡሂድ",
+          "Cans": "የተዋሐዱ የካናዳ ጥንታዊ ምልክቶች",
+          "Cher": "ቼሮኪ",
+          "Copt": "ኮፕቲክ",
+          "Cprt": "ሲፕሪኦት",
+          "Cyrl": "ሲይሪልክ",
+          "Deva": "ደቫንጋሪ",
+          "Dsrt": "ዴዘረት",
+          "Ethi": "ኢትዮፒክ",
+          "Geor": "ጆርጂያዊ",
+          "Goth": "ጐቲክ",
+          "Grek": "ግሪክ",
+          "Gujr": "ጉጃራቲ",
+          "Guru": "ጉርሙኪ",
+          "Hang": "ሐንጉል",
+          "Hani": "ሃን",
+          "Hano": "ሀኑኦ",
+          "Hans": "ቀለል ያለ",
+          "Hans-alt-stand-alone": "ቀለል ያለ ሃን",
+          "Hant": "ባህላዊ",
+          "Hant-alt-stand-alone": "ባህላዊ ሃን",
+          "Hebr": "እብራይስጥ",
+          "Hira": "ሂራጋና",
+          "Hrkt": "ካታካና ወይንም ሂራጋና",
+          "Jpan": "ጃፓንኛ",
+          "Kana": "ካታካና",
+          "Khmr": "ክህመር",
+          "Knda": "ካንአዳ",
+          "Kore": "ኮሪያኛ",
+          "Laoo": "ላኦ",
+          "Latn": "ላቲን",
+          "Limb": "ሊምቡ",
+          "Lina": "ሊኒያር ኤ",
+          "Linb": "ሊኒያር ቢ",
+          "Mlym": "ማላያልም",
+          "Mong": "ሞንጎሊያዊ",
+          "Mymr": "ምያንማር",
+          "Ogam": "ኦግሀም",
+          "Orya": "ኦሪያ",
+          "Osma": "ኦስማኒያ",
+          "Runr": "ሩኒክ",
+          "Shaw": "የሻቪያ ፊደል",
+          "Sinh": "ሲንሃላ",
+          "Syrc": "ሲሪክ",
+          "Tagb": "ትአግባንዋ",
+          "Tale": "ታኢ ለ",
+          "Talu": "አዲስ ታኢ ሉ",
+          "Taml": "ታሚል",
+          "Telu": "ተልጉ",
+          "Tglg": "ታጋሎግ",
+          "Thaa": "ታና",
+          "Thai": "ታይ",
+          "Tibt": "ቲቤታን",
+          "Ugar": "ኡጋሪቲክ",
+          "Vaii": "ቫይ",
+          "Yiii": "ዪ",
+          "Zinh": "የተወረሰ",
+          "Zsym": "ምልክቶች",
+          "Zxxx": "ያልተጻፈ",
+          "Zyyy": "የጋራ",
+          "Zzzz": "ያልታወቀ ስክሪፕት"
+        }
+      }
+    }
+  }
+}

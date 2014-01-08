@@ -1,0 +1,29 @@
+{
+  "main": {
+    "ii": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "ii"
+      },
+      "localeDisplayNames": {
+        "types": {
+          "calendar": {
+            "gregorian": "ꄉꉻꃅꑍ",
+            "islamic": "ꑳꌦꇂꑍꉖ"
+          }
+        },
+        "codePatterns": {
+          "language": "ꅇꉙ: {0}",
+          "script": "ꇇꁱ: {0}",
+          "territory": "ꃅꄷ: {0}"
+        }
+      }
+    }
+  }
+}

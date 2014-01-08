@@ -1,0 +1,39 @@
+{
+  "main": {
+    "ps": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ps"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE د G y د MMMM d",
+              "long": "د G y د MMMM d",
+              "medium": "d MMM y G",
+              "short": "GGGGG y/M/d"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "H": "H",
+                "Hm": "H:mm",
+                "Hms": "H:mm:ss",
+                "Md": "M/d",
+                "MMMMd": "d MMMM",
+                "yM": "G y/M",
+                "yMMMM": "د G y د MMMM"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

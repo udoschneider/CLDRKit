@@ -1,0 +1,33 @@
+{
+  "main": {
+    "mt": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mt"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Għarbi",
+          "Brai": "Braille",
+          "Cyrl": "Ċirilliku",
+          "Grek": "Grieg",
+          "Hans": "Sempliċi",
+          "Hans-alt-stand-alone": "Ħan Sempliċi",
+          "Hant": "Tradizzjonali",
+          "Hant-alt-stand-alone": "Ħan Tradizzjonali",
+          "Latn": "Latin",
+          "Xpeo": "Persjan Antik",
+          "Zxxx": "Mhux Miktub",
+          "Zyyy": "Komuni",
+          "Zzzz": "Skritt Mhux Magħruf"
+        }
+      }
+    }
+  }
+}

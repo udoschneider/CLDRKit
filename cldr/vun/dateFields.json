@@ -1,0 +1,53 @@
+{
+  "main": {
+    "vun": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "vun"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Kacha"
+          },
+          "year": {
+            "displayName": "Maka"
+          },
+          "month": {
+            "displayName": "Mori"
+          },
+          "week": {
+            "displayName": "Wiikyi"
+          },
+          "day": {
+            "displayName": "Mfiri",
+            "relative-type--1": "Ukou",
+            "relative-type-0": "Inu",
+            "relative-type-1": "Ngama"
+          },
+          "dayperiod": {
+            "displayName": "Mfiri o siku"
+          },
+          "hour": {
+            "displayName": "Saa"
+          },
+          "minute": {
+            "displayName": "Dakyika"
+          },
+          "second": {
+            "displayName": "Sekunde"
+          },
+          "zone": {
+            "displayName": "Mfiri o saa"
+          }
+        }
+      }
+    }
+  }
+}

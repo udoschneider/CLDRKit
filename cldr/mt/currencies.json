@@ -1,0 +1,33 @@
+{
+  "main": {
+    "mt": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mt"
+      },
+      "numbers": {
+        "currencies": {
+          "EUR": {
+            "displayName": "Ewro"
+          },
+          "MTL": {
+            "displayName": "Lira Maltija"
+          },
+          "XXX": {
+            "displayName": "Munita Mhux Magħrufa jew Mhux Valida",
+            "displayName-count-one": "Munita Mhux Magħruf jew Mhux Validu",
+            "displayName-count-few": "Munita Mhux Magħruf jew Mhux Validu",
+            "displayName-count-many": "Munita Mhux Magħruf jew Mhux Validu",
+            "displayName-count-other": "Munita Mhux Magħruf jew Mhux Validu"
+          }
+        }
+      }
+    }
+  }
+}

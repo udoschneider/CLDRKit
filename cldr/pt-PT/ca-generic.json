@@ -1,0 +1,135 @@
+{
+  "main": {
+    "pt-PT": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "pt",
+        "territory": "PT"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, d 'de' MMMM 'de' y G",
+              "long": "d 'de' MMMM 'de' y G",
+              "medium": "d 'de' MMM, y G",
+              "short": "d/M/y G"
+            },
+            "dateTimeFormats": {
+              "full": "{1} 'às' {0}",
+              "long": "{1} 'às' {0}",
+              "medium": "{1}, {0}",
+              "short": "{1}, {0}",
+              "availableFormats": {
+                "d": "d",
+                "Ed": "E, d",
+                "Gy": "y G",
+                "GyMMM": "MMM 'de' y G",
+                "GyMMMd": "d 'de' MMM 'de' y G",
+                "GyMMMEd": "E, d 'de' MMM 'de' y G",
+                "M": "L",
+                "Md": "d/M",
+                "MEd": "E, dd/MM",
+                "MMM": "LLL",
+                "MMMd": "d 'de' MMM",
+                "MMMEd": "E, d 'de' MMM",
+                "MMMMd": "d 'de' MMMM",
+                "MMMMEd": "E, d 'de' MMMM",
+                "y": "y G",
+                "yyyy": "y G",
+                "yyyyM": "MM/y GGGGG",
+                "yyyyMd": "dd/MM/y GGGGG",
+                "yyyyMEd": "E, dd/MM/y GGGGG",
+                "yyyyMMM": "MM/y G",
+                "yyyyMMMd": "d/MM/y G",
+                "yyyyMMMEd": "E, d/MM/y G",
+                "yyyyMMMEEEEd": "EEEE, d/MM/y",
+                "yyyyMMMM": "MMMM 'de' y G",
+                "yyyyMMMMd": "d 'de' MMMM 'de' y G",
+                "yyyyMMMMEd": "E, d 'de' MMMM 'de' y G",
+                "yyyyQQQ": "QQQQ 'de' y G",
+                "yyyyQQQQ": "QQQQ 'de' y G"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} - {1}",
+                "d": {
+                  "d": "d - d"
+                },
+                "h": {
+                  "a": "h a - h a",
+                  "h": "h-h a"
+                },
+                "hm": {
+                  "h": "h:mm - h:mm a"
+                },
+                "M": {
+                  "M": "M - M"
+                },
+                "Md": {
+                  "d": "dd/MM - dd/MM",
+                  "M": "dd/MM - dd/MM"
+                },
+                "MEd": {
+                  "d": "E, dd/MM - E, dd/MM",
+                  "M": "E, dd/MM - E, dd/MM"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "d-d 'de' MMM",
+                  "M": "d 'de' MMM - d 'de' MMM"
+                },
+                "MMMEd": {
+                  "d": "E, d 'de' MMM - E, d 'de' MMM",
+                  "M": "E, d 'de' MMM - E, d 'de' MMM"
+                },
+                "y": {
+                  "y": "y-y G"
+                },
+                "yM": {
+                  "M": "MM/y - MM/y G",
+                  "y": "MM/y - MM/y G"
+                },
+                "yMd": {
+                  "d": "dd/MM/y - dd/MM/y G",
+                  "M": "dd/MM/y - dd/MM/y G",
+                  "y": "dd/MM/y - dd/MM/y G"
+                },
+                "yMEd": {
+                  "d": "E, dd/MM/y - E, dd/MM/y G",
+                  "M": "E, dd/MM/y - E, dd/MM/y G",
+                  "y": "E, dd/MM/y - E, dd/MM/y G"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM 'de' y G",
+                  "y": "MMM 'de' y - MMM 'de' y G"
+                },
+                "yMMMd": {
+                  "d": "d-d 'de' MMM 'de' y",
+                  "M": "d 'de' MMM - d 'de' MMM 'de' y G",
+                  "y": "d 'de' MMM 'de' y - d 'de' MMM 'de' y G"
+                },
+                "yMMMEd": {
+                  "d": "E, d 'de' MMM - E, d 'de' MMM 'de' y G",
+                  "M": "E, d 'de' MMM - E, d 'de' MMM 'de' y G",
+                  "y": "E, d 'de' MMM 'de' y - E, d 'de' MMM 'de' y G"
+                },
+                "yMMMM": {
+                  "M": "MMMM - MMMM 'de' y G",
+                  "y": "MMMM 'de' y - MMMM 'de' y G"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

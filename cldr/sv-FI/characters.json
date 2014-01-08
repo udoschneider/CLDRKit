@@ -1,0 +1,21 @@
+{
+  "main": {
+    "sv-FI": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "sv",
+        "territory": "FI"
+      },
+      "characters": {
+        "exemplarCharacters": "[a à b c d e é f g h i j k l m n o p q r s t u v x y z å ä ö]",
+        "auxiliary": "[ã ç ë í ñ ó š ÿ ü ž]"
+      }
+    }
+  }
+}

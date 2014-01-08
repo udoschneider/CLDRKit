@@ -1,0 +1,62 @@
+{
+  "main": {
+    "ur-IN": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ur",
+        "territory": "IN"
+      },
+      "dates": {
+        "fields": {
+          "sun": {
+            "relative-type--1": "پچھلے اتوار",
+            "relative-type-0": "اس اتوار",
+            "relative-type-1": "اگلے اتوار"
+          },
+          "mon": {
+            "relative-type--1": "پچھلے پیر",
+            "relative-type-0": "اس پیر",
+            "relative-type-1": "اگلے پیر"
+          },
+          "tue": {
+            "relative-type--1": "پچھلے منگل",
+            "relative-type-0": "اس منگل",
+            "relative-type-1": "اگلے منگل"
+          },
+          "wed": {
+            "relative-type--1": "پچھلے بدھ",
+            "relative-type-0": "اس بدھ",
+            "relative-type-1": "اگلے بدھ"
+          },
+          "thu": {
+            "relative-type--1": "پچھلے جمعرات",
+            "relative-type-0": "اس جمعرات",
+            "relative-type-1": "اگلے جمعرات"
+          },
+          "fri": {
+            "relative-type--1": "پچھلے جمعہ",
+            "relative-type-0": "اس جمعہ",
+            "relative-type-1": "اگلے جمعہ"
+          },
+          "sat": {
+            "relative-type--1": "پچھلے ہفتہ",
+            "relative-type-0": "اس ہفتہ",
+            "relative-type-1": "اگلے ہفتہ"
+          },
+          "dayperiod": {
+            "displayName": "قبل دوپہر/بعد دوپہر"
+          },
+          "zone": {
+            "displayName": "منطقۂ وقت"
+          }
+        }
+      }
+    }
+  }
+}

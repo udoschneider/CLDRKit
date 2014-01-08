@@ -1,0 +1,42 @@
+{
+  "main": {
+    "tr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "tr"
+      },
+      "dates": {
+        "calendars": {
+          "hebrew": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "Tişri",
+                  "2": "Heşvan",
+                  "3": "Kislev",
+                  "4": "Tevet",
+                  "5": "Şevat",
+                  "6": "Veadar",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nisan",
+                  "9": "İyar",
+                  "10": "Sivan",
+                  "11": "Tamuz",
+                  "12": "Av",
+                  "13": "Elul"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

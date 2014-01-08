@@ -1,0 +1,45 @@
+{
+  "main": {
+    "pa-Arab": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "pa",
+        "script": "Arab"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "displayName": "ورھا"
+          },
+          "month": {
+            "displayName": "مہينا"
+          },
+          "week": {
+            "displayName": "ہفتہ"
+          },
+          "day": {
+            "displayName": "دئن"
+          },
+          "weekday": {
+            "displayName": "ہفتے دا دن"
+          },
+          "hour": {
+            "displayName": "گھنٹا"
+          },
+          "minute": {
+            "displayName": "منٹ"
+          },
+          "zone": {
+            "displayName": "ٹپہ"
+          }
+        }
+      }
+    }
+  }
+}

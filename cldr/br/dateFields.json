@@ -1,0 +1,41 @@
+{
+  "main": {
+    "br": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "br"
+      },
+      "dates": {
+        "fields": {
+          "month": {
+            "displayName": "miz"
+          },
+          "week": {
+            "displayName": "sizhun"
+          },
+          "day": {
+            "relative-type--2": "dercʼhent-decʼh",
+            "relative-type--1": "decʼh",
+            "relative-type-0": "hiziv",
+            "relative-type-1": "warcʼhoazh"
+          },
+          "hour": {
+            "displayName": "eur"
+          },
+          "minute": {
+            "displayName": "munut"
+          },
+          "second": {
+            "displayName": "eilenn"
+          }
+        }
+      }
+    }
+  }
+}

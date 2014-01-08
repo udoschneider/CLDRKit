@@ -1,0 +1,102 @@
+{
+  "main": {
+    "gv": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "gv"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "J-guer",
+                  "2": "T-arree",
+                  "3": "Mayrnt",
+                  "4": "Avrril",
+                  "5": "Boaldyn",
+                  "6": "M-souree",
+                  "7": "J-souree",
+                  "8": "Luanistyn",
+                  "9": "M-fouyir",
+                  "10": "J-fouyir",
+                  "11": "M.Houney",
+                  "12": "M.Nollick"
+                },
+                "wide": {
+                  "1": "Jerrey-geuree",
+                  "2": "Toshiaght-arree",
+                  "3": "Mayrnt",
+                  "4": "Averil",
+                  "5": "Boaldyn",
+                  "6": "Mean-souree",
+                  "7": "Jerrey-souree",
+                  "8": "Luanistyn",
+                  "9": "Mean-fouyir",
+                  "10": "Jerrey-fouyir",
+                  "11": "Mee Houney",
+                  "12": "Mee ny Nollick"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "Jed",
+                  "mon": "Jel",
+                  "tue": "Jem",
+                  "wed": "Jerc",
+                  "thu": "Jerd",
+                  "fri": "Jeh",
+                  "sat": "Jes"
+                },
+                "wide": {
+                  "sun": "Jedoonee",
+                  "mon": "Jelhein",
+                  "tue": "Jemayrt",
+                  "wed": "Jercean",
+                  "thu": "Jerdein",
+                  "fri": "Jeheiney",
+                  "sat": "Jesarn"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "a.m.",
+                  "pm": "p.m."
+                }
+              }
+            },
+            "eras": {
+              "eraAbbr": {
+                "0": "RC",
+                "1": "AD"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE dd MMMM y",
+              "long": "dd MMMM y",
+              "medium": "MMM dd, y",
+              "short": "dd/MM/yy"
+            },
+            "timeFormats": {
+              "full": "HH:mm:ss zzzz",
+              "long": "HH:mm:ss z",
+              "medium": "HH:mm:ss",
+              "short": "HH:mm"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "main": {
+    "az": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "az"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}",
+          "localeKeyTypePattern": "{0}: {1}"
+        },
+        "keys": {
+          "calendar": "Təqvim",
+          "collation": "qarşılaşdırma",
+          "currency": "valyuta",
+          "numbers": "rəqəmlər"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "Budist təqvimi",
+            "chinese": "Çin təqvimi",
+            "gregorian": "Qreqorian Təqvimi",
+            "hebrew": "Yahudi təqvimi",
+            "indian": "Hindi təqvimi",
+            "islamic": "Müsəlman təqvimi",
+            "islamic-civil": "Ivrit təqvimi",
+            "japanese": "Yapon təqvimi",
+            "roc": "Çin respublikası təqvimi"
+          },
+          "collation": {
+            "standard": "standart",
+            "pinyin": "Pinyin təqvimi",
+            "search": "axtarış"
+          }
+        },
+        "codePatterns": {
+          "language": "Dil: {0}",
+          "script": "Skript: {0}",
+          "territory": "Region: {0}"
+        }
+      }
+    }
+  }
+}

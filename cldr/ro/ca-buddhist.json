@@ -1,0 +1,30 @@
+{
+  "main": {
+    "ro": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ro"
+      },
+      "dates": {
+        "calendars": {
+          "buddhist": {
+            "eras": {
+              "eraNames": {
+                "0": "era budistă"
+              },
+              "eraAbbr": {
+                "0": "e.b."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

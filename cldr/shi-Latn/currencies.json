@@ -1,0 +1,189 @@
+{
+  "main": {
+    "shi-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "shi",
+        "script": "Latn"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "adrim n limarat"
+          },
+          "AOA": {
+            "displayName": "kwanza n angula"
+          },
+          "AUD": {
+            "displayName": "adular n ustralya"
+          },
+          "BHD": {
+            "displayName": "adinar n bḥrayn"
+          },
+          "BIF": {
+            "displayName": "frank n burundi"
+          },
+          "BWP": {
+            "displayName": "abula n butswana"
+          },
+          "CAD": {
+            "displayName": "adular n kanada"
+          },
+          "CDF": {
+            "displayName": "frank n kungu"
+          },
+          "CHF": {
+            "displayName": "afrank n swisra"
+          },
+          "CNY": {
+            "displayName": "ayan n ccinwa"
+          },
+          "CVE": {
+            "displayName": "iskudu n kabbirdi"
+          },
+          "DJF": {
+            "displayName": "frank n djibuti"
+          },
+          "DZD": {
+            "displayName": "adinar n dzayr"
+          },
+          "EGP": {
+            "displayName": "ajnih n miṣṛ"
+          },
+          "ERN": {
+            "displayName": "nafka n iritirya"
+          },
+          "ETB": {
+            "displayName": "bir n ityubya"
+          },
+          "EUR": {
+            "displayName": "uru"
+          },
+          "GBP": {
+            "displayName": "ajnih astrlini n nngliz"
+          },
+          "GHC": {
+            "displayName": "sidi n ɣana"
+          },
+          "GMD": {
+            "displayName": "dalasi n gambya"
+          },
+          "GNS": {
+            "displayName": "frank n ɣinya"
+          },
+          "INR": {
+            "displayName": "arubi n lhind"
+          },
+          "JPY": {
+            "displayName": "ayan n lyaban"
+          },
+          "KES": {
+            "displayName": "acilin n kinya"
+          },
+          "KMF": {
+            "displayName": "frank n qumuṛ"
+          },
+          "LRD": {
+            "displayName": "adular n libirya"
+          },
+          "LSL": {
+            "displayName": "luti n liṣuṭu"
+          },
+          "LYD": {
+            "displayName": "adinar n libya"
+          },
+          "MAD": {
+            "displayName": "adrim n lmɣrib"
+          },
+          "MGA": {
+            "displayName": "frank n madaɣacqar"
+          },
+          "MRO": {
+            "displayName": "uqiyya n muṛiṭanya"
+          },
+          "MUR": {
+            "displayName": "arubi n muris"
+          },
+          "MWK": {
+            "displayName": "kwaca n malawi"
+          },
+          "MZM": {
+            "displayName": "amitikl n muznbiq"
+          },
+          "NAD": {
+            "displayName": "adular n namibya"
+          },
+          "NGN": {
+            "displayName": "nayra n nijirya"
+          },
+          "RWF": {
+            "displayName": "afrank n rwanda"
+          },
+          "SAR": {
+            "displayName": "aryal n ssaɛudiya"
+          },
+          "SCR": {
+            "displayName": "arubi n ssicil"
+          },
+          "SDG": {
+            "displayName": "adinar n ssudan"
+          },
+          "SDP": {
+            "displayName": "ajnih n ssudan"
+          },
+          "SHP": {
+            "displayName": "ajnih n santilin"
+          },
+          "SLL": {
+            "displayName": "liyun"
+          },
+          "SOS": {
+            "displayName": "acilin n ṣṣumal"
+          },
+          "STD": {
+            "displayName": "adubra n sanṭumi"
+          },
+          "SZL": {
+            "displayName": "lilanjini"
+          },
+          "TND": {
+            "displayName": "adinar n tuns"
+          },
+          "TZS": {
+            "displayName": "acilin n ṭanẓanya"
+          },
+          "UGX": {
+            "displayName": "acilin n uɣanda"
+          },
+          "USD": {
+            "displayName": "adular n iwunak imunn"
+          },
+          "XAF": {
+            "displayName": "frank ṣifa"
+          },
+          "XOF": {
+            "displayName": "frank ṣifa bisaw"
+          },
+          "ZAR": {
+            "displayName": "arand n afriqya n iffus"
+          },
+          "ZMK": {
+            "displayName": "akwaca n zambya (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "akwaca n zambya"
+          },
+          "ZWD": {
+            "displayName": "adular n zimbabwi"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "main": {
+    "rn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "rn"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Idiramu ryo muri Leta Zunze Ubumwe z'Abarabu"
+          },
+          "AOA": {
+            "displayName": "Ikwanza ryo muri Angola"
+          },
+          "AUD": {
+            "displayName": "Idolari ryo muri Ositaraliya"
+          },
+          "BHD": {
+            "displayName": "Idinari ry'iribahireyini"
+          },
+          "BIF": {
+            "displayName": "Ifaranga ry'Uburundi",
+            "symbol": "FBu"
+          },
+          "BWP": {
+            "displayName": "Ipula ryo muri Botswana"
+          },
+          "CAD": {
+            "displayName": "Idolari rya Kanada"
+          },
+          "CDF": {
+            "displayName": "Ifaranga rya Kongo"
+          },
+          "CHF": {
+            "displayName": "Ifaranga ry'Ubusuwisi"
+          },
+          "CNY": {
+            "displayName": "Iyuwani ryo mu Bushinwa"
+          },
+          "CVE": {
+            "displayName": "Irikaboveridiyano ryo muri Esikudo"
+          },
+          "DJF": {
+            "displayName": "Ifaranga ryo muri Jibuti"
+          },
+          "DZD": {
+            "displayName": "Idinari ryo muri Alijeriya"
+          },
+          "EGP": {
+            "displayName": "Ipawundi rya Misiri"
+          },
+          "ERN": {
+            "displayName": "Irinakufa ryo muri Eritereya"
+          },
+          "ETB": {
+            "displayName": "Ibiri ryo muri Etiyopiya"
+          },
+          "EUR": {
+            "displayName": "Iyero"
+          },
+          "GBP": {
+            "displayName": "Ipawundi ryo mu Bwongereza"
+          },
+          "GHC": {
+            "displayName": "Icedi ryo muri Gana"
+          },
+          "GMD": {
+            "displayName": "Idalasi ryo muri Gambiya"
+          },
+          "GNS": {
+            "displayName": "Ifaranga ryo muri Gineya"
+          },
+          "INR": {
+            "displayName": "Irupiya ryo mu Buhindi"
+          },
+          "JPY": {
+            "displayName": "Iyeni ry'Ubuyapani"
+          },
+          "KES": {
+            "displayName": "Ishilingi rya Kenya"
+          },
+          "KMF": {
+            "displayName": "Ifaranga rya Komore"
+          },
+          "LRD": {
+            "displayName": "Idolari rya Liberiya"
+          },
+          "LSL": {
+            "displayName": "Iloti ryo muro Lesoto"
+          },
+          "LYD": {
+            "displayName": "Idinari rya Libiya"
+          },
+          "MAD": {
+            "displayName": "Idiramu ryo muri Maroke"
+          },
+          "MGA": {
+            "displayName": "Iriyari ryo muri Madagasikari"
+          },
+          "MRO": {
+            "displayName": "Ugwiya ryo muri Moritaniya"
+          },
+          "MUR": {
+            "displayName": "Irupiya ryo mu birwa bya Morise"
+          },
+          "MWK": {
+            "displayName": "Ikwaca ryo muri Malawi"
+          },
+          "MZM": {
+            "displayName": "Irimetikali ryo muri Mozambike"
+          },
+          "NAD": {
+            "displayName": "Idolari rya Namibiya"
+          },
+          "NGN": {
+            "displayName": "Inayira ryo muri Nijeriya"
+          },
+          "RWF": {
+            "displayName": "Ifaranga ry'u Rwanda"
+          },
+          "SAR": {
+            "displayName": "Iriyari ryo muri Arabiya Sawudite"
+          },
+          "SCR": {
+            "displayName": "Irupiya ryo mu birwa bya Sayisheli"
+          },
+          "SDG": {
+            "displayName": "Ipawundi rya Sudani"
+          },
+          "SHP": {
+            "displayName": "Ipawundi rya Sente Helena"
+          },
+          "SLL": {
+            "displayName": "Ilewone"
+          },
+          "SOS": {
+            "displayName": "Ishilingi ryo muri Somaliya"
+          },
+          "STD": {
+            "displayName": "Idobura ryo muri Sawotome na Perensipe"
+          },
+          "SZL": {
+            "displayName": "Ililangeni"
+          },
+          "TND": {
+            "displayName": "Idinari ryo muri Tuniziya"
+          },
+          "TZS": {
+            "displayName": "Ishilingi rya Tanzaniya"
+          },
+          "UGX": {
+            "displayName": "Ishilingi ry'Ubugande"
+          },
+          "USD": {
+            "displayName": "Idolari ry'abanyamerika"
+          },
+          "ZAR": {
+            "displayName": "Irandi ryo muri Afurika y'Epfo"
+          },
+          "ZMK": {
+            "displayName": "Ikwaca ryo muri Zambiya (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Ikwaca ryo muri Zambiya"
+          },
+          "ZWD": {
+            "displayName": "Idolari ryo muri Zimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "main": {
+    "agq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "agq"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Dilàm è Yùnaetɛ Alab Emelɛ̀"
+          },
+          "AOA": {
+            "displayName": "Kwanzà è Àŋgolà"
+          },
+          "AUD": {
+            "displayName": "Dɔlà e Ùsɨ̀tɛ̀lɛlìa"
+          },
+          "BHD": {
+            "displayName": "Dinà è Balae"
+          },
+          "BIF": {
+            "displayName": "Fàlâŋ è Bùlundì"
+          },
+          "BWP": {
+            "displayName": "Kpuwlà è Botɨshǔanà"
+          },
+          "CAD": {
+            "displayName": "Dɔlà è Kanadà"
+          },
+          "CDF": {
+            "displayName": "Fàlâŋ è Kuŋgùlê"
+          },
+          "CHF": {
+            "displayName": "Fàlâŋ è Sues"
+          },
+          "CNY": {
+            "displayName": "Yùwân Lèmembi è Chaenî"
+          },
+          "CVE": {
+            "displayName": "Kàbòvàdianù è Èsùkudò"
+          },
+          "DJF": {
+            "displayName": "Fàlâŋ è Dzìbutì"
+          },
+          "DZD": {
+            "displayName": "Dinà è Àdzɛlìa"
+          },
+          "EGP": {
+            "displayName": "Bɔ̀ŋ è Edzì"
+          },
+          "ERN": {
+            "displayName": "Nakafa è Èletɨ̀làe"
+          },
+          "ETB": {
+            "displayName": "Bîi è Etyǒkpìa"
+          },
+          "EUR": {
+            "displayName": "Yulù"
+          },
+          "GBP": {
+            "displayName": "Bɔ̀ŋ Sɨ̀telè è Bèletì"
+          },
+          "GHC": {
+            "displayName": "Sɛ̀di è Gaanà"
+          },
+          "GMD": {
+            "displayName": "Dàlasì è Gambìa"
+          },
+          "GNS": {
+            "displayName": "Fàlâŋ è Ginè"
+          },
+          "INR": {
+            "displayName": "Lukpì è Endìa"
+          },
+          "JPY": {
+            "displayName": "Ghɨ̂n Dzàkpànê"
+          },
+          "KES": {
+            "displayName": "Shwɨlà tɨ Kenyà"
+          },
+          "KMF": {
+            "displayName": "Fàlâŋ è Komolìa"
+          },
+          "LRD": {
+            "displayName": "Dɔlà Làebɛlìa"
+          },
+          "LSL": {
+            "displayName": "Lɔtì Lèsutù"
+          },
+          "LYD": {
+            "displayName": "Dinà è Lebìa"
+          },
+          "MAD": {
+            "displayName": "Dilàm è Mòlokò"
+          },
+          "MGA": {
+            "displayName": "Àlǐalè è Màlàgasì"
+          },
+          "MRO": {
+            "displayName": "Ùgueya è Mùlètenyìa"
+          },
+          "MUR": {
+            "displayName": "Lukpìi è Mùleshòs"
+          },
+          "MWK": {
+            "displayName": "Kwachà è Màlawè"
+          },
+          "MZM": {
+            "displayName": "Mètikà è Mùzàmbî"
+          },
+          "NAD": {
+            "displayName": "Dɔlà è Nàmibìa"
+          },
+          "NGN": {
+            "displayName": "Naelà è Gɨ̀anyɨ"
+          },
+          "RWF": {
+            "displayName": "Fàlâŋ è Lùwandà"
+          },
+          "SAR": {
+            "displayName": "Leyà è Sàwudì"
+          },
+          "SCR": {
+            "displayName": "Lukpìi è Sɛchɛ̀lɛ̀"
+          },
+          "SDG": {
+            "displayName": "Bɔ̀ŋ è Sùdànê"
+          },
+          "SHP": {
+            "displayName": "Bɔ̀ŋ è Sɛ̀n Èlenà"
+          },
+          "SLL": {
+            "displayName": "Lyɔ̂ŋ"
+          },
+          "SOS": {
+            "displayName": "Shwɨlà è Sùmalìa"
+          },
+          "STD": {
+            "displayName": "Dɔbàlà è Sàwu Tɔ̀me à Pèlènsipè"
+          },
+          "SZL": {
+            "displayName": "Lèlàŋgenè"
+          },
+          "TND": {
+            "displayName": "Dinà è Tùwneshìa"
+          },
+          "TZS": {
+            "displayName": "Shwɨlà è Tàanzanyìa"
+          },
+          "UGX": {
+            "displayName": "Shwɨlà è Yùgandà"
+          },
+          "USD": {
+            "displayName": "Dɔlà è US"
+          },
+          "XAF": {
+            "displayName": "CFA Fàlâŋ BEAC"
+          },
+          "XOF": {
+            "displayName": "CFA Fàlâŋ BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Lân è Afɨlekà ghɨ Emàm ghò"
+          },
+          "ZMK": {
+            "displayName": "Kwachà è Zambìa (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kwachà è Zambìa"
+          },
+          "ZWD": {
+            "displayName": "Dɔlà è Zìmbagbɛ̀"
+          }
+        }
+      }
+    }
+  }
+}

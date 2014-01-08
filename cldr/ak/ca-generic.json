@@ -1,0 +1,54 @@
+{
+  "main": {
+    "ak": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ak"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, G y MMMM dd",
+              "long": "G y MMMM d",
+              "medium": "G y MMM d",
+              "short": "GGGGG yy/MM/dd"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "hm": "h:mm a",
+                "Hm": "HH:mm",
+                "Hms": "HH:mm:ss",
+                "M": "L",
+                "Md": "M/d",
+                "MEd": "E, M/d",
+                "MMM": "LLL",
+                "MMMd": "MMM d",
+                "MMMEd": "E, MMM d",
+                "MMMMd": "MMMM d",
+                "MMMMEd": "E, MMMM d",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "M/y",
+                "yMd": "y/M/d",
+                "yMEd": "E, M/d/y",
+                "yMMM": "MMM y",
+                "yMMMEd": "E, MMM d, y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

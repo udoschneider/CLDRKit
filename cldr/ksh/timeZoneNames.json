@@ -1,0 +1,436 @@
+{
+  "main": {
+    "ksh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ksh"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "regionFormat": "Zick vun {0}",
+          "regionFormat-type-daylight": "Summerzick vun {0}",
+          "regionFormat-type-standard": "Schtandattzick vun {0}",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "America": {
+              "Costa_Rica": {
+                "exemplarCity": "Koßtaricka"
+              },
+              "Guayaquil": {
+                "exemplarCity": "Juayaquil"
+              },
+              "Indiana": {
+                "Vincennes": {
+                  "exemplarCity": "Vincennes en Indiana"
+                },
+                "Petersburg": {
+                  "exemplarCity": "Petersburg en Indiana"
+                },
+                "Tell_City": {
+                  "exemplarCity": "Tell City en Indiana"
+                },
+                "Knox": {
+                  "exemplarCity": "Knox en Indiana"
+                },
+                "Winamac": {
+                  "exemplarCity": "Winamac en Indiana"
+                },
+                "Marengo": {
+                  "exemplarCity": "Marengo en Indiana"
+                },
+                "Vevay": {
+                  "exemplarCity": "Vevay en Indiana"
+                }
+              },
+              "Kentucky": {
+                "Monticello": {
+                  "exemplarCity": "Monticello en Kentucky"
+                }
+              },
+              "Mexico_City": {
+                "exemplarCity": "Schtadt Mexiko"
+              },
+              "North_Dakota": {
+                "Beulah": {
+                  "exemplarCity": "Beulah en Nood Dakota"
+                },
+                "New_Salem": {
+                  "exemplarCity": "Neu Salem en Nood Dakota"
+                },
+                "Center": {
+                  "exemplarCity": "Zenter en Nood Dakota"
+                }
+              },
+              "St_Barthelemy": {
+                "exemplarCity": "Zint Barthélemy"
+              },
+              "St_Johns": {
+                "exemplarCity": "Zint John's"
+              },
+              "St_Kitts": {
+                "exemplarCity": "Zint Kitts"
+              },
+              "St_Lucia": {
+                "exemplarCity": "Santa Lutschiija"
+              },
+              "St_Thomas": {
+                "exemplarCity": "Zint Thomas"
+              },
+              "St_Vincent": {
+                "exemplarCity": "Zint Vintschänt"
+              },
+              "Yakutat": {
+                "exemplarCity": "Jakutat"
+              }
+            },
+            "Atlantic": {
+              "Azores": {
+                "exemplarCity": "Azoore"
+              },
+              "Canary": {
+                "exemplarCity": "Kannaare"
+              },
+              "Cape_Verde": {
+                "exemplarCity": "Kap Verde"
+              },
+              "Faeroe": {
+                "exemplarCity": "Färör"
+              },
+              "St_Helena": {
+                "exemplarCity": "Zint Helena"
+              }
+            },
+            "Europe": {
+              "Athens": {
+                "exemplarCity": "Athen"
+              },
+              "Belgrade": {
+                "exemplarCity": "Beljrad"
+              },
+              "Brussels": {
+                "exemplarCity": "Brüssel"
+              },
+              "Bucharest": {
+                "exemplarCity": "Bukarest"
+              },
+              "Copenhagen": {
+                "exemplarCity": "Kopenharen"
+              },
+              "Dublin": {
+                "long": {
+                  "daylight": "Irland sing Summerzick"
+                }
+              },
+              "Gibraltar": {
+                "exemplarCity": "Jibraltaa"
+              },
+              "Guernsey": {
+                "exemplarCity": "Jöönsei"
+              },
+              "Isle_of_Man": {
+                "exemplarCity": "Ensel Män"
+              },
+              "Istanbul": {
+                "exemplarCity": "Istambul"
+              },
+              "Jersey": {
+                "exemplarCity": "Jöösei"
+              },
+              "Kaliningrad": {
+                "exemplarCity": "Kalinninjraad"
+              },
+              "Lisbon": {
+                "exemplarCity": "Lissabon"
+              },
+              "London": {
+                "long": {
+                  "daylight": "Jrußbretannije sing Summerzick"
+                }
+              },
+              "Luxembourg": {
+                "exemplarCity": "Luxembursch"
+              },
+              "Moscow": {
+                "exemplarCity": "Moskau"
+              },
+              "Prague": {
+                "exemplarCity": "Prag"
+              },
+              "Riga": {
+                "exemplarCity": "Riija"
+              },
+              "Rome": {
+                "exemplarCity": "Rom"
+              },
+              "Tirane": {
+                "exemplarCity": "Tiraana"
+              },
+              "Uzhgorod": {
+                "exemplarCity": "Uschjorod"
+              },
+              "Vatican": {
+                "exemplarCity": "der Vatikahn"
+              },
+              "Vienna": {
+                "exemplarCity": "Wien"
+              },
+              "Volgograd": {
+                "exemplarCity": "Woljojrad"
+              },
+              "Warsaw": {
+                "exemplarCity": "Warschau"
+              },
+              "Zagreb": {
+                "exemplarCity": "Sagreb"
+              },
+              "Zaporozhye": {
+                "exemplarCity": "Saporischschja"
+              },
+              "Zurich": {
+                "exemplarCity": "Züresch"
+              }
+            },
+            "Africa": {
+              "Cairo": {
+                "exemplarCity": "Kaijro"
+              },
+              "Lagos": {
+                "exemplarCity": "Laajos"
+              },
+              "Windhoek": {
+                "exemplarCity": "Windhuk"
+              }
+            },
+            "Asia": {
+              "Aqtobe": {
+                "exemplarCity": "Aqtöbe"
+              },
+              "Ashgabat": {
+                "exemplarCity": "Asshgabat"
+              },
+              "Baghdad": {
+                "exemplarCity": "Bagdad"
+              },
+              "Bishkek": {
+                "exemplarCity": "Bischkek"
+              },
+              "Damascus": {
+                "exemplarCity": "Damaskus"
+              },
+              "Dushanbe": {
+                "exemplarCity": "Duschanbe"
+              },
+              "Gaza": {
+                "exemplarCity": "Jaasa"
+              },
+              "Hong_Kong": {
+                "exemplarCity": "Hongkong"
+              },
+              "Kamchatka": {
+                "exemplarCity": "Kamschattka"
+              },
+              "Krasnoyarsk": {
+                "exemplarCity": "Krasnojarsk"
+              },
+              "Nicosia": {
+                "exemplarCity": "Nikosija"
+              },
+              "Phnom_Penh": {
+                "exemplarCity": "Pnom Penh"
+              },
+              "Qyzylorda": {
+                "exemplarCity": "Qysylorda"
+              },
+              "Rangoon": {
+                "exemplarCity": "Ranjun"
+              },
+              "Riyadh": {
+                "exemplarCity": "Rijad"
+              },
+              "Saigon": {
+                "exemplarCity": "Sigong (Ho-Tschi-Minh-Schtadt)"
+              },
+              "Shanghai": {
+                "exemplarCity": "Schanghai"
+              },
+              "Singapore": {
+                "exemplarCity": "Singjapuur"
+              },
+              "Tashkent": {
+                "exemplarCity": "Taschkent"
+              },
+              "Tbilisi": {
+                "exemplarCity": "Tiblis"
+              },
+              "Ulaanbaatar": {
+                "exemplarCity": "Ulan Bator"
+              },
+              "Urumqi": {
+                "exemplarCity": "Urrumptschi"
+              },
+              "Vladivostok": {
+                "exemplarCity": "Wladiwostok"
+              },
+              "Yakutsk": {
+                "exemplarCity": "Jakutsk"
+              },
+              "Yekaterinburg": {
+                "exemplarCity": "Jekaterinburg"
+              },
+              "Yerevan": {
+                "exemplarCity": "Eriwan"
+              }
+            },
+            "Indian": {
+              "Maldives": {
+                "exemplarCity": "Malldive"
+              }
+            },
+            "Pacific": {
+              "Galapagos": {
+                "exemplarCity": "Jalappajos"
+              },
+              "Guam": {
+                "exemplarCity": "Juam"
+              },
+              "Honolulu": {
+                "exemplarCity": "Honululu"
+              },
+              "Pitcairn": {
+                "exemplarCity": "Pitkern"
+              }
+            },
+            "Antarctica": {
+              "DumontDUrville": {
+                "exemplarCity": "Dumont-d'Urville-Schtazjohn"
+              },
+              "South_Pole": {
+                "exemplarCity": "Södpol"
+              },
+              "Syowa": {
+                "exemplarCity": "Schoowa-Schtazjohn op dä Ensel Onjul"
+              },
+              "Vostok": {
+                "exemplarCity": "Wostok"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "- weße mer nit -"
+              }
+            }
+          },
+          "metazone": {
+            "Africa_Central": {
+              "long": {
+                "standard": "Zentraal-Affrekaanesche Zigg"
+              }
+            },
+            "Africa_Eastern": {
+              "long": {
+                "standard": "Oß-Affrekaanesche Zigg"
+              }
+            },
+            "Africa_Southern": {
+              "long": {
+                "standard": "Söd-Affrekaanesche Zigg"
+              }
+            },
+            "Africa_Western": {
+              "long": {
+                "generic": "Wäß-Affrekaanesche Zigg",
+                "standard": "Jewöhnlijje Wäß-Affrekaanesche Zigg",
+                "daylight": "Wäß-Affrekaanesche Sommerzigg"
+              }
+            },
+            "Azores": {
+              "long": {
+                "generic": "de Azore ier Zick",
+                "standard": "de Azore ier jewöhnlijje Zick",
+                "daylight": "de Azore ier Summerzick"
+              }
+            },
+            "Cape_Verde": {
+              "long": {
+                "generic": "Kapvärdejaansche Zigg",
+                "standard": "Jewöhnlijje Kapvärdejaansche Zigg",
+                "daylight": "Kapvärdejaansche Sommerzigg"
+              }
+            },
+            "Europe_Central": {
+              "long": {
+                "generic": "Meddel-Europpa sing Zick",
+                "standard": "Meddel-Europpa sing jewöhnlijje Zick",
+                "daylight": "Meddel-Europpa sing Summerzick"
+              },
+              "short": {
+                "generic": "MEZ",
+                "standard": "MEZ",
+                "daylight": "MESZ"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Oß-Europpa sing Zick",
+                "standard": "Oß-Europpa sing jewöhnlijje Zick",
+                "daylight": "Oß-Europpa sing Summerzick"
+              },
+              "short": {
+                "generic": "OEZ",
+                "standard": "OEZ",
+                "daylight": "OESZ"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Weß-Europpa sing Zick",
+                "standard": "Weß-Europpa sing jewöhnlijje Zick",
+                "daylight": "Weß-Europpa sing Summerzick"
+              },
+              "short": {
+                "generic": "WEZ",
+                "standard": "WEZ",
+                "daylight": "WESZ"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Greenwich sing Standat-Zick"
+              }
+            },
+            "Indian_Ocean": {
+              "long": {
+                "standard": "dem Indische Ozejan sing Zick"
+              }
+            },
+            "Mauritius": {
+              "long": {
+                "generic": "Zigg vun Mauritius",
+                "standard": "Jewöhnlijje Zigg vun Mauritius",
+                "daylight": "Summerzigg vun Mauritius"
+              }
+            },
+            "Reunion": {
+              "long": {
+                "standard": "Zigg vun Reunion"
+              }
+            },
+            "Seychelles": {
+              "long": {
+                "standard": "Zigg vun de Seischälle"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

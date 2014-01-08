@@ -1,0 +1,72 @@
+{
+  "main": {
+    "ar-EG": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "ar",
+        "territory": "EG"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "regionFormat-type-daylight": "التوقيت الصيفي {0}",
+          "regionFormat-type-standard": "التوقيت الرسمي {0}",
+          "zone": {
+            "America": {
+              "Matamoros": {
+                "exemplarCity": "ماتامروس"
+              }
+            },
+            "Asia": {
+              "Hebron": {
+                "exemplarCity": "هبرون"
+              }
+            }
+          },
+          "metazone": {
+            "America_Central": {
+              "long": {
+                "generic": "التوقيت المركزي لأمريكا الشمالية",
+                "standard": "التوقيت الرسمي المركزي لأمريكا الشمالية",
+                "daylight": "التوقيت الصيفي المركزي لأمريكا الشمالية"
+              }
+            },
+            "America_Eastern": {
+              "long": {
+                "generic": "التوقيت الشرقي لأمريكا الشمالية",
+                "standard": "التوقيت الرسمي الشرقي لأمريكا الشمالية",
+                "daylight": "التوقيت الصيفي الشرقي لأمريكا الشمالية"
+              }
+            },
+            "America_Mountain": {
+              "long": {
+                "generic": "التوقيت الجبلي لأمريكا الشمالية",
+                "standard": "التوقيت الجبلي الرسمي لأمريكا الشمالية",
+                "daylight": "التوقيت الجبلي الصيفي لأمريكا الشمالية"
+              }
+            },
+            "America_Pacific": {
+              "long": {
+                "generic": "توقيت المحيط الهادي لأمريكا الشمالية",
+                "standard": "توقيت المحيط الهادي الرسمي لأمريكا الشمالية",
+                "daylight": "توقيت المحيط الهادي الصيفي لأمريكا الشمالية"
+              }
+            },
+            "Pierre_Miquelon": {
+              "long": {
+                "generic": "توقيت سانت بيير وميكولون",
+                "standard": "توقيت سانت بيير وميكولون الرسمي",
+                "daylight": "توقيت سانت بيير وميكولون الصيفي"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

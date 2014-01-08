@@ -1,0 +1,59 @@
+{
+  "main": {
+    "bs": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9278 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-26 12:26:11 -0500 (Mon, 26 Aug 2013) $"
+        },
+        "language": "bs"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, dd. MMMM y. G",
+              "long": "dd. MMMM y. G",
+              "medium": "dd.MM.y. G",
+              "short": "dd.MM.y. GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "Ed": "E, dd.",
+                "Gy": "y. G",
+                "GyMMM": "MMM y. G",
+                "GyMMMd": "dd. MMM y. G",
+                "GyMMMEd": "E, dd. MMM y. G",
+                "hm": "hh:mm a",
+                "Hm": "HH:mm",
+                "hms": "hh:mm:ss a",
+                "Hms": "HH:mm:ss",
+                "M": "L",
+                "Md": "dd.MM.",
+                "MEd": "E, dd.MM.",
+                "MMM": "LLL",
+                "MMMd": "dd. MMM",
+                "MMMEd": "E, dd. MMM",
+                "ms": "mm:ss",
+                "y": "y. G",
+                "yyyy": "y. G",
+                "yyyyM": "MM.y. G",
+                "yyyyMd": "dd.MM.y. G",
+                "yyyyMEd": "E, dd.MM.y. G",
+                "yyyyMMM": "MMM y. G",
+                "yyyyMMMd": "dd. MMM y. G",
+                "yyyyMMMEd": "E, dd. MMM y. G",
+                "yyyyQQQ": "G y QQQ",
+                "yyyyQQQQ": "G y QQQQ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

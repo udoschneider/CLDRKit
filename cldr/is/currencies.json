@@ -1,0 +1,1041 @@
+{
+  "main": {
+    "is": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "is"
+      },
+      "numbers": {
+        "currencies": {
+          "ADP": {
+            "displayName": "Andorrskur peseti"
+          },
+          "AED": {
+            "displayName": "Arabískt dírham",
+            "displayName-count-one": "arabískt dírham",
+            "displayName-count-other": "arabísk dírhöm"
+          },
+          "AFN": {
+            "displayName": "Afgani",
+            "displayName-count-one": "afgani",
+            "displayName-count-other": "afganar"
+          },
+          "ALL": {
+            "displayName": "Albanskt lek",
+            "displayName-count-one": "albanskt lek",
+            "displayName-count-other": "albönsk lek"
+          },
+          "AMD": {
+            "displayName": "Armenskt dramm",
+            "displayName-count-one": "armenskt dramm",
+            "displayName-count-other": "armensk drömm"
+          },
+          "ANG": {
+            "displayName": "Hollenskt Antillugyllini",
+            "displayName-count-one": "hollenskt Antillugyllini",
+            "displayName-count-other": "hollensk Antillugyllini"
+          },
+          "AOA": {
+            "displayName": "Angólsk kvansa",
+            "displayName-count-one": "angólsk kvansa",
+            "displayName-count-other": "angólskar kvönsur"
+          },
+          "ARA": {
+            "displayName": "Argentine Austral"
+          },
+          "ARP": {
+            "displayName": "Argentískur pesi (1983–1985)"
+          },
+          "ARS": {
+            "displayName": "Argentínskur pesi",
+            "displayName-count-one": "argentínskur pesi",
+            "displayName-count-other": "argentínskir pesar"
+          },
+          "ATS": {
+            "displayName": "Austurrískur skildingur"
+          },
+          "AUD": {
+            "displayName": "Ástralskur dalur",
+            "displayName-count-one": "ástralskur dalur",
+            "displayName-count-other": "ástralskir dalir"
+          },
+          "AWG": {
+            "displayName": "Arúbönsk flórína",
+            "displayName-count-one": "arúbönsk flórína",
+            "displayName-count-other": "arúbanskar flórínur"
+          },
+          "AZN": {
+            "displayName": "Aserskt manat",
+            "displayName-count-one": "aserskt manat",
+            "displayName-count-other": "asersk manöt"
+          },
+          "BAM": {
+            "displayName": "Skiptanlegt Bosníu og Hersegóvínu-mark",
+            "displayName-count-one": "skiptanlegt Bosníu og Hersegóvínu-mark",
+            "displayName-count-other": "skiptanleg Bosníu og Hersegóvínu-mörk"
+          },
+          "BBD": {
+            "displayName": "Barbadoskur dalur",
+            "displayName-count-one": "barbadoskur dalur",
+            "displayName-count-other": "barbadoskir dalir"
+          },
+          "BDT": {
+            "displayName": "Bangladessk taka",
+            "displayName-count-one": "bangladessk taka",
+            "displayName-count-other": "bangladesskar tökur"
+          },
+          "BEF": {
+            "displayName": "Belgískur franki"
+          },
+          "BGL": {
+            "displayName": "Lef"
+          },
+          "BGN": {
+            "displayName": "Búlgarskt lef",
+            "displayName-count-one": "búlgarskt lef",
+            "displayName-count-other": "búlgörsk lef"
+          },
+          "BHD": {
+            "displayName": "Bareinskur denari",
+            "displayName-count-one": "bareinskur denari",
+            "displayName-count-other": "bareinskir denarar"
+          },
+          "BIF": {
+            "displayName": "Búrúndískur franki",
+            "displayName-count-one": "búrúndískur franki",
+            "displayName-count-other": "búrúndískir frankar"
+          },
+          "BMD": {
+            "displayName": "Bermúdadalur",
+            "displayName-count-one": "Bermúdadalur",
+            "displayName-count-other": "Bermúdadalir"
+          },
+          "BND": {
+            "displayName": "Brúneiskur dalur",
+            "displayName-count-one": "brúneiskur dalur",
+            "displayName-count-other": "brúneiskir dalir"
+          },
+          "BOB": {
+            "displayName": "Bólivíani",
+            "displayName-count-one": "bólivíani",
+            "displayName-count-other": "bólivíanar"
+          },
+          "BOP": {
+            "displayName": "Bólivískur pesi"
+          },
+          "BOV": {
+            "displayName": "Bolivian Mvdol"
+          },
+          "BRL": {
+            "displayName": "Brasilískt ríal",
+            "displayName-count-one": "brasilískt ríal",
+            "displayName-count-other": "brasilísk ríöl"
+          },
+          "BSD": {
+            "displayName": "Bahamadalur",
+            "displayName-count-one": "Bahamadalur",
+            "displayName-count-other": "Bahamadalir"
+          },
+          "BTN": {
+            "displayName": "Bútanskt núltrum",
+            "displayName-count-one": "bútanskt núltrum",
+            "displayName-count-other": "bútönsk núltrum"
+          },
+          "BUK": {
+            "displayName": "Búrmverskt kjat"
+          },
+          "BWP": {
+            "displayName": "Botsvönsk púla",
+            "displayName-count-one": "botsvönsk púla",
+            "displayName-count-other": "botsvanskar púlur"
+          },
+          "BYR": {
+            "displayName": "Hvítrússnesk rúbla",
+            "displayName-count-one": "hvítrússnesk rúbla",
+            "displayName-count-other": "hvítrússneskar rúblur"
+          },
+          "BZD": {
+            "displayName": "Belískur dalur",
+            "displayName-count-one": "belískur dalur",
+            "displayName-count-other": "belískir dalir"
+          },
+          "CAD": {
+            "displayName": "Kanadískur dalur",
+            "displayName-count-one": "kanadískur dalur",
+            "displayName-count-other": "kanadískir dalir",
+            "symbol": "CAD"
+          },
+          "CDF": {
+            "displayName": "Kongóskur franki",
+            "displayName-count-one": "kongóskur franki",
+            "displayName-count-other": "kongóskir frankar"
+          },
+          "CHF": {
+            "displayName": "Svissneskur franki",
+            "displayName-count-one": "svissneskur franki",
+            "displayName-count-other": "svissneskir frankar"
+          },
+          "CLF": {
+            "displayName": "Chilean Unidades de Fomento"
+          },
+          "CLP": {
+            "displayName": "Síleskur pesi",
+            "displayName-count-one": "síleskur pesi",
+            "displayName-count-other": "síleskir pesar"
+          },
+          "CNY": {
+            "displayName": "Kínverskt júan",
+            "displayName-count-one": "kínverskt júan",
+            "displayName-count-other": "kínversk júön",
+            "symbol": "CN¥"
+          },
+          "COP": {
+            "displayName": "Kólumbískur pesi",
+            "displayName-count-one": "kólumbískur pesi",
+            "displayName-count-other": "kólumbískir pesar"
+          },
+          "CRC": {
+            "displayName": "Kostarískt kólon",
+            "displayName-count-one": "kostarískt kólon",
+            "displayName-count-other": "kostarísk kólon"
+          },
+          "CSK": {
+            "displayName": "Tékknesk króna, eldri"
+          },
+          "CUC": {
+            "displayName": "Kúbverskur skiptanlegur pesi",
+            "displayName-count-one": "kúbverskur skiptanlegur pesi",
+            "displayName-count-other": "kúbverskir skiptanlegir pesar"
+          },
+          "CUP": {
+            "displayName": "Kúbverskur pesi",
+            "displayName-count-one": "kúbverskur pesi",
+            "displayName-count-other": "kúbverskir pesar"
+          },
+          "CVE": {
+            "displayName": "Grænhöfðeyskur skúti",
+            "displayName-count-one": "grænhöfðeyskur skúti",
+            "displayName-count-other": "grænhöfðeyskir skútar"
+          },
+          "CYP": {
+            "displayName": "Kýpverskt pund"
+          },
+          "CZK": {
+            "displayName": "Tékknesk króna",
+            "displayName-count-one": "tékknesk króna",
+            "displayName-count-other": "tékkneskar krónur"
+          },
+          "DDM": {
+            "displayName": "Austurþýskt mark"
+          },
+          "DEM": {
+            "displayName": "Þýskt mark"
+          },
+          "DJF": {
+            "displayName": "Djíbútískur franki",
+            "displayName-count-one": "djíbútískur franki",
+            "displayName-count-other": "djíbútískir frankar"
+          },
+          "DKK": {
+            "displayName": "Dönsk króna",
+            "displayName-count-one": "dönsk króna",
+            "displayName-count-other": "danskar krónur"
+          },
+          "DOP": {
+            "displayName": "Dóminískur pesi",
+            "displayName-count-one": "dóminískur pesi",
+            "displayName-count-other": "dóminískir pesar"
+          },
+          "DZD": {
+            "displayName": "Alsírskur denari",
+            "displayName-count-one": "alsírskur denari",
+            "displayName-count-other": "alsírskir denarar"
+          },
+          "ECS": {
+            "displayName": "Ecuador Sucre"
+          },
+          "EEK": {
+            "displayName": "Eistnesk króna",
+            "displayName-count-one": "eistnesk króna",
+            "displayName-count-other": "eistnesku krónur"
+          },
+          "EGP": {
+            "displayName": "Egypskt pund",
+            "displayName-count-one": "egypskt pund",
+            "displayName-count-other": "egypsk pund"
+          },
+          "ERN": {
+            "displayName": "Erítresk nakfa",
+            "displayName-count-one": "erítresk nakfa",
+            "displayName-count-other": "erítreskar nökfur"
+          },
+          "ESP": {
+            "displayName": "Spænskur peseti"
+          },
+          "ETB": {
+            "displayName": "Eþíópískt birr",
+            "displayName-count-one": "eþíópískt birr",
+            "displayName-count-other": "eþíópísk birr"
+          },
+          "EUR": {
+            "displayName": "Evra",
+            "displayName-count-one": "evra",
+            "displayName-count-other": "evrur",
+            "symbol": "€"
+          },
+          "FIM": {
+            "displayName": "Finnskt mark"
+          },
+          "FJD": {
+            "displayName": "Fídjeyskur dalur",
+            "displayName-count-one": "fídjeyskur dalur",
+            "displayName-count-other": "fídjeyskir dalir"
+          },
+          "FKP": {
+            "displayName": "Falklenskt pund",
+            "displayName-count-one": "falklenskt pund",
+            "displayName-count-other": "falklensk pund"
+          },
+          "FRF": {
+            "displayName": "Franskur franki"
+          },
+          "GBP": {
+            "displayName": "Sterlingspund",
+            "displayName-count-one": "sterlingspund",
+            "displayName-count-other": "sterlingspund"
+          },
+          "GEL": {
+            "displayName": "Georgískur lari",
+            "displayName-count-one": "georgískur lari",
+            "displayName-count-other": "georgískir larar"
+          },
+          "GHS": {
+            "displayName": "Ganverskur sedi",
+            "displayName-count-one": "ganverskur sedi",
+            "displayName-count-other": "ganverskir sedar"
+          },
+          "GIP": {
+            "displayName": "Gíbraltarspund",
+            "displayName-count-one": "Gíbraltarspund",
+            "displayName-count-other": "Gíbraltarspund"
+          },
+          "GMD": {
+            "displayName": "Gambískur dalasi",
+            "displayName-count-one": "gambískur dalasi",
+            "displayName-count-other": "gambískir dalasar"
+          },
+          "GNF": {
+            "displayName": "Gíneufranki",
+            "displayName-count-one": "Gíneufranki",
+            "displayName-count-other": "Gíneufrankar"
+          },
+          "GRD": {
+            "displayName": "Drakma"
+          },
+          "GTQ": {
+            "displayName": "Gvatemalskt kvesal",
+            "displayName-count-one": "gvatemalskt kvesal",
+            "displayName-count-other": "gvatemölsk kvesöl"
+          },
+          "GWE": {
+            "displayName": "Portúgalskur, gíneskur skúti"
+          },
+          "GYD": {
+            "displayName": "Gvæjanskur dalur",
+            "displayName-count-one": "gvæjanskur dalur",
+            "displayName-count-other": "gvæjanskir dalir"
+          },
+          "HKD": {
+            "displayName": "Hong Kong-dalur",
+            "displayName-count-one": "Hong Kong-dalur",
+            "displayName-count-other": "Hong Kong-dalir"
+          },
+          "HNL": {
+            "displayName": "Hondúrsk lempíra",
+            "displayName-count-one": "hondúrsk lempíra",
+            "displayName-count-other": "hondúrskar lempírur"
+          },
+          "HRK": {
+            "displayName": "Króatísk kúna",
+            "displayName-count-one": "króatísk kúna",
+            "displayName-count-other": "króatískar kúnur"
+          },
+          "HTG": {
+            "displayName": "Haítískur gúrdi",
+            "displayName-count-one": "haítískur gúrdi",
+            "displayName-count-other": "haítískir gúrdar"
+          },
+          "HUF": {
+            "displayName": "Ungversk fórinta",
+            "displayName-count-one": "ungversk fórinta",
+            "displayName-count-other": "ungverskar fórintur"
+          },
+          "IDR": {
+            "displayName": "Indónesísk rúpía",
+            "displayName-count-one": "indónesísk rúpía",
+            "displayName-count-other": "indónesískar rúpíur"
+          },
+          "IEP": {
+            "displayName": "Írskt pund"
+          },
+          "ILP": {
+            "displayName": "Ísraelskt pund"
+          },
+          "ILS": {
+            "displayName": "Nýr ísraelskur sikill",
+            "displayName-count-one": "nýr ísraelskur sikill",
+            "displayName-count-other": "nýir ísraelskir siklar"
+          },
+          "INR": {
+            "displayName": "Indversk rúpía",
+            "displayName-count-one": "indversk rúpía",
+            "displayName-count-other": "indverskar rúpíur",
+            "symbol": "₹"
+          },
+          "IQD": {
+            "displayName": "Írakskur denari",
+            "displayName-count-one": "írakskur denari",
+            "displayName-count-other": "írakskir denarar"
+          },
+          "IRR": {
+            "displayName": "Íranskt ríal",
+            "displayName-count-one": "íranskt ríal",
+            "displayName-count-other": "írönsk ríöl"
+          },
+          "ISK": {
+            "displayName": "Íslensk króna",
+            "displayName-count-one": "íslensk króna",
+            "displayName-count-other": "íslenskar krónur",
+            "symbol": "kr"
+          },
+          "ITL": {
+            "displayName": "Ítölsk líra"
+          },
+          "JMD": {
+            "displayName": "Jamaískur dalur",
+            "displayName-count-one": "jamaískur dalur",
+            "displayName-count-other": "jamaískir dalir"
+          },
+          "JOD": {
+            "displayName": "Jórdanskur denari",
+            "displayName-count-one": "jórdanskur denari",
+            "displayName-count-other": "jórdanskir denarar"
+          },
+          "JPY": {
+            "displayName": "Japanskt jen",
+            "displayName-count-one": "japanskt jen",
+            "displayName-count-other": "japönsk jen",
+            "symbol": "JP¥"
+          },
+          "KES": {
+            "displayName": "Kenískur skildingur",
+            "displayName-count-one": "kenískur skildingur",
+            "displayName-count-other": "kenískir skildingar"
+          },
+          "KGS": {
+            "displayName": "Kirgiskt som",
+            "displayName-count-one": "kirgiskt som",
+            "displayName-count-other": "kirgisk som"
+          },
+          "KHR": {
+            "displayName": "Kambódískt ríal",
+            "displayName-count-one": "kambódískt ríal",
+            "displayName-count-other": "kambódísk ríöl"
+          },
+          "KMF": {
+            "displayName": "Kómoreyskur franki",
+            "displayName-count-one": "kómoreyskur franki",
+            "displayName-count-other": "kómoreyskir frankar"
+          },
+          "KPW": {
+            "displayName": "Norðurkóreskt vonn",
+            "displayName-count-one": "norðurkóreskt vonn",
+            "displayName-count-other": "norðurkóresk vonn"
+          },
+          "KRW": {
+            "displayName": "Suðurkóreskt vonn",
+            "displayName-count-one": "suðurkóreskt vonn",
+            "displayName-count-other": "suðurkóresk vonn"
+          },
+          "KWD": {
+            "displayName": "Kúveiskur denari",
+            "displayName-count-one": "kúveiskur denari",
+            "displayName-count-other": "kúveiskir denarar"
+          },
+          "KYD": {
+            "displayName": "Caymaneyskur dalur",
+            "displayName-count-one": "caymaneyskur dalur",
+            "displayName-count-other": "caymaneyskir dalir"
+          },
+          "KZT": {
+            "displayName": "Kasakst tengi",
+            "displayName-count-one": "kasakst tengi",
+            "displayName-count-other": "kasöksk tengi"
+          },
+          "LAK": {
+            "displayName": "Laoskt kip",
+            "displayName-count-one": "laoskt kip",
+            "displayName-count-other": "laosk kip"
+          },
+          "LBP": {
+            "displayName": "Líbanskt pund",
+            "displayName-count-one": "líbanskt pund",
+            "displayName-count-other": "líbönsk pund"
+          },
+          "LKR": {
+            "displayName": "Srílönsk rúpía",
+            "displayName-count-one": "srílönsk rúpía",
+            "displayName-count-other": "srílanskar rúpíur"
+          },
+          "LRD": {
+            "displayName": "Líberískur dalur",
+            "displayName-count-one": "líberískur dalur",
+            "displayName-count-other": "líberískir dalir"
+          },
+          "LSL": {
+            "displayName": "Lesotho Loti"
+          },
+          "LTL": {
+            "displayName": "Litháískt lít",
+            "displayName-count-one": "litháískt lít",
+            "displayName-count-other": "litháísk lít"
+          },
+          "LTT": {
+            "displayName": "Lithuanian Talonas"
+          },
+          "LUF": {
+            "displayName": "Lúxemborgarfranki"
+          },
+          "LVL": {
+            "displayName": "Lettneskt lat",
+            "displayName-count-one": "lettneskt lat",
+            "displayName-count-other": "lettnesk löt"
+          },
+          "LVR": {
+            "displayName": "Lettnesk rúbla"
+          },
+          "LYD": {
+            "displayName": "Líbískur denari",
+            "displayName-count-one": "líbískur denari",
+            "displayName-count-other": "líbískir denarar"
+          },
+          "MAD": {
+            "displayName": "Marokkóskt dírham",
+            "displayName-count-one": "marokkóskt dírham",
+            "displayName-count-other": "marokkósk dírhöm"
+          },
+          "MAF": {
+            "displayName": "Marokkóskur franki"
+          },
+          "MDL": {
+            "displayName": "Moldavískt lei",
+            "displayName-count-one": "moldavískt lei",
+            "displayName-count-other": "moldavísk lei"
+          },
+          "MGA": {
+            "displayName": "Madagaskararjari",
+            "displayName-count-one": "Madagaskararjari",
+            "displayName-count-other": "Madagaskararjarar"
+          },
+          "MGF": {
+            "displayName": "Madagaskur franki"
+          },
+          "MKD": {
+            "displayName": "Makedónskur denari",
+            "displayName-count-one": "makedónskur denari",
+            "displayName-count-other": "makedónskir denarar"
+          },
+          "MLF": {
+            "displayName": "Malískur franki"
+          },
+          "MMK": {
+            "displayName": "Mjanmarskt kjat",
+            "displayName-count-one": "mjanmarskt kjat",
+            "displayName-count-other": "mjanmörsk kjöt"
+          },
+          "MNT": {
+            "displayName": "Mongólskur túríkur",
+            "displayName-count-one": "mongólskur túríkur",
+            "displayName-count-other": "mongólskir túríkar"
+          },
+          "MOP": {
+            "displayName": "Makaópataka",
+            "displayName-count-one": "Makaópataka",
+            "displayName-count-other": "Makaópatökur"
+          },
+          "MRO": {
+            "displayName": "Máritönsk úgía",
+            "displayName-count-one": "máritönsk úgía",
+            "displayName-count-other": "máritanskar úgíur"
+          },
+          "MTL": {
+            "displayName": "Meltnesk líra"
+          },
+          "MTP": {
+            "displayName": "Maltneskt pund"
+          },
+          "MUR": {
+            "displayName": "Máritísk rúpía",
+            "displayName-count-one": "máritísk rúpía",
+            "displayName-count-other": "máritískar rúpíur"
+          },
+          "MVR": {
+            "displayName": "Maldíveysk rúpía",
+            "displayName-count-one": "maldíveysk rúpía",
+            "displayName-count-other": "maldíveyskar rúpíur"
+          },
+          "MWK": {
+            "displayName": "Malavísk kvaka",
+            "displayName-count-one": "malavísk kvaka",
+            "displayName-count-other": "malavískar kvökur"
+          },
+          "MXN": {
+            "displayName": "Mexíkóskur pesi",
+            "displayName-count-one": "mexíkóskur pesi",
+            "displayName-count-other": "mexíkóskir pesar",
+            "symbol": "MXN"
+          },
+          "MXP": {
+            "displayName": "Mexíkóskur silfurpesi (1861–1992)"
+          },
+          "MXV": {
+            "displayName": "Mexíkóskur pesi, UDI"
+          },
+          "MYR": {
+            "displayName": "Malasískt ringit",
+            "displayName-count-one": "malasískt ringit",
+            "displayName-count-other": "malasísk ringit"
+          },
+          "MZE": {
+            "displayName": "Mósambískur skúti"
+          },
+          "MZN": {
+            "displayName": "Mósambískt metikal",
+            "displayName-count-one": "mósambískt metikal",
+            "displayName-count-other": "mósambísk metiköl"
+          },
+          "NAD": {
+            "displayName": "Namibískur dalur",
+            "displayName-count-one": "namibískur dalur",
+            "displayName-count-other": "namibískir dalir"
+          },
+          "NGN": {
+            "displayName": "Nígerísk næra",
+            "displayName-count-one": "nígerísk næra",
+            "displayName-count-other": "nígerískar nærur"
+          },
+          "NIC": {
+            "displayName": "Níkarögsk kordóva (1988–1991)",
+            "displayName-count-one": "Níkarögsk kordóva (1988–1991)",
+            "displayName-count-other": "Níkaragskar kordóvur (1988–1991)"
+          },
+          "NIO": {
+            "displayName": "Níkarögsk kordóva",
+            "displayName-count-one": "níkarögsk kordóva",
+            "displayName-count-other": "níkaragskar kordóvur"
+          },
+          "NLG": {
+            "displayName": "Hollenskt gyllini"
+          },
+          "NOK": {
+            "displayName": "Norsk króna",
+            "displayName-count-one": "norsk króna",
+            "displayName-count-other": "norskar krónur"
+          },
+          "NPR": {
+            "displayName": "Nepölsk rúpía",
+            "displayName-count-one": "nepölsk rúpía",
+            "displayName-count-other": "nepalskar rúpíur"
+          },
+          "NZD": {
+            "displayName": "Nýsjálenskur dalur",
+            "displayName-count-one": "nýsjálenskur dalur",
+            "displayName-count-other": "nýsjálenskir dalir"
+          },
+          "OMR": {
+            "displayName": "Ómanskt ríal",
+            "displayName-count-one": "ómanskt ríal",
+            "displayName-count-other": "ómönsk ríöl"
+          },
+          "PAB": {
+            "displayName": "Balbói",
+            "displayName-count-one": "balbói",
+            "displayName-count-other": "balbóar"
+          },
+          "PEN": {
+            "displayName": "Perúskt sól",
+            "displayName-count-one": "perúskt sól",
+            "displayName-count-other": "perúsk sól"
+          },
+          "PGK": {
+            "displayName": "Papúsk kína",
+            "displayName-count-one": "papúsk kína",
+            "displayName-count-other": "papúskar kínur"
+          },
+          "PHP": {
+            "displayName": "Filippseyskur pesi",
+            "displayName-count-one": "filippseyskur pesi",
+            "displayName-count-other": "filippseyskir pesar"
+          },
+          "PKR": {
+            "displayName": "Pakistönsk rúpía",
+            "displayName-count-one": "pakistönsk rúpía",
+            "displayName-count-other": "pakistanskar rúpíur"
+          },
+          "PLN": {
+            "displayName": "Pólskt slot",
+            "displayName-count-one": "pólskt slot",
+            "displayName-count-other": "pólsk slot"
+          },
+          "PLZ": {
+            "displayName": "Slot"
+          },
+          "PTE": {
+            "displayName": "Portúgalskur skúti"
+          },
+          "PYG": {
+            "displayName": "Paragvæskt gvaraní",
+            "displayName-count-one": "paragvæskt gvaraní",
+            "displayName-count-other": "paragvæsk gvaraní"
+          },
+          "QAR": {
+            "displayName": "Katarskt ríal",
+            "displayName-count-one": "katarskt ríal",
+            "displayName-count-other": "katörsk ríöl"
+          },
+          "ROL": {
+            "displayName": "Rúmenskt lei (1952–2006)",
+            "displayName-count-one": "Rúmenskt lei (1952–2006)",
+            "displayName-count-other": "Rúmenskt lei (1952–2006)"
+          },
+          "RON": {
+            "displayName": "Rúmenskt lei",
+            "displayName-count-one": "rúmenskt lei",
+            "displayName-count-other": "rúmensk lei"
+          },
+          "RSD": {
+            "displayName": "Serbneskur denari",
+            "displayName-count-one": "serbneskur denari",
+            "displayName-count-other": "serbneskir denarar"
+          },
+          "RUB": {
+            "displayName": "Rússnesk rúbla",
+            "displayName-count-one": "rússnesk rúbla",
+            "displayName-count-other": "rússneskar rúblur"
+          },
+          "RUR": {
+            "displayName": "Rússnesk rúbla (1991–1998)"
+          },
+          "RWF": {
+            "displayName": "Rúandskur franki",
+            "displayName-count-one": "rúandskur franki",
+            "displayName-count-other": "rúandskir frankar"
+          },
+          "SAR": {
+            "displayName": "Sádiarabískt ríal",
+            "displayName-count-one": "sádiarabískt ríal",
+            "displayName-count-other": "sádiarabísk ríöl"
+          },
+          "SBD": {
+            "displayName": "Salómonseyskur dalur",
+            "displayName-count-one": "salómonseyskur dalur",
+            "displayName-count-other": "salómonseyskir dalir"
+          },
+          "SCR": {
+            "displayName": "Seychellesrúpía",
+            "displayName-count-one": "Seychellesrúpía",
+            "displayName-count-other": "Seychellesrúpíur"
+          },
+          "SDD": {
+            "displayName": "Súdanskur denari"
+          },
+          "SDG": {
+            "displayName": "Súdanskt pund",
+            "displayName-count-one": "súdanskt pund",
+            "displayName-count-other": "súdönsk pund"
+          },
+          "SDP": {
+            "displayName": "Súdanskt pund (1957–1998)"
+          },
+          "SEK": {
+            "displayName": "Sænsk króna",
+            "displayName-count-one": "sænsk króna",
+            "displayName-count-other": "sænskar krónur"
+          },
+          "SGD": {
+            "displayName": "Singapúrskur dalur",
+            "displayName-count-one": "singapúrskur dalur",
+            "displayName-count-other": "singapúrskir dalir"
+          },
+          "SHP": {
+            "displayName": "Helenskt pund",
+            "displayName-count-one": "helenskt pund",
+            "displayName-count-other": "helensk pund"
+          },
+          "SIT": {
+            "displayName": "Slóvenskur dalur"
+          },
+          "SKK": {
+            "displayName": "Slóvakísk króna"
+          },
+          "SLL": {
+            "displayName": "Síerraleónsk ljóna",
+            "displayName-count-one": "síerraleónsk ljóna",
+            "displayName-count-other": "síerraleónskar ljónur"
+          },
+          "SOS": {
+            "displayName": "Sómalískur skildingur",
+            "displayName-count-one": "sómalískur skildingur",
+            "displayName-count-other": "sómalískir skildingar"
+          },
+          "SRD": {
+            "displayName": "Súrínamdalur",
+            "displayName-count-one": "Súrínamdalur",
+            "displayName-count-other": "Súrínamdalir"
+          },
+          "SRG": {
+            "displayName": "Suriname Guilder"
+          },
+          "SSP": {
+            "displayName": "Suðursúdanskt pund",
+            "displayName-count-one": "suðursúdanskt pund",
+            "displayName-count-other": "suðursúdönsk pund"
+          },
+          "STD": {
+            "displayName": "Saó Tóme og Prinsípe-dóbra",
+            "displayName-count-one": "Saó Tóme og Prinsípe-dóbra",
+            "displayName-count-other": "Saó Tóme og Prinsípe-dóbrur"
+          },
+          "SUR": {
+            "displayName": "Soviet Rouble"
+          },
+          "SVC": {
+            "displayName": "El Salvador Colon",
+            "displayName-count-one": "El Salvador Colon",
+            "displayName-count-other": "El Salvador Colon"
+          },
+          "SYP": {
+            "displayName": "Sýrlenskt pund",
+            "displayName-count-one": "sýrlenskt pund",
+            "displayName-count-other": "sýrlensk pund"
+          },
+          "SZL": {
+            "displayName": "Svasílenskur lílangeni",
+            "displayName-count-one": "svasílenskur lílangeni",
+            "displayName-count-other": "svasílenskir lílangenar"
+          },
+          "THB": {
+            "displayName": "Taílenskt bat",
+            "displayName-count-one": "taílenskt bat",
+            "displayName-count-other": "taílensk böt",
+            "symbol": "฿"
+          },
+          "TJR": {
+            "displayName": "Tadsjiksk rúbla"
+          },
+          "TJS": {
+            "displayName": "Tadsjikskur sómóni",
+            "displayName-count-one": "tadsjikskur sómóni",
+            "displayName-count-other": "tadsjikskir sómónar"
+          },
+          "TMM": {
+            "displayName": "Túrkmenskt manat (1993–2009)",
+            "displayName-count-one": "Túrkmenskt manat (1993–2009)",
+            "displayName-count-other": "Túrkmenskt manat (1993–2009)"
+          },
+          "TMT": {
+            "displayName": "Túrkmenskt manat",
+            "displayName-count-one": "túrkmenskt manat",
+            "displayName-count-other": "túrkmensk manöt"
+          },
+          "TND": {
+            "displayName": "Túniskur denari",
+            "displayName-count-one": "túniskur denari",
+            "displayName-count-other": "túniskir denarar"
+          },
+          "TOP": {
+            "displayName": "Tongapanga",
+            "displayName-count-one": "Tongapanga",
+            "displayName-count-other": "Tongapöngur"
+          },
+          "TPE": {
+            "displayName": "Tímorskur skúti"
+          },
+          "TRL": {
+            "displayName": "Tyrknesk líra (1922–2005)"
+          },
+          "TRY": {
+            "displayName": "Tyrknesk líra",
+            "displayName-count-one": "tyrknesk líra",
+            "displayName-count-other": "tyrkneskar lírur"
+          },
+          "TTD": {
+            "displayName": "Trínidad og Tóbagó-dalur",
+            "displayName-count-one": "Trínidad og Tóbagó-dalur",
+            "displayName-count-other": "Trínidad og Tóbagó-dalir"
+          },
+          "TWD": {
+            "displayName": "Taívanskur dalur",
+            "displayName-count-one": "taívanskur dalur",
+            "displayName-count-other": "taívanskir dalir"
+          },
+          "TZS": {
+            "displayName": "Tansanískur skildingur",
+            "displayName-count-one": "tansanískur skildingur",
+            "displayName-count-other": "tansanískir skildingar"
+          },
+          "UAH": {
+            "displayName": "Úkraínsk hrinja",
+            "displayName-count-one": "úkraínsk hrinja",
+            "displayName-count-other": "úkraínskar hrinjur"
+          },
+          "UAK": {
+            "displayName": "Ukrainian Karbovanetz"
+          },
+          "UGX": {
+            "displayName": "Úgandskur skildingur",
+            "displayName-count-one": "úgandskur skildingur",
+            "displayName-count-other": "úgandskir skildingur"
+          },
+          "USD": {
+            "displayName": "Bandaríkjadalur",
+            "displayName-count-one": "Bandaríkjadalur",
+            "displayName-count-other": "Bandaríkjadalir",
+            "symbol": "USD"
+          },
+          "USN": {
+            "displayName": "Bandaríkjadalur (næsta dag)"
+          },
+          "USS": {
+            "displayName": "Bandaríkjadalur (sama dag)"
+          },
+          "UYU": {
+            "displayName": "Úrúgvæskur pesi",
+            "displayName-count-one": "úrúgvæskur pesi",
+            "displayName-count-other": "úrúgvæskir pesar"
+          },
+          "UZS": {
+            "displayName": "Úsbekskt súm",
+            "displayName-count-one": "úsbekskt súm",
+            "displayName-count-other": "úsbeksk súm"
+          },
+          "VEB": {
+            "displayName": "Bolívar í Venesúela (1871–2008)"
+          },
+          "VEF": {
+            "displayName": "Venesúelskur bólívari",
+            "displayName-count-one": "venesúelskur bólívari",
+            "displayName-count-other": "venesúelskir bólívarar"
+          },
+          "VND": {
+            "displayName": "Víetnamskt dong",
+            "displayName-count-one": "víetnamskt dong",
+            "displayName-count-other": "víetnömsk dong"
+          },
+          "VUV": {
+            "displayName": "Vanúatúskt vatú",
+            "displayName-count-one": "vanúatúskt vatú",
+            "displayName-count-other": "vanúatúsk vatú"
+          },
+          "WST": {
+            "displayName": "Samóatala",
+            "displayName-count-one": "Samóatala",
+            "displayName-count-other": "Samóatölur"
+          },
+          "XAF": {
+            "displayName": "Miðafrískur franki",
+            "displayName-count-one": "miðafrískur franki",
+            "displayName-count-other": "miðafrískir frankar",
+            "symbol": "FCFA"
+          },
+          "XAG": {
+            "displayName": "unse silfur",
+            "displayName-count-one": "unse silfur",
+            "displayName-count-other": "unse silfur"
+          },
+          "XAU": {
+            "displayName": "unse gull",
+            "displayName-count-one": "unse gull",
+            "displayName-count-other": "unse gull"
+          },
+          "XCD": {
+            "displayName": "Austurkarabískur dalur",
+            "displayName-count-one": "austurkarabískur dalur",
+            "displayName-count-other": "austurkarabískir dalir"
+          },
+          "XDR": {
+            "displayName": "Sérstök dráttarréttindi"
+          },
+          "XFO": {
+            "displayName": "Franskur gullfranki"
+          },
+          "XFU": {
+            "displayName": "Franskur franki, UIC"
+          },
+          "XOF": {
+            "displayName": "Vesturafrískur franki",
+            "displayName-count-one": "vesturafrískur franki",
+            "displayName-count-other": "vesturafrískir frankar",
+            "symbol": "CFA"
+          },
+          "XPD": {
+            "displayName": "unse palladín",
+            "displayName-count-one": "unse palladín",
+            "displayName-count-other": "unse palladín"
+          },
+          "XPF": {
+            "displayName": "Pólinesískur franki",
+            "displayName-count-one": "pólinesískur franki",
+            "displayName-count-other": "pólinesískir frankar"
+          },
+          "XPT": {
+            "displayName": "unse platína",
+            "displayName-count-one": "unse platína",
+            "displayName-count-other": "unse platína"
+          },
+          "XXX": {
+            "displayName": "Óþekktur gjaldmiðill",
+            "displayName-count-one": "(óþekktur gjaldmiðill)",
+            "displayName-count-other": "(óþekktur gjaldmiðill)"
+          },
+          "YDD": {
+            "displayName": "Jemenskur denari"
+          },
+          "YER": {
+            "displayName": "Jemenskt ríal",
+            "displayName-count-one": "jemenskt ríal",
+            "displayName-count-other": "jemensk ríöl"
+          },
+          "YUM": {
+            "displayName": "Júgóslavneskur denari"
+          },
+          "ZAL": {
+            "displayName": "Rand (viðskipta)"
+          },
+          "ZAR": {
+            "displayName": "Suðurafrískt rand",
+            "displayName-count-one": "suðurafrískt rand",
+            "displayName-count-other": "suðurafrísk rönd"
+          },
+          "ZMK": {
+            "displayName": "Zambian Kwacha (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Sambísk kvaka",
+            "displayName-count-one": "sambísk kvaka",
+            "displayName-count-other": "sambískar kvökur"
+          },
+          "ZWD": {
+            "displayName": "Simbabveskur dalur"
+          }
+        }
+      }
+    }
+  }
+}

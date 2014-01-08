@@ -1,0 +1,125 @@
+{
+  "main": {
+    "ru": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ru"
+      },
+      "dates": {
+        "calendars": {
+          "chinese": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12"
+                },
+                "narrow": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12"
+                },
+                "wide": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4",
+                  "5": "5",
+                  "6": "6",
+                  "7": "7",
+                  "8": "8",
+                  "9": "9",
+                  "10": "10",
+                  "11": "11",
+                  "12": "12"
+                }
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, d MMMM U",
+              "long": "d MMMM U",
+              "medium": "dd.MM U",
+              "short": "dd.MM.y"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "E": "ccc",
+                "Ed": "E, d",
+                "Gy": "U",
+                "GyMMM": "LLL U",
+                "GyMMMd": "d MMM U",
+                "GyMMMEd": "E, d MMM U",
+                "h": "h a",
+                "H": "H",
+                "hm": "h:mm a",
+                "Hm": "H:mm",
+                "hms": "h:mm:ss a",
+                "Hms": "H:mm:ss",
+                "M": "L",
+                "Md": "dd.MM",
+                "MEd": "E, dd.MM",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "ccc, d MMM",
+                "ms": "mm:ss",
+                "y": "U",
+                "yyyy": "U",
+                "yyyyM": "MM.y",
+                "yyyyMd": "dd.MM.y",
+                "yyyyMEd": "E, dd.MM.y",
+                "yyyyMMM": "LLL U",
+                "yyyyMMMd": "d MMM U",
+                "yyyyMMMEd": "E, d MMM U",
+                "yyyyMMMM": "LLLL U",
+                "yyyyQQQ": "QQQ U",
+                "yyyyQQQQ": "QQQQ U"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

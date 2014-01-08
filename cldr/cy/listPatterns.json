@@ -1,0 +1,36 @@
+{
+  "main": {
+    "cy": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9307 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 12:38:21 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "cy"
+      },
+      "listPatterns": {
+        "listPattern-type-standard": {
+          "start": "{0}, {1}",
+          "middle": "{0}, {1}",
+          "end": "{0}, {1}",
+          "2": "{0}, {1}"
+        },
+        "listPattern-type-unit": {
+          "start": "{0}, {1}",
+          "middle": "{0}, {1}",
+          "end": "{0}, {1}",
+          "2": "{0}, {1}"
+        },
+        "listPattern-type-unit-short": {
+          "start": "{0}, {1}",
+          "middle": "{0}, {1}",
+          "end": "{0}, {1}",
+          "2": "{0}, {1}"
+        }
+      }
+    }
+  }
+}

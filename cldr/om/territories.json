@@ -1,0 +1,32 @@
+{
+  "main": {
+    "om": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "om"
+      },
+      "localeDisplayNames": {
+        "territories": {
+          "BR": "Brazil",
+          "CN": "China",
+          "DE": "Germany",
+          "ET": "Itoophiyaa",
+          "FR": "France",
+          "GB": "United Kingdom",
+          "IN": "India",
+          "IT": "Italy",
+          "JP": "Japan",
+          "KE": "Keeniyaa",
+          "RU": "Russia",
+          "US": "United States"
+        }
+      }
+    }
+  }
+}

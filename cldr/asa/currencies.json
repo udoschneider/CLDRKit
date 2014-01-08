@@ -1,0 +1,189 @@
+{
+  "main": {
+    "asa": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "asa"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "dirham ya Falme dha Kiarabu"
+          },
+          "AOA": {
+            "displayName": "kwandha ya Angola"
+          },
+          "AUD": {
+            "displayName": "dola ya Authtralia"
+          },
+          "BHD": {
+            "displayName": "dinari ya Bahareni"
+          },
+          "BIF": {
+            "displayName": "faranga ya Burundi"
+          },
+          "BWP": {
+            "displayName": "pula ya Botthwana"
+          },
+          "CAD": {
+            "displayName": "dola ya Kanada"
+          },
+          "CDF": {
+            "displayName": "faranga ya Kongo"
+          },
+          "CHF": {
+            "displayName": "faranga ya Uthwithi"
+          },
+          "CNY": {
+            "displayName": "yuan renminbi ya China"
+          },
+          "CVE": {
+            "displayName": "ethkudo ya Kepuvede"
+          },
+          "DJF": {
+            "displayName": "faranga ya Jibuti"
+          },
+          "DZD": {
+            "displayName": "dinari ya Aljeria"
+          },
+          "EGP": {
+            "displayName": "pauni ya Mithri"
+          },
+          "ERN": {
+            "displayName": "nakfa ya Eritrea"
+          },
+          "ETB": {
+            "displayName": "bir ya Uhabeshi"
+          },
+          "EUR": {
+            "displayName": "yuro"
+          },
+          "GBP": {
+            "displayName": "pauni ya Uingeredha"
+          },
+          "GHC": {
+            "displayName": "thedi ya Ghana"
+          },
+          "GMD": {
+            "displayName": "dalathi ya Gambia"
+          },
+          "GNS": {
+            "displayName": "faranga ya Gine"
+          },
+          "INR": {
+            "displayName": "rupia ya India"
+          },
+          "JPY": {
+            "displayName": "tharafu ya Kijapani"
+          },
+          "KES": {
+            "displayName": "shilingi ya Kenya"
+          },
+          "KMF": {
+            "displayName": "faranga ya Komoro"
+          },
+          "LRD": {
+            "displayName": "dola ya Liberia"
+          },
+          "LSL": {
+            "displayName": "loti ya Lethoto"
+          },
+          "LYD": {
+            "displayName": "dinari ya Libya"
+          },
+          "MAD": {
+            "displayName": "dirham ya Moroko"
+          },
+          "MGA": {
+            "displayName": "faranga ya Bukini"
+          },
+          "MRO": {
+            "displayName": "ugwiya ya Moritania"
+          },
+          "MUR": {
+            "displayName": "rupia ya Morithi"
+          },
+          "MWK": {
+            "displayName": "kwacha ya Malawi"
+          },
+          "MZM": {
+            "displayName": "metikali ya Mthumbiji"
+          },
+          "NAD": {
+            "displayName": "dola ya Namibia"
+          },
+          "NGN": {
+            "displayName": "naira ya Nijeria"
+          },
+          "RWF": {
+            "displayName": "faranga ya Rwanda"
+          },
+          "SAR": {
+            "displayName": "riyal ya Thaudia"
+          },
+          "SCR": {
+            "displayName": "rupia ya Shelisheli"
+          },
+          "SDG": {
+            "displayName": "dinari ya Thudani"
+          },
+          "SDP": {
+            "displayName": "pauni ya Thudani"
+          },
+          "SHP": {
+            "displayName": "pauni ya Thantahelena"
+          },
+          "SLL": {
+            "displayName": "leoni"
+          },
+          "SOS": {
+            "displayName": "shilingi ya Thomalia"
+          },
+          "STD": {
+            "displayName": "dobra ya Thao Tome na Principe"
+          },
+          "SZL": {
+            "displayName": "lilangeni"
+          },
+          "TND": {
+            "displayName": "dinari ya Tunithia"
+          },
+          "TZS": {
+            "displayName": "shilingi ya Tandhania",
+            "symbol": "TSh"
+          },
+          "UGX": {
+            "displayName": "shilingi ya Uganda"
+          },
+          "USD": {
+            "displayName": "dola ya Marekani"
+          },
+          "XAF": {
+            "displayName": "faranga CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "faranga CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "randi ya Afrika Kuthini"
+          },
+          "ZMK": {
+            "displayName": "kwacha ya Dhambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "kwacha ya Dhambia"
+          },
+          "ZWD": {
+            "displayName": "dola ya Dhimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

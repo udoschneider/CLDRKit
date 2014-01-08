@@ -1,0 +1,58 @@
+{
+  "main": {
+    "bo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bo"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "ལོ་རིམ།"
+          },
+          "year": {
+            "displayName": "ལོ།"
+          },
+          "month": {
+            "displayName": "ཟླ་བ་"
+          },
+          "week": {
+            "displayName": "གཟའ་འཁོར།"
+          },
+          "day": {
+            "displayName": "ཉིན།",
+            "relative-type--2": "ཁས་ཉིན་ཀ་",
+            "relative-type--1": "ཁས་ས་",
+            "relative-type-0": "དེ་རིང་",
+            "relative-type-1": "སང་ཉིན་",
+            "relative-type-2": "གནངས་ཉིན་ཀ་"
+          },
+          "weekday": {
+            "displayName": "གཟའ་འཁོར་གཅིག"
+          },
+          "dayperiod": {
+            "displayName": "སྔ་དྲོ། ཕྱི་དྲོ།"
+          },
+          "hour": {
+            "displayName": "ཆུ་ཙོ་"
+          },
+          "minute": {
+            "displayName": "སྐར་མ།"
+          },
+          "second": {
+            "displayName": "སྐར་ཆ།"
+          },
+          "zone": {
+            "displayName": "དུས་ཚོད།"
+          }
+        }
+      }
+    }
+  }
+}

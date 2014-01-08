@@ -1,0 +1,138 @@
+{
+  "main": {
+    "fr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9310 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 17:31:00 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "fr"
+      },
+      "dates": {
+        "calendars": {
+          "hebrew": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "tis.",
+                  "2": "hes.",
+                  "3": "kis.",
+                  "4": "téb.",
+                  "5": "sché.",
+                  "6": "ad.I",
+                  "7": "adar",
+                  "7-yeartype-leap": "ad.II",
+                  "8": "nis.",
+                  "9": "iyar",
+                  "10": "siv.",
+                  "11": "tam.",
+                  "12": "ab",
+                  "13": "ell."
+                },
+                "narrow": {
+                  "1": "T",
+                  "2": "H",
+                  "3": "K",
+                  "4": "T",
+                  "5": "S",
+                  "6": "A",
+                  "7": "A",
+                  "7-yeartype-leap": "A",
+                  "8": "N",
+                  "9": "I",
+                  "10": "S",
+                  "11": "T",
+                  "12": "A",
+                  "13": "E"
+                },
+                "wide": {
+                  "1": "Tisseri",
+                  "2": "Hesvan",
+                  "3": "Kislev",
+                  "4": "Tébeth",
+                  "5": "Schébat",
+                  "6": "Adar I",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nissan",
+                  "9": "Iyar",
+                  "10": "Sivan",
+                  "11": "Tamouz",
+                  "12": "Ab",
+                  "13": "Elloul"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "tis.",
+                  "2": "hes.",
+                  "3": "kis.",
+                  "4": "téb.",
+                  "5": "sché.",
+                  "6": "ad.I",
+                  "7": "adar",
+                  "7-yeartype-leap": "ad.II",
+                  "8": "nis.",
+                  "9": "iyar",
+                  "10": "siv.",
+                  "11": "tam.",
+                  "12": "ab",
+                  "13": "ell."
+                },
+                "narrow": {
+                  "1": "T",
+                  "2": "H",
+                  "3": "K",
+                  "4": "T",
+                  "5": "S",
+                  "6": "A",
+                  "7": "A",
+                  "7-yeartype-leap": "A",
+                  "8": "N",
+                  "9": "I",
+                  "10": "S",
+                  "11": "T",
+                  "12": "A",
+                  "13": "E"
+                },
+                "wide": {
+                  "1": "Tisseri",
+                  "2": "Hesvan",
+                  "3": "Kislev",
+                  "4": "Tébeth",
+                  "5": "Schébat",
+                  "6": "Adar I",
+                  "7": "Adar",
+                  "7-yeartype-leap": "Adar II",
+                  "8": "Nissan",
+                  "9": "Iyar",
+                  "10": "Sivan",
+                  "11": "Tamouz",
+                  "12": "Ab",
+                  "13": "Elloul"
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Anno Mundi"
+              },
+              "eraAbbr": {
+                "0": "AM"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE d MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d MMM y G",
+              "short": "dd/MM/y GGGGG"
+            }
+          }
+        }
+      }
+    }
+  }
+}

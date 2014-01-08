@@ -1,0 +1,110 @@
+{
+  "main": {
+    "en-NZ": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "en",
+        "territory": "NZ"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, d MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d/MM/y G",
+              "short": "d/MM/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Md": "d/M",
+                "MMMEd": "E, d MMM",
+                "yyyyMd": "d/MM/y G"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} - {1}",
+                "d": {
+                  "d": "d-d"
+                },
+                "h": {
+                  "a": "h a - h a",
+                  "h": "h-h a"
+                },
+                "hm": {
+                  "a": "h:mm a - h:mm a",
+                  "h": "h:mm-h:mm a",
+                  "m": "h:mm-h:mm a"
+                },
+                "hmv": {
+                  "a": "h:mm a - h:mm a v",
+                  "h": "h:mm-h:mm a v",
+                  "m": "h:mm-h:mm a v"
+                },
+                "hv": {
+                  "a": "h a - h a v",
+                  "h": "h-h a v"
+                },
+                "M": {
+                  "M": "M-M"
+                },
+                "Md": {
+                  "d": "d/MM - d/MM",
+                  "M": "d/MM - d/MM"
+                },
+                "MEd": {
+                  "d": "E, d/MM - E, d/MM",
+                  "M": "E, d/MM - E, d/MM"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "d-d MMM",
+                  "M": "d MMM - d MMM"
+                },
+                "MMMEd": {
+                  "d": "E, d - E, d MMM",
+                  "M": "E, d MMM - E, d MMM"
+                },
+                "yM": {
+                  "M": "MM/y - MM/y G",
+                  "y": "MM/y - MM/y G"
+                },
+                "yMd": {
+                  "d": "d/MM/y - d/MM/y G",
+                  "M": "d/MM/y - d/MM/y G",
+                  "y": "d/MM/y - d/MM/y G"
+                },
+                "yMEd": {
+                  "d": "E, d/MM/y - E, d/MM/y G",
+                  "M": "E, d/MM/y - E, d/MM/y G",
+                  "y": "E, d/MM/y - E, d/MM/y G"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM y G",
+                  "y": "MMM y - MMM y G"
+                },
+                "yMMMd": {
+                  "d": "d-d MMM y G",
+                  "M": "d MMM - d MMM y G",
+                  "y": "d MMM y - d MMM y G"
+                },
+                "yMMMEd": {
+                  "d": "E, d - E, d MMM y G",
+                  "M": "E, d MMM - E, d MMM y G",
+                  "y": "E, d MMM y - E, d MMM y G"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

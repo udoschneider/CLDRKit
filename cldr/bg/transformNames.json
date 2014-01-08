@@ -1,0 +1,30 @@
+{
+  "main": {
+    "bg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bg"
+      },
+      "localeDisplayNames": {
+        "transformNames": {
+          "BGN": "АКГН (BGN)",
+          "Numeric": "Цифрови",
+          "Tone": "Интонация",
+          "UNGEGN": "ГЕСГИООН (UNGEGN)",
+          "x-Accents": "Диакритични знаци",
+          "x-Fullwidth": "С пълна ширина",
+          "x-Halfwidth": "С половин ширина",
+          "x-Jamo": "Джамо",
+          "x-Pinyin": "Пинин",
+          "x-Publishing": "Типографски"
+        }
+      }
+    }
+  }
+}

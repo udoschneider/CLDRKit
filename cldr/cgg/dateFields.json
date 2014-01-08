@@ -1,0 +1,53 @@
+{
+  "main": {
+    "cgg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "cgg"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Obunaku"
+          },
+          "year": {
+            "displayName": "Omwaka"
+          },
+          "month": {
+            "displayName": "Omwezi"
+          },
+          "week": {
+            "displayName": "Esande"
+          },
+          "day": {
+            "displayName": "Eizooba",
+            "relative-type--1": "Nyomwabazyo",
+            "relative-type-0": "Erizooba",
+            "relative-type-1": "Nyenkyakare"
+          },
+          "weekday": {
+            "displayName": "Eizooba ry'okukora"
+          },
+          "dayperiod": {
+            "displayName": "Nyomushana/nyekiro"
+          },
+          "hour": {
+            "displayName": "Shaaha"
+          },
+          "minute": {
+            "displayName": "Edakiika"
+          },
+          "second": {
+            "displayName": "Obucweka/Esekendi"
+          }
+        }
+      }
+    }
+  }
+}

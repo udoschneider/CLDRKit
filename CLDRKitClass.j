@@ -36,11 +36,14 @@
 */
 @implementation CLDRKit : CPObject
 
++ (CPBundle)bundle
+{
+	return [CPBundle bundleForClass:[self class]];;
+}
+
 + (CPString)version
 {
-    var bundle = [CPBundle bundleForClass:[self class]];
-
-    return [bundle objectForInfoDictionaryKey:@"CPBundleVersion"];
+    return [[self bundle] objectForInfoDictionaryKey:@"CPBundleVersion"];
 }
 
 @end

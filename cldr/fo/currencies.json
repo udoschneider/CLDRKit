@@ -1,0 +1,66 @@
+{
+  "main": {
+    "fo": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fo"
+      },
+      "numbers": {
+        "currencies": {
+          "DKK": {
+            "displayName": "donsk króna",
+            "displayName-count-one": "donsk króna",
+            "displayName-count-other": "donska krónur",
+            "symbol": "kr"
+          },
+          "EUR": {
+            "displayName": "euro",
+            "displayName-count-one": "euro",
+            "displayName-count-other": "euro"
+          },
+          "ISK": {
+            "displayName": "íslendsk króna",
+            "displayName-count-one": "íslendsk króna",
+            "displayName-count-other": "íslendska krónur"
+          },
+          "NOK": {
+            "displayName": "norsk króna",
+            "displayName-count-one": "norsk króna",
+            "displayName-count-other": "norska krónur"
+          },
+          "SEK": {
+            "displayName": "svensk króna",
+            "displayName-count-one": "svensk króna",
+            "displayName-count-other": "svenska krónur"
+          },
+          "XAG": {
+            "displayName": "unse sølv",
+            "displayName-count-one": "unse sølv",
+            "displayName-count-other": "unse sølv"
+          },
+          "XAU": {
+            "displayName": "unse guld",
+            "displayName-count-one": "unse guld",
+            "displayName-count-other": "unse guld"
+          },
+          "XPD": {
+            "displayName": "unse palladium",
+            "displayName-count-one": "unse palladium",
+            "displayName-count-other": "unse palladium"
+          },
+          "XPT": {
+            "displayName": "unse platin",
+            "displayName-count-one": "unse platin",
+            "displayName-count-other": "unse platin"
+          }
+        }
+      }
+    }
+  }
+}

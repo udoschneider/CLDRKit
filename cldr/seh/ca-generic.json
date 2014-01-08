@@ -1,0 +1,57 @@
+{
+  "main": {
+    "seh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "seh"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, d 'de' MMMM 'de' y G",
+              "long": "d 'de' MMMM 'de' y G",
+              "medium": "d 'de' MMM 'de' y G",
+              "short": "d/M/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "HHmm": "HH:mm",
+                "HHmmss": "HH:mm:ss",
+                "Hm": "H:mm",
+                "M": "L",
+                "Md": "d/M",
+                "MEd": "E, dd/MM",
+                "MMdd": "dd/MM",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "E, d MMM",
+                "MMMMd": "d MMMM",
+                "MMMMEd": "E, d MMMM",
+                "mmss": "mm:ss",
+                "ms": "mm:ss",
+                "y": "y",
+                "yM": "MM/y",
+                "yMEd": "E, dd/MM/y",
+                "yMM": "MM/y",
+                "yMMM": "MMM 'de' y",
+                "yMMMd": "d 'de' MMM 'de' y",
+                "yMMMEd": "E, d 'de' MMM 'de' y",
+                "yMMMM": "MMMM 'de' y",
+                "yQQQ": "y QQQ",
+                "yQQQQ": "y QQQQ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

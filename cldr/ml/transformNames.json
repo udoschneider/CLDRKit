@@ -1,0 +1,30 @@
+{
+  "main": {
+    "ml": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ml"
+      },
+      "localeDisplayNames": {
+        "transformNames": {
+          "BGN": "BGN",
+          "Numeric": "സംഖ്യാപരമായ",
+          "Tone": "ശബ്ദം",
+          "UNGEGN": "UNGEGN",
+          "x-Accents": "ആൿസൻറുകൾ‌",
+          "x-Fullwidth": "പൂർണവീതി",
+          "x-Halfwidth": "ഹാഫ്‍വിഡ്ത്ത്",
+          "x-Jamo": "ജാമോ",
+          "x-Pinyin": "പിൻയിൻ",
+          "x-Publishing": "പ്രസിദ്ധീകരിക്കുന്നു"
+        }
+      }
+    }
+  }
+}

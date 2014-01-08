@@ -1,0 +1,118 @@
+{
+  "main": {
+    "ms": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ms"
+      },
+      "dates": {
+        "calendars": {
+          "chinese": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Jan",
+                  "2": "Feb",
+                  "3": "Mac",
+                  "4": "Apr",
+                  "5": "Mei",
+                  "6": "Jun",
+                  "7": "Jul",
+                  "8": "Ogo",
+                  "9": "Sep",
+                  "10": "Okt",
+                  "11": "Nov",
+                  "12": "Dis"
+                },
+                "narrow": {
+                  "1": "Jn",
+                  "2": "Fb",
+                  "3": "Mc",
+                  "4": "Ap",
+                  "5": "Me",
+                  "6": "Ju",
+                  "7": "Jl",
+                  "8": "Og",
+                  "9": "Sp",
+                  "10": "Ok",
+                  "11": "Nv",
+                  "12": "Ds"
+                },
+                "wide": {
+                  "1": "Januari",
+                  "2": "Februari",
+                  "3": "Mac",
+                  "4": "April",
+                  "5": "Mei",
+                  "6": "Jun",
+                  "7": "Julai",
+                  "8": "Ogos",
+                  "9": "September",
+                  "10": "Oktober",
+                  "11": "November",
+                  "12": "Disember"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Jan",
+                  "2": "Feb",
+                  "3": "Mac",
+                  "4": "Apr",
+                  "5": "Mei",
+                  "6": "Jun",
+                  "7": "Jul",
+                  "8": "Ogo",
+                  "9": "Sep",
+                  "10": "Okt",
+                  "11": "Nov",
+                  "12": "Dis"
+                },
+                "narrow": {
+                  "1": "Jn",
+                  "2": "Fe",
+                  "3": "Mc",
+                  "4": "Ap",
+                  "5": "Me",
+                  "6": "Ju",
+                  "7": "Jl",
+                  "8": "Og",
+                  "9": "Sp",
+                  "10": "Ok",
+                  "11": "Nv",
+                  "12": "Ds"
+                },
+                "wide": {
+                  "1": "Januari",
+                  "2": "Februari",
+                  "3": "Mac",
+                  "4": "April",
+                  "5": "Mei",
+                  "6": "Jun",
+                  "7": "Julai",
+                  "8": "Ogos",
+                  "9": "September",
+                  "10": "Oktober",
+                  "11": "November",
+                  "12": "Disember"
+                }
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, U MMMM dd",
+              "long": "U MMMM d",
+              "medium": "U MMM d",
+              "short": "y-M-d"
+            }
+          }
+        }
+      }
+    }
+  }
+}

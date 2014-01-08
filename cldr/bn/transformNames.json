@@ -1,0 +1,30 @@
+{
+  "main": {
+    "bn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bn"
+      },
+      "localeDisplayNames": {
+        "transformNames": {
+          "BGN": "BGN",
+          "Numeric": "সাংখিক",
+          "Tone": "স্বরভঙ্গি",
+          "UNGEGN": "UNGEGN",
+          "x-Accents": "অ্যাসেন্টস",
+          "x-Fullwidth": "পূর্ণচওড়া",
+          "x-Halfwidth": "অর্ধচওড়া",
+          "x-Jamo": "জ্যামো",
+          "x-Pinyin": "পিনইন",
+          "x-Publishing": "প্রকাশনা"
+        }
+      }
+    }
+  }
+}

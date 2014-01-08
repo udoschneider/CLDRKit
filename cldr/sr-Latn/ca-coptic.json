@@ -1,0 +1,42 @@
+{
+  "main": {
+    "sr-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sr",
+        "script": "Latn"
+      },
+      "dates": {
+        "calendars": {
+          "coptic": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "Taut",
+                  "2": "Baba",
+                  "3": "Hator",
+                  "4": "Kiahk",
+                  "5": "Toba",
+                  "6": "Amšir",
+                  "7": "Baramhat",
+                  "8": "Baramuda",
+                  "9": "Bašans",
+                  "10": "Paona",
+                  "11": "Epep",
+                  "12": "Mesra",
+                  "13": "Nasi"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

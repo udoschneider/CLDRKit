@@ -1,0 +1,81 @@
+{
+  "main": {
+    "uz": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "uz"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}",
+          "localeKeyTypePattern": "{0}: {1}"
+        },
+        "keys": {
+          "calendar": "Kalendar",
+          "collation": "Saralash tartibi",
+          "currency": "Valyuta",
+          "numbers": "Raqamlar"
+        },
+        "types": {
+          "calendar": {
+            "gregorian": "Grigorian kalendari"
+          },
+          "collation": {
+            "standard": "Standart tariblash",
+            "ducet": "Sukut boʻyicha saralash tartibi",
+            "search": "Umumiy qidirish"
+          },
+          "numbers": {
+            "arab": "Arab-hind raqamlari",
+            "arabext": "Kengaytirilgan arab-hind raqamlari",
+            "armn": "Arman sonlari",
+            "armnlow": "Arman kichik sonlari",
+            "beng": "Bengali raqamlari",
+            "deva": "Devanagari raqamlari",
+            "ethi": "Habash sonlari",
+            "fullwide": "Toʻliq kenglikdagi raqamlar",
+            "geor": "Gruzin sonlari",
+            "grek": "Grek sonlari",
+            "greklow": "Grek kichik sonlari",
+            "gujr": "Gujarati raqamlari",
+            "guru": "Gurmuxi raqamlari",
+            "hanidec": "Xitoy oʻnlik sonlari",
+            "hans": "Soddalashtirilgan Xitoy sonlari",
+            "hansfin": "Soddalashtirilgan Xitoy moliya sonlari",
+            "hant": "Anʼanaviy Xitoy sonlari",
+            "hantfin": "Anʼanaviy Xitoy moliya sonlari",
+            "hebr": "Ibroniy sonlari",
+            "jpan": "Yaponiya sonlari",
+            "jpanfin": "Yaponiya moliya sonlari",
+            "khmr": "Xmer raqamlari",
+            "knda": "Kannada raqamlari",
+            "laoo": "Lao raqamlari",
+            "latn": "Gʻarb raqamlari",
+            "mlym": "Malayalam raqamlari",
+            "mymr": "Myanma raqamlari",
+            "orya": "Oriya raqamlari",
+            "roman": "Rim sonlari",
+            "romanlow": "Rim kichik sonlari",
+            "taml": "Anʼanaviy Tamil sonlari",
+            "tamldec": "Tamil raqamlari",
+            "telu": "Telugu raqamlari",
+            "thai": "Tay raqamlari",
+            "tibt": "Tibet raqamlari"
+          }
+        },
+        "codePatterns": {
+          "language": "Til: {0}",
+          "script": "Shrift: {0}",
+          "territory": "Mintaqa: {0}"
+        }
+      }
+    }
+  }
+}

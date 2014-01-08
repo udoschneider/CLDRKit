@@ -1,0 +1,65 @@
+{
+  "main": {
+    "kln": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kln"
+      },
+      "localeDisplayNames": {
+        "languages": {
+          "ak": "kutitab Aka",
+          "am": "kutitab Amariek",
+          "ar": "kutitab Arabuk",
+          "be": "kutitab Belarusa",
+          "bg": "kutitab Bulgaria",
+          "bn": "kutitab Bengali",
+          "cs": "kutitab Chek",
+          "de": "kutitab Chermani",
+          "el": "kutitab Greece",
+          "en": "kutitab Uingeresa",
+          "es": "kutitab Espianik",
+          "fa": "kutitab Persia",
+          "fr": "kutitab Kifaransa",
+          "ha": "kutitab Hausa",
+          "hi": "kutitab Maindiik",
+          "hu": "kutitab Hangari",
+          "id": "kutitab Indonesia",
+          "ig": "kutitab Igbo",
+          "it": "kutitab Talianek",
+          "ja": "kutitap Japan",
+          "jv": "kutitap Javanese",
+          "kln": "Kalenjin",
+          "km": "kutitab Kher nebo Kwen",
+          "ko": "kutitab Korea",
+          "ms": "kutitab Malay",
+          "my": "kutitab Burma",
+          "ne": "kutitab Nepali",
+          "nl": "kutitab Boa",
+          "pa": "kutitab Punjab",
+          "pl": "kutitap Poland",
+          "pt": "kutitab Portugal",
+          "ro": "kutitab Romaniek",
+          "ru": "kutitab Russia",
+          "rw": "kutitab Kinyarwanda",
+          "so": "kutitab Somaliek",
+          "sv": "kutitab Sweden",
+          "ta": "kutitab Tamil",
+          "th": "kutitab Thailand",
+          "tr": "kutitab Turkey",
+          "uk": "kutitab Ukraine",
+          "ur": "kutitab Urdu",
+          "vi": "kutitab Vietnam",
+          "yo": "kutitab Yoruba",
+          "zh": "kutitab China",
+          "zu": "kutitab Zulu"
+        }
+      }
+    }
+  }
+}

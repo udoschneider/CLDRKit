@@ -1,0 +1,47 @@
+{
+  "main": {
+    "el": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "el"
+      },
+      "dates": {
+        "calendars": {
+          "japanese": {
+            "dateFormats": {
+              "full": "EEEE, d MMMM, y G",
+              "long": "d MMMM, y G",
+              "medium": "d MMM, y G",
+              "short": "d/M/yy"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Ed": "E d",
+                "Gy": "y G",
+                "Md": "d/M",
+                "MEd": "E, d/M",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "E, d MMM",
+                "y": "y G",
+                "yM": "MM/y GGGGG",
+                "yMd": "dd/MM/y GGGGG",
+                "yMEd": "E, dd/MM/y GGGGG",
+                "yMMM": "LLL y GGGGG",
+                "yMMMd": "d MMM, y G",
+                "yMMMEd": "E, d MMM, y G",
+                "yQQQ": "y GGGGG QQQ"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

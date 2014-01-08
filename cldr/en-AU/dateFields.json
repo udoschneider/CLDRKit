@@ -1,0 +1,41 @@
+{
+  "main": {
+    "en-AU": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "AU"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "relative-type--1": "Last year",
+            "relative-type-0": "This year",
+            "relative-type-1": "Next year"
+          },
+          "month": {
+            "relative-type--1": "Last month",
+            "relative-type-0": "This month",
+            "relative-type-1": "Next month"
+          },
+          "week": {
+            "relative-type--1": "Last week",
+            "relative-type-0": "This week",
+            "relative-type-1": "Next week"
+          },
+          "day": {
+            "relative-type--1": "Yesterday",
+            "relative-type-0": "Today",
+            "relative-type-1": "Tomorrow"
+          }
+        }
+      }
+    }
+  }
+}

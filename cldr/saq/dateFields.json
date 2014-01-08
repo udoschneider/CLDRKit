@@ -1,0 +1,53 @@
+{
+  "main": {
+    "saq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "saq"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Nyamata"
+          },
+          "year": {
+            "displayName": "Lari"
+          },
+          "month": {
+            "displayName": "Lapa"
+          },
+          "week": {
+            "displayName": "Saipa napo"
+          },
+          "day": {
+            "displayName": "Mpari",
+            "relative-type--1": "Ng'ole",
+            "relative-type-0": "Duo",
+            "relative-type-1": "Taisere"
+          },
+          "dayperiod": {
+            "displayName": "TS/TP"
+          },
+          "hour": {
+            "displayName": "Saai"
+          },
+          "minute": {
+            "displayName": "Idakika"
+          },
+          "second": {
+            "displayName": "Isekondi"
+          },
+          "zone": {
+            "displayName": "Majira ya saa"
+          }
+        }
+      }
+    }
+  }
+}

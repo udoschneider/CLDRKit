@@ -1,0 +1,68 @@
+{
+  "main": {
+    "wae": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "wae"
+      },
+      "numbers": {
+        "currencies": {
+          "BRL": {
+            "displayName": "Brasilianiši Real",
+            "displayName-count-one": "Brasilianišä Real",
+            "displayName-count-other": "Brasilianiši Real"
+          },
+          "CNY": {
+            "displayName": "Chinesiši Yuan",
+            "displayName-count-one": "Chinesišä Yuan",
+            "displayName-count-other": "Chinesiši Yuan"
+          },
+          "EUR": {
+            "displayName": "Euro",
+            "displayName-count-one": "Euro",
+            "displayName-count-other": "Euro"
+          },
+          "GBP": {
+            "displayName": "Pfund",
+            "displayName-count-one": "Pfund",
+            "displayName-count-other": "Pfund"
+          },
+          "INR": {
+            "displayName": "Indiši Rupie",
+            "displayName-count-one": "Indišä Rupie",
+            "displayName-count-other": "Indiši Rupie"
+          },
+          "JPY": {
+            "displayName": "Yen",
+            "displayName-count-one": "Yen",
+            "displayName-count-other": "Yen",
+            "symbol": "¥"
+          },
+          "RUB": {
+            "displayName": "Rubel",
+            "displayName-count-one": "Rubel",
+            "displayName-count-other": "Rubel",
+            "symbol": "руб"
+          },
+          "USD": {
+            "displayName": "Dollar",
+            "displayName-count-one": "Dollar",
+            "displayName-count-other": "Dollar",
+            "symbol": "$"
+          },
+          "XXX": {
+            "displayName": "Unbekannti Wãrig",
+            "displayName-count-one": "Unbekannti Wãrig",
+            "displayName-count-other": "Unbekannti Wãrig"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "main": {
+    "id": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9308 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 14:41:52 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "id"
+      },
+      "dates": {
+        "calendars": {
+          "buddhist": {
+            "eras": {
+              "eraAbbr": {
+                "0": "BE"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, dd MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d MMM y G",
+              "short": "d/M/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "M": "L",
+                "Md": "d/M",
+                "MEd": "E, d/M",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "E, d MMM",
+                "MMMMd": "d MMMM",
+                "MMMMEd": "E, d MMMM",
+                "y": "G y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

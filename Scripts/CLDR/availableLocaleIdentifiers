@@ -1,0 +1,5 @@
+#!/usr/bin/env objj
+
+@import "../../CLDRKit.j"
+
+print([[CLDRDatabase sharedDatabase] availableLocaleIdentifiers]);

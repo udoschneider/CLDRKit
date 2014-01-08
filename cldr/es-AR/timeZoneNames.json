@@ -1,0 +1,37 @@
+{
+  "main": {
+    "es-AR": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "es",
+        "territory": "AR"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "metazone": {
+            "Argentina": {
+              "short": {
+                "generic": "ART",
+                "standard": "ART",
+                "daylight": "ARST"
+              }
+            },
+            "Argentina_Western": {
+              "short": {
+                "generic": "WART",
+                "standard": "WART",
+                "daylight": "WARST"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "main": {
+    "ne-IN": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "ne",
+        "territory": "IN"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "युग"
+          },
+          "year": {
+            "displayName": "वर्ष"
+          },
+          "week": {
+            "displayName": "साता"
+          },
+          "day": {
+            "displayName": "वार",
+            "relative-type-2": "पर्सि"
+          },
+          "weekday": {
+            "displayName": "हप्ताको वार"
+          },
+          "dayperiod": {
+            "displayName": "पूर्वाह्न / अपराह्न"
+          },
+          "second": {
+            "displayName": "सेकेन्ड"
+          },
+          "zone": {
+            "displayName": "अञ्‍चल"
+          }
+        }
+      }
+    }
+  }
+}

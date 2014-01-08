@@ -1,0 +1,48 @@
+{
+  "main": {
+    "om": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "om"
+      },
+      "numbers": {
+        "currencies": {
+          "BRL": {
+            "displayName": "Brazilian Real"
+          },
+          "CNY": {
+            "displayName": "Chinese Yuan Renminbi"
+          },
+          "ETB": {
+            "displayName": "Itoophiyaa Birrii",
+            "symbol": "Br"
+          },
+          "EUR": {
+            "displayName": "Euro"
+          },
+          "GBP": {
+            "displayName": "British Pound Sterling"
+          },
+          "INR": {
+            "displayName": "Indian Rupee"
+          },
+          "JPY": {
+            "displayName": "Japanese Yen"
+          },
+          "RUB": {
+            "displayName": "Russian Ruble"
+          },
+          "USD": {
+            "displayName": "US Dollar"
+          }
+        }
+      }
+    }
+  }
+}

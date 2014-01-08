@@ -1,0 +1,297 @@
+{
+  "main": {
+    "ln": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ln"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Dirihamɛ ya Lémila alabo"
+          },
+          "AOA": {
+            "displayName": "Kwanza ya Angóla"
+          },
+          "ARS": {
+            "displayName": "Peso y'Argentina",
+            "displayName-count-one": "Peso y'Argentina",
+            "displayName-count-other": "Peso y'Argentina"
+          },
+          "AUD": {
+            "displayName": "Dolarɛ ya Ositali"
+          },
+          "BHD": {
+            "displayName": "Dinarɛ ya Bahrɛnɛ"
+          },
+          "BIF": {
+            "displayName": "Falánga ya Burundi"
+          },
+          "BOB": {
+            "displayName": "Boliviano",
+            "displayName-count-one": "Boliviano",
+            "displayName-count-other": "Boliviano"
+          },
+          "BRL": {
+            "displayName": "Real ya Brazil"
+          },
+          "BWP": {
+            "displayName": "Pula ya Botswana"
+          },
+          "CAD": {
+            "displayName": "Dolarɛ ya Kanadá"
+          },
+          "CDF": {
+            "displayName": "Falánga ya Kongó",
+            "symbol": "FC"
+          },
+          "CHF": {
+            "displayName": "Falánga ya Swisɛ"
+          },
+          "CLP": {
+            "displayName": "Peso ya Shili",
+            "displayName-count-one": "Peso ya Shili",
+            "displayName-count-other": "Peso ya Shili"
+          },
+          "CNY": {
+            "displayName": "Yuanɛ Renminbi ya Sinɛ"
+          },
+          "COP": {
+            "displayName": "Peso ya Kolombi",
+            "displayName-count-one": "Peso ya Kolombi",
+            "displayName-count-other": "Peso ya Kolombi"
+          },
+          "CRC": {
+            "displayName": "Colon ya Kosta Rika",
+            "displayName-count-one": "Colon ya Kosta Rika",
+            "displayName-count-other": "Colon ya Kosta Rika"
+          },
+          "CUP": {
+            "displayName": "Peso ya Kuba",
+            "displayName-count-one": "Peso ya Kuba",
+            "displayName-count-other": "Peso ya Kuba"
+          },
+          "CVE": {
+            "displayName": "Esikudo ya Kapevɛrɛ"
+          },
+          "CZK": {
+            "displayName": "Motolé Sheki",
+            "displayName-count-one": "Motolé Sheki",
+            "displayName-count-other": "Motolé Sheki"
+          },
+          "DJF": {
+            "displayName": "Falánga ya Dzibuti"
+          },
+          "DKK": {
+            "displayName": "Motolé ya Danemark",
+            "displayName-count-one": "Motolé ya Danemark",
+            "displayName-count-other": "Motolé ya Danemark"
+          },
+          "DOP": {
+            "displayName": "Peso Dominikani",
+            "displayName-count-one": "Peso Dominikani",
+            "displayName-count-other": "Peso Dominikani"
+          },
+          "DZD": {
+            "displayName": "Dinarɛ ya Alizeri"
+          },
+          "EGP": {
+            "displayName": "Paunɛ ya Ezípitɛ"
+          },
+          "ERN": {
+            "displayName": "Nakfa ya Elitlɛ"
+          },
+          "ETB": {
+            "displayName": "Birɛ ya Etsiópi"
+          },
+          "EUR": {
+            "displayName": "Ɛlɔ́"
+          },
+          "GBP": {
+            "displayName": "Paunɛ ya Angɛlɛtɛ́lɛ"
+          },
+          "GHC": {
+            "displayName": "Sedi ya Gana"
+          },
+          "GHS": {
+            "displayName": "Cedi",
+            "displayName-count-one": "Cedi",
+            "displayName-count-other": "Cedi"
+          },
+          "GMD": {
+            "displayName": "Dalasi ya Gambi"
+          },
+          "GNF": {
+            "displayName": "Falánga ya Gine",
+            "displayName-count-one": "Falánga ya Gine",
+            "displayName-count-other": "Falánga ya Gine"
+          },
+          "GNS": {
+            "displayName": "Falánga ya Ginɛ"
+          },
+          "HTG": {
+            "displayName": "Gurde",
+            "displayName-count-one": "Gurde",
+            "displayName-count-other": "Gurde"
+          },
+          "INR": {
+            "displayName": "Rupi ya Índɛ"
+          },
+          "ISK": {
+            "displayName": "Motolé ya Islandi",
+            "displayName-count-one": "Motolé ya Islandi",
+            "displayName-count-other": "Motolé ya Islandi"
+          },
+          "JPY": {
+            "displayName": "Yeni ya Zapɔ"
+          },
+          "KES": {
+            "displayName": "Shilingɛ ya Kenya"
+          },
+          "KMF": {
+            "displayName": "Falánga ya Komoro"
+          },
+          "LRD": {
+            "displayName": "Dolarɛ ya Liberya"
+          },
+          "LSL": {
+            "displayName": "Loti ya Lesóto"
+          },
+          "LTL": {
+            "displayName": "Litas ya Litwani",
+            "displayName-count-one": "Litas ya Litwani",
+            "displayName-count-other": "Litas ya Litwani"
+          },
+          "LVL": {
+            "displayName": "Lats ya Letoni",
+            "displayName-count-one": "Lats ya Letoni",
+            "displayName-count-other": "Lats ya Letoni"
+          },
+          "LYD": {
+            "displayName": "Dinarɛ ya Libí"
+          },
+          "MAD": {
+            "displayName": "Dirihame ya Marokɛ"
+          },
+          "MGA": {
+            "displayName": "Falánga ya Madagasikarɛ"
+          },
+          "MRO": {
+            "displayName": "Ugwiya ya Moritani"
+          },
+          "MUR": {
+            "displayName": "Rupi ya Morisi"
+          },
+          "MWK": {
+            "displayName": "Kwasha ya Malawi"
+          },
+          "MXN": {
+            "displayName": "Peso ya Mexiko",
+            "displayName-count-one": "Peso ya Mexiko",
+            "displayName-count-other": "Peso ya Mexiko"
+          },
+          "MZM": {
+            "displayName": "Metikali ya Mozambiki"
+          },
+          "NAD": {
+            "displayName": "Dolarɛ ya Namibi"
+          },
+          "NGN": {
+            "displayName": "Naira ya Nizerya"
+          },
+          "NOK": {
+            "displayName": "Motolé ya Norvej",
+            "displayName-count-one": "Motolé ya Norvej",
+            "displayName-count-other": "Motolé ya Norvej"
+          },
+          "PAB": {
+            "displayName": "Balboa",
+            "displayName-count-one": "Balboa",
+            "displayName-count-other": "Balboa"
+          },
+          "PEN": {
+            "displayName": "Sol Sika",
+            "displayName-count-one": "Sol Sika",
+            "displayName-count-other": "Sol Sika"
+          },
+          "PYG": {
+            "displayName": "Guarani",
+            "displayName-count-one": "Guarani",
+            "displayName-count-other": "Guarani"
+          },
+          "RWF": {
+            "displayName": "Falánga ya Rwanda"
+          },
+          "SAR": {
+            "displayName": "Riyalɛ ya Alabi Sawuditɛ"
+          },
+          "SCR": {
+            "displayName": "Rupi ya Sɛshɛlɛ"
+          },
+          "SDG": {
+            "displayName": "Dinarɛ ya Sudá"
+          },
+          "SDP": {
+            "displayName": "Paunɛ ya Sudá"
+          },
+          "SEK": {
+            "displayName": "Motolé ya Swédi",
+            "displayName-count-one": "Motolé ya Swédi",
+            "displayName-count-other": "Motolé ya Swédi"
+          },
+          "SHP": {
+            "displayName": "Paunɛ ya Sántu elena"
+          },
+          "SLL": {
+            "displayName": "Leonɛ"
+          },
+          "SOS": {
+            "displayName": "Shilingɛ ya Somali"
+          },
+          "STD": {
+            "displayName": "Dobra ya Sao Tomé mpé Presipe"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Dinarɛ ya Tinizi"
+          },
+          "TZS": {
+            "displayName": "Shilingɛ ya Tanzani"
+          },
+          "UGX": {
+            "displayName": "Shilingɛ ya Uganda"
+          },
+          "USD": {
+            "displayName": "Dolarɛ ya Ameriki"
+          },
+          "XAF": {
+            "displayName": "Falánga CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Falánga CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Randɛ ya Afríka Súdi"
+          },
+          "ZMK": {
+            "displayName": "Kwasha ya Zambi (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kwasha ya Zambi"
+          },
+          "ZWD": {
+            "displayName": "Dolarɛ ya Zimbabwɛ"
+          }
+        }
+      }
+    }
+  }
+}

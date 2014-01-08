@@ -1,0 +1,80 @@
+{
+  "main": {
+    "pt-PT": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "pt",
+        "territory": "PT"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "árabe",
+          "Arab-alt-variant": "perso-árabe",
+          "Armi": "aramaico imperial",
+          "Armn": "arménio",
+          "Beng": "bengali",
+          "Blis": "símbolos Bliss",
+          "Bopo": "bopomofo",
+          "Brai": "braille",
+          "Cakm": "chakma",
+          "Cyrl": "cirílico",
+          "Deva": "devanágari",
+          "Egyd": "egípcio demótico",
+          "Egyh": "egípcio hierático",
+          "Ethi": "etiópico",
+          "Geor": "georgiano",
+          "Grek": "grego",
+          "Gujr": "guzerate",
+          "Guru": "gurmuqui",
+          "Hang": "hangul",
+          "Hani": "han",
+          "Hans": "han simplificado",
+          "Hans-alt-stand-alone": "han simplificado",
+          "Hant": "han tradicional",
+          "Hant-alt-stand-alone": "han tradicional",
+          "Hebr": "hebraico",
+          "Hira": "hiragana",
+          "Inds": "indus",
+          "Jpan": "japonês",
+          "Kana": "katakana",
+          "Khmr": "khmer",
+          "Knda": "kannada",
+          "Kore": "coreano",
+          "Kthi": "kaithi",
+          "Laoo": "lao",
+          "Latn": "latim",
+          "Lina": "linear A",
+          "Linb": "linear B",
+          "Mand": "mandeu",
+          "Mlym": "malaiala",
+          "Mong": "mongol",
+          "Mymr": "birmanês",
+          "Nkoo": "n’ko",
+          "Orya": "oriya",
+          "Phli": "pahlavi escrito",
+          "Prti": "parthian escrito",
+          "Sgnw": "escrita gestual",
+          "Sinh": "cingalês",
+          "Sylo": "siloti nagri",
+          "Tale": "tai le",
+          "Taml": "tâmil",
+          "Telu": "telugu",
+          "Thaa": "thaana",
+          "Thai": "tailandês",
+          "Tibt": "tibetano",
+          "Xsux": "cuneiforme sumero-acadiano",
+          "Zsym": "símbolos",
+          "Zxxx": "não escrito",
+          "Zyyy": "comum",
+          "Zzzz": "escrita desconhecida"
+        }
+      }
+    }
+  }
+}

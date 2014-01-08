@@ -1,0 +1,51 @@
+{
+  "main": {
+    "as": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "as"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "যুগ"
+          },
+          "year": {
+            "displayName": "বছৰ"
+          },
+          "month": {
+            "displayName": "মাহ"
+          },
+          "week": {
+            "displayName": "সপ্তাহ"
+          },
+          "day": {
+            "displayName": "দিন",
+            "relative-type--2": "পৰহি",
+            "relative-type--1": "কালি",
+            "relative-type-1": "কাইলৈ",
+            "relative-type-2": "পৰহিলৈ"
+          },
+          "hour": {
+            "displayName": "ঘণ্টা"
+          },
+          "minute": {
+            "displayName": "মিনিট"
+          },
+          "second": {
+            "displayName": "ছেকেণ্ড"
+          },
+          "zone": {
+            "displayName": "ক্ষেত্ৰ"
+          }
+        }
+      }
+    }
+  }
+}

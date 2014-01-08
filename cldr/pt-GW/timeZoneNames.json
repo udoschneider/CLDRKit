@@ -1,0 +1,51 @@
+{
+  "main": {
+    "pt-GW": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9061 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-07-20 12:27:45 -0500 (Sat, 20 Jul 2013) $"
+        },
+        "language": "pt",
+        "territory": "GW"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "metazone": {
+            "Azores": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Europe_Central": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Europe_Eastern": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            },
+            "Europe_Western": {
+              "short": {
+                "generic": "∅∅∅",
+                "standard": "∅∅∅",
+                "daylight": "∅∅∅"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

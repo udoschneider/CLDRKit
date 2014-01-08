@@ -1,0 +1,927 @@
+{
+  "main": {
+    "zu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zu"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "gmtZeroFormat": "GMT",
+          "regionFormat": "Isikhathi sase-{0}",
+          "regionFormat-type-daylight": "{0} Isikhathi sasemini",
+          "regionFormat-type-standard": "{0} Isikhathi esijwayelekile",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "America": {
+              "Asuncion": {
+                "exemplarCity": "I-Asunción"
+              },
+              "Curacao": {
+                "exemplarCity": "I-Curaçao"
+              },
+              "Lower_Princes": {
+                "exemplarCity": "I-Lower Prince's Quarter"
+              },
+              "St_Barthelemy": {
+                "exemplarCity": "I-Saint Barthélemy"
+              },
+              "St_Johns": {
+                "exemplarCity": "I-St. John’s"
+              }
+            },
+            "Africa": {
+              "Sao_Tome": {
+                "exemplarCity": "I-São Tomé"
+              }
+            },
+            "Indian": {
+              "Reunion": {
+                "exemplarCity": "I-Réunion"
+              }
+            }
+          },
+          "metazone": {
+            "Afghanistan": {
+              "long": {
+                "standard": "Isikhathi sase-Afghanistan"
+              }
+            },
+            "Africa_Central": {
+              "long": {
+                "standard": "Isikhathi sase-Central Africa"
+              }
+            },
+            "Africa_Eastern": {
+              "long": {
+                "standard": "Isikhathi saseMpumalanga Afrika"
+              }
+            },
+            "Africa_Southern": {
+              "long": {
+                "standard": "Isikhathi esivamile saseNingizimu Afrika"
+              }
+            },
+            "Africa_Western": {
+              "long": {
+                "generic": "Isikhathi saseNtshonalanga Afrika",
+                "standard": "Isikhathi esivamile saseNtshonalanga Afrika",
+                "daylight": "Isikhathi sehlobo saseNtshonalanga Afrika"
+              }
+            },
+            "Alaska": {
+              "long": {
+                "generic": "esase-Alaska Time",
+                "standard": "esase-Alaska Standard Time",
+                "daylight": "esase-Alaska Daylight Time"
+              }
+            },
+            "Amazon": {
+              "long": {
+                "generic": "esase-Amazon Time",
+                "standard": "Isikhathi esivamile sase-Amazon",
+                "daylight": "Isikhathi sehlobo sase-Amazon"
+              }
+            },
+            "America_Central": {
+              "long": {
+                "generic": "esase-Central Time",
+                "standard": "esase-Central Standard Time",
+                "daylight": "esase-Central Daylight Time"
+              }
+            },
+            "America_Eastern": {
+              "long": {
+                "generic": "esase-Eastern Time",
+                "standard": "esase-Eastern Standard Time",
+                "daylight": "esase-Eastern Daylight Time"
+              }
+            },
+            "America_Mountain": {
+              "long": {
+                "generic": "esase-Mountain Time",
+                "standard": "esase-Mountain Standard Time",
+                "daylight": "esase-Mountain Daylight Time"
+              }
+            },
+            "America_Pacific": {
+              "long": {
+                "generic": "esase-Pacific Time",
+                "standard": "esase-Pacific Standard Time",
+                "daylight": "esase-Pacific Daylight Time"
+              }
+            },
+            "Anadyr": {
+              "long": {
+                "generic": "esase-Anadyr Time",
+                "standard": "esase-Anadyr Standard Time",
+                "daylight": "esase-Anadyr Summer Time"
+              }
+            },
+            "Arabian": {
+              "long": {
+                "generic": "Isikhathi sase-Arabian",
+                "standard": "Isikhathi esivamile sase-Arabian",
+                "daylight": "Isikhathi semini sase-Arabian"
+              }
+            },
+            "Argentina": {
+              "long": {
+                "generic": "esase-Argentina Time",
+                "standard": "Isikhathi esimisiwe sase-Argentina",
+                "daylight": "esase-Argentina Summer Time"
+              }
+            },
+            "Argentina_Western": {
+              "long": {
+                "generic": "Isikhathi saseNyakatho ne-Argentina",
+                "standard": "Isikhathi esimisiwe sase-Ntshonalanga ne-Argentina",
+                "daylight": "Isikhathi sasehlobo sase-Ntshonalanga ne-Argentina"
+              }
+            },
+            "Armenia": {
+              "long": {
+                "generic": "Isikhathi saseArmenia",
+                "standard": "Isikhathi esezingeni sase-Armenia",
+                "daylight": "Isikhathi sehlobo sase-Armenia"
+              }
+            },
+            "Atlantic": {
+              "long": {
+                "generic": "esase-Atlantic Time",
+                "standard": "esase-Atlantic Standard Time",
+                "daylight": "esase-Atlantic Daylight Time"
+              }
+            },
+            "Australia_Central": {
+              "long": {
+                "generic": "esase-Central Australia Time",
+                "standard": "esase-Austrilian Central Standard Time",
+                "daylight": "esase-Austrilian Central Daylight Time"
+              }
+            },
+            "Australia_CentralWestern": {
+              "long": {
+                "generic": "esase-Austrilian Central Western Time",
+                "standard": "esase-Austrilian Central Western Standard Time",
+                "daylight": "esase-Austrilian Central Western Daylight Time"
+              }
+            },
+            "Australia_Eastern": {
+              "long": {
+                "generic": "esase-Austrilian Eastern Time",
+                "standard": "esase-Australian Eastern Standard Time",
+                "daylight": "esase-Australian Eastern Daylight Time"
+              }
+            },
+            "Australia_Western": {
+              "long": {
+                "generic": "esase-Western Australia Time",
+                "standard": "esase-Austrilian Western Standard Time",
+                "daylight": "esase-Austrilian Western Daylight Time"
+              }
+            },
+            "Azerbaijan": {
+              "long": {
+                "generic": "Isikhathi sase-Azerbaijan",
+                "standard": "Isikhathi esivamile sase-Azerbaijan",
+                "daylight": "Isikhathi sehlobo sase-Azerbaijan"
+              }
+            },
+            "Azores": {
+              "long": {
+                "generic": "Isikhathi sase-Azores",
+                "standard": "Isikhathi esivamile sase-Azores",
+                "daylight": "Isikhathi sehlobo sase-Azores"
+              }
+            },
+            "Bangladesh": {
+              "long": {
+                "generic": "Isikhathi sase-Bangladesh",
+                "standard": "Isikhathi esivamile sase-Bangladesh",
+                "daylight": "Isikhathi sehlobo sase-Bangladesh"
+              }
+            },
+            "Bhutan": {
+              "long": {
+                "standard": "Isikhathi sase-Bhutan"
+              }
+            },
+            "Bolivia": {
+              "long": {
+                "standard": "Isikhathi sase-Bolivia"
+              }
+            },
+            "Brasilia": {
+              "long": {
+                "generic": "esase-Brasilia Time",
+                "standard": "Isikhathi esimisiwe sase-Brasilia",
+                "daylight": "esase-Brasilia Summer Time"
+              }
+            },
+            "Brunei": {
+              "long": {
+                "standard": "Isikhathi sase-Brunei Darussalam"
+              }
+            },
+            "Cape_Verde": {
+              "long": {
+                "generic": "Isikhathi sase-Cape Verde",
+                "standard": "Isikhathi esezingeni sase-Cape Verde",
+                "daylight": "Isikhathi sehlobo sase-Cape Verde"
+              }
+            },
+            "Chamorro": {
+              "long": {
+                "standard": "Isikhathi esezingeni sase-Chamorro"
+              }
+            },
+            "Chatham": {
+              "long": {
+                "generic": "Isikhathi sase-Chatham",
+                "standard": "Isikhathi esivamile sase-Chatham",
+                "daylight": "Isikhathi semini sase-Chatham"
+              }
+            },
+            "Chile": {
+              "long": {
+                "generic": "Isikhathi sase-Chile",
+                "standard": "Isikhathi esivamile sase-Chile",
+                "daylight": "Isikhathi sehlobo sase-Chile"
+              }
+            },
+            "China": {
+              "long": {
+                "generic": "Isikhathi sase-China",
+                "standard": "Isikhathi esivamile sase-China",
+                "daylight": "Isikhathi semini sase-China"
+              }
+            },
+            "Choibalsan": {
+              "long": {
+                "generic": "esase-Choibalsan Time",
+                "standard": "Isikhathi Esimisiwe sase-Choibalsan",
+                "daylight": "esase-Choibalsan Summer Time"
+              }
+            },
+            "Christmas": {
+              "long": {
+                "standard": "Isikhathi sase-Christmas Island"
+              }
+            },
+            "Cocos": {
+              "long": {
+                "standard": "Isikhathi sase-Cocos Islands"
+              }
+            },
+            "Colombia": {
+              "long": {
+                "generic": "Isikhathi sase-Colombia",
+                "standard": "Isikhathi esivamile sase-Colombia",
+                "daylight": "Isikhathi sehlobo sase-Colombia"
+              }
+            },
+            "Cook": {
+              "long": {
+                "generic": "Isikhathi sase-Cook Islands",
+                "standard": "Isikhathi esivamile sase-Cook Islands",
+                "daylight": "Isikhathi esiyingxenye yasehlobo sase-Cook Islands"
+              }
+            },
+            "Cuba": {
+              "long": {
+                "generic": "Isikhathi sase-Cuba",
+                "standard": "Isikhathi esivamile sase-Cuba",
+                "daylight": "Isikhathi semini sase-Cuba"
+              }
+            },
+            "Davis": {
+              "long": {
+                "standard": "Isikhathi sase-Davis"
+              }
+            },
+            "DumontDUrville": {
+              "long": {
+                "standard": "Isikhathi sase-Dumont-d’Urville"
+              }
+            },
+            "East_Timor": {
+              "long": {
+                "standard": "Isikhathi sase-East Timor"
+              }
+            },
+            "Easter": {
+              "long": {
+                "generic": "Isikhathi sase-Easter Island",
+                "standard": "Isikhathi esivamile sase-Easter Island",
+                "daylight": "Isikhathi sehlobo sase-Easter Island"
+              }
+            },
+            "Ecuador": {
+              "long": {
+                "standard": "Isikhathi sase-Ecuador"
+              }
+            },
+            "Europe_Central": {
+              "long": {
+                "generic": "Isikhathi sase-Central Europe",
+                "standard": "Isikhathi esivamile sase-Central Europe",
+                "daylight": "Isikhathi sehlobo sase-Central Europe"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Isikhathi sase-Eastern Europe",
+                "standard": "Isikhathi esivamile sase-Eastern Europe",
+                "daylight": "Isikhathi sehlobo sase-Eastern Europe"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Isikhathi sase-Western Europe",
+                "standard": "Isikhathi esivamile sase-Western Europe",
+                "daylight": "Isikhathi sehlobo sase-Western Europe"
+              }
+            },
+            "Falkland": {
+              "long": {
+                "generic": "Isikhathi sase-Falkland Islands",
+                "standard": "Isikhathi esivamile sase-Falkland Islands",
+                "daylight": "Isikhathi sehlobo sase-Falkland Islands"
+              }
+            },
+            "Fiji": {
+              "long": {
+                "generic": "Isikhathi sase-Fiji",
+                "standard": "Isikhathi esivamile sase-Fiji",
+                "daylight": "Isikhathi sehlobo sase-Fiji"
+              }
+            },
+            "French_Guiana": {
+              "long": {
+                "standard": "Isikhathi sase-French Guiana"
+              }
+            },
+            "French_Southern": {
+              "long": {
+                "standard": "Isikhathi sase-French Southern and Antarctic"
+              }
+            },
+            "Galapagos": {
+              "long": {
+                "standard": "Isikhathi sase-Galapagos"
+              }
+            },
+            "Gambier": {
+              "long": {
+                "standard": "Isikhathi sase-Gambier"
+              }
+            },
+            "Georgia": {
+              "long": {
+                "generic": "Isikhathi sase-Georgia",
+                "standard": "Isikhathi esivamile sase-Georgia",
+                "daylight": "Isikhathi sehlobo sase-Georgia"
+              }
+            },
+            "Gilbert_Islands": {
+              "long": {
+                "standard": "Isikhathi sase-Gilbert Islands"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Isikhathi sase-Greenwich Mean"
+              }
+            },
+            "Greenland_Eastern": {
+              "long": {
+                "generic": "Isikhathi sase-East Greenland",
+                "standard": "Isikhathi esivamile sase-East Greenland",
+                "daylight": "Isikhathi sehlobo sase-East Greenland"
+              }
+            },
+            "Greenland_Western": {
+              "long": {
+                "generic": "Isikhathi sase-West Greenland",
+                "standard": "Isikhathi esivamile sase-West Greenland",
+                "daylight": "Isikhathi sehlobo sase-West Greenland"
+              }
+            },
+            "Gulf": {
+              "long": {
+                "standard": "Isikhathi esivamile sase-Gulf"
+              }
+            },
+            "Guyana": {
+              "long": {
+                "standard": "Isikhathi sase-Guyana"
+              }
+            },
+            "Hawaii_Aleutian": {
+              "long": {
+                "generic": "Isikathi sase-Hawaii-Aleutian",
+                "standard": "Isikhathi esivamile sase-Hawaii-Aleutian",
+                "daylight": "Isikhathi semini sase-Hawaii-Aleutian"
+              }
+            },
+            "Hong_Kong": {
+              "long": {
+                "generic": "Isikhathi sase-Hong Kong",
+                "standard": "Isikhathi esivamile sase-Hong Kong",
+                "daylight": "Isikhathi sehlobo sase-Hong Kong"
+              }
+            },
+            "Hovd": {
+              "long": {
+                "generic": "esase-Hovd Time",
+                "standard": "Isikhathi Esimisiwe sase-Hovd",
+                "daylight": "esase-Hovd Summer Time"
+              }
+            },
+            "India": {
+              "long": {
+                "standard": "Isikhathi esivamile sase-India"
+              }
+            },
+            "Indian_Ocean": {
+              "long": {
+                "standard": "Isikhathi sase-Indian Ocean"
+              }
+            },
+            "Indochina": {
+              "long": {
+                "standard": "Isikhathi sase-Indochina"
+              }
+            },
+            "Indonesia_Central": {
+              "long": {
+                "standard": "Isikhathi sase-Central Indonesia"
+              }
+            },
+            "Indonesia_Eastern": {
+              "long": {
+                "standard": "Isikhathi sase-Eastern Indonesia"
+              }
+            },
+            "Indonesia_Western": {
+              "long": {
+                "standard": "Isikhathi sase-Western Indonesia"
+              }
+            },
+            "Iran": {
+              "long": {
+                "generic": "Isikhathi sase-Iran",
+                "standard": "Isikhathi esivamile sase-Iran",
+                "daylight": "Isikhathi sasemini sase-Iran"
+              }
+            },
+            "Irkutsk": {
+              "long": {
+                "generic": "esase-Irkutsk Time",
+                "standard": "Isikhathi Esimisiwe sase-Irkutsk",
+                "daylight": "esase-Irkutsk Summer Time"
+              }
+            },
+            "Israel": {
+              "long": {
+                "generic": "Isikhathi sase-Israel",
+                "standard": "Isikhathi esivamile sase-Israel",
+                "daylight": "Isikhathi sasemini sase-Israel"
+              }
+            },
+            "Japan": {
+              "long": {
+                "generic": "Isikhathi sase-Japan",
+                "standard": "Isikhathi esivamile sase-Japan",
+                "daylight": "Isikhathi semini sase-Japan"
+              }
+            },
+            "Kamchatka": {
+              "long": {
+                "generic": "esase-Petropavlovsk-Kamchatski Time",
+                "standard": "esase-Petropavlovsk-Kamchatski Standard Time",
+                "daylight": "esase-Petropavlovsk-Kamchatski Summer Time"
+              }
+            },
+            "Kazakhstan_Eastern": {
+              "long": {
+                "standard": "Isikhathi sase-Mpumalanga ne-Kazakhstan"
+              }
+            },
+            "Kazakhstan_Western": {
+              "long": {
+                "standard": "Isikhathi saseNtshonalanga ne-Kazakhstan"
+              }
+            },
+            "Korea": {
+              "long": {
+                "generic": "Isikhathi sase-Korea",
+                "standard": "Isikhathi esisezengeni sase-Korea",
+                "daylight": "Isikhathi semini sase-Korea"
+              }
+            },
+            "Kosrae": {
+              "long": {
+                "standard": "Isikhathi sase-Kosrae"
+              }
+            },
+            "Krasnoyarsk": {
+              "long": {
+                "generic": "esase-Krasnoyarsk Time",
+                "standard": "Isikhathi Esimisiwe sase-Krasnoyarsk",
+                "daylight": "esase-Krasnoyarsk Summer Time"
+              }
+            },
+            "Kyrgystan": {
+              "long": {
+                "standard": "Isikhathi sase-Kyrgystan"
+              }
+            },
+            "Line_Islands": {
+              "long": {
+                "standard": "Isikhathi sase-Line Islands"
+              }
+            },
+            "Lord_Howe": {
+              "long": {
+                "generic": "esase-Lord Howe Time",
+                "standard": "esase-Lord Howe Standard Time",
+                "daylight": "esase-Lord Howe Daylight Time"
+              }
+            },
+            "Macquarie": {
+              "long": {
+                "standard": "Isikhathi sase-Macquarie Island"
+              }
+            },
+            "Magadan": {
+              "long": {
+                "generic": "esase-Magadan Time",
+                "standard": "Isikhathi Esimisiwe sase-Magadan",
+                "daylight": "esase-Magadan Summer Time"
+              }
+            },
+            "Malaysia": {
+              "long": {
+                "standard": "Isikhathi sase-Malaysia"
+              }
+            },
+            "Maldives": {
+              "long": {
+                "standard": "Isikhathi sase-Maldives"
+              }
+            },
+            "Marquesas": {
+              "long": {
+                "standard": "Isikhathi sase-Marquesas"
+              }
+            },
+            "Marshall_Islands": {
+              "long": {
+                "standard": "Isikhathi sase-Marshall Islands"
+              }
+            },
+            "Mauritius": {
+              "long": {
+                "generic": "Isikhathi sase-Mauritius",
+                "standard": "Isikhathi esivamile sase-Mauritius",
+                "daylight": "Isikhathi sehlobo sase-Mauritius"
+              }
+            },
+            "Mawson": {
+              "long": {
+                "standard": "Isikhathi sase-Mawson"
+              }
+            },
+            "Mongolia": {
+              "long": {
+                "generic": "Isikhathi sase-Ulan Bator",
+                "standard": "Isikhathi Esimisiwe sase-Ulan Bator",
+                "daylight": "esase-Ulan Bator Summer Time"
+              }
+            },
+            "Moscow": {
+              "long": {
+                "generic": "esase-Moscow Time",
+                "standard": "esase-Moscow Standard Time",
+                "daylight": "esase-Moscow Summer Time"
+              }
+            },
+            "Myanmar": {
+              "long": {
+                "standard": "Isikhathi sase-Myanmar"
+              }
+            },
+            "Nauru": {
+              "long": {
+                "standard": "Isikhathi sase-Nauru"
+              }
+            },
+            "Nepal": {
+              "long": {
+                "standard": "Isikhathi sase-Nepal"
+              }
+            },
+            "New_Caledonia": {
+              "long": {
+                "generic": "Isikhathi sase-New Caledonia",
+                "standard": "Isikhathi esivamile sase-New Caledonia",
+                "daylight": "Isikhathi sehlobo sase-New Caledonia"
+              }
+            },
+            "New_Zealand": {
+              "long": {
+                "generic": "Isikhathi sase-New Zealand",
+                "standard": "Isikhathi esivamile sase-New Zealand",
+                "daylight": "Isikhathi sasemini sase-New Zealand"
+              }
+            },
+            "Newfoundland": {
+              "long": {
+                "generic": "esase-Newfoundland Time",
+                "standard": "esase-Newfoundland Standard Time",
+                "daylight": "esase-Newfoundland Daylight Time"
+              }
+            },
+            "Niue": {
+              "long": {
+                "standard": "Isikhathi sase-Niue"
+              }
+            },
+            "Norfolk": {
+              "long": {
+                "standard": "Isikhathi sase-Norfolk Islands"
+              }
+            },
+            "Noronha": {
+              "long": {
+                "generic": "Isikhathi sase-Fernando de Noronha",
+                "standard": "Isikhathi esimisiwe sase-Fernando de Noronha",
+                "daylight": "esase-Fernando de Noronha Summer Time"
+              }
+            },
+            "Novosibirsk": {
+              "long": {
+                "generic": "esase-Novosibirsk Time",
+                "standard": "Isikhathi Esimisiwe sase-Novosibirsk",
+                "daylight": "esase-Novosibirsk Summer Time"
+              }
+            },
+            "Omsk": {
+              "long": {
+                "generic": "esase-Omsk Time",
+                "standard": "Isikhathi Esimisiwe sase-Omsk",
+                "daylight": "esase-Omsk Summer Time"
+              }
+            },
+            "Pakistan": {
+              "long": {
+                "generic": "Isikhathi sase-Pakistan",
+                "standard": "Isikhathi esivamile sase-Pakistan",
+                "daylight": "Isikhathi sehlobo sase-Pakistan"
+              }
+            },
+            "Palau": {
+              "long": {
+                "standard": "Isikhathi sase-Palau"
+              }
+            },
+            "Papua_New_Guinea": {
+              "long": {
+                "standard": "Isikhathi sase-Papua New Guinea"
+              }
+            },
+            "Paraguay": {
+              "long": {
+                "generic": "Isikhathi sase-Paraguay",
+                "standard": "Isikhathi esivamile sase-Paraguay",
+                "daylight": "Isikhathi sehlobo sase-Paraguay"
+              }
+            },
+            "Peru": {
+              "long": {
+                "generic": "Isikhathi sase-Peru",
+                "standard": "Isikhathi esivamile sase-Peru",
+                "daylight": "Isikhathi sehlobo sase-Peru"
+              }
+            },
+            "Philippines": {
+              "long": {
+                "generic": "Isikhathi sase-Philippine",
+                "standard": "Isikhathi esivamile sase-Philippine",
+                "daylight": "Isikhathi sehlobo sase-Philippine"
+              }
+            },
+            "Phoenix_Islands": {
+              "long": {
+                "standard": "Isikhathi sase-Phoenix Islands"
+              }
+            },
+            "Pierre_Miquelon": {
+              "long": {
+                "generic": "Isikhathi sase-Saint Pierre kanye ne-Miquelon",
+                "standard": "Isikhathi esivamile sase-Saint Pierre kanye ne-Miquelon",
+                "daylight": "Isikhathi semini sase-Saint Pierre kanye ne-Miquelon"
+              }
+            },
+            "Pitcairn": {
+              "long": {
+                "standard": "Isikhathi sase-Pitcairn"
+              }
+            },
+            "Ponape": {
+              "long": {
+                "standard": "Isikhathi sase-Ponape"
+              }
+            },
+            "Reunion": {
+              "long": {
+                "standard": "Isikhathi sase-Reunion"
+              }
+            },
+            "Rothera": {
+              "long": {
+                "standard": "Isikhathi sase-Rothera"
+              }
+            },
+            "Sakhalin": {
+              "long": {
+                "generic": "esase-Sakhalin Time",
+                "standard": "Isikhathi Esimisiwe sase-Sakhalin",
+                "daylight": "esase-Sakhalin Summer Time"
+              }
+            },
+            "Samara": {
+              "long": {
+                "generic": "esase-Samara Time",
+                "standard": "esase-Samara Standard Time",
+                "daylight": "esase-Samara Summer Time"
+              }
+            },
+            "Samoa": {
+              "long": {
+                "generic": "Isikhathi sase-Samoa",
+                "standard": "Isikhathi esivamile sase-Samoa",
+                "daylight": "Isikhathi sehlobo sase-Samoa"
+              }
+            },
+            "Seychelles": {
+              "long": {
+                "standard": "Isikhathi sase-Seychelles"
+              }
+            },
+            "Singapore": {
+              "long": {
+                "standard": "Isikhathi esivamile sase-Singapore"
+              }
+            },
+            "Solomon": {
+              "long": {
+                "standard": "Isikhathi sase-Solomon Islands"
+              }
+            },
+            "South_Georgia": {
+              "long": {
+                "standard": "Isikhathi sase-South Georgia"
+              }
+            },
+            "Suriname": {
+              "long": {
+                "standard": "Isikhathi sase-Suriname"
+              }
+            },
+            "Syowa": {
+              "long": {
+                "standard": "Isikhathi sase-Syowa"
+              }
+            },
+            "Tahiti": {
+              "long": {
+                "standard": "Isikhathi sase-Tahiti"
+              }
+            },
+            "Taipei": {
+              "long": {
+                "generic": "Isikhathi sase-Taipei",
+                "standard": "Isikhathi esivamile sase-Taipei",
+                "daylight": "Isikhathi semini sase-Taipei"
+              }
+            },
+            "Tajikistan": {
+              "long": {
+                "standard": "Isikhathi sase-Tajikistan"
+              }
+            },
+            "Tokelau": {
+              "long": {
+                "standard": "Isikhathi sase-Tokelau"
+              }
+            },
+            "Tonga": {
+              "long": {
+                "generic": "Isikhathi sase-Tonga",
+                "standard": "Isikhathi esivamile sase-Tonga",
+                "daylight": "Isikhathi sehlobo sase-Tonga"
+              }
+            },
+            "Truk": {
+              "long": {
+                "standard": "Isikhathi sase-Chuuk"
+              }
+            },
+            "Turkmenistan": {
+              "long": {
+                "generic": "Isikhathi sase-Turkmenistan",
+                "standard": "Isikhathi esivamile sase-Turkmenistan",
+                "daylight": "Isikhathi sehlobo sase-Turkmenistan"
+              }
+            },
+            "Tuvalu": {
+              "long": {
+                "standard": "Isikhathi sase-Tuvalu"
+              }
+            },
+            "Uruguay": {
+              "long": {
+                "generic": "Isikhathi sase-Uruguay",
+                "standard": "Isikhathi esivamile sase-Uruguay",
+                "daylight": "Isikhathi sehlobo sase-Uruguay"
+              }
+            },
+            "Uzbekistan": {
+              "long": {
+                "generic": "Isikhathi sase-Uzbekistan",
+                "standard": "Isikhathi esivamile sase-Uzbekistan",
+                "daylight": "Isikhathi sehlobo sase-Uzbekistan"
+              }
+            },
+            "Vanuatu": {
+              "long": {
+                "generic": "Isikhathi sase-Vanuatu",
+                "standard": "Isikhathi esivamile sase-Vanuatu",
+                "daylight": "Isikhathi sehlobo sase-Vanuatu"
+              }
+            },
+            "Venezuela": {
+              "long": {
+                "standard": "Isikhathi sase-Venezuela"
+              }
+            },
+            "Vladivostok": {
+              "long": {
+                "generic": "esase-Vladivostok Time",
+                "standard": "Isikhathi Esimisiwe sase-Vladivostok",
+                "daylight": "esase-Vladivostok Summer Time"
+              }
+            },
+            "Volgograd": {
+              "long": {
+                "generic": "esase-Volgograd Time",
+                "standard": "Isikhathi Esimisiwe sase-Volgograd",
+                "daylight": "esase-Volgograd Summer Time"
+              }
+            },
+            "Vostok": {
+              "long": {
+                "standard": "Isikhathi sase-Vostok"
+              }
+            },
+            "Wake": {
+              "long": {
+                "standard": "Isikhathi sase-Wake Island"
+              }
+            },
+            "Wallis": {
+              "long": {
+                "standard": "Isikhathi sase-Wallis and Futuna"
+              }
+            },
+            "Yakutsk": {
+              "long": {
+                "generic": "esase-Yakutsk Time",
+                "standard": "Isikhathi Esimisiwe sase-Yakutsk",
+                "daylight": "esase-Yakutsk Summer Time"
+              }
+            },
+            "Yekaterinburg": {
+              "long": {
+                "generic": "esase-Yekaterinburg Time",
+                "standard": "Isikhathi Esimisiwe sase-Yekaterinburg",
+                "daylight": "esase-Yekaterinburg Summer Time"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

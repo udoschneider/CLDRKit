@@ -1,0 +1,30 @@
+{
+  "main": {
+    "sah": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9196 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-10 01:39:57 -0500 (Sat, 10 Aug 2013) $"
+        },
+        "language": "sah"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Арааптыы",
+          "Armn": "Эрмээннии",
+          "Cyrl": "Нууччалыы",
+          "Grek": "Кириэктии",
+          "Jpan": "Дьоппуоннуу",
+          "Kore": "Кэриэйдии",
+          "Latn": "Латыынныы",
+          "Thai": "Таайдыы",
+          "Zxxx": "Сурулла илик",
+          "Zzzz": "Биллибэт сурук"
+        }
+      }
+    }
+  }
+}

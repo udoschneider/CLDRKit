@@ -1,0 +1,53 @@
+{
+  "main": {
+    "bm": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bm"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "tile"
+          },
+          "year": {
+            "displayName": "san"
+          },
+          "month": {
+            "displayName": "kalo"
+          },
+          "week": {
+            "displayName": "dɔgɔkun"
+          },
+          "day": {
+            "displayName": "don",
+            "relative-type--1": "kunu",
+            "relative-type-0": "bi",
+            "relative-type-1": "sini"
+          },
+          "dayperiod": {
+            "displayName": "sɔgɔma/tile/wula/su"
+          },
+          "hour": {
+            "displayName": "lɛrɛ"
+          },
+          "minute": {
+            "displayName": "miniti"
+          },
+          "second": {
+            "displayName": "sekondi"
+          },
+          "zone": {
+            "displayName": "sigikun tilena"
+          }
+        }
+      }
+    }
+  }
+}

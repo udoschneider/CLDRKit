@@ -1,0 +1,62 @@
+{
+  "main": {
+    "fil": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fil"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "Arabic",
+          "Arab-alt-variant": "Perso-Arabic",
+          "Armn": "Armenian",
+          "Beng": "Bengali",
+          "Bopo": "Bopomofo",
+          "Brai": "Braille",
+          "Cyrl": "Cyrillic",
+          "Deva": "Devanagari",
+          "Ethi": "Ethiopic",
+          "Geor": "Georgian",
+          "Grek": "Greek",
+          "Gujr": "Gujarati",
+          "Guru": "Gurmukhi",
+          "Hang": "Hangul",
+          "Hani": "Han",
+          "Hans": "Simplified",
+          "Hans-alt-stand-alone": "Simplified Han",
+          "Hant": "Traditional",
+          "Hant-alt-stand-alone": "Traditional Han",
+          "Hebr": "Hebrew",
+          "Hira": "Hiragana",
+          "Jpan": "Japanese",
+          "Kana": "Katakana",
+          "Khmr": "Khmer",
+          "Knda": "Kannada",
+          "Kore": "Korean",
+          "Laoo": "Lao",
+          "Latn": "Latin",
+          "Mlym": "Malayalam",
+          "Mong": "Mongolian",
+          "Mymr": "Myanmar",
+          "Orya": "Oriya",
+          "Sinh": "Sinhala",
+          "Taml": "Tamil",
+          "Telu": "Telugu",
+          "Thaa": "Thaana",
+          "Thai": "Thai",
+          "Tibt": "Tibetan",
+          "Zsym": "Mga Simbolo",
+          "Zxxx": "Unwritten",
+          "Zyyy": "Common",
+          "Zzzz": "Hindi Kilalang Script"
+        }
+      }
+    }
+  }
+}

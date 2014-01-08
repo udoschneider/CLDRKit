@@ -1,0 +1,42 @@
+{
+  "main": {
+    "fa": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fa"
+      },
+      "dates": {
+        "calendars": {
+          "chinese": {
+            "cyclicNameSets": {
+              "zodiacs": {
+                "format": {
+                  "abbreviated": {
+                    "1": "موش",
+                    "2": "گاو",
+                    "3": "ببر",
+                    "4": "خرگوش",
+                    "5": "اژدها",
+                    "6": "مار",
+                    "7": "اسب",
+                    "8": "بز",
+                    "9": "میمون",
+                    "10": "خروس",
+                    "11": "سگ",
+                    "12": "خوک"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

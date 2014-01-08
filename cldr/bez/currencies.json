@@ -1,0 +1,186 @@
+{
+  "main": {
+    "bez": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "bez"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Lupila lwa Hufalme dza Huhihalabu"
+          },
+          "AOA": {
+            "displayName": "Lupila lwa Huangola"
+          },
+          "AUD": {
+            "displayName": "Lupila lwa Huaustlalia"
+          },
+          "BHD": {
+            "displayName": "Lupila lwa Hubahareni"
+          },
+          "BIF": {
+            "displayName": "Lupila lwa Huburundi"
+          },
+          "BWP": {
+            "displayName": "Lupila lwa Hubotswana"
+          },
+          "CAD": {
+            "displayName": "Lupila lwa Hukanada"
+          },
+          "CDF": {
+            "displayName": "Lupila lwa Hukongo"
+          },
+          "CHF": {
+            "displayName": "Lupila lwa Huuswisi"
+          },
+          "CNY": {
+            "displayName": "Lupila lwa Huchina"
+          },
+          "CVE": {
+            "displayName": "Lupila lwa Hukepuvede"
+          },
+          "DJF": {
+            "displayName": "Lupila lwa Hujibuti"
+          },
+          "DZD": {
+            "displayName": "Lupila lwa Hualjelia"
+          },
+          "EGP": {
+            "displayName": "Lupila lwa Humisri"
+          },
+          "ERN": {
+            "displayName": "Lupila lwa Hueritrea"
+          },
+          "ETB": {
+            "displayName": "Lupila lwa Huuhabeshi"
+          },
+          "EUR": {
+            "displayName": "Lupila lwa Yulo"
+          },
+          "GBP": {
+            "displayName": "Lupila lwa Huuingereza"
+          },
+          "GHC": {
+            "displayName": "Lupila lwa Hughana"
+          },
+          "GMD": {
+            "displayName": "Lupila lwa Hugambia"
+          },
+          "GNS": {
+            "displayName": "Lupila lwa Hujine"
+          },
+          "INR": {
+            "displayName": "Lupila lwa Huindia"
+          },
+          "JPY": {
+            "displayName": "Lupila lwa Hijapani"
+          },
+          "KES": {
+            "displayName": "Shilingi ya Hukenya"
+          },
+          "KMF": {
+            "displayName": "Lupila lwa Hukomoro"
+          },
+          "LRD": {
+            "displayName": "Lupila lwa Hulibelia"
+          },
+          "LSL": {
+            "displayName": "Lupila lwa Hulesoto"
+          },
+          "LYD": {
+            "displayName": "Lupila lwa Hulibya"
+          },
+          "MAD": {
+            "displayName": "Lupila lwa Humoloko"
+          },
+          "MGA": {
+            "displayName": "Lupila lwa Hubukini"
+          },
+          "MRO": {
+            "displayName": "Lupila lwa Humolitania"
+          },
+          "MUR": {
+            "displayName": "Lupila lwa Humolisi"
+          },
+          "MWK": {
+            "displayName": "Lupila lwa Humalawi"
+          },
+          "MZM": {
+            "displayName": "Lupila lwa Humsumbiji"
+          },
+          "NAD": {
+            "displayName": "Lupila lwa Hunamibia"
+          },
+          "NGN": {
+            "displayName": "Lupila lwa Hunijelia"
+          },
+          "RWF": {
+            "displayName": "Lupila lwa Hurwanda"
+          },
+          "SAR": {
+            "displayName": "Lupila lwa Husaudi"
+          },
+          "SCR": {
+            "displayName": "Lupila lwa Hushelisheli"
+          },
+          "SDG": {
+            "displayName": "Lupila lwa Husudani"
+          },
+          "SHP": {
+            "displayName": "Lupila lwa Husantahelena"
+          },
+          "SLL": {
+            "displayName": "Lupila lwa Lioni"
+          },
+          "SOS": {
+            "displayName": "Lupila lwa Husomalia"
+          },
+          "STD": {
+            "displayName": "Lupila lwa Husaotome na Huprinisipe"
+          },
+          "SZL": {
+            "displayName": "Lupila lwa Lilangeni"
+          },
+          "TND": {
+            "displayName": "Lupila lwa Hutunisia"
+          },
+          "TZS": {
+            "displayName": "Shilingi ya Hutanzania",
+            "symbol": "TSh"
+          },
+          "UGX": {
+            "displayName": "Shilingi ya Huuganda"
+          },
+          "USD": {
+            "displayName": "Lupila lwa Humalekani"
+          },
+          "XAF": {
+            "displayName": "Lupila lwa CFA BEAC"
+          },
+          "XOF": {
+            "displayName": "Lupila lwa CFA BCEAO"
+          },
+          "ZAR": {
+            "displayName": "Lupila lwa Huafriaka ya Hukusini"
+          },
+          "ZMK": {
+            "displayName": "Lupila lwa Huzambia (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Lupila lwa Huzambia"
+          },
+          "ZWD": {
+            "displayName": "Lupila lwa Huzimbabwe"
+          }
+        }
+      }
+    }
+  }
+}

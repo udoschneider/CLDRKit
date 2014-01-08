@@ -1,0 +1,49 @@
+{
+  "main": {
+    "bs": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9278 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-26 12:26:11 -0500 (Mon, 26 Aug 2013) $"
+        },
+        "language": "bs"
+      },
+      "localeDisplayNames": {
+        "keys": {
+          "calendar": "Kalendar",
+          "collation": "Sortiranje",
+          "currency": "Valuta"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "Budistički kalendar",
+            "chinese": "Kineski kalendar",
+            "gregorian": "Gregorijanski kalendar",
+            "hebrew": "Hebrejski kalendar",
+            "indian": "Indijski nacionalni kalendar",
+            "islamic": "Islamski kalendar",
+            "islamic-civil": "Islamski civilni kalendar",
+            "japanese": "Japanski kalendar",
+            "roc": "Kalendar Republike Kine"
+          },
+          "collation": {
+            "traditional": "Tradicionalno sortiranje",
+            "big5han": "Tradicionalno kinesko sortiranje",
+            "gb2312han": "Pojednostavljeno kinesko sortiranje",
+            "phonebook": "Sortiranje kao telefonski imenik",
+            "pinyin": "Pinjin sortiranje",
+            "stroke": "Sortiranje po broju crta"
+          }
+        },
+        "codePatterns": {
+          "language": "Jezik: {0}",
+          "script": "Skript: {0}",
+          "territory": "Region: {0}"
+        }
+      }
+    }
+  }
+}

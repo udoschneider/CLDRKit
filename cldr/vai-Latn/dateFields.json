@@ -1,0 +1,48 @@
+{
+  "main": {
+    "vai-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "vai",
+        "script": "Latn"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "displayName": "saŋ"
+          },
+          "month": {
+            "displayName": "kalo"
+          },
+          "week": {
+            "displayName": "wiki"
+          },
+          "day": {
+            "displayName": "tele",
+            "relative-type--1": "kunu",
+            "relative-type-0": "wɛlɛ",
+            "relative-type-1": "sina"
+          },
+          "weekday": {
+            "displayName": "wikiyɛma tele"
+          },
+          "hour": {
+            "displayName": "hawa"
+          },
+          "minute": {
+            "displayName": "mini"
+          },
+          "second": {
+            "displayName": "jaki-jaka"
+          }
+        }
+      }
+    }
+  }
+}

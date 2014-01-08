@@ -1,0 +1,188 @@
+{
+  "main": {
+    "dje": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "dje"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Laaraw Immaara Margantey Dirham"
+          },
+          "AOA": {
+            "displayName": "Angoola Kwanza"
+          },
+          "AUD": {
+            "displayName": "Ostraali Dollar"
+          },
+          "BHD": {
+            "displayName": "Bahareen Dinar"
+          },
+          "BIF": {
+            "displayName": "Burundi Fraŋ"
+          },
+          "BWP": {
+            "displayName": "Botswaana Pund"
+          },
+          "CAD": {
+            "displayName": "Kanaada Dollar"
+          },
+          "CDF": {
+            "displayName": "Kongo Fraŋ"
+          },
+          "CHF": {
+            "displayName": "Swisu Fraŋ"
+          },
+          "CNY": {
+            "displayName": "Sinwa Yuan Renminbi"
+          },
+          "CVE": {
+            "displayName": "Kapuver Escudo"
+          },
+          "DJF": {
+            "displayName": "Jibuuti Fraŋ"
+          },
+          "DZD": {
+            "displayName": "Alžeeri Dinar"
+          },
+          "EGP": {
+            "displayName": "Misra Pund"
+          },
+          "ERN": {
+            "displayName": "Eritree Nafka"
+          },
+          "ETB": {
+            "displayName": "Ecioopi Birr"
+          },
+          "EUR": {
+            "displayName": "Eero"
+          },
+          "GBP": {
+            "displayName": "Britin Pund"
+          },
+          "GHC": {
+            "displayName": "Gaana Šiidi"
+          },
+          "GMD": {
+            "displayName": "Gambi Dalasi"
+          },
+          "GNS": {
+            "displayName": "Ginee Fraŋ"
+          },
+          "INR": {
+            "displayName": "Indu Rupii"
+          },
+          "JPY": {
+            "displayName": "Jaapoŋ Yen"
+          },
+          "KES": {
+            "displayName": "Keeniya Šiiliŋ"
+          },
+          "KMF": {
+            "displayName": "Komoor Fraŋ"
+          },
+          "LRD": {
+            "displayName": "Liberia Dollar"
+          },
+          "LSL": {
+            "displayName": "Leezoto Loti"
+          },
+          "LYD": {
+            "displayName": "Liibi Dinar"
+          },
+          "MAD": {
+            "displayName": "Maarok Dirham"
+          },
+          "MGA": {
+            "displayName": "Malgaaši Fraŋ"
+          },
+          "MRO": {
+            "displayName": "Mooritaani Ugiya"
+          },
+          "MUR": {
+            "displayName": "Mooris Rupii"
+          },
+          "MWK": {
+            "displayName": "Malaawi Kwaca"
+          },
+          "MZM": {
+            "displayName": "Mozambik Metikal"
+          },
+          "NAD": {
+            "displayName": "Naamibi Dollar"
+          },
+          "NGN": {
+            "displayName": "Naajiriya Neera"
+          },
+          "RWF": {
+            "displayName": "Rwanda Fraŋ"
+          },
+          "SAR": {
+            "displayName": "Saudiya Riyal"
+          },
+          "SCR": {
+            "displayName": "Seešel Rupii"
+          },
+          "SDG": {
+            "displayName": "Suudaŋ Dinar"
+          },
+          "SDP": {
+            "displayName": "Suudaŋ Pund"
+          },
+          "SHP": {
+            "displayName": "Seŋ Helena Fraŋ"
+          },
+          "SLL": {
+            "displayName": "Leeon"
+          },
+          "SOS": {
+            "displayName": "Somaali Šiiliŋ"
+          },
+          "STD": {
+            "displayName": "Sao Tome nda Prinsipe Dobra"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Tunizi Dinar"
+          },
+          "TZS": {
+            "displayName": "Tanzaani Šiiliŋ"
+          },
+          "UGX": {
+            "displayName": "Uganda Šiiliŋ"
+          },
+          "USD": {
+            "displayName": "Ameriki Dollar"
+          },
+          "XAF": {
+            "displayName": "CFA Fraŋ (BEAC)"
+          },
+          "XOF": {
+            "displayName": "CFA Fraŋ (BCEAO)"
+          },
+          "ZAR": {
+            "displayName": "Hawasa Afriki Rand"
+          },
+          "ZMK": {
+            "displayName": "Zambi Kwaca (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Zambi Kwaca"
+          },
+          "ZWD": {
+            "displayName": "Zimbabwe Dollar"
+          }
+        }
+      }
+    }
+  }
+}

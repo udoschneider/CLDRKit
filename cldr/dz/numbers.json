@@ -1,0 +1,75 @@
+{
+  "main": {
+    "dz": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "dz"
+      },
+      "numbers": {
+        "defaultNumberingSystem": "tibt",
+        "otherNumberingSystems": {
+          "native": "tibt"
+        },
+        "symbols-numberSystem-latn": {
+          "decimal": ".",
+          "group": ",",
+          "list": ";",
+          "percentSign": "%",
+          "plusSign": "+",
+          "minusSign": "-",
+          "exponential": "E",
+          "perMille": "‰",
+          "infinity": "∞",
+          "nan": "NaN"
+        },
+        "symbols-numberSystem-tibt": {
+          "decimal": ".",
+          "group": ",",
+          "list": "དང་",
+          "percentSign": "%",
+          "plusSign": "+",
+          "minusSign": "-",
+          "exponential": "E",
+          "perMille": "‰",
+          "infinity": "གྲངས་མེད",
+          "nan": "ཨང་མད"
+        },
+        "decimalFormats-numberSystem-latn": {
+          "standard": "#,##,##0.###",
+          "long": {
+            "decimalFormat": {
+              "1000-count-other": "སྟོང་ཕྲག 0",
+              "10000-count-other": "ཁྲི་ཕྲག 0",
+              "100000-count-other": "འབུམ་ཕྲག 0",
+              "1000000-count-other": "ས་ཡ་ 0",
+              "10000000-count-other": "བྱེ་བ་ 0",
+              "100000000-count-other": "དུང་ཕྱུར་ 0",
+              "1000000000-count-other": "དུང་ཕྱུར་ 00",
+              "10000000000-count-other": "དུང་ཕྱུར་བརྒྱ་ 0",
+              "100000000000-count-other": "དུང་ཕྱུར་སྟོང 0",
+              "1000000000000-count-other": "དུང་ཕྱུར་ཁྲི་ 0",
+              "10000000000000-count-other": "དུང་ཕྱུར་འབུམ་ 0",
+              "100000000000000-count-other": "དུང་ཕྱུར་ས་ཡ་ 0"
+            }
+          }
+        },
+        "scientificFormats-numberSystem-latn": {
+          "standard": "#E0"
+        },
+        "percentFormats-numberSystem-latn": {
+          "standard": "#,##,##0 %"
+        },
+        "currencyFormats-numberSystem-latn": {
+          "standard": "¤#,##,##0.00",
+          "unitPattern-count-other": "{0} {1}"
+        }
+      }
+    }
+  }
+}

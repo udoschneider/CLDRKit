@@ -1,0 +1,59 @@
+{
+  "main": {
+    "bn-IN": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "bn",
+        "territory": "IN"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "quarters": {
+              "format": {
+                "abbreviated": {
+                  "1": "ত্রৈমাসিক",
+                  "2": "ষাণ্মাসিক",
+                  "4": "বার্ষিক"
+                },
+                "wide": {
+                  "1": "ত্রৈমাসিক",
+                  "2": "ষাণ্মাসিক",
+                  "3": "তৃতীয় চতুর্থাংশ",
+                  "4": "বার্ষিক"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "Q1",
+                  "2": "Q2",
+                  "3": "Q3",
+                  "4": "Q4"
+                },
+                "wide": {
+                  "1": "ত্রৈমাসিক",
+                  "2": "ষাণ্মাসিক",
+                  "3": "তৃতীয় চতুর্থাংশ",
+                  "4": "বার্ষিক"
+                }
+              }
+            },
+            "dateTimeFormats": {
+              "intervalFormats": {
+                "yMMMM": {
+                  "M": "MM – MM -y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "main": {
+    "kl": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kl"
+      },
+      "characters": {
+        "exemplarCharacters": "[a á â ã b c d e é ê f g h i í î ĩ j k l m n o ô p q ĸ r s t u ú û ũ v w x y z æ ø å]",
+        "auxiliary": "[b c d h x z æ ø å]",
+        "index": "[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å]",
+        "ellipsis": {
+          "final": "{0}…",
+          "initial": "…{0}",
+          "medial": "{0}…{1}"
+        },
+        "moreInformation": "?"
+      }
+    }
+  }
+}

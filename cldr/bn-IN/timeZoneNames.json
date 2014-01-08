@@ -1,0 +1,109 @@
+{
+  "main": {
+    "bn-IN": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "bn",
+        "territory": "IN"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "gmtZeroFormat": "গ্রীনিচ মানক সময়",
+          "metazone": {
+            "Alaska": {
+              "long": {
+                "generic": "আলাস্কার সময়",
+                "standard": "অ্যালাসকা মানক সময়",
+                "daylight": "আলাসকা দিবালোক সময়"
+              }
+            },
+            "America_Central": {
+              "long": {
+                "generic": "উত্তর আমিরিকা কেন্দ্রীয় সময়",
+                "standard": "উত্তর আমিরিকা কেন্দ্রীয় মানক সময়",
+                "daylight": "কেন্দ্রীয় দিবালোক মসয়"
+              }
+            },
+            "Cook": {
+              "long": {
+                "generic": "কুক দ্বীপপুঞ্জ সময়",
+                "standard": "কুক দ্বীপপুঞ্জ মানক সময়",
+                "daylight": "কুক দ্বীপপুঞ্জ অর্ধেক গ্রীষ্মকাল সময়"
+              }
+            },
+            "Fiji": {
+              "long": {
+                "generic": "ফিজি সময়",
+                "standard": "ফিজি মানক সময়",
+                "daylight": "ফিজি গ্রীষ্মকাল সময়"
+              }
+            },
+            "French_Southern": {
+              "long": {
+                "standard": "ফরাসি দক্ষিণ এবং আন্টার্কটিক সময়"
+              }
+            },
+            "Guyana": {
+              "long": {
+                "standard": "গুয়ানা সময়"
+              }
+            },
+            "Indian_Ocean": {
+              "long": {
+                "standard": "ভারত মহাসাগরীয় সময়"
+              }
+            },
+            "Kosrae": {
+              "long": {
+                "standard": "কোসরেই সময়"
+              }
+            },
+            "New_Zealand": {
+              "long": {
+                "generic": "নিউজিল্যান্ড সময়",
+                "standard": "নিউজিল্যান্ড মানক সময়",
+                "daylight": "নিউজিল্যান্ড দিবালোকের সময়"
+              }
+            },
+            "Papua_New_Guinea": {
+              "long": {
+                "standard": "পাপুয়া নিউগিনি সময়"
+              }
+            },
+            "Pitcairn": {
+              "long": {
+                "standard": "পিটকাইর্ন সময়"
+              }
+            },
+            "Ponape": {
+              "long": {
+                "standard": "পোনাপ সময়"
+              }
+            },
+            "Syowa": {
+              "long": {
+                "standard": "স্যোয়া সময়"
+              }
+            },
+            "Tokelau": {
+              "long": {
+                "standard": "টোকেলু সময়"
+              }
+            },
+            "Vostok": {
+              "long": {
+                "standard": "ভসটক সময়"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

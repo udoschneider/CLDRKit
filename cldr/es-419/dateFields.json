@@ -1,0 +1,72 @@
+{
+  "main": {
+    "es-419": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "es",
+        "territory": "419"
+      },
+      "dates": {
+        "fields": {
+          "year": {
+            "relative-type--1": "Año pasado",
+            "relative-type-0": "Este año",
+            "relative-type-1": "Año próximo",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} año",
+              "relativeTimePattern-count-other": "En {0} años"
+            }
+          },
+          "month": {
+            "relative-type--1": "El mes pasado",
+            "relative-type-0": "Este mes",
+            "relative-type-1": "Mes próximo",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} mes",
+              "relativeTimePattern-count-other": "En {0} meses"
+            }
+          },
+          "week": {
+            "relative-type--1": "Semana pasada",
+            "relative-type-0": "Esta semana",
+            "relative-type-1": "Próxima semana",
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} semana",
+              "relativeTimePattern-count-other": "En {0} semanas"
+            }
+          },
+          "day": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} día",
+              "relativeTimePattern-count-other": "En {0} días"
+            }
+          },
+          "hour": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} hora",
+              "relativeTimePattern-count-other": "En {0} horas"
+            }
+          },
+          "minute": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} minuto",
+              "relativeTimePattern-count-other": "En {0} minutos"
+            }
+          },
+          "second": {
+            "relativeTime-type-future": {
+              "relativeTimePattern-count-one": "En {0} segundo",
+              "relativeTimePattern-count-other": "En {0} segundos"
+            }
+          }
+        }
+      }
+    }
+  }
+}

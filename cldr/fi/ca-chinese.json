@@ -1,0 +1,48 @@
+{
+  "main": {
+    "fi": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fi"
+      },
+      "dates": {
+        "calendars": {
+          "chinese": {
+            "dateFormats": {
+              "full": "cccc d.M.y",
+              "long": "d.M.y",
+              "medium": "d.M.y",
+              "short": "d.M.y"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "H": "H",
+                "hm": "h.mm a",
+                "Hm": "H.mm",
+                "hms": "h.mm.ss a",
+                "Hms": "H.mm.ss",
+                "Md": "d.M.",
+                "MEd": "E d.M.",
+                "MMMd": "d.M.",
+                "MMMEd": "E d.M.",
+                "ms": "mm.ss",
+                "y": "y",
+                "yyyy": "y",
+                "yyyyMd": "d.M.y",
+                "yyyyMEd": "E d.M.y",
+                "yyyyMMMd": "d.M.y",
+                "yyyyMMMEd": "E d.M.y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

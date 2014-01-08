@@ -1,0 +1,56 @@
+{
+  "main": {
+    "kde": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kde"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Mahiku"
+          },
+          "year": {
+            "displayName": "Mwaka"
+          },
+          "month": {
+            "displayName": "Mwedi"
+          },
+          "week": {
+            "displayName": "Lijuma"
+          },
+          "day": {
+            "displayName": "Lihiku",
+            "relative-type--1": "Lido",
+            "relative-type-0": "Nelo",
+            "relative-type-1": "Nundu"
+          },
+          "weekday": {
+            "displayName": "Disiku dya lijuma"
+          },
+          "dayperiod": {
+            "displayName": "Muhi/Chilo"
+          },
+          "hour": {
+            "displayName": "Saa"
+          },
+          "minute": {
+            "displayName": "Dakika"
+          },
+          "second": {
+            "displayName": "Sekunde"
+          },
+          "zone": {
+            "displayName": "Npanda wa muda"
+          }
+        }
+      }
+    }
+  }
+}

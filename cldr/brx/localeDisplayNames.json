@@ -1,0 +1,51 @@
+{
+  "main": {
+    "brx": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "brx"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0},{1}"
+        },
+        "keys": {
+          "calendar": "पंचाग",
+          "collation": "वर्गीकरण",
+          "currency": "मुद्रा"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "बौद्ध पंचांग",
+            "chinese": "चीनी पंचांग",
+            "gregorian": "ग्रेगरीअन पंचांग",
+            "hebrew": "यहुदी पंचांग",
+            "islamic": "इस्लामी पंचांग",
+            "islamic-civil": "इस्लामी नागरिक पंचांग",
+            "japanese": "जापानी पंचांग",
+            "roc": "चीनी गणतंत्र पंचांग"
+          },
+          "collation": {
+            "traditional": "पारम्पारिक वर्गीकरण",
+            "big5han": "पारम्पारिक चीनी वर्गीकरण बीग फ़ाईव",
+            "gb2312han": "सरलीकृत चीनी वर्गीकरण जीबी2312",
+            "phonebook": "दूरभाष निर्देशिका वर्गीकरण",
+            "pinyin": "पिनयीन वर्गीकरण",
+            "stroke": "स्ट्रोक वर्गीकरण"
+          }
+        },
+        "codePatterns": {
+          "script": "देवनागरी: {0}",
+          "territory": "क्षेत्र:भारत {0}"
+        }
+      }
+    }
+  }
+}

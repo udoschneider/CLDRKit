@@ -1,0 +1,58 @@
+{
+  "main": {
+    "fur": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fur"
+      },
+      "localeDisplayNames": {
+        "localeDisplayPattern": {
+          "localePattern": "{0} ({1})",
+          "localeSeparator": "{0}, {1}"
+        },
+        "keys": {
+          "calendar": "calendari",
+          "collation": "ordenament",
+          "currency": "monede"
+        },
+        "types": {
+          "calendar": {
+            "buddhist": "calendari budist",
+            "chinese": "calendari cinês",
+            "gregorian": "calendari gregorian",
+            "hebrew": "calendari ebreu",
+            "indian": "calendari nazionâl indian",
+            "islamic": "calendari islamic",
+            "islamic-civil": "calendari islamic civîl",
+            "japanese": "calendari gjaponês",
+            "roc": "calendari de Republiche di Cine"
+          },
+          "collation": {
+            "traditional": "ordin tradizionâl",
+            "big5han": "ordin cinês tradizionâl - Big5",
+            "ducet": "ordenament predeterminât Unicode",
+            "gb2312han": "ordin cinês semplificât - GB2312",
+            "phonebook": "ordin elenc telefonic",
+            "pinyin": "ordin pinyin",
+            "search": "ricercje par fins gjenerâi",
+            "stroke": "ordin segns"
+          },
+          "numbers": {
+            "latn": "numars ocidentâi"
+          }
+        },
+        "codePatterns": {
+          "language": "Lenghe: {0}",
+          "script": "Scriture: {0}",
+          "territory": "Regjon: {0}"
+        }
+      }
+    }
+  }
+}

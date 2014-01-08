@@ -1,0 +1,87 @@
+{
+  "main": {
+    "os": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "os"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "gmtZeroFormat": "GMT",
+          "regionFormat": "{0} рӕстӕг",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "Europe": {
+              "Minsk": {
+                "exemplarCity": "Минск"
+              },
+              "Moscow": {
+                "exemplarCity": "Мӕскуы"
+              }
+            },
+            "Asia": {
+              "Tbilisi": {
+                "exemplarCity": "Тбилис"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Нӕзонгӕ"
+              }
+            }
+          },
+          "metazone": {
+            "Europe_Central": {
+              "long": {
+                "generic": "Астӕуккаг Европӕйаг рӕстӕг",
+                "standard": "Астӕуккаг Европӕйаг стандартон рӕстӕг",
+                "daylight": "Астӕуккаг Европӕйаг сӕрдыгон рӕстӕг"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Скӕсӕн Европӕйаг рӕстӕг",
+                "standard": "Скӕсӕн Европӕйаг стандартон рӕстӕг",
+                "daylight": "Скӕсӕн Европӕйаг сӕрдыгон рӕстӕг"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Ныгъуылӕн Европӕйаг рӕстӕг",
+                "standard": "Ныгъуылӕн Европӕйаг стандартон рӕстӕг",
+                "daylight": "Ныгъуылӕн Европӕйаг сӕрдыгон рӕстӕг"
+              }
+            },
+            "Georgia": {
+              "long": {
+                "generic": "Гуырдзыстоны рӕстӕг",
+                "standard": "Гуырдзыстоны стандартон рӕстӕг",
+                "daylight": "Гуырдзыстоны сӕрдыгон рӕстӕг"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Гринвичы рӕстӕмбис рӕстӕг"
+              }
+            },
+            "Moscow": {
+              "long": {
+                "generic": "Мӕскуыйы рӕстӕг",
+                "standard": "Мӕскуыйы стандартон рӕстӕг",
+                "daylight": "Мӕскуыйы сӕрдыгон рӕстӕг"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

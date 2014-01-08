@@ -1,0 +1,111 @@
+{
+  "main": {
+    "en-PK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "en",
+        "territory": "PK"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "dateFormats": {
+              "full": "EEEE d MMMM y",
+              "long": "d MMMM y",
+              "medium": "dd-MMM-y",
+              "short": "dd/MM/y"
+            },
+            "timeFormats": {
+              "full": "h:mm:ss a zzzz",
+              "long": "h:mm:ss a z",
+              "medium": "h:mm:ss a",
+              "short": "h:mm a"
+            },
+            "dateTimeFormats": {
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} - {1}",
+                "d": {
+                  "d": "d-d"
+                },
+                "h": {
+                  "a": "h a - h a",
+                  "h": "h-h a"
+                },
+                "hm": {
+                  "a": "h:mm a - h:mm a",
+                  "h": "h:mm-h:mm a",
+                  "m": "h:mm-h:mm a"
+                },
+                "hmv": {
+                  "a": "h:mm a - h:mm a v",
+                  "h": "h:mm-h:mm a v",
+                  "m": "h:mm-h:mm a v"
+                },
+                "hv": {
+                  "a": "h a - h a v",
+                  "h": "h-h a v"
+                },
+                "M": {
+                  "M": "M-M"
+                },
+                "Md": {
+                  "d": "M/d - M/d",
+                  "M": "M/d - M/d"
+                },
+                "MEd": {
+                  "d": "E, M/d - E, M/d",
+                  "M": "E, M/d - E, M/d"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "MMM d-d",
+                  "M": "MMM d - MMM d"
+                },
+                "MMMEd": {
+                  "d": "E, MMM d - E, MMM d",
+                  "M": "E, MMM d - E, MMM d"
+                },
+                "yM": {
+                  "M": "M/y - M/y",
+                  "y": "M/y - M/y"
+                },
+                "yMd": {
+                  "d": "M/d/y - M/d/y",
+                  "M": "M/d/y - M/d/y",
+                  "y": "M/d/y - M/d/y"
+                },
+                "yMEd": {
+                  "d": "E, M/d/y - E, M/d/y",
+                  "M": "E, M/d/y - E, M/d/y",
+                  "y": "E, M/d/y - E, M/d/y"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM y",
+                  "y": "MMM y - MMM y"
+                },
+                "yMMMd": {
+                  "d": "MMM d-d, y",
+                  "M": "MMM d - MMM d, y",
+                  "y": "MMM d, y - MMM d, y"
+                },
+                "yMMMEd": {
+                  "d": "E, MMM d - E, MMM d, y",
+                  "M": "E, MMM d - E, MMM d, y",
+                  "y": "E, MMM d, y - E, MMM d, y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

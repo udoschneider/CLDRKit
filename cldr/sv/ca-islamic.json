@@ -1,0 +1,61 @@
+{
+  "main": {
+    "sv": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sv"
+      },
+      "dates": {
+        "calendars": {
+          "islamic": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "muharram",
+                  "2": "safar",
+                  "3": "rabi’ al-awwal",
+                  "4": "rabi’ al-akhir",
+                  "5": "jumada-l-ula",
+                  "6": "jumada-l-akhira",
+                  "7": "rajab",
+                  "8": "sha’ban",
+                  "9": "ramadan",
+                  "10": "shawwal",
+                  "11": "dhu-l-ga’da",
+                  "12": "dhu-l-hijja"
+                }
+              },
+              "stand-alone": {
+                "wide": {
+                  "1": "Muharram",
+                  "2": "Safar",
+                  "3": "Rabi’ al-awwal",
+                  "4": "Rabi’ al-akhir",
+                  "5": "Jumada-l-ula",
+                  "6": "Jumada-l-akhira",
+                  "7": "Rajab",
+                  "8": "Sha’ban",
+                  "9": "Ramadan",
+                  "10": "Shawwal",
+                  "11": "Dhu-l-ga’da",
+                  "12": "Dhu-l-hijja"
+                }
+              }
+            },
+            "eras": {
+              "eraAbbr": {
+                "0": "AH"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "main": {
+    "mt": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mt"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "Jan",
+                  "2": "Fra",
+                  "3": "Mar",
+                  "4": "Apr",
+                  "5": "Mej",
+                  "6": "Ġun",
+                  "7": "Lul",
+                  "8": "Aww",
+                  "9": "Set",
+                  "10": "Ott",
+                  "11": "Nov",
+                  "12": "Diċ"
+                },
+                "wide": {
+                  "1": "Jannar",
+                  "2": "Frar",
+                  "3": "Marzu",
+                  "4": "April",
+                  "5": "Mejju",
+                  "6": "Ġunju",
+                  "7": "Lulju",
+                  "8": "Awwissu",
+                  "9": "Settembru",
+                  "10": "Ottubru",
+                  "11": "Novembru",
+                  "12": "Diċembru"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "1": "J",
+                  "2": "F",
+                  "3": "M",
+                  "4": "A",
+                  "5": "M",
+                  "6": "Ġ",
+                  "7": "L",
+                  "8": "A",
+                  "9": "S",
+                  "10": "O",
+                  "11": "N",
+                  "12": "D"
+                },
+                "wide": {
+                  "1": "Jannar",
+                  "2": "Frar",
+                  "3": "Marzu",
+                  "4": "April",
+                  "5": "Mejju",
+                  "6": "Ġunju",
+                  "7": "Lulju",
+                  "8": "Awwissu",
+                  "9": "Settembru",
+                  "10": "Ottubru",
+                  "11": "Novembru",
+                  "12": "Diċembru"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "Ħad",
+                  "mon": "Tne",
+                  "tue": "Tli",
+                  "wed": "Erb",
+                  "thu": "Ħam",
+                  "fri": "Ġim",
+                  "sat": "Sib"
+                },
+                "narrow": {
+                  "sun": "Ħ",
+                  "mon": "T",
+                  "tue": "T",
+                  "wed": "E",
+                  "thu": "Ħ",
+                  "fri": "Ġ",
+                  "sat": "S"
+                },
+                "wide": {
+                  "sun": "Il-Ħadd",
+                  "mon": "It-Tnejn",
+                  "tue": "It-Tlieta",
+                  "wed": "L-Erbgħa",
+                  "thu": "Il-Ħamis",
+                  "fri": "Il-Ġimgħa",
+                  "sat": "Is-Sibt"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "sun": "Ħ",
+                  "mon": "T",
+                  "tue": "T",
+                  "wed": "E",
+                  "thu": "Ħ",
+                  "fri": "Ġ",
+                  "sat": "S"
+                }
+              }
+            },
+            "quarters": {
+              "format": {
+                "abbreviated": {
+                  "1": "K1",
+                  "2": "K2",
+                  "3": "K3",
+                  "4": "K4"
+                },
+                "narrow": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4"
+                },
+                "wide": {
+                  "1": "K1",
+                  "2": "K2",
+                  "3": "K3",
+                  "4": "K4"
+                }
+              },
+              "stand-alone": {
+                "abbreviated": {
+                  "1": "K1",
+                  "2": "K2",
+                  "3": "K3",
+                  "4": "K4"
+                },
+                "narrow": {
+                  "1": "1",
+                  "2": "2",
+                  "3": "3",
+                  "4": "4"
+                },
+                "wide": {
+                  "1": "1el kwart",
+                  "2": "2ni kwart",
+                  "3": "3et kwart",
+                  "4": "4ba' kwart"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "QN",
+                  "pm": "WN"
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Qabel Kristu",
+                "1": "Wara Kristu"
+              },
+              "eraAbbr": {
+                "0": "QK",
+                "0-alt-variant": "QEK",
+                "1": "WK",
+                "1-alt-variant": "EK"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, d 'ta'’ MMMM y",
+              "long": "d 'ta'’ MMMM y",
+              "medium": "dd MMM y",
+              "short": "dd/MM/y"
+            },
+            "timeFormats": {
+              "full": "HH:mm:ss zzzz",
+              "long": "HH:mm:ss z",
+              "medium": "HH:mm:ss",
+              "short": "HH:mm"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "MMMMd": "d 'ta'’ MMMM",
+                "yMMMM": "MMMM 'ta'’ y"
+              },
+              "intervalFormats": {
+                "intervalFormatFallback": "{0} - {1}",
+                "d": {
+                  "d": "d-d"
+                },
+                "h": {
+                  "h": "h-h a"
+                },
+                "H": {
+                  "H": "HH-HH"
+                },
+                "hm": {
+                  "h": "h:mm-h:mm a",
+                  "m": "h:mm-h:mm a"
+                },
+                "Hm": {
+                  "H": "HH:mm-HH:mm",
+                  "m": "HH:mm-HH:mm"
+                },
+                "hmv": {
+                  "h": "h:mm-h:mm a v",
+                  "m": "h:mm-h:mm a v"
+                },
+                "Hmv": {
+                  "H": "HH:mm-HH:mm v",
+                  "m": "HH:mm-HH:mm v"
+                },
+                "hv": {
+                  "h": "h-h a v"
+                },
+                "Hv": {
+                  "H": "HH-HH v"
+                },
+                "M": {
+                  "M": "M-M"
+                },
+                "Md": {
+                  "d": "dd/MM - dd/MM",
+                  "M": "dd/MM - dd/MM"
+                },
+                "MEd": {
+                  "d": "E, dd/MM - E, dd/MM",
+                  "M": "E, dd/MM - E, dd/MM"
+                },
+                "MMM": {
+                  "M": "MMM-MMM"
+                },
+                "MMMd": {
+                  "d": "d 'ta'’-d 'ta'’ MMM",
+                  "M": "d 'ta'’ MMM - d 'ta'’ MMM"
+                },
+                "MMMEd": {
+                  "d": "E, d 'ta'’ - E, d 'ta'’ MMM",
+                  "M": "E, d 'ta'’ MMM - E, d 'ta'’ MMM"
+                },
+                "y": {
+                  "y": "y-y"
+                },
+                "yM": {
+                  "M": "MM/y - MM/y",
+                  "y": "MM/y - MM/y"
+                },
+                "yMd": {
+                  "d": "dd/MM/y - dd/MM/y",
+                  "M": "dd/MM/y - dd/MM/y",
+                  "y": "dd/MM/y - dd/MM/y"
+                },
+                "yMEd": {
+                  "d": "E, dd/MM/y - E, dd/MM/y",
+                  "M": "E, dd/MM/y - E, dd/MM/y",
+                  "y": "E, dd/MM/y - E, dd/MM/y"
+                },
+                "yMMM": {
+                  "M": "MMM-MMM y",
+                  "y": "MMM y - MMM y"
+                },
+                "yMMMd": {
+                  "d": "d 'ta'’-d 'ta'’ MMM y",
+                  "M": "d 'ta'’ MMM - d 'ta'’ MMM y",
+                  "y": "d 'ta'’ MMM y - d 'ta'’ MMM y"
+                },
+                "yMMMEd": {
+                  "d": "E, d 'ta'’ - E, d 'ta'’ MMM y",
+                  "M": "E, d 'ta'’ MMM - E, d 'ta'’ MMM y",
+                  "y": "E, d 'ta'’ MMM y - E, d 'ta'’ MMM y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

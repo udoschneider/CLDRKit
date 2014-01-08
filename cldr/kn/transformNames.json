@@ -1,0 +1,30 @@
+{
+  "main": {
+    "kn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kn"
+      },
+      "localeDisplayNames": {
+        "transformNames": {
+          "BGN": "BGN",
+          "Numeric": "ಸಂಖ್ಯೆ",
+          "Tone": "ಧ್ವನಿ",
+          "UNGEGN": "UNGEGN",
+          "x-Accents": "ಉಚ್ಚಾರಣೆಗಳು",
+          "x-Fullwidth": "ಪೂರ್ಣಅಗಲ",
+          "x-Halfwidth": "ಅರೆಅಗಲ",
+          "x-Jamo": "ಹಮೋ",
+          "x-Pinyin": "ಪಿನ್‌ಯಿನ್‌",
+          "x-Publishing": "ಪ್ರಕಟಣೆ"
+        }
+      }
+    }
+  }
+}

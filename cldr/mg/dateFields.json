@@ -1,0 +1,50 @@
+{
+  "main": {
+    "mg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mg"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Era"
+          },
+          "year": {
+            "displayName": "Taona"
+          },
+          "month": {
+            "displayName": "Volana"
+          },
+          "week": {
+            "displayName": "Herinandro"
+          },
+          "day": {
+            "displayName": "Andro",
+            "relative-type--1": "Omaly",
+            "relative-type-0": "Anio",
+            "relative-type-1": "Rahampitso"
+          },
+          "dayperiod": {
+            "displayName": "AM/PM"
+          },
+          "hour": {
+            "displayName": "Ora"
+          },
+          "minute": {
+            "displayName": "Minitra"
+          },
+          "second": {
+            "displayName": "Segondra"
+          }
+        }
+      }
+    }
+  }
+}

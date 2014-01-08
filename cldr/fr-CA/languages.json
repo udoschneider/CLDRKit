@@ -1,0 +1,33 @@
+{
+  "main": {
+    "fr-CA": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9280 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-27 13:07:13 -0500 (Tue, 27 Aug 2013) $"
+        },
+        "language": "fr",
+        "territory": "CA"
+      },
+      "localeDisplayNames": {
+        "languages": {
+          "en-GB-alt-short": "anglais (GB)",
+          "es-ES": "espagnol ibérique",
+          "fy": "frison",
+          "gu": "goudjarâtî",
+          "ps-alt-variant": "ps",
+          "pt-PT": "portugais ibérique",
+          "si": "singhalais",
+          "to": "tongan",
+          "ug": "ouïgour",
+          "ug-alt-variant": "ouïghour",
+          "und": "indéterminé",
+          "ybb": "yémba"
+        }
+      }
+    }
+  }
+}

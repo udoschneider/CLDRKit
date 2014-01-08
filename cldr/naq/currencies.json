@@ -1,0 +1,189 @@
+{
+  "main": {
+    "naq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "naq"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "United Arab Emirates Dirham"
+          },
+          "AOA": {
+            "displayName": "Angolan Kwanzab"
+          },
+          "AUD": {
+            "displayName": "Australian Dollari"
+          },
+          "BHD": {
+            "displayName": "Bahrain Dinar"
+          },
+          "BIF": {
+            "displayName": "Burundi Franc"
+          },
+          "BWP": {
+            "displayName": "Botswanan Pulab"
+          },
+          "CAD": {
+            "displayName": "Canadian Dollari"
+          },
+          "CDF": {
+            "displayName": "Congolese Franc"
+          },
+          "CHF": {
+            "displayName": "Swiss Franci"
+          },
+          "CNY": {
+            "displayName": "Chinese Yuan Renminbi"
+          },
+          "CVE": {
+            "displayName": "Escudo Caboverdiano"
+          },
+          "DJF": {
+            "displayName": "Djibouti Franc"
+          },
+          "DZD": {
+            "displayName": "Algerian Dinar"
+          },
+          "EGP": {
+            "displayName": "Egytian Ponds"
+          },
+          "ERN": {
+            "displayName": "Eritreian Nakfa"
+          },
+          "ETB": {
+            "displayName": "Ethiopian Birr"
+          },
+          "EUR": {
+            "displayName": "Eurob"
+          },
+          "GBP": {
+            "displayName": "British Ponds"
+          },
+          "GHC": {
+            "displayName": "Ghana Cedi"
+          },
+          "GMD": {
+            "displayName": "Gambia Dalasi"
+          },
+          "GNS": {
+            "displayName": "Guinea Franc"
+          },
+          "INR": {
+            "displayName": "Indian Rupee"
+          },
+          "JPY": {
+            "displayName": "Japanese Yenni"
+          },
+          "KES": {
+            "displayName": "Kenyan Shilling"
+          },
+          "KMF": {
+            "displayName": "Comorian Franc"
+          },
+          "LRD": {
+            "displayName": "Liberian Dollar"
+          },
+          "LSL": {
+            "displayName": "Lesotho Loti"
+          },
+          "LYD": {
+            "displayName": "Libyan Dinar"
+          },
+          "MAD": {
+            "displayName": "Moroccan Dirham"
+          },
+          "MGA": {
+            "displayName": "Malagasy Franc"
+          },
+          "MRO": {
+            "displayName": "Mauritania Ouguiya"
+          },
+          "MUR": {
+            "displayName": "Mauritius Rupeeb"
+          },
+          "MWK": {
+            "displayName": "Malawian Kwachab"
+          },
+          "MZM": {
+            "displayName": "Mozambique Metical"
+          },
+          "NAD": {
+            "displayName": "Namibia Dollari",
+            "symbol": "$"
+          },
+          "NGN": {
+            "displayName": "Nigerian Naira"
+          },
+          "RWF": {
+            "displayName": "Rwanda Franci"
+          },
+          "SAR": {
+            "displayName": "Saudi Riyal"
+          },
+          "SCR": {
+            "displayName": "Seychelles Rupee"
+          },
+          "SDG": {
+            "displayName": "Sudanese Dinar"
+          },
+          "SDP": {
+            "displayName": "Sudanese Ponds"
+          },
+          "SHP": {
+            "displayName": "St Helena Ponds"
+          },
+          "SLL": {
+            "displayName": "Leone"
+          },
+          "SOS": {
+            "displayName": "Somali Shillings"
+          },
+          "STD": {
+            "displayName": "Sao Tome and Principe Dobra"
+          },
+          "SZL": {
+            "displayName": "Lilangeni"
+          },
+          "TND": {
+            "displayName": "Tunisian Dinar"
+          },
+          "TZS": {
+            "displayName": "Tanzanian Shillings"
+          },
+          "UGX": {
+            "displayName": "Ugandan Shillings"
+          },
+          "USD": {
+            "displayName": "US Dollari"
+          },
+          "XAF": {
+            "displayName": "CFA Franc BEAC"
+          },
+          "XOF": {
+            "displayName": "CFA Franc BCEAO"
+          },
+          "ZAR": {
+            "displayName": "South African Randi"
+          },
+          "ZMK": {
+            "displayName": "Zambian Kwachab (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Zambian Kwachab"
+          },
+          "ZWD": {
+            "displayName": "Zimbabwe Dollari"
+          }
+        }
+      }
+    }
+  }
+}

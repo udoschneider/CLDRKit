@@ -1,0 +1,56 @@
+{
+  "main": {
+    "zgh": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zgh"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "ⵜⴰⵙⵓⵜ"
+          },
+          "year": {
+            "displayName": "ⴰⵙⴳⴳⵯⴰⵙ"
+          },
+          "month": {
+            "displayName": "ⴰⵢⵢⵓⵔ"
+          },
+          "week": {
+            "displayName": "ⵉⵎⴰⵍⴰⵙⵙ"
+          },
+          "day": {
+            "displayName": "ⴰⵙⵙ",
+            "relative-type--1": "ⵉⴹⵍⵍⵉ",
+            "relative-type-0": "ⴰⵙⵙⴰ",
+            "relative-type-1": "ⴰⵙⴽⴽⴰ"
+          },
+          "weekday": {
+            "displayName": "ⴰⵙⵙ ⴳ ⵉⵎⴰⵍⴰⵙⵙ"
+          },
+          "dayperiod": {
+            "displayName": "ⵜⵉⵣⵉ ⴳ ⵡⴰⵙⵙ: ⵜⵉⴼⴰⵡⵜ/ⵜⴰⴷⴳⴳⵯⴰⵜ"
+          },
+          "hour": {
+            "displayName": "ⵜⴰⵙⵔⴰⴳⵜ"
+          },
+          "minute": {
+            "displayName": "ⵜⵓⵙⴷⵉⴷⵜ"
+          },
+          "second": {
+            "displayName": "ⵜⴰⵙⵉⵏⵜ"
+          },
+          "zone": {
+            "displayName": "ⴰⴽⵓⴷ ⵏ ⵓⴳⵎⵎⴰⴹ"
+          }
+        }
+      }
+    }
+  }
+}

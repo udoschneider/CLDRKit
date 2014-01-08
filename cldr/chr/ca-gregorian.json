@@ -1,0 +1,208 @@
+{
+  "main": {
+    "chr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9315 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-05 11:52:00 -0500 (Thu, 05 Sep 2013) $"
+        },
+        "language": "chr"
+      },
+      "dates": {
+        "calendars": {
+          "gregorian": {
+            "months": {
+              "format": {
+                "abbreviated": {
+                  "1": "ᎤᏃ",
+                  "2": "ᎧᎦ",
+                  "3": "ᎠᏅ",
+                  "4": "ᎧᏬ",
+                  "5": "ᎠᏂ",
+                  "6": "ᏕᎭ",
+                  "7": "ᎫᏰ",
+                  "8": "ᎦᎶ",
+                  "9": "ᏚᎵ",
+                  "10": "ᏚᏂ",
+                  "11": "ᏅᏓ",
+                  "12": "ᎤᏍ"
+                },
+                "wide": {
+                  "1": "ᎤᏃᎸᏔᏅ",
+                  "2": "ᎧᎦᎵ",
+                  "3": "ᎠᏅᏱ",
+                  "4": "ᎧᏬᏂ",
+                  "5": "ᎠᏂᏍᎬᏘ",
+                  "6": "ᏕᎭᎷᏱ",
+                  "7": "ᎫᏰᏉᏂ",
+                  "8": "ᎦᎶᏂ",
+                  "9": "ᏚᎵᏍᏗ",
+                  "10": "ᏚᏂᏅᏗ",
+                  "11": "ᏅᏓᏕᏆ",
+                  "12": "ᎤᏍᎩᏱ"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "1": "Ꭴ",
+                  "2": "Ꭷ",
+                  "3": "Ꭰ",
+                  "4": "Ꭷ",
+                  "5": "Ꭰ",
+                  "6": "Ꮥ",
+                  "7": "Ꭻ",
+                  "8": "Ꭶ",
+                  "9": "Ꮪ",
+                  "10": "Ꮪ",
+                  "11": "Ꮕ",
+                  "12": "Ꭴ"
+                }
+              }
+            },
+            "days": {
+              "format": {
+                "abbreviated": {
+                  "sun": "ᏆᏍᎬ",
+                  "mon": "ᏉᏅᎯ",
+                  "tue": "ᏔᎵᏁ",
+                  "wed": "ᏦᎢᏁ",
+                  "thu": "ᏅᎩᏁ",
+                  "fri": "ᏧᎾᎩ",
+                  "sat": "ᏈᏕᎾ"
+                },
+                "wide": {
+                  "sun": "ᎤᎾᏙᏓᏆᏍᎬ",
+                  "mon": "ᎤᎾᏙᏓᏉᏅᎯ",
+                  "tue": "ᏔᎵᏁᎢᎦ",
+                  "wed": "ᏦᎢᏁᎢᎦ",
+                  "thu": "ᏅᎩᏁᎢᎦ",
+                  "fri": "ᏧᎾᎩᎶᏍᏗ",
+                  "sat": "ᎤᎾᏙᏓᏈᏕᎾ"
+                }
+              },
+              "stand-alone": {
+                "narrow": {
+                  "sun": "Ꮖ",
+                  "mon": "Ꮙ",
+                  "tue": "Ꮤ",
+                  "wed": "Ꮶ",
+                  "thu": "Ꮕ",
+                  "fri": "Ꮷ",
+                  "sat": "Ꭴ"
+                }
+              }
+            },
+            "dayPeriods": {
+              "format": {
+                "wide": {
+                  "am": "ᏌᎾᎴ",
+                  "noon": "ᎢᎦ",
+                  "pm": "ᏒᎯᏱᎢᏗᏢ"
+                }
+              }
+            },
+            "eras": {
+              "eraNames": {
+                "0": "Ꮟ ᏥᏌ ᎾᏕᎲᏍᎬᎾ",
+                "1": "ᎠᎩᏃᎮᎵᏓᏍᏗᏱ ᎠᏕᏘᏱᏍᎬ ᏱᎰᏩ ᏧᏓᏂᎸᎢᏍᏗ"
+              },
+              "eraAbbr": {
+                "0": "ᎤᏓᎷᎸ",
+                "1": "ᎤᎶᏐᏅ"
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE, MMMM d, y",
+              "long": "MMMM d, y",
+              "medium": "MMM d, y",
+              "short": "M/d/yy"
+            },
+            "timeFormats": {
+              "full": "h:mm:ss a zzzz",
+              "long": "h:mm:ss a z",
+              "medium": "h:mm:ss a",
+              "short": "h:mm a"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "Gy": "y G",
+                "GyMMM": "MMM y G",
+                "GyMMMd": "MMM d, y G",
+                "GyMMMEd": "E, MMM d, y G",
+                "hm": "h:mm a",
+                "Hm": "H:mm",
+                "hms": "h:mm:ss a",
+                "Hms": "H:mm:ss",
+                "Md": "M/d",
+                "MEd": "E, M/d",
+                "MMMd": "MMM d",
+                "yM": "M/y",
+                "yMd": "M/d/y",
+                "yMEd": "E, M/d/y",
+                "yMMM": "MMM y",
+                "yMMMd": "MMM d, y",
+                "yMMMEd": "E, MMM d, y",
+                "yMMMM": "MMMM y",
+                "yQQQ": "QQQ y",
+                "yQQQQ": "QQQQ y"
+              },
+              "intervalFormats": {
+                "Md": {
+                  "d": "M/d – M/d",
+                  "M": "M/d – M/d"
+                },
+                "MEd": {
+                  "d": "E, M/d – E, M/d",
+                  "M": "E, M/d – E, M/d"
+                },
+                "MMMd": {
+                  "d": "MMM d–d",
+                  "M": "MMM d – MMM d"
+                },
+                "MMMEd": {
+                  "d": "E, MMM d – E, MMM d",
+                  "M": "E, MMM d – E, MMM d"
+                },
+                "yM": {
+                  "M": "M/y – M/y",
+                  "y": "M/y – M/y"
+                },
+                "yMd": {
+                  "d": "M/d/y – M/d/y",
+                  "M": "M/d/y – M/d/y",
+                  "y": "M/d/y – M/d/y"
+                },
+                "yMEd": {
+                  "d": "E, M/d/y – E, M/d/y",
+                  "M": "E, M/d/y – E, M/d/y",
+                  "y": "E, M/d/y – E, M/d/y"
+                },
+                "yMMM": {
+                  "M": "MMM–MMM y",
+                  "y": "MMM y – MMM y"
+                },
+                "yMMMd": {
+                  "d": "MMM d–d, y",
+                  "M": "MMM d – MMM d, y",
+                  "y": "MMM d, y – MMM d, y"
+                },
+                "yMMMEd": {
+                  "d": "E, MMM d – E, MMM d, y",
+                  "M": "E, MMM d – E, MMM d, y",
+                  "y": "E, MMM d, y – E, MMM d, y"
+                },
+                "yMMMM": {
+                  "M": "MMMM–MMMM y",
+                  "y": "MMMM y – MMMM y"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

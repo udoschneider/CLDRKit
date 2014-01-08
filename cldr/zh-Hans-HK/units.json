@@ -1,0 +1,92 @@
+{
+  "main": {
+    "zh-Hans-HK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hans",
+        "territory": "HK"
+      },
+      "units": {
+        "long": {
+          "per": {
+            "compoundUnitPattern": "{0}/{1}"
+          },
+          "duration-second": {
+            "unitPattern-count-other": "{0}秒"
+          }
+        },
+        "short": {
+          "length-centimeter": {
+            "unitPattern-count-other": "{0}厘米"
+          },
+          "length-foot": {
+            "unitPattern-count-other": "{0}英尺"
+          },
+          "length-inch": {
+            "unitPattern-count-other": "{0}英寸"
+          },
+          "length-kilometer": {
+            "unitPattern-count-other": "{0}公里"
+          },
+          "length-light-year": {
+            "unitPattern-count-other": "{0}光年"
+          },
+          "length-meter": {
+            "unitPattern-count-other": "{0}米"
+          },
+          "length-mile": {
+            "unitPattern-count-other": "{0}英里"
+          },
+          "length-millimeter": {
+            "unitPattern-count-other": "{0}毫米"
+          },
+          "length-picometer": {
+            "unitPattern-count-other": "{0}皮米"
+          },
+          "length-yard": {
+            "unitPattern-count-other": "{0}码"
+          }
+        },
+        "narrow": {
+          "length-centimeter": {
+            "unitPattern-count-other": "{0}厘米"
+          },
+          "length-foot": {
+            "unitPattern-count-other": "{0}英尺"
+          },
+          "length-inch": {
+            "unitPattern-count-other": "{0}英寸"
+          },
+          "length-kilometer": {
+            "unitPattern-count-other": "{0}公里"
+          },
+          "length-light-year": {
+            "unitPattern-count-other": "{0}光年"
+          },
+          "length-meter": {
+            "unitPattern-count-other": "{0}米"
+          },
+          "length-mile": {
+            "unitPattern-count-other": "{0}英里"
+          },
+          "length-millimeter": {
+            "unitPattern-count-other": "{0}毫米"
+          },
+          "length-picometer": {
+            "unitPattern-count-other": "{0}皮米"
+          },
+          "length-yard": {
+            "unitPattern-count-other": "{0}码"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "main": {
+    "zh-Hans-HK": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "zh",
+        "script": "Hans",
+        "territory": "HK"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "zone": {
+            "America": {
+              "Danmarkshavn": {
+                "exemplarCity": "丹马克沙伏"
+              },
+              "Santo_Domingo": {
+                "exemplarCity": "圣多明戈"
+              },
+              "St_Barthelemy": {
+                "exemplarCity": "圣巴太累米"
+              },
+              "St_Johns": {
+                "exemplarCity": "圣约翰"
+              }
+            },
+            "Europe": {
+              "Zaporozhye": {
+                "exemplarCity": "扎波罗什"
+              }
+            },
+            "Antarctica": {
+              "DumontDUrville": {
+                "exemplarCity": "杜蒙杜威勒"
+              }
+            }
+          },
+          "metazone": {
+            "Cocos": {
+              "long": {
+                "standard": "科科斯岛时间"
+              }
+            },
+            "DumontDUrville": {
+              "long": {
+                "standard": "杜蒙特杜维尔时间"
+              }
+            },
+            "French_Southern": {
+              "long": {
+                "standard": "法属南部和南极洲时间"
+              }
+            },
+            "Gilbert_Islands": {
+              "long": {
+                "standard": "吉尔柏特群岛时间"
+              }
+            },
+            "Phoenix_Islands": {
+              "long": {
+                "standard": "凤凰岛时间"
+              }
+            },
+            "Pierre_Miquelon": {
+              "long": {
+                "generic": "圣皮埃尔和密克隆时间",
+                "standard": "圣皮埃尔和密克隆标准时间",
+                "daylight": "圣皮埃尔和密克隆夏令时间"
+              }
+            },
+            "South_Georgia": {
+              "long": {
+                "standard": "南乔治亚时间"
+              }
+            },
+            "Tahiti": {
+              "long": {
+                "standard": "大溪地时间"
+              }
+            },
+            "Truk": {
+              "long": {
+                "standard": "特鲁克时间"
+              }
+            },
+            "Tuvalu": {
+              "long": {
+                "standard": "吐瓦鲁时间"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

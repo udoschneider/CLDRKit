@@ -1,0 +1,56 @@
+{
+  "main": {
+    "agq": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "agq"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "kɨtîgh"
+          },
+          "year": {
+            "displayName": "kɨnûm"
+          },
+          "month": {
+            "displayName": "ndzɔŋ"
+          },
+          "week": {
+            "displayName": "ewɨn"
+          },
+          "day": {
+            "displayName": "utsuʔ",
+            "relative-type--1": "ā zūɛɛ",
+            "relative-type-0": "nɛ",
+            "relative-type-1": "tsʉtsʉ"
+          },
+          "weekday": {
+            "displayName": "tsuʔu mɨ̀ èwɨ̄n"
+          },
+          "dayperiod": {
+            "displayName": "â tsɨ̀"
+          },
+          "hour": {
+            "displayName": "tàm"
+          },
+          "minute": {
+            "displayName": "menè"
+          },
+          "second": {
+            "displayName": "sɛkɔ̀n"
+          },
+          "zone": {
+            "displayName": "dɨŋò kɨ enɨ̀gha"
+          }
+        }
+      }
+    }
+  }
+}

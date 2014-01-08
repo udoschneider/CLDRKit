@@ -1,0 +1,22 @@
+{
+  "main": {
+    "pa-Arab": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "pa",
+        "script": "Arab"
+      },
+      "characters": {
+        "exemplarCharacters": "[\u064F ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے]",
+        "auxiliary": "[\u200E\u200F أ ٻ ة ٺ ټ ٽ]",
+        "index": "[ء آ ؤ ئ ا ب پ ت ث ٹ ج چ ح خ د ذ ڈ ر ز ڑ ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ں ه ھ ہ و ی ے]"
+      }
+    }
+  }
+}

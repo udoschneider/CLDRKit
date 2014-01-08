@@ -1,0 +1,61 @@
+{
+  "main": {
+    "pa": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "pa"
+      },
+      "localeDisplayNames": {
+        "scripts": {
+          "Arab": "ਅਰਬੀ",
+          "Armn": "ਆਰਮੀਨੀਅਨ",
+          "Beng": "ਬੰਗਾਲੀ",
+          "Bopo": "ਬੋਪੋਮੋਫੋ",
+          "Brai": "ਬ੍ਰੇਲ",
+          "Cyrl": "ਸਿਰੀਲਿਕ",
+          "Deva": "ਦੇਵਨਾਗਰੀ",
+          "Ethi": "ਐਥਿਓਪਿਕ",
+          "Geor": "ਜਾਰਜੀਅਨ",
+          "Grek": "ਗ੍ਰੀਕ",
+          "Gujr": "ਗੁਜਰਾਤੀ",
+          "Guru": "ਗੁਰਮੁਖੀ",
+          "Hang": "ਹੰਗੁਲ",
+          "Hani": "ਹਾਨ",
+          "Hans": "ਸਰਲ ਕੀਤੀ",
+          "Hans-alt-stand-alone": "ਸਰਲ ਕੀਤੀ ਹਾਨ",
+          "Hant": "ਰਵਾਇਤੀ",
+          "Hant-alt-stand-alone": "ਰਵਾਇਤੀ ਹਾਨ",
+          "Hebr": "ਹਿਬਰੂ",
+          "Hira": "ਹਿਰਾਗਾਨਾ",
+          "Jpan": "ਜਾਪਾਨੀ",
+          "Kana": "ਕਾਟਾਕਾਨਾ",
+          "Khmr": "ਖਮੇਰ",
+          "Knda": "ਕੰਨੜ",
+          "Kore": "ਕੋਰੀਆਈ",
+          "Laoo": "ਲਾਓ",
+          "Latn": "ਲੈਟਿਨ",
+          "Mlym": "ਮਲਿਆਲਮ",
+          "Mong": "ਮੰਗੋਲੀਅਨ",
+          "Mymr": "ਮਿਆਂਮਾਰ",
+          "Orya": "ਉੜੀਆ",
+          "Sinh": "ਸਿੰਹਾਲਾ",
+          "Taml": "ਤਮਿਲ",
+          "Telu": "ਤੇਲਗੂ",
+          "Thaa": "ਥਾਨਾ",
+          "Thai": "ਥਾਈ",
+          "Tibt": "ਤਿੱਬਤੀ",
+          "Zsym": "ਪ੍ਰਤੀਕ ਲਿਪੀ",
+          "Zxxx": "ਅਲਿਖਤ",
+          "Zyyy": "ਸਧਾਰਨ",
+          "Zzzz": "ਅਗਿਆਤ ਲਿਪੀ"
+        }
+      }
+    }
+  }
+}

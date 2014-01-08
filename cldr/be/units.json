@@ -1,0 +1,62 @@
+{
+  "main": {
+    "be": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "be"
+      },
+      "units": {
+        "long": {
+          "duration-day": {
+            "unitPattern-count-one": "{0} дзень",
+            "unitPattern-count-few": "{0} дні",
+            "unitPattern-count-many": "{0} дзён",
+            "unitPattern-count-other": "{0} дня"
+          },
+          "duration-hour": {
+            "unitPattern-count-one": "{0} гадзіна",
+            "unitPattern-count-few": "{0} гадзіны",
+            "unitPattern-count-many": "{0} гадзін",
+            "unitPattern-count-other": "{0} гадзіны"
+          },
+          "duration-minute": {
+            "unitPattern-count-one": "{0} хвіліна",
+            "unitPattern-count-few": "{0} хвіліны",
+            "unitPattern-count-many": "{0} хвілін",
+            "unitPattern-count-other": "{0} хвіліны"
+          },
+          "duration-month": {
+            "unitPattern-count-one": "{0} месяц",
+            "unitPattern-count-few": "{0} месяца",
+            "unitPattern-count-many": "{0} месяцаў",
+            "unitPattern-count-other": "{0} месяца"
+          },
+          "duration-second": {
+            "unitPattern-count-one": "{0} сэкунда",
+            "unitPattern-count-few": "{0} сэкунды",
+            "unitPattern-count-many": "{0} сэкунд",
+            "unitPattern-count-other": "{0} сэкунды"
+          },
+          "duration-week": {
+            "unitPattern-count-one": "{0} тыдзень",
+            "unitPattern-count-few": "{0} тыдні",
+            "unitPattern-count-many": "{0} тыдняў",
+            "unitPattern-count-other": "{0} тыдня"
+          },
+          "duration-year": {
+            "unitPattern-count-one": "{0} год",
+            "unitPattern-count-few": "{0} гады",
+            "unitPattern-count-many": "{0} гадоў",
+            "unitPattern-count-other": "{0} году"
+          }
+        }
+      }
+    }
+  }
+}

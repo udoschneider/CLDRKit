@@ -1,0 +1,53 @@
+{
+  "main": {
+    "chr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9315 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-05 11:52:00 -0500 (Thu, 05 Sep 2013) $"
+        },
+        "language": "chr"
+      },
+      "numbers": {
+        "currencies": {
+          "BRL": {
+            "displayName": "ᏆᏏᎵᎢ ᎠᏕᎳ"
+          },
+          "CAD": {
+            "displayName": "ᎧᎾᏓ ᎠᏕᎳ"
+          },
+          "CNY": {
+            "displayName": "ᏓᎶᏂᎨ ᎠᏕᎳ"
+          },
+          "EUR": {
+            "displayName": "ᏳᎳᏛ"
+          },
+          "GBP": {
+            "displayName": "ᎩᎵᏏᏲ ᎠᏕᎳ"
+          },
+          "INR": {
+            "displayName": "ᎢᏅᏗᎾ ᎠᏕᎳ"
+          },
+          "JPY": {
+            "displayName": "ᏣᏩᏂᏏ ᎠᏕᎳ"
+          },
+          "MXN": {
+            "displayName": "ᏍᏆᏂ ᎠᏕᎳ"
+          },
+          "RUB": {
+            "displayName": "ᏲᏂᎢ ᎠᏕᎳ"
+          },
+          "USD": {
+            "displayName": "ᎤᏃᏍᏗ",
+            "displayName-count-one": "ᎤᏃᏍᏗ",
+            "displayName-count-other": "ᏧᏃᏍᏗ",
+            "symbol": "$"
+          }
+        }
+      }
+    }
+  }
+}

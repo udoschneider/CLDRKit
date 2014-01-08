@@ -1,0 +1,46 @@
+{
+  "main": {
+    "sr-Latn": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "sr",
+        "script": "Latn"
+      },
+      "dates": {
+        "calendars": {
+          "persian": {
+            "months": {
+              "format": {
+                "wide": {
+                  "1": "Faravadin",
+                  "2": "Ordibehešt",
+                  "3": "Kordad",
+                  "4": "Tir",
+                  "5": "Mordad",
+                  "6": "Šahrivar",
+                  "7": "Mehr",
+                  "8": "Aban",
+                  "9": "Azar",
+                  "10": "Dej",
+                  "11": "Bahman",
+                  "12": "Esfand"
+                }
+              }
+            },
+            "eras": {
+              "eraAbbr": {
+                "0": "AP"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

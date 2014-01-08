@@ -1,0 +1,21 @@
+{
+  "main": {
+    "mg": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "mg"
+      },
+      "characters": {
+        "exemplarCharacters": "[a à â b d e é è ê ë f g h i ì î ï j k l m n ñ o ô p r s t v y z]",
+        "auxiliary": "[c q u w x]",
+        "index": "[A B D E F G H I J K L M N O P R S T V Y Z]"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "main": {
+    "pa-Arab": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9275 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-25 22:28:21 -0500 (Sun, 25 Aug 2013) $"
+        },
+        "language": "pa",
+        "script": "Arab"
+      },
+      "dates": {
+        "calendars": {
+          "generic": {
+            "dateFormats": {
+              "full": "EEEE, dd MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d MMM y G",
+              "short": "dd/MM/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "HHmmss": "HH:mm:ss",
+                "Md": "d/M",
+                "mmss": "mm:ss",
+                "yMMM": "MMM y",
+                "yQQQ": "QQQ y"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

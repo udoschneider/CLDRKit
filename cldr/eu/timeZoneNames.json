@@ -1,0 +1,1162 @@
+{
+  "main": {
+    "eu": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "eu"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "gmtZeroFormat": "GMT",
+          "regionFormat": "{0}",
+          "regionFormat-type-daylight": "{0} (udako ordua)",
+          "regionFormat-type-standard": "{0} (ordu estandarra)",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "America": {
+              "Asuncion": {
+                "exemplarCity": "Asunción"
+              },
+              "Coral_Harbour": {
+                "exemplarCity": "Atikokan"
+              },
+              "Curacao": {
+                "exemplarCity": "Curaçao"
+              },
+              "Dominica": {
+                "exemplarCity": "Dominika"
+              },
+              "Godthab": {
+                "exemplarCity": "Nuuk"
+              },
+              "Guadeloupe": {
+                "exemplarCity": "Guadalupe"
+              },
+              "Indiana": {
+                "Vincennes": {
+                  "exemplarCity": "Vincennes, Indiana"
+                },
+                "Petersburg": {
+                  "exemplarCity": "Petersburg, Indiana"
+                },
+                "Tell_City": {
+                  "exemplarCity": "Tell City, Indiana"
+                },
+                "Knox": {
+                  "exemplarCity": "Knox, Indiana"
+                },
+                "Winamac": {
+                  "exemplarCity": "Winamac, Indiana"
+                },
+                "Marengo": {
+                  "exemplarCity": "Marengo, Indiana"
+                },
+                "Vevay": {
+                  "exemplarCity": "Vevay, Indiana"
+                }
+              },
+              "Jamaica": {
+                "exemplarCity": "Jamaika"
+              },
+              "Kentucky": {
+                "Monticello": {
+                  "exemplarCity": "Monticello, Kentucky"
+                }
+              },
+              "Lower_Princes": {
+                "exemplarCity": "Lower Prince's Quarter"
+              },
+              "Martinique": {
+                "exemplarCity": "Martinika"
+              },
+              "Mexico_City": {
+                "exemplarCity": "Mexico Hiria"
+              },
+              "Miquelon": {
+                "exemplarCity": "Mikelune"
+              },
+              "North_Dakota": {
+                "Beulah": {
+                  "exemplarCity": "Beulah, Ipar Dakota"
+                },
+                "New_Salem": {
+                  "exemplarCity": "New Salem, Ipar Dakota"
+                },
+                "Center": {
+                  "exemplarCity": "Erdialdea, Ipar Dakota"
+                }
+              },
+              "Scoresbysund": {
+                "exemplarCity": "Ittoqqortoormiit"
+              },
+              "St_Barthelemy": {
+                "exemplarCity": "Saint Barthélemy"
+              },
+              "St_Johns": {
+                "exemplarCity": "St. John's"
+              },
+              "St_Kitts": {
+                "exemplarCity": "St. Kitts"
+              },
+              "St_Lucia": {
+                "exemplarCity": "St. Lucia"
+              },
+              "St_Thomas": {
+                "exemplarCity": "St. Thomas"
+              },
+              "St_Vincent": {
+                "exemplarCity": "St. Vincent"
+              }
+            },
+            "Atlantic": {
+              "Azores": {
+                "exemplarCity": "Azoreak"
+              },
+              "Canary": {
+                "exemplarCity": "Kanariak"
+              },
+              "Cape_Verde": {
+                "exemplarCity": "Cabo Verde"
+              },
+              "Faeroe": {
+                "exemplarCity": "Faroe"
+              },
+              "St_Helena": {
+                "exemplarCity": "St. Helena"
+              }
+            },
+            "Europe": {
+              "Athens": {
+                "exemplarCity": "Atenas"
+              },
+              "Belgrade": {
+                "exemplarCity": "Belgrado"
+              },
+              "Brussels": {
+                "exemplarCity": "Brusela"
+              },
+              "Bucharest": {
+                "exemplarCity": "Bukarest"
+              },
+              "Copenhagen": {
+                "exemplarCity": "Kopenhage"
+              },
+              "Dublin": {
+                "long": {
+                  "daylight": "Dublingo udako ordua"
+                }
+              },
+              "Isle_of_Man": {
+                "exemplarCity": "Man uhartea"
+              },
+              "Lisbon": {
+                "exemplarCity": "Lisboa"
+              },
+              "London": {
+                "long": {
+                  "daylight": "Londresko udako ordua"
+                },
+                "exemplarCity": "Londres"
+              },
+              "Luxembourg": {
+                "exemplarCity": "Luxenburgo"
+              },
+              "Madrid": {
+                "exemplarCity": "Madril"
+              },
+              "Monaco": {
+                "exemplarCity": "Monako"
+              },
+              "Moscow": {
+                "exemplarCity": "Mosku"
+              },
+              "Prague": {
+                "exemplarCity": "Praga"
+              },
+              "Rome": {
+                "exemplarCity": "Erroma"
+              },
+              "Tirane": {
+                "exemplarCity": "Tirana"
+              },
+              "Vatican": {
+                "exemplarCity": "Vaticano Hiria"
+              },
+              "Vienna": {
+                "exemplarCity": "Viena"
+              },
+              "Warsaw": {
+                "exemplarCity": "Varsovia"
+              }
+            },
+            "Africa": {
+              "Addis_Ababa": {
+                "exemplarCity": "Addis Abeba"
+              },
+              "Algiers": {
+                "exemplarCity": "Aljer"
+              },
+              "Asmera": {
+                "exemplarCity": "Asmara"
+              },
+              "Cairo": {
+                "exemplarCity": "Kairo"
+              },
+              "Johannesburg": {
+                "exemplarCity": "Johannesburgo"
+              },
+              "Sao_Tome": {
+                "exemplarCity": "São Tomé"
+              }
+            },
+            "Asia": {
+              "Calcutta": {
+                "exemplarCity": "Kolkata"
+              },
+              "Damascus": {
+                "exemplarCity": "Damasko"
+              },
+              "Katmandu": {
+                "exemplarCity": "Kathmandu"
+              },
+              "Rangoon": {
+                "exemplarCity": "Rangun"
+              },
+              "Saigon": {
+                "exemplarCity": "Ho Chi Minh"
+              },
+              "Seoul": {
+                "exemplarCity": "Seul"
+              },
+              "Singapore": {
+                "exemplarCity": "Singapur"
+              },
+              "Tokyo": {
+                "exemplarCity": "Tokio"
+              },
+              "Ulaanbaatar": {
+                "exemplarCity": "Ulan Bator"
+              }
+            },
+            "Indian": {
+              "Maldives": {
+                "exemplarCity": "Maldivak"
+              },
+              "Mauritius": {
+                "exemplarCity": "Maurizio"
+              }
+            },
+            "Australia": {
+              "Adelaide": {
+                "exemplarCity": "Adelaida"
+              }
+            },
+            "Pacific": {
+              "Galapagos": {
+                "exemplarCity": "Galapagoak"
+              },
+              "Ponape": {
+                "exemplarCity": "Pohnpei"
+              },
+              "Truk": {
+                "exemplarCity": "Chuuk"
+              }
+            },
+            "Antarctica": {
+              "DumontDUrville": {
+                "exemplarCity": "Dumont d’Urville"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Hiri ezezaguna"
+              }
+            }
+          },
+          "metazone": {
+            "Afghanistan": {
+              "long": {
+                "standard": "Afganistango ordua"
+              }
+            },
+            "Africa_Central": {
+              "long": {
+                "standard": "Afrika erdialdeko ordua"
+              }
+            },
+            "Africa_Eastern": {
+              "long": {
+                "standard": "Afrika ekialdeko ordua"
+              }
+            },
+            "Africa_Southern": {
+              "long": {
+                "standard": "Afrika hegoaldeko ordua"
+              }
+            },
+            "Africa_Western": {
+              "long": {
+                "generic": "Afrika mendebaldeko ordua",
+                "standard": "Afrika mendebaldeko ordu estandarra",
+                "daylight": "Afrika mendebaldeko udako ordua"
+              }
+            },
+            "Alaska": {
+              "long": {
+                "generic": "Alaskako ordua",
+                "standard": "Alaskako ordu estandarra",
+                "daylight": "Alaskako udako ordua"
+              }
+            },
+            "Amazon": {
+              "long": {
+                "generic": "Amazoniako ordua",
+                "standard": "Amazoniako ordu estandarra",
+                "daylight": "Amazoniako udako ordua"
+              }
+            },
+            "America_Central": {
+              "long": {
+                "generic": "Ipar Amerikako erdialdeko ordua",
+                "standard": "Ipar Amerikako erdialdeko ordu estandarra",
+                "daylight": "Ipar Amerikako erdialdeko udako ordua"
+              }
+            },
+            "America_Eastern": {
+              "long": {
+                "generic": "Ipar Amerikako ekialdeko ordua",
+                "standard": "Ipar Amerikako ekialdeko ordu estandarra",
+                "daylight": "Ipar Amerikako ekialdeko udako ordua"
+              }
+            },
+            "America_Mountain": {
+              "long": {
+                "generic": "Ipar Amerikako mendialdeko ordua",
+                "standard": "Ipar Amerikako mendialdeko ordu estandarra",
+                "daylight": "Ipar Amerikako mendialdeko udako ordua"
+              }
+            },
+            "America_Pacific": {
+              "long": {
+                "generic": "Ipar Amerikako Pazifikoko ordua",
+                "standard": "Ipar Amerikako Pazifikoko ordu estandarra",
+                "daylight": "Ipar Amerikako Pazifikoko udako ordua"
+              }
+            },
+            "Anadyr": {
+              "long": {
+                "generic": "Anadyrreko ordua",
+                "standard": "Anadyrreko ordu estandarra",
+                "daylight": "Anadyrreko udako ordua"
+              }
+            },
+            "Arabian": {
+              "long": {
+                "generic": "Arabiako ordua",
+                "standard": "Arabiako ordu estandarra",
+                "daylight": "Arabiako udako ordua"
+              }
+            },
+            "Argentina": {
+              "long": {
+                "generic": "Argentinako ordua",
+                "standard": "Argentinako ordu estandarra",
+                "daylight": "Argentinako udako ordua"
+              }
+            },
+            "Argentina_Western": {
+              "long": {
+                "generic": "Argentina mendebaldeko ordua",
+                "standard": "Argentina mendebaldeko ordu estandarra",
+                "daylight": "Argentina mendebaldeko udako ordua"
+              }
+            },
+            "Armenia": {
+              "long": {
+                "generic": "Armeniako ordua",
+                "standard": "Armeniako ordu estandarra",
+                "daylight": "Armeniako udako ordua"
+              }
+            },
+            "Atlantic": {
+              "long": {
+                "generic": "Atlantikoko ordua",
+                "standard": "Atlantikoko ordu estandarra",
+                "daylight": "Atlantikoko udako ordua"
+              }
+            },
+            "Australia_Central": {
+              "long": {
+                "generic": "Australia erdialdeko ordua",
+                "standard": "Australia erdialdeko ordu estandarra",
+                "daylight": "Australia erdialdeko udako ordua"
+              }
+            },
+            "Australia_CentralWestern": {
+              "long": {
+                "generic": "Australia erdi-mendebaldeko ordua",
+                "standard": "Australia erdi-mendebaldeko ordu estandarra",
+                "daylight": "Australia erdi-mendebaldeko udako ordua"
+              }
+            },
+            "Australia_Eastern": {
+              "long": {
+                "generic": "Australia ekialdeko ordua",
+                "standard": "Australia ekialdeko ordu estandarra",
+                "daylight": "Australia ekialdeko udako ordua"
+              }
+            },
+            "Australia_Western": {
+              "long": {
+                "generic": "Australia mendebaldeko ordua",
+                "standard": "Australia mendebaldeko ordu estandarra",
+                "daylight": "Australia mendebaldeko udako ordua"
+              }
+            },
+            "Azerbaijan": {
+              "long": {
+                "generic": "Azerbaijango ordua",
+                "standard": "Azerbaijango ordu estandarra",
+                "daylight": "Azerbaijango udako ordua"
+              }
+            },
+            "Azores": {
+              "long": {
+                "generic": "Azoreetako ordua",
+                "standard": "Azoreetako ordu estandarra",
+                "daylight": "Azoreetako udako ordua"
+              }
+            },
+            "Bangladesh": {
+              "long": {
+                "generic": "Bangladesheko ordua",
+                "standard": "Bangladesheko ordu estandarra",
+                "daylight": "Bangladesheko udako ordua"
+              }
+            },
+            "Bhutan": {
+              "long": {
+                "standard": "Bhutango ordua"
+              }
+            },
+            "Bolivia": {
+              "long": {
+                "standard": "Boliviako ordua"
+              }
+            },
+            "Brasilia": {
+              "long": {
+                "generic": "Brasiliako ordua",
+                "standard": "Brasiliako ordu estandarra",
+                "daylight": "Brasiliako udako ordua"
+              }
+            },
+            "Brunei": {
+              "long": {
+                "standard": "Brunei Darussalamgo ordua"
+              }
+            },
+            "Cape_Verde": {
+              "long": {
+                "generic": "Cabo Verdeko ordua",
+                "standard": "Cabo Verdeko ordu estandarra",
+                "daylight": "Cabo Verdeko udako ordua"
+              }
+            },
+            "Chamorro": {
+              "long": {
+                "standard": "Chamorroko ordu estandarra"
+              }
+            },
+            "Chatham": {
+              "long": {
+                "generic": "Chathamgo ordua",
+                "standard": "Chathamgo ordu estandarra",
+                "daylight": "Chathamgo udako ordua"
+              }
+            },
+            "Chile": {
+              "long": {
+                "generic": "Txileko ordua",
+                "standard": "Txileko ordu estandarra",
+                "daylight": "Txileko udako ordua"
+              }
+            },
+            "China": {
+              "long": {
+                "generic": "Txinako ordua",
+                "standard": "Txinako ordu estandarra",
+                "daylight": "Txinako udako ordua"
+              }
+            },
+            "Choibalsan": {
+              "long": {
+                "generic": "Choibalsango ordua",
+                "standard": "Choibalsango ordu estandarra",
+                "daylight": "Choibalsango udako ordua"
+              }
+            },
+            "Christmas": {
+              "long": {
+                "standard": "Christmas uharteko ordua"
+              }
+            },
+            "Cocos": {
+              "long": {
+                "standard": "Cocos uharteetako ordua"
+              }
+            },
+            "Colombia": {
+              "long": {
+                "generic": "Kolonbiako ordua",
+                "standard": "Kolonbiako ordu estandarra",
+                "daylight": "Kolonbiako udako ordua"
+              }
+            },
+            "Cook": {
+              "long": {
+                "generic": "Cook uharteetako ordua",
+                "standard": "Cook uharteetako ordu estandarra",
+                "daylight": "Cook uharteetako uda erdialdeko ordua"
+              }
+            },
+            "Cuba": {
+              "long": {
+                "generic": "Kubako ordua",
+                "standard": "Kubako ordu estandarra",
+                "daylight": "Kubako udako ordua"
+              }
+            },
+            "Davis": {
+              "long": {
+                "standard": "Daviseko ordua"
+              }
+            },
+            "DumontDUrville": {
+              "long": {
+                "standard": "Dumont-d'Urvilleko ordua"
+              }
+            },
+            "East_Timor": {
+              "long": {
+                "standard": "Ekialdeko Timorreko ordua"
+              }
+            },
+            "Easter": {
+              "long": {
+                "generic": "Pazko uharteko ordua",
+                "standard": "Pazko uharteko ordu estandarra",
+                "daylight": "Pazko uharteko udako ordua"
+              }
+            },
+            "Ecuador": {
+              "long": {
+                "standard": "Ekuadorreko ordua"
+              }
+            },
+            "Europe_Central": {
+              "long": {
+                "generic": "Europa erdialdeko ordua",
+                "standard": "Europa erdialdeko ordu estandarra",
+                "daylight": "Europa erdialdeko udako ordua"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Europa ekialdeko ordua",
+                "standard": "Europa ekialdeko ordu estandarra",
+                "daylight": "Europa ekialdeko udako ordua"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Europa mendebaldeko ordua",
+                "standard": "Europa mendebaldeko ordu estandarra",
+                "daylight": "Europa mendebaldeko udako ordua"
+              }
+            },
+            "Falkland": {
+              "long": {
+                "generic": "Falkland uharteetako ordua",
+                "standard": "Falkland uharteetako ordu estandarra",
+                "daylight": "Falkland uharteetako udako ordua"
+              }
+            },
+            "Fiji": {
+              "long": {
+                "generic": "Fijiko ordua",
+                "standard": "Fijiko ordu estandarra",
+                "daylight": "Fijiko udako ordua"
+              }
+            },
+            "French_Guiana": {
+              "long": {
+                "standard": "Guyana Frantseseko ordua"
+              }
+            },
+            "French_Southern": {
+              "long": {
+                "standard": "Frantziaren lurralde austral eta antartikoetako ordua"
+              }
+            },
+            "Galapagos": {
+              "long": {
+                "standard": "Galapagoetako ordua"
+              }
+            },
+            "Gambier": {
+              "long": {
+                "standard": "Gambierreko ordua"
+              }
+            },
+            "Georgia": {
+              "long": {
+                "generic": "Georgiako ordua",
+                "standard": "Georgiako ordu estandarra",
+                "daylight": "Georgiako udako ordua"
+              }
+            },
+            "Gilbert_Islands": {
+              "long": {
+                "standard": "Gilbert uharteetako ordua"
+              }
+            },
+            "GMT": {
+              "long": {
+                "standard": "Greenwich meridianoko ordua"
+              },
+              "short": {
+                "standard": "GMT"
+              }
+            },
+            "Greenland_Eastern": {
+              "long": {
+                "generic": "Groenlandia ekialdeko ordua",
+                "standard": "Groenlandia ekialdeko ordu estandarra",
+                "daylight": "Groenlandia ekialdeko udako ordua"
+              }
+            },
+            "Greenland_Western": {
+              "long": {
+                "generic": "Groenlandia mendebaldeko ordua",
+                "standard": "Groenlandia mendebaldeko ordu estandarra",
+                "daylight": "Groenlandia mendebaldeko udako ordua"
+              }
+            },
+            "Gulf": {
+              "long": {
+                "standard": "Golkoko ordu estandarra"
+              }
+            },
+            "Guyana": {
+              "long": {
+                "standard": "Guyanako ordua"
+              }
+            },
+            "Hawaii_Aleutian": {
+              "long": {
+                "generic": "Hawaii-Aleutiar uharteetako ordua",
+                "standard": "Hawaii-Aleutiar uharteetako ordu estandarra",
+                "daylight": "Hawaii-Aleutiar uharteetako udako ordua"
+              }
+            },
+            "Hong_Kong": {
+              "long": {
+                "generic": "Hong Kongo ordua",
+                "standard": "Hong Kongo ordu estandarra",
+                "daylight": "Hong Kongo udako ordua"
+              }
+            },
+            "Hovd": {
+              "long": {
+                "generic": "Hovdeko ordua",
+                "standard": "Hovdeko ordu estandarra",
+                "daylight": "Hovdeko udako ordua"
+              }
+            },
+            "India": {
+              "long": {
+                "standard": "Indiako ordua"
+              }
+            },
+            "Indian_Ocean": {
+              "long": {
+                "standard": "Ozeano Indikoko ordua"
+              }
+            },
+            "Indochina": {
+              "long": {
+                "standard": "Indotxinako ordua"
+              }
+            },
+            "Indonesia_Central": {
+              "long": {
+                "standard": "Indonesia erdialdeko ordua"
+              }
+            },
+            "Indonesia_Eastern": {
+              "long": {
+                "standard": "Indonesia ekialdeko ordua"
+              }
+            },
+            "Indonesia_Western": {
+              "long": {
+                "standard": "Indonesia mendebaldeko ordua"
+              }
+            },
+            "Iran": {
+              "long": {
+                "generic": "Irango ordua",
+                "standard": "Irango ordu estandarra",
+                "daylight": "Irango udako ordua"
+              }
+            },
+            "Irkutsk": {
+              "long": {
+                "generic": "Irkutskeko ordua",
+                "standard": "Irkutskeko ordu estandarra",
+                "daylight": "Irkutskeko udako ordua"
+              }
+            },
+            "Israel": {
+              "long": {
+                "generic": "Israelgo ordua",
+                "standard": "Israelgo ordu estandarra",
+                "daylight": "Israelgo udako ordua"
+              }
+            },
+            "Japan": {
+              "long": {
+                "generic": "Japoniako ordua",
+                "standard": "Japoniako ordu estandarra",
+                "daylight": "Japoniako udako ordua"
+              }
+            },
+            "Kamchatka": {
+              "long": {
+                "generic": "Petropavlovsk-Kamchatskiko ordua",
+                "standard": "Petropavlovsk-Kamchatskiko ordu estandarra",
+                "daylight": "Petropavlovsk-Kamchatskiko udako ordua"
+              }
+            },
+            "Kazakhstan_Eastern": {
+              "long": {
+                "standard": "Kazakhstan ekialdeko ordua"
+              }
+            },
+            "Kazakhstan_Western": {
+              "long": {
+                "standard": "Kazakhstan mendebaldeko ordua"
+              }
+            },
+            "Korea": {
+              "long": {
+                "generic": "Koreako ordua",
+                "standard": "Koreako ordu estandarra",
+                "daylight": "Koreako udako ordua"
+              }
+            },
+            "Kosrae": {
+              "long": {
+                "standard": "Kosraeko ordua"
+              }
+            },
+            "Krasnoyarsk": {
+              "long": {
+                "generic": "Krasnoyarskeko ordua",
+                "standard": "Krasnoyarskeko ordu estandarra",
+                "daylight": "Krasnoyarskeko udako ordua"
+              }
+            },
+            "Kyrgystan": {
+              "long": {
+                "standard": "Kirgizistango ordua"
+              }
+            },
+            "Line_Islands": {
+              "long": {
+                "standard": "Line uharteetako ordua"
+              }
+            },
+            "Lord_Howe": {
+              "long": {
+                "generic": "Lord Howeko ordua",
+                "standard": "Lord Howeko ordu estandarra",
+                "daylight": "Lord Howeko udako ordua"
+              }
+            },
+            "Macquarie": {
+              "long": {
+                "standard": "Macquarie uharteko ordua"
+              }
+            },
+            "Magadan": {
+              "long": {
+                "generic": "Magadako ordua",
+                "standard": "Magadango ordu estandarra",
+                "daylight": "Magadango udako ordua"
+              }
+            },
+            "Malaysia": {
+              "long": {
+                "standard": "Malaysiako ordua"
+              }
+            },
+            "Maldives": {
+              "long": {
+                "standard": "Maldivetako ordua"
+              }
+            },
+            "Marquesas": {
+              "long": {
+                "standard": "Markesetako ordua"
+              }
+            },
+            "Marshall_Islands": {
+              "long": {
+                "standard": "Marshall uharteetako ordua"
+              }
+            },
+            "Mauritius": {
+              "long": {
+                "generic": "Maurizioko ordua",
+                "standard": "Maurizioko ordu estandarra",
+                "daylight": "Maurizioko udako ordua"
+              }
+            },
+            "Mawson": {
+              "long": {
+                "standard": "Mawsoneko ordua"
+              }
+            },
+            "Mongolia": {
+              "long": {
+                "generic": "Ulan Batorreko ordua",
+                "standard": "Ulan Batorreko ordu estandarra",
+                "daylight": "Ulan Batorreko udako ordua"
+              }
+            },
+            "Moscow": {
+              "long": {
+                "generic": "Moskuko ordua",
+                "standard": "Moskuko ordu estandarra",
+                "daylight": "Moskuko udako ordua"
+              }
+            },
+            "Myanmar": {
+              "long": {
+                "standard": "Myanmarreko ordua"
+              }
+            },
+            "Nauru": {
+              "long": {
+                "standard": "Nauruko ordua"
+              }
+            },
+            "Nepal": {
+              "long": {
+                "standard": "Nepalgo ordua"
+              }
+            },
+            "New_Caledonia": {
+              "long": {
+                "generic": "Kaledonia Berriako ordua",
+                "standard": "Kaledonia Berriko ordu estandarra",
+                "daylight": "Kaledonia Berriko udako ordua"
+              }
+            },
+            "New_Zealand": {
+              "long": {
+                "generic": "Zeelanda Berriko ordua",
+                "standard": "Zeelanda Berriko ordu estandarra",
+                "daylight": "Zeelanda Berriko udako ordua"
+              }
+            },
+            "Newfoundland": {
+              "long": {
+                "generic": "Ternuako ordua",
+                "standard": "Ternuako ordu estandarra",
+                "daylight": "Ternuako udako ordua"
+              }
+            },
+            "Niue": {
+              "long": {
+                "standard": "Niueko ordua"
+              }
+            },
+            "Norfolk": {
+              "long": {
+                "standard": "Norfolk uharteetako ordua"
+              }
+            },
+            "Noronha": {
+              "long": {
+                "generic": "Fernando de Noronhako ordua",
+                "standard": "Fernando de Noronhako ordu estandarra",
+                "daylight": "Fernando de Noronhako udako ordua"
+              }
+            },
+            "Novosibirsk": {
+              "long": {
+                "generic": "Novosibirskeko ordua",
+                "standard": "Novosibirskeko ordu estandarra",
+                "daylight": "Novosibirskeko udako ordua"
+              }
+            },
+            "Omsk": {
+              "long": {
+                "generic": "Omskeko ordua",
+                "standard": "Omskeko ordu estandarra",
+                "daylight": "Omskeko udako ordua"
+              }
+            },
+            "Pakistan": {
+              "long": {
+                "generic": "Pakistango ordua",
+                "standard": "Pakistango ordu estandarra",
+                "daylight": "Pakistango udako ordua"
+              }
+            },
+            "Palau": {
+              "long": {
+                "standard": "Palauko ordua"
+              }
+            },
+            "Papua_New_Guinea": {
+              "long": {
+                "standard": "Papua Ginea Berriko ordua"
+              }
+            },
+            "Paraguay": {
+              "long": {
+                "generic": "Paraguayko ordua",
+                "standard": "Paraguayko ordu estandarra",
+                "daylight": "Paraguayko udako ordua"
+              }
+            },
+            "Peru": {
+              "long": {
+                "generic": "Peruko ordua",
+                "standard": "Peruko ordu estandarra",
+                "daylight": "Peruko udako ordua"
+              }
+            },
+            "Philippines": {
+              "long": {
+                "generic": "Filipinetako ordua",
+                "standard": "Filipinetako ordu estandarra",
+                "daylight": "Filipinetako udako ordua"
+              }
+            },
+            "Phoenix_Islands": {
+              "long": {
+                "standard": "Phoenix uharteetako ordua"
+              }
+            },
+            "Pierre_Miquelon": {
+              "long": {
+                "generic": "Saint-Pierre eta Mikeluneko ordua",
+                "standard": "Saint-Pierre eta Mikeluneko ordu estandarra",
+                "daylight": "Saint-Pierre eta Mikeluneko udako ordua"
+              }
+            },
+            "Pitcairn": {
+              "long": {
+                "standard": "Pitcairneko ordua"
+              }
+            },
+            "Ponape": {
+              "long": {
+                "standard": "Ponapeko ordua"
+              }
+            },
+            "Reunion": {
+              "long": {
+                "standard": "Reunion uharteetako ordua"
+              }
+            },
+            "Rothera": {
+              "long": {
+                "standard": "Rotherako ordua"
+              }
+            },
+            "Sakhalin": {
+              "long": {
+                "generic": "Sakhalingo ordua",
+                "standard": "Sakhalingo ordu estandarra",
+                "daylight": "Sakhalingo udako ordua"
+              }
+            },
+            "Samara": {
+              "long": {
+                "generic": "Samarako ordua",
+                "standard": "Samarako ordu estandarra",
+                "daylight": "Samarako udako ordua"
+              }
+            },
+            "Samoa": {
+              "long": {
+                "generic": "Samoako ordua",
+                "standard": "Samoako ordu estandarra",
+                "daylight": "Samoako udako ordua"
+              }
+            },
+            "Seychelles": {
+              "long": {
+                "standard": "Seychelle uharteetako ordua"
+              }
+            },
+            "Singapore": {
+              "long": {
+                "standard": "Singapurreko ordu estandarra"
+              }
+            },
+            "Solomon": {
+              "long": {
+                "standard": "Salomon uharteetako ordua"
+              }
+            },
+            "South_Georgia": {
+              "long": {
+                "standard": "Hego Georgiako ordua"
+              }
+            },
+            "Suriname": {
+              "long": {
+                "standard": "Surinamgo ordua"
+              }
+            },
+            "Syowa": {
+              "long": {
+                "standard": "Syowako ordua"
+              }
+            },
+            "Tahiti": {
+              "long": {
+                "standard": "Tahitiko ordua"
+              }
+            },
+            "Taipei": {
+              "long": {
+                "generic": "Taipeiko ordua",
+                "standard": "Taipeiko ordu estandarra",
+                "daylight": "Taipeiko udako ordua"
+              }
+            },
+            "Tajikistan": {
+              "long": {
+                "standard": "Tadjikistango ordua"
+              }
+            },
+            "Tokelau": {
+              "long": {
+                "standard": "Tokelauko ordua"
+              }
+            },
+            "Tonga": {
+              "long": {
+                "generic": "Tongako ordua",
+                "standard": "Tongako ordu estandarra",
+                "daylight": "Tongako udako ordua"
+              }
+            },
+            "Truk": {
+              "long": {
+                "standard": "Chuukeko ordua"
+              }
+            },
+            "Turkmenistan": {
+              "long": {
+                "generic": "Turkmenistango ordua",
+                "standard": "Turkmenistango ordu estandarra",
+                "daylight": "Turkmenistango udako ordua"
+              }
+            },
+            "Tuvalu": {
+              "long": {
+                "standard": "Tuvaluko ordua"
+              }
+            },
+            "Uruguay": {
+              "long": {
+                "generic": "Uruguayko ordua",
+                "standard": "Uruguayko ordu estandarra",
+                "daylight": "Uruguayko udako ordua"
+              }
+            },
+            "Uzbekistan": {
+              "long": {
+                "generic": "Uzbekistango ordua",
+                "standard": "Uzbekistango ordu estandarra",
+                "daylight": "Uzbekistango udako ordua"
+              }
+            },
+            "Vanuatu": {
+              "long": {
+                "generic": "Vanuatuko ordua",
+                "standard": "Vanuatuko ordu estandarra",
+                "daylight": "Vanuatuko udako ordua"
+              }
+            },
+            "Venezuela": {
+              "long": {
+                "standard": "Venezuelako ordua"
+              }
+            },
+            "Vladivostok": {
+              "long": {
+                "generic": "Vladivostokeko ordua",
+                "standard": "Vladivostokeko ordu estandarra",
+                "daylight": "Vladivostokeko udako ordua"
+              }
+            },
+            "Volgograd": {
+              "long": {
+                "generic": "Volgogradeko ordua",
+                "standard": "Volgogradeko ordu estandarra",
+                "daylight": "Volgogradeko udako ordua"
+              }
+            },
+            "Vostok": {
+              "long": {
+                "standard": "Vostokeko ordua"
+              }
+            },
+            "Wake": {
+              "long": {
+                "standard": "Wake uharteko ordua"
+              }
+            },
+            "Wallis": {
+              "long": {
+                "standard": "Wallis eta Futunako ordua"
+              }
+            },
+            "Yakutsk": {
+              "long": {
+                "generic": "Yakutskeko ordua",
+                "standard": "Yakutskeko ordu estandarra",
+                "daylight": "Yakutskeko udako ordua"
+              }
+            },
+            "Yekaterinburg": {
+              "long": {
+                "generic": "Yekaterinburgeko ordua",
+                "standard": "Jekaterinburgeko ordu estandarra",
+                "daylight": "Yekaterinburgeko udako ordua"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "main": {
+    "fr": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9310 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 17:31:00 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "fr"
+      },
+      "dates": {
+        "calendars": {
+          "buddhist": {
+            "eras": {
+              "eraNames": {
+                "0": "ère bouddhiste"
+              },
+              "eraAbbr": {
+                "0": "ère b."
+              },
+              "eraNarrow": {
+                "0": "E.B."
+              }
+            },
+            "dateFormats": {
+              "full": "EEEE d MMMM y G",
+              "long": "d MMMM y G",
+              "medium": "d MMM y G",
+              "short": "dd/MM/y GGGGG"
+            },
+            "dateTimeFormats": {
+              "availableFormats": {
+                "d": "d",
+                "M": "L",
+                "Md": "d/M",
+                "MEd": "E d/M",
+                "MMM": "LLL",
+                "MMMd": "d MMM",
+                "MMMEd": "E d MMM",
+                "y": "y G"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

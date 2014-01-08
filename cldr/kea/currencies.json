@@ -1,0 +1,263 @@
+{
+  "main": {
+    "kea": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "kea"
+      },
+      "numbers": {
+        "currencies": {
+          "AED": {
+            "displayName": "Diren di Emiradus Arabi Unidu"
+          },
+          "AOA": {
+            "displayName": "Kuanza"
+          },
+          "AUD": {
+            "displayName": "Dola australianu",
+            "symbol": "AU$"
+          },
+          "BHD": {
+            "displayName": "Dinar di Barain"
+          },
+          "BIF": {
+            "displayName": "Franku borundes"
+          },
+          "BRL": {
+            "displayName": "Rial brazileru",
+            "symbol": "R$"
+          },
+          "BWP": {
+            "displayName": "Pula di Botsuana"
+          },
+          "CAD": {
+            "displayName": "Dola kanadianu",
+            "symbol": "CA$"
+          },
+          "CDF": {
+            "displayName": "Franku kongoles"
+          },
+          "CHF": {
+            "displayName": "Franku suisu"
+          },
+          "CNY": {
+            "displayName": "Iuan xines",
+            "symbol": "CN¥"
+          },
+          "CVE": {
+            "pattern": "#,##0.00 ¤",
+            "displayName": "Skudu Kabuverdianu",
+            "decimal": "$",
+            "group": ","
+          },
+          "DJF": {
+            "displayName": "Franku di Djibuti"
+          },
+          "DKK": {
+            "displayName": "Kuroa dinamarkeza"
+          },
+          "DZD": {
+            "displayName": "Dinar arjelinu"
+          },
+          "EGP": {
+            "displayName": "Libra ejipsiu"
+          },
+          "ERN": {
+            "displayName": "Nafka di Eritreia"
+          },
+          "ETB": {
+            "displayName": "Bir etiopi"
+          },
+          "EUR": {
+            "displayName": "Euro",
+            "symbol": "€"
+          },
+          "GBP": {
+            "displayName": "Libra sterlina britaniku",
+            "symbol": "£"
+          },
+          "GHC": {
+            "displayName": "Sedi di Gana"
+          },
+          "GMD": {
+            "displayName": "Dalasi"
+          },
+          "GNS": {
+            "displayName": "Sili"
+          },
+          "HKD": {
+            "displayName": "Dola di Ong Kong",
+            "symbol": "HK$"
+          },
+          "IDR": {
+            "displayName": "Rupia indoneziu"
+          },
+          "ILS": {
+            "symbol": "₪"
+          },
+          "INR": {
+            "displayName": "Rupia indianu",
+            "symbol": "₹"
+          },
+          "JPY": {
+            "displayName": "Ieni japones",
+            "symbol": "JP¥"
+          },
+          "KES": {
+            "displayName": "Xelin kenianu"
+          },
+          "KMF": {
+            "displayName": "Franku di Komoris"
+          },
+          "KRW": {
+            "displayName": "Won sul-koreanu",
+            "symbol": "₩"
+          },
+          "LRD": {
+            "displayName": "Dola liberianu"
+          },
+          "LSL": {
+            "displayName": "Loti di Lezotu"
+          },
+          "LYD": {
+            "displayName": "Dinar libiu"
+          },
+          "MAD": {
+            "displayName": "Diren marokinu"
+          },
+          "MGA": {
+            "displayName": "Ariari di Madagaskar"
+          },
+          "MRO": {
+            "displayName": "Ougia"
+          },
+          "MUR": {
+            "displayName": "Rupia di Maurisias"
+          },
+          "MWK": {
+            "displayName": "Kuaxa di Malaui"
+          },
+          "MXN": {
+            "displayName": "Pezu mexikanu",
+            "symbol": "MX$"
+          },
+          "MZM": {
+            "displayName": "Metikal"
+          },
+          "NAD": {
+            "displayName": "Dola namibianu"
+          },
+          "NGN": {
+            "displayName": "Naira"
+          },
+          "NOK": {
+            "displayName": "Kuroa norueges"
+          },
+          "NZD": {
+            "symbol": "NZ$"
+          },
+          "PLN": {
+            "displayName": "Zloty polaku"
+          },
+          "RUB": {
+            "displayName": "Rublu rusu"
+          },
+          "RWF": {
+            "displayName": "Franku ruandes"
+          },
+          "SAR": {
+            "displayName": "Rial saudita"
+          },
+          "SCR": {
+            "displayName": "Rupia di Seixelis"
+          },
+          "SDG": {
+            "displayName": "Libra sudanes"
+          },
+          "SDP": {
+            "displayName": "Libra sudanes antigu"
+          },
+          "SEK": {
+            "displayName": "Kuroa sueku"
+          },
+          "SHP": {
+            "displayName": "Libra di Santa Ilena"
+          },
+          "SLL": {
+            "displayName": "Leone di Sera Leoa"
+          },
+          "SOS": {
+            "displayName": "Xelin somalianu"
+          },
+          "STD": {
+            "displayName": "Dobra di Sãu Tume i Prinsipi"
+          },
+          "SZL": {
+            "displayName": "Lilanjeni"
+          },
+          "THB": {
+            "displayName": "Baht tailandes",
+            "symbol": "฿"
+          },
+          "TND": {
+            "displayName": "Dinar tunizianu"
+          },
+          "TRY": {
+            "displayName": "Lira turku"
+          },
+          "TWD": {
+            "displayName": "Dola Novu di Taiwan",
+            "symbol": "NT$"
+          },
+          "TZS": {
+            "displayName": "Xelin di Tanzania"
+          },
+          "UGX": {
+            "displayName": "Xelin ugandensi"
+          },
+          "USD": {
+            "displayName": "Dola merkanu",
+            "symbol": "US$"
+          },
+          "VND": {
+            "symbol": "₫"
+          },
+          "XAF": {
+            "displayName": "Franku CFA BEAC",
+            "symbol": "FCFA"
+          },
+          "XCD": {
+            "symbol": "EC$"
+          },
+          "XOF": {
+            "displayName": "Franku CFA BCEAO"
+          },
+          "XPF": {
+            "symbol": "CFPF"
+          },
+          "XXX": {
+            "displayName": "Mueda diskonxedu"
+          },
+          "ZAR": {
+            "displayName": "Rand sulafrikanu"
+          },
+          "ZMK": {
+            "displayName": "Kuaxa zambianu (1968–2012)"
+          },
+          "ZMW": {
+            "displayName": "Kuaxa zambianu"
+          },
+          "ZWD": {
+            "displayName": "Dola di Zimbabue"
+          }
+        }
+      }
+    }
+  }
+}

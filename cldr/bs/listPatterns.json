@@ -1,0 +1,22 @@
+{
+  "main": {
+    "bs": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9278 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-26 12:26:11 -0500 (Mon, 26 Aug 2013) $"
+        },
+        "language": "bs"
+      },
+      "listPatterns": {
+        "listPattern-type-standard": {
+          "end": "{0} i {1}",
+          "2": "{0} i {1}"
+        }
+      }
+    }
+  }
+}

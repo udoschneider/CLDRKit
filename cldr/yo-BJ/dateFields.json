@@ -1,0 +1,59 @@
+{
+  "main": {
+    "yo-BJ": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9309 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-09-04 16:34:15 -0500 (Wed, 04 Sep 2013) $"
+        },
+        "language": "yo",
+        "territory": "BJ"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Ìgbà"
+          },
+          "year": {
+            "displayName": "Ɔdún"
+          },
+          "month": {
+            "displayName": "Osù"
+          },
+          "week": {
+            "displayName": "Ɔ̀sè"
+          },
+          "day": {
+            "displayName": "Ɔjɔ́",
+            "relative-type--2": "íjɛta",
+            "relative-type--1": "Àná",
+            "relative-type-0": "Òní",
+            "relative-type-1": "Ɔ̀la",
+            "relative-type-2": "òtúùnla"
+          },
+          "weekday": {
+            "displayName": "Ɔjɔ́ Ɔ̀sɛ̀"
+          },
+          "dayperiod": {
+            "displayName": "Àárɔ̀/ɔ̀sán"
+          },
+          "hour": {
+            "displayName": "wákàtí"
+          },
+          "minute": {
+            "displayName": "Ìsɛ́jú"
+          },
+          "second": {
+            "displayName": "Ìsɛ́jú Ààyá"
+          },
+          "zone": {
+            "displayName": "Ibi Àkókò Àgbáyé"
+          }
+        }
+      }
+    }
+  }
+}

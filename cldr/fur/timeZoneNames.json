@@ -1,0 +1,125 @@
+{
+  "main": {
+    "fur": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "fur"
+      },
+      "dates": {
+        "timeZoneNames": {
+          "hourFormat": "+HH:mm;-HH:mm",
+          "gmtFormat": "GMT{0}",
+          "fallbackFormat": "{1} ({0})",
+          "zone": {
+            "America": {
+              "New_York": {
+                "exemplarCity": "Gnove York"
+              },
+              "Sao_Paulo": {
+                "exemplarCity": "San Pauli dal Brasîl"
+              }
+            },
+            "Atlantic": {
+              "Azores": {
+                "exemplarCity": "Azoris"
+              },
+              "Canary": {
+                "exemplarCity": "Canariis"
+              }
+            },
+            "Europe": {
+              "Belgrade": {
+                "exemplarCity": "Belgrât"
+              },
+              "Lisbon": {
+                "exemplarCity": "Lisbone"
+              },
+              "Ljubljana": {
+                "exemplarCity": "Lubiane"
+              },
+              "Luxembourg": {
+                "exemplarCity": "Lussemburc"
+              },
+              "Malta": {
+                "exemplarCity": "Malte"
+              },
+              "Moscow": {
+                "exemplarCity": "Mosche"
+              },
+              "Prague": {
+                "exemplarCity": "Praghe"
+              },
+              "San_Marino": {
+                "exemplarCity": "San Marin"
+              },
+              "Vienna": {
+                "exemplarCity": "Viene"
+              }
+            },
+            "Etc": {
+              "Unknown": {
+                "exemplarCity": "Citât no cognossude"
+              }
+            }
+          },
+          "metazone": {
+            "Europe_Central": {
+              "long": {
+                "generic": "Ore de Europe centrâl",
+                "standard": "Ore standard de Europe centrâl",
+                "daylight": "Ore estive de Europe centrâl"
+              },
+              "short": {
+                "generic": "CET",
+                "standard": "CET",
+                "daylight": "CEST"
+              }
+            },
+            "Europe_Eastern": {
+              "long": {
+                "generic": "Ore de Europe orientâl",
+                "standard": "Ore standard de Europe orientâl",
+                "daylight": "Ore estive de Europe orientâl"
+              },
+              "short": {
+                "generic": "EET",
+                "standard": "EET",
+                "daylight": "EEST"
+              }
+            },
+            "Europe_Western": {
+              "long": {
+                "generic": "Ore de Europe ocidentâl",
+                "standard": "Ore standard de Europe ocidentâl",
+                "daylight": "Ore estive de Europe ocidentâl"
+              },
+              "short": {
+                "generic": "WET",
+                "standard": "WET",
+                "daylight": "WEST"
+              }
+            },
+            "GMT": {
+              "short": {
+                "standard": "GMT"
+              }
+            },
+            "Moscow": {
+              "long": {
+                "generic": "Ore di Mosche",
+                "standard": "Ore standard di Mosche",
+                "daylight": "Ore estive di Mosche"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

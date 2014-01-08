@@ -1,0 +1,56 @@
+{
+  "main": {
+    "ig": {
+      "identity": {
+        "version": {
+          "_cldrVersion": "24",
+          "_number": "$Revision: 9287 $"
+        },
+        "generation": {
+          "_date": "$Date: 2013-08-28 21:32:04 -0500 (Wed, 28 Aug 2013) $"
+        },
+        "language": "ig"
+      },
+      "dates": {
+        "fields": {
+          "era": {
+            "displayName": "Agba"
+          },
+          "year": {
+            "displayName": "Afọ"
+          },
+          "month": {
+            "displayName": "Ọnwa"
+          },
+          "week": {
+            "displayName": "Izu"
+          },
+          "day": {
+            "displayName": "Ụbọchị",
+            "relative-type--1": "Nnyaafụ",
+            "relative-type-0": "Taata",
+            "relative-type-1": "Echi"
+          },
+          "weekday": {
+            "displayName": "Ụbọchị izu"
+          },
+          "dayperiod": {
+            "displayName": "N'ụtụtụ/N'anyasị"
+          },
+          "hour": {
+            "displayName": "Elekere"
+          },
+          "minute": {
+            "displayName": "Nkeji"
+          },
+          "second": {
+            "displayName": "Nkejinta"
+          },
+          "zone": {
+            "displayName": "Mpaghara oge"
+          }
+        }
+      }
+    }
+  }
+}
