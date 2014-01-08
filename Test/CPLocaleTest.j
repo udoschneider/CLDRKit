@@ -58,21 +58,61 @@
 	})];
 }
 
-- (void)testSimpleKeys
+- (void)testCPLocaleIdentifier
 {
-	var locale;
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
 	[self assert:@"de_DE" equals:[locale objectForKey:CPLocaleIdentifier]];
+}
+
+- (void)testCPLocaleLanguageCode
+{
+	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
 	[self assert:@"de" equals:[locale objectForKey:CPLocaleLanguageCode]];
+}
+
+- (void)testCPLocaleCountryCode
+{
+	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
 	[self assert:@"DE" equals:[locale objectForKey:CPLocaleCountryCode]];
+}
 
-	locale = [CPLocale localeWithLocaleIdentifier:@"es_Dsrt_ES_PREEURO"];
+- (void)testCPLocaleScriptCode
+{
+	var locale = [CPLocale localeWithLocaleIdentifier:@"es_Dsrt_ES_PREEURO"];
 	[self assert:@"Dsrt" equals:[locale objectForKey:CPLocaleScriptCode]];
-	[self assert:@"PREEURO" equals:[locale objectForKey:CPLocaleVariantCode]];
+}
 
-	locale = [CPLocale localeWithLocaleIdentifier:@"it"];
+- (void)testCPLocaleVariantCode
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"es_Dsrt_ES_PREEURO"];
+	[self assert:@"PREEURO" equals:[locale objectForKey:CPLocaleVariantCode]];
+}
+
+- (void)testCPLocaleExemplarCharacterSet
+{
+	var locale = [CPLocale localeWithLocaleIdentifier:@"it"];
 	// Not sure if brackets and space are part of the character set
 	[self assert:[CPCharacterSet characterSetWithCharactersInString:@"[a à b c d e é è f g h i ì j k l m n o ó ò p q r s t u ù v w x y z]"] equals:[locale objectForKey:CPLocaleExemplarCharacterSet]];
 }
+
+- (void)testCPLocaleCalendar
+{
+	// TODO: CPLocaleCalendar - unsure how to find the "default" calendar for a given locale
+}
+
+- (void)testCPLocaleCollationIdentifier
+{
+	// TODO: CPLocaleCollationIdentifier
+}
+
+
+- (void)testCPLocaleUsesMetricSystem
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	[self assertTrue:[locale objectForKey:CPLocaleUsesMetricSystem]];
+
+	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+	[self assertFalse:[locale objectForKey:CPLocaleUsesMetricSystem]];
+}
+
 @end

@@ -93,6 +93,12 @@
 	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier];
 	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"characters.exemplarCharacters"]] forKey:CPLocaleExemplarCharacterSet];
 
+	// http://stackoverflow.com/questions/14038491/how-do-i-know-the-measurement-units-corresponding-to-a-given-locale
+	if (aLocaleIdentifier.match(/.*_(MM|LR|US|UK|GB).*/))
+		[additionalData setObject:NO forKey:CPLocaleUsesMetricSystem];
+	else
+		[additionalData setObject:YES forKey:CPLocaleUsesMetricSystem];
+
 	return additionalData;
 }
 
