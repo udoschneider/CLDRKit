@@ -36,11 +36,11 @@
 	usLocale = [CPLocale localeWithLocaleIdentifier:@"en_US"];
 }
 
-- (void)__DisplayNameForKeyValue
+- (void)testDisplayNameForKeyValue
 {
 	var frLocale = [[CPLocale alloc] initWithLocaleIdentifier:@"fr_FR"];
-	[self assert:[frLocale displayNameForKey:CPLocaleIdentifier value:@"fr_FR"] equals:@"français (France)"];
-	[self assert:[frLocale displayNameForKey:CPLocaleIdentifier value:@"en_US"] equals:@"anglais (États-Unis)"]
+	[self assert:@"français (France)" equals: [frLocale displayNameForKey:CPLocaleIdentifier value:@"fr_FR"]];
+	[self assert:@"anglais (États-Unis)" equals: [frLocale displayNameForKey:CPLocaleIdentifier value:@"en_US"]]
 }
 
 - (void)testAvailableLocaleIdentifiers

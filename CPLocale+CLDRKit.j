@@ -140,4 +140,29 @@
 	return additionalData;
 }
 
+- (CPString)displayNameForKey:(id)key value:(id)value
+{
+	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:[self localeIdentifier]];
+	if (key == CPLocaleIdentifier)
+	{
+		var localeComponents = [CPLocale componentsFromLocaleIdentifier:value],
+			language = [[cldrData valueForKeyPath:@"localeDisplayNames.languages"] objectForKey:[localeComponents objectForKey:CPLocaleLanguageCode]],
+			territory = [[cldrData valueForKeyPath:@"localeDisplayNames.territories"] objectForKey:[localeComponents objectForKey:CPLocaleCountryCode]],
+			localePattern = [CPString stringWithCLDRReplacementVariables:[cldrData valueForKeyPath:@"localeDisplayNames.localeDisplayPattern.localePattern"]];
+		return [CPString stringWithFormat:localePattern, language, territory];
+	}
+}
+
+@end
+
+@implementation CPString (CLDRKit)
+
++ (CPString)stringWithCLDRReplacementVariables:(CPString)string
+{
+	var result = string;
+	for (var position = 0; position < 10; position++)
+		result = result.replace(new RegExp("\\\{" + position + "\\\}"), "%" + (position + 1) + "$@");
+	return result;
+}
+
 @end
