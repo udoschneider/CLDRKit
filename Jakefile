@@ -202,7 +202,7 @@ task ("cldr", function()
 
     FILE.list(CLDR_SRC_DIR).forEach(function (locale){
 
-        if (locale != "suplemental" && locale == "root" || locale.match(rootRegExp) || locale.match(availableRegExp))
+        if (locale != "supplemental" && (locale == "root" || locale.match(rootRegExp) || locale.match(availableRegExp)))
         {
             var localeData;
             FILE.list(FILE.join(CLDR_SRC_DIR, locale)).forEach(function (file){
@@ -261,10 +261,7 @@ task ("cldr", function()
                 if (localeIdentifier == "en")
                 {
                     for (var key in localeData["main"][localeIdentifier]["localeDisplayNames"]["territories"])
-                    {
                         countryCodes = countryCodes.concat(key);
-                    }
-                    colorPrint("countryCodes: " + countryCodes, "bold+green");
                 }
             }
         }
@@ -279,6 +276,17 @@ task ("cldr", function()
     root["rootLocales"] = rootLocales;
     root["availableLocales"] = availableLocales;
     root["countryCodes"] = countryCodes;
+
+    var supplementalData;
+    FILE.list(FILE.join(CLDR_SRC_DIR, "supplemental")).forEach(function (file){
+            var filename = FILE.join(CLDR_SRC_DIR, "supplemental", file),
+                contents = FILE.read(filename, "b"),
+                stringContents = contents.decodeToString("utf-8"),
+                json = JSON.parse(stringContents);
+            supplementalData = mergeRecursive((supplementalData || {}), json);
+    });
+    root["supplemental"] = supplementalData["supplemental"];
+
     storeLocale(root, "root");
     colorPrint("--------------------------------------------------------------------------", "bold+green");
 
