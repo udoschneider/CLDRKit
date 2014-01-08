@@ -141,4 +141,9 @@
 	// TODO: CPLocaleCurrencySymbol
 }
 
+- (void)testCPLocaleCurrencyCode
+{
+	// TODO: CPLocaleCurrencyCode
+}
+
 @end

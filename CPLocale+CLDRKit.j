@@ -121,6 +121,8 @@
 
 	// TODO: CPLocaleCurrencySymbol - need to import suplemental data
 
+	// TODO: CPLocaleCurrencyCode
+
 	return additionalData;
 }
 
