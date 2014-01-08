@@ -123,6 +123,7 @@
 
 	// TODO: CPLocaleCurrencyCode
 
+	// TODO: CPLocaleCollatorIdentifier
 	return additionalData;
 }
 

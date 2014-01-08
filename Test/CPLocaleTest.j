@@ -146,4 +146,9 @@
 	// TODO: CPLocaleCurrencyCode
 }
 
+- (void)testCPLocaleCollatorIdentifier
+{
+	// TODO: CPLocaleCollatorIdentifier
+}
+
 @end
