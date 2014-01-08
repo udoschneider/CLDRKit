@@ -8,6 +8,6 @@ MY_CLASSPATH=${CLDR_TOOLS_FOLDER}/java/classes:${ICU4J_FOLDER}/main/tests/framew
 
 MAIN_CLASS=org.unicode.cldr.json.Ldml2JsonConverter
 
-# ./Ldml2JsonConverter -d cldr -t main -r false
-# ./Ldml2JsonConverter -d cldr -t suplemental -r false
+# ./Ldml2JsonConverter -d cldr -t main -r false -l modern
+# ./Ldml2JsonConverter -d cldr -t supplemental -r false -l modern
 java -cp ${MY_CLASSPATH} ${MAIN_CLASS} $* 
