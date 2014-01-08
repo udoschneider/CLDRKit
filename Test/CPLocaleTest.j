@@ -151,4 +151,16 @@
 	// TODO: CPLocaleCollatorIdentifier
 }
 
+- (void)testCPLocaleQuotationBeginDelimiterKey
+{
+	[self assert:@"„" equals:[germanLocale objectForKey:CPLocaleQuotationBeginDelimiterKey]];
+	[self assert:@"“" equals:[usLocale objectForKey:CPLocaleQuotationBeginDelimiterKey]];
+}
+
+- (void)testCPLocaleQuotationEndDelimiterKey
+{
+	[self assert:@"“" equals:[germanLocale objectForKey:CPLocaleQuotationEndDelimiterKey]];
+	[self assert:@"”" equals:[usLocale objectForKey:CPLocaleQuotationEndDelimiterKey]];
+}
+
 @end

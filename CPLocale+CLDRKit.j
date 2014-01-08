@@ -124,6 +124,13 @@
 	// TODO: CPLocaleCurrencyCode
 
 	// TODO: CPLocaleCollatorIdentifier
+
+	// CPLocaleQuotationBeginDelimiterKey
+	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.quotationStart"] forKey:CPLocaleQuotationBeginDelimiterKey];
+
+	// CPLocaleQuotationEndDelimiterKey
+	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.quotationEnd"] forKey:CPLocaleQuotationEndDelimiterKey];
+
 	return additionalData;
 }
 
