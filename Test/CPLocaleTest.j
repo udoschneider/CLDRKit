@@ -141,4 +141,13 @@
 	[self assert:@"," equals:[locale objectForKey:CPLocaleGroupingSeparator]];
 }
 
+- (void)testCPLocaleCurrencySymbol
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	// [self assert:@"€" equals:[locale objectForKey:CPLocaleCurrencySymbol]];
+
+	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+	// [self assert:@"$" equals:[locale objectForKey:CPLocaleCurrencySymbol]];
+}
+
 @end

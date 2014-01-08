@@ -119,6 +119,8 @@
 	// CPLocaleGroupingSeparator
 	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.group"] forKey:CPLocaleGroupingSeparator];
 
+	// TODO: CPLocaleCurrencySymbol - need to import suplemental data
+
 	return additionalData;
 }
 
