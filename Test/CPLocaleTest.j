@@ -25,6 +25,16 @@
 @import "../CLDRKit.j"
 
 @implementation CPLocaleTest : OJTestCase
+{
+	CPLocale	germanLocale;
+	CPLocale	usLocale;
+}
+
+- (void)setUp
+{
+	germanLocale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	usLocale = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+}
 
 - (void)__DisplayNameForKeyValue
 {
@@ -60,20 +70,17 @@
 
 - (void)testCPLocaleIdentifier
 {
-	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"de_DE" equals:[locale objectForKey:CPLocaleIdentifier]];
+	[self assert:@"de_DE" equals:[germanLocale objectForKey:CPLocaleIdentifier]];
 }
 
 - (void)testCPLocaleLanguageCode
 {
-	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"de" equals:[locale objectForKey:CPLocaleLanguageCode]];
+	[self assert:@"de" equals:[germanLocale objectForKey:CPLocaleLanguageCode]];
 }
 
 - (void)testCPLocaleCountryCode
 {
-	var locale = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"DE" equals:[locale objectForKey:CPLocaleCountryCode]];
+	[self assert:@"DE" equals:[germanLocale objectForKey:CPLocaleCountryCode]];
 }
 
 - (void)testCPLocaleScriptCode
@@ -107,47 +114,31 @@
 
 - (void)testCPLocaleUsesMetricSystem
 {
-	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assertTrue:[locale objectForKey:CPLocaleUsesMetricSystem]];
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
-	[self assertFalse:[locale objectForKey:CPLocaleUsesMetricSystem]];
+	[self assertTrue:[germanLocale objectForKey:CPLocaleUsesMetricSystem]];
+	[self assertFalse:[usLocale objectForKey:CPLocaleUsesMetricSystem]];
 }
 
 - (void)testCPLocaleMeasurementSystem
 {
-	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"Metric" equals:[locale objectForKey:CPLocaleMeasurementSystem]];
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
-	[self assert:@"U.S." equals:[locale objectForKey:CPLocaleMeasurementSystem]];
+	[self assert:@"Metric" equals:[germanLocale objectForKey:CPLocaleMeasurementSystem]];
+	[self assert:@"U.S." equals:[usLocale objectForKey:CPLocaleMeasurementSystem]];
 }
 
 - (void)testCPLocaleDecimalSeparator
 {
-	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"," equals:[locale objectForKey:CPLocaleDecimalSeparator]];
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
-	[self assert:@"." equals:[locale objectForKey:CPLocaleDecimalSeparator]];
+	[self assert:@"," equals:[germanLocale objectForKey:CPLocaleDecimalSeparator]];
+	[self assert:@"." equals:[usLocale objectForKey:CPLocaleDecimalSeparator]];
 }
 
 - (void)testCPLocaleGroupingSeparator
 {
-	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	[self assert:@"." equals:[locale objectForKey:CPLocaleGroupingSeparator]];
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
-	[self assert:@"," equals:[locale objectForKey:CPLocaleGroupingSeparator]];
+	[self assert:@"." equals:[germanLocale objectForKey:CPLocaleGroupingSeparator]];
+	[self assert:@"," equals:[usLocale objectForKey:CPLocaleGroupingSeparator]];
 }
 
 - (void)testCPLocaleCurrencySymbol
 {
-	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
-	// [self assert:@"€" equals:[locale objectForKey:CPLocaleCurrencySymbol]];
-
-	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
-	// [self assert:@"$" equals:[locale objectForKey:CPLocaleCurrencySymbol]];
+	// TODO: CPLocaleCurrencySymbol
 }
 
 @end
