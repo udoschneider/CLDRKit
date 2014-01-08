@@ -123,4 +123,13 @@
 	[self assert:@"U.S." equals:[locale objectForKey:CPLocaleMeasurementSystem]];
 }
 
+- (void)testCPLocaleDecimalSeparator
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	[self assert:@"," equals:[locale objectForKey:CPLocaleDecimalSeparator]];
+
+	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+	[self assert:@"." equals:[locale objectForKey:CPLocaleDecimalSeparator]];
+}
+
 @end

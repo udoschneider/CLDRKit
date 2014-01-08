@@ -117,7 +117,7 @@ var frameworkTask = framework (productName, function(frameworkTask)
 
 var  CLDR_SRC_DIR = "cldr",
      CLDR_DST_DIR = "Resources/locales",
-     CLDR_ROOT_LOCALES = [ "de.*", "en.*", , "es.*", "fr.*"],
+     CLDR_ROOT_LOCALES = [ ],
      CLDR_AVAILABLE_LOCALES = [".*"];
 
 task ("debug", function()

@@ -87,16 +87,20 @@
 + (void)_platformLocaleAdditionalDescriptionForIdentifier:(CPString)aLocaleIdentifier
 {
 	var additionalData = [CPMutableDictionary dictionary];
-		components = [self componentsFromLocaleIdentifier:aLocaleIdentifier];
+		components = [self componentsFromLocaleIdentifier:aLocaleIdentifier],
+		cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier];
+
 	[additionalData addEntriesFromDictionary:components];
 
-	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier];
+
+	// CPLocaleExemplarCharacterSet
 	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"characters.exemplarCharacters"]] forKey:CPLocaleExemplarCharacterSet];
 
 	// TODO: CPLocaleCalendar - unsure how to find the "default" calendar for a given locale
 
 	// TODO: CPLocaleCollationIdentifier
 
+	// CPLocaleUsesMetricSystem & CPLocaleMeasurementSystem
 	// http://stackoverflow.com/questions/14038491/how-do-i-know-the-measurement-units-corresponding-to-a-given-locale
 	if (aLocaleIdentifier.match(/.*_(MM|LR|US).*/))
 	{
@@ -108,6 +112,9 @@
 		[additionalData setObject:YES forKey:CPLocaleUsesMetricSystem];
 		[additionalData setObject:@"Metric" forKey:CPLocaleMeasurementSystem];
 	}
+
+	// CPLocaleDecimalSeparator
+	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.decimal"] forKey:CPLocaleDecimalSeparator];
 
 	return additionalData;
 }
