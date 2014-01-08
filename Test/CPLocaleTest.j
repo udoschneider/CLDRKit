@@ -132,4 +132,13 @@
 	[self assert:@"." equals:[locale objectForKey:CPLocaleDecimalSeparator]];
 }
 
+- (void)testCPLocaleGroupingSeparator
+{
+	var locale  = [CPLocale localeWithLocaleIdentifier:@"de_DE"];
+	[self assert:@"." equals:[locale objectForKey:CPLocaleGroupingSeparator]];
+
+	locale  = [CPLocale localeWithLocaleIdentifier:@"en_US"];
+	[self assert:@"," equals:[locale objectForKey:CPLocaleGroupingSeparator]];
+}
+
 @end

@@ -116,6 +116,9 @@
 	// CPLocaleDecimalSeparator
 	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.decimal"] forKey:CPLocaleDecimalSeparator];
 
+	// CPLocaleGroupingSeparator
+	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.group"] forKey:CPLocaleGroupingSeparator];
+
 	return additionalData;
 }
 
