@@ -95,6 +95,17 @@
 	// CPLocaleExemplarCharacterSet
 	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"_CPLocaleExemplarCharacterSetString"]] forKey:CPLocaleExemplarCharacterSet];
 
+	var countries = [[CLDRDatabase sharedDatabase] countries],
+		country = [components objectForKey:CPLocaleCountryCode];
+	// print("countries = " + [countries description]);
+	print("aLocaleIdentifier = " + aLocaleIdentifier);
+	print("country = " + [country description]);
+	print("data = " + [[countries objectForKey:country] description]);
+	// CPLocaleCurrencySymbol
+
+	// CPLocaleCurrencyCode
+	[additionalData setObject:[[countries objectForKey:country] objectForKey:CPLocaleCurrencyCode] forKey:CPLocaleCurrencyCode];
+
 	// print([additionalData description]);
 	return additionalData;
 }

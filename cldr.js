@@ -10,7 +10,7 @@ var  CLDR_SRC_DIR = "cldr",
      	locales:{},
      	available:[],
      	languages:[],
-     	// countries:{},
+     	countries:{},
      };
 
 CPLocaleIdentifier                          = "CPLocaleIdentifier";
@@ -56,7 +56,7 @@ var createCPLocalePropertyLists = function() {
 	storeLocale("DEBUG", CLDRData); // Debug
 	for(var localeIdentifier in CLDRData.main)
 		transformCldrLocaleToCPLocale(localeIdentifier);
-    // fillCountryData();
+    fillCountryData();
 	print(CFType(CPLocaleData));
 	storeLocale("initial", CPLocaleData);
 };
@@ -101,7 +101,7 @@ var transformCldrLocaleToCPLocale = function(localeIdentifier) {
 	if (temp = identityData.territory)
 	{
 		cpLocale[CPLocaleCountryCode] = temp;
-		// CPLocaleData.countries[temp] = {}; // unique(CPLocaleData.countries.concat(temp));
+		CPLocaleData.countries[temp] = {}; // unique(CPLocaleData.countries.concat(temp));
 	}
 
 	if (temp = identityData.script)

@@ -144,14 +144,14 @@
 
 - (void)testCPLocaleCurrencySymbol
 {
-	//[self assert:@"€" equals:[germanLocale objectForKey:CPLocaleCurrencySymbol]];
-	//[self assert:@"$" equals:[usLocale objectForKey:CPLocaleCurrencySymbol]];
+	[self assert:@"€" equals:[germanLocale objectForKey:CPLocaleCurrencySymbol]];
+	[self assert:@"$" equals:[usLocale objectForKey:CPLocaleCurrencySymbol]];
 }
 
 - (void)testCPLocaleCurrencyCode
 {
-	//[self assert:@"EUR" equals:[germanLocale objectForKey:CPLocaleCurrencyCode]];
-	//[self assert:@"USD" equals:[usLocale objectForKey:CPLocaleCurrencyCode]];
+	[self assert:@"EUR" equals:[germanLocale objectForKey:CPLocaleCurrencyCode]];
+	[self assert:@"USD" equals:[usLocale objectForKey:CPLocaleCurrencyCode]];
 }
 
 - (void)testCPLocaleCollatorIdentifier

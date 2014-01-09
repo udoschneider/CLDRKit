@@ -98,10 +98,15 @@ var SharedDatabase;
 	return [_cldrData valueForKeyPath:@"available"];
 }
 
+- (CPArray)countries
+{
+	return [_cldrData valueForKey:@"countries"];
+}
+
 - (CPArray)countryCodes
 {
 
-	// return [[_cldrData valueForKey:@"countries"] allKeys];
+	return [[self countries] allKeys];
 }
 
 - (CPArray)languageCodes
