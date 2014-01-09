@@ -99,6 +99,7 @@
 		country = [components objectForKey:CPLocaleCountryCode];
 
 	// CPLocaleCurrencySymbol
+	[additionalData setObject:[[countries objectForKey:country] objectForKey:CPLocaleCurrencySymbol] forKey:CPLocaleCurrencySymbol];
 
 	// CPLocaleCurrencyCode
 	[additionalData setObject:[[countries objectForKey:country] objectForKey:CPLocaleCurrencyCode] forKey:CPLocaleCurrencyCode];

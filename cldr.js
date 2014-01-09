@@ -146,7 +146,8 @@ var transformCldrLocaleToCPLocale = function(localeIdentifier) {
 };
 
 var fillCountryData = function() {
-    var cldrSupplemental = CLDRData.supplemental;
+    var cldrRootLocale = CLDRData.main.root,
+        cldrSupplemental = CLDRData.supplemental;
 
     for (var countryCode in cldrSupplemental.territoryInfo)
     {
@@ -154,25 +155,30 @@ var fillCountryData = function() {
         var currencies;
         if (currencies = keyPath(cldrSupplemental, "currencyData.region." + countryCode))
         {
-            var currency = currentCurrency(currencies);
-            if (currency)
-                CPLocaleData.countries[countryCode][CPLocaleCurrencyCode] = currency;
+            var currencyCode = currentCurrencyCode(currencies);
+            if (currencyCode)
+            {
+                CPLocaleData.countries[countryCode][CPLocaleCurrencyCode] = currencyCode;
+                var currencySymbol;
+                if ( (currencySymbol = keyPath(cldrRootLocale, "numbers.currencies." + currencyCode + ".symbol-alt-narrow")) || (currencySymbol = keyPath(cldrRootLocale, "numbers.currencies." + currencyCode + ".symbol")) )
+                    CPLocaleData.countries[countryCode][CPLocaleCurrencySymbol] = currencySymbol;
+            }
         }            
     }
 };
 
-var currentCurrency = function(currencies) {
-    var currentCurrencyCode;
+var currentCurrencyCode = function(currencies) {
+    var code;
     for (var index = 0; index < currencies.length; index++)
     {
         for (var currencyCode in currencies[index])
         {
             var currencyInfo = currencies[index][currencyCode]
             if (currencyInfo["_tender"] != "false" && !currencyInfo["_to"])
-                currentCurrencyCode = currencyCode;  
+                code = currencyCode;  
         }      
     }
-    return currentCurrencyCode;
+    return code;
 };
 
 var cleanLocaleIdentifier = function(localeIdentifier) {
