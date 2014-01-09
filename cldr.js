@@ -99,10 +99,7 @@ var transformCldrLocaleToCPLocale = function(localeIdentifier) {
 	}
 
 	if (temp = identityData.territory)
-	{
 		cpLocale[CPLocaleCountryCode] = temp;
-		CPLocaleData.countries[temp] = {}; // unique(CPLocaleData.countries.concat(temp));
-	}
 
 	if (temp = identityData.script)
 		cpLocale[CPLocaleScriptCode] = temp;
@@ -151,30 +148,31 @@ var transformCldrLocaleToCPLocale = function(localeIdentifier) {
 var fillCountryData = function() {
     var cldrSupplemental = CLDRData.supplemental;
 
-    for (var countryCode in CPLocaleData.countries)
+    for (var countryCode in cldrSupplemental.territoryInfo)
     {
+        CPLocaleData.countries[countryCode] = {};
         var currencies;
         if (currencies = keyPath(cldrSupplemental, "currencyData.region." + countryCode))
         {
-            var currentCurrencyDate,
-                currentCurrencyCode,
-                currentCurrencySymbol;
-            for (var index = 0; index < currencies.length; index++)
-            {
-                var currencyHash = currencies[index];
-                for (var currencySymbol in currencyHash)
-                {
-                    var from = new Date(currencyHash[currencySymbol]["_from"]);
-                    if (!currentCurrencyDate || currentCurrencyDate < from)
-                    {
-                        currentCurrencyDate = from;
-                        currentCurrencyCode = currencySymbol;
-                    }
-                }
-            }
-            CPLocaleData.countries[countryCode][CPLocaleCurrencyCode] = currentCurrencyCode;
-        }
+            var currency = currentCurrency(currencies);
+            if (currency)
+                CPLocaleData.countries[countryCode][CPLocaleCurrencyCode] = currency;
+        }            
     }
+};
+
+var currentCurrency = function(currencies) {
+    var currentCurrencyCode;
+    for (var index = 0; index < currencies.length; index++)
+    {
+        for (var currencyCode in currencies[index])
+        {
+            var currencyInfo = currencies[index][currencyCode]
+            if (currencyInfo["_tender"] != "false" && !currencyInfo["_to"])
+                currentCurrencyCode = currencyCode;  
+        }      
+    }
+    return currentCurrencyCode;
 };
 
 var cleanLocaleIdentifier = function(localeIdentifier) {
@@ -287,127 +285,3 @@ String.prototype.capitalize = function() {
 
 exports.create = createCPLocalePropertyLists;
 
-/*
-
-     task ("clean-cldr", function(){
-    if (FILE.exists(CLDR_DST_DIR))
-        FILE.rmtree(CLDR_DST_DIR);
-});
-
-task ("cldr", function()
-{
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    colorPrint("CLDRKit - Proccessing source files", "bold+green");
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    // ./Ldml2JsonConverter -d cldr -m "^(de.*|root)$" -t main -r true
-    var root = {},
-        rootRegExp = new RegExp("^(" + CLDR_ROOT_LOCALES.join("|") + ")$"),
-        rootLocales = [],
-        available = {},
-        availableRegExp = new RegExp("^(" + CLDR_AVAILABLE_LOCALES.join("|") + ")$"),
-        availableLocales = [],
-        countryCodes = [],
-        fileRegExp = new RegExp("^(.*)\.json$");
-
-    if (!(FILE.exists(CLDR_DST_DIR)))
-        FILE.mkdirs(CLDR_DST_DIR);
-
-    FILE.list(CLDR_SRC_DIR).forEach(function (locale){
-
-        if (locale != "supplemental" && (locale == "root" || locale.match(rootRegExp) || locale.match(availableRegExp)))
-        {
-            var cpLocale;
-            FILE.list(FILE.join(CLDR_SRC_DIR, locale)).forEach(function (file){
-                if (file.match(fileRegExp))
-                {
-                    var filename = FILE.join(CLDR_SRC_DIR, locale, file),
-                        contents = FILE.read(filename, "b"),
-                        stringContents = contents.decodeToString("utf-8"),
-                        json = JSON.parse(stringContents);
-                    cpLocale = mergeRecursive((cpLocale || {}), json);
-                }
-            });
-
-            if (cpLocale)
-            {
-                var language,
-                    script,
-                    territory,
-                    variant,
-                    mainLocaleData = cpLocale["main"][locale]["identity"],
-                    localeIdentifier = "";
-
-                if ("language" in mainLocaleData)
-                    localeIdentifier = (language = mainLocaleData["language"].toLowerCase());
-                if ("script" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (script = mainLocaleData["script"].capitalize());
-                if ("territory" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (territory = mainLocaleData["territory"].toUpperCase());
-                if ("variant" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (variant = mainLocaleData["variant"].toUpperCase());
-
-                if (localeIdentifier != "root")
-                    availableLocales = availableLocales.concat(localeIdentifier);
-
-                // cpLocale = {"main":{ localeIdentifier:cpLocale["main"][locale]}};
-                var temp = cpLocale["main"][locale];
-                //cpLocale = { "main":{}};
-                cpLocale = {};
-                cpLocale["main"] = {};
-                cpLocale["main"][localeIdentifier] = temp;
-                //cpLocale["main"][localeIdentifier] = cpLocale["main"][locale];
-                //delete cpLocale["main"][locale];
-
-                if ( (localeIdentifier == "root") || localeIdentifier.match(rootRegExp))
-                {
-                    rootLocales = rootLocales.concat(localeIdentifier);
-                    root = mergeRecursive(root, cpLocale);
-                    colorPrint("Parsing locale " + localeIdentifier + "\t(merge into root)", "bold+green");
-                }
-                else
-                {
-                    available[language] = mergeRecursive((available[language] || {}), cpLocale);
-                    colorPrint("Parsing locale " + localeIdentifier + "\t(merge into " + language + ")", "bold+green");
-                }
-
-                if (localeIdentifier == "en")
-                {
-                    for (var key in cpLocale["main"][localeIdentifier]["localeDisplayNames"]["territories"])
-                        countryCodes = countryCodes.concat(key);
-                }
-            }
-        }
-    });
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    for (var language in available)
-    {
-        colorPrint("Storing locale "+language, "bold+green");
-        storeLocale(available[language], language);
-    }
-    colorPrint("Storing locale root", "bold+green");
-    root["rootLocales"] = rootLocales;
-    root["availableLocales"] = availableLocales;
-    root["countryCodes"] = countryCodes;
-
-    var supplementalData;
-    FILE.list(FILE.join(CLDR_SRC_DIR, "supplemental")).forEach(function (file){
-            var filename = FILE.join(CLDR_SRC_DIR, "supplemental", file),
-                contents = FILE.read(filename, "b"),
-                stringContents = contents.decodeToString("utf-8"),
-                json = JSON.parse(stringContents);
-            supplementalData = mergeRecursive((supplementalData || {}), json);
-    });
-    root["supplemental"] = supplementalData["supplemental"];
-
-    storeLocale(root, "root");
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-
-});
-
-
-
-
-
-
-
-*/

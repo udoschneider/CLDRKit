@@ -97,10 +97,7 @@
 
 	var countries = [[CLDRDatabase sharedDatabase] countries],
 		country = [components objectForKey:CPLocaleCountryCode];
-	// print("countries = " + [countries description]);
-	print("aLocaleIdentifier = " + aLocaleIdentifier);
-	print("country = " + [country description]);
-	print("data = " + [[countries objectForKey:country] description]);
+
 	// CPLocaleCurrencySymbol
 
 	// CPLocaleCurrencyCode
