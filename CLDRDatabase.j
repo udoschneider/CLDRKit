@@ -49,28 +49,27 @@ var SharedDatabase;
 	self = [super init];
 	if (self)
 	{
-		_cldrData = [self _loadRoot];
+		_cldrData = [self _loadInitial];
 	}
 	return self;
 }
 
-
 // Load all locales for a specific language
 - (CPDictionary)_loadLanguage:(CPString)languageIdentifier
 {
-	if (_cldrData && ![[self availableLocaleIdentifiers] containsObject:languageIdentifier] && languageIdentifier != @"root")
+	if (_cldrData && ![[self availableLocaleIdentifiers] containsObject:languageIdentifier] && languageIdentifier != @"initial")
 		[CPException raise:@"UnknownLanguage" format:@"CLDRKit does not contain the language \"%@\"",languageIdentifier];
 	var url = [[CLDRKit bundle] pathForResource:[CPString stringWithFormat:"locales/%@.plist",languageIdentifier]],
 		data = [CPURLConnection sendSynchronousRequest:[CPURLRequest requestWithURL:url] returningResponse:nil];
-
 	return [data plistObject];
 }
 
 // Load the initial root (pre-merged) locale
-- (CPDictionary)_loadRoot
+- (CPDictionary)_loadInitial
 {
-	return [self _loadLanguage:@"root"];
+	return [self _loadLanguage:@"initial"];
 }
+
 
 - (void)_mergeLanguage:(CPString)languageIdentifier
 {
@@ -84,7 +83,7 @@ var SharedDatabase;
 // Locales currently loaded - this list may grow over time!
 - (CPArray)loadedLocaleIdentifiers
 {
-	return [[_cldrData valueForKeyPath:@"main"] allKeys];
+	return [_cldrData valueForKeyPath:@"main"];
 }
 
 // Locales which were part of the root/pre-merged locale. Static over time
@@ -96,35 +95,31 @@ var SharedDatabase;
 // Return an array of available locale identifiers. This includes all the root/pre-merged as well as possibly on-demand loaded locales
 - (CPArray)availableLocaleIdentifiers
 {
-	return [_cldrData valueForKeyPath:@"availableLocales"];
+	return [_cldrData valueForKeyPath:@"available"];
 }
 
 - (CPArray)countryCodes
 {
-	return [_cldrData valueForKey:@"countyCodes"];
+
+	// return [[_cldrData valueForKey:@"countries"] allKeys];
 }
 
 - (CPArray)languageCodes
 {
-	return [[CPSet setWithArray:([self availableLocaleIdentifiers].map(function (each){return each.split(/[-_]/)[0]}))] allObjects];
+	return [_cldrData valueForKey:@"languages"];
 }
 
 - (CPDictionary)mergedLocaleWithIdentifier:(CPString)localeIdentifier
 {
-	if (![[_cldrData objectForKey:@"main"] containsKey:localeIdentifier])
-	{
-		var language = localeIdentifier.split(/[-_]/)[0];
-		[self _mergeLanguage:language];
-	}
-	var merged = [[_cldrData objectForKey:@"main"] objectForKey:@"root"],
+	var merged = [[_cldrData objectForKey:@"locales"] objectForKey:@"root"],
 		partialIdentifier = @"";
 	[(localeIdentifier.split(/[-_]/)) enumerateObjectsUsingBlock:(function (localeIdentifierPart){
 		if ([partialIdentifier isEqualToString:@""])
 			partialIdentifier = localeIdentifierPart;
 		else
-			partialIdentifier = [partialIdentifier stringByAppendingFormat:@"-%@",localeIdentifierPart];
+			partialIdentifier = [partialIdentifier stringByAppendingFormat:@"_%@",localeIdentifierPart];
 
-		merged = [merged dictionaryByDeepMergingObjectsFromDictionary:[[_cldrData objectForKey:@"main"] objectForKey:partialIdentifier]];
+		merged = [merged dictionaryByDeepMergingObjectsFromDictionary:[[_cldrData objectForKey:@"locales"] objectForKey:partialIdentifier]];
 	})];
 	return merged;
 }

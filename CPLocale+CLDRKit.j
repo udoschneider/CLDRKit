@@ -32,8 +32,7 @@
 
 + (CPArray)availableLocaleIdentifiers
 {
-	// The JSON CLDR Data uses a dash as seperator. CP expects an underscore.
-	return ([[CLDRDatabase sharedDatabase] availableLocaleIdentifiers]).map(function(each){return each.replace("-", "_")});
+	return [[CLDRDatabase sharedDatabase] availableLocaleIdentifiers];
 }
 
 + (CPArray)ISOLanguageCodes
@@ -86,83 +85,38 @@
 
 + (void)_platformLocaleAdditionalDescriptionForIdentifier:(CPString)aLocaleIdentifier
 {
-	var additionalData = [CPMutableDictionary dictionary];
-		components = [self componentsFromLocaleIdentifier:aLocaleIdentifier],
-		cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier];
+	var additionalData = [CPMutableDictionary dictionary],
+		cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:aLocaleIdentifier],
+		components = [self componentsFromLocaleIdentifier:aLocaleIdentifier];
 
+	[additionalData addEntriesFromDictionary:cldrData];
 	[additionalData addEntriesFromDictionary:components];
 
-
 	// CPLocaleExemplarCharacterSet
-	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"characters.exemplarCharacters"]] forKey:CPLocaleExemplarCharacterSet];
+	[additionalData setObject:[CPCharacterSet characterSetWithCharactersInString:[cldrData valueForKeyPath:@"_CPLocaleExemplarCharacterSetString"]] forKey:CPLocaleExemplarCharacterSet];
 
-	// TODO: CPLocaleCalendar - unsure how to find the "default" calendar for a given locale
-
-	// TODO: CPLocaleCollationIdentifier
-
-	// CPLocaleUsesMetricSystem & CPLocaleMeasurementSystem
-	// http://stackoverflow.com/questions/14038491/how-do-i-know-the-measurement-units-corresponding-to-a-given-locale
-	if (aLocaleIdentifier.match(/.*_(MM|LR|US).*/))
-	{
-		[additionalData setObject:NO forKey:CPLocaleUsesMetricSystem];
-		[additionalData setObject:@"U.S." forKey:CPLocaleMeasurementSystem];
-	}
-	else
-	{
-		[additionalData setObject:YES forKey:CPLocaleUsesMetricSystem];
-		[additionalData setObject:@"Metric" forKey:CPLocaleMeasurementSystem];
-	}
-
-	// CPLocaleDecimalSeparator
-	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.decimal"] forKey:CPLocaleDecimalSeparator];
-
-	// CPLocaleGroupingSeparator
-	[additionalData setObject:[cldrData valueForKeyPath:@"numbers.symbols-numberSystem-latn.group"] forKey:CPLocaleGroupingSeparator];
-
-	// TODO: CPLocaleCurrencySymbol - need to import suplemental data
-
-	// TODO: CPLocaleCurrencyCode
-
-	// TODO: CPLocaleCollatorIdentifier
-
-	// CPLocaleQuotationBeginDelimiterKey
-	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.quotationStart"] forKey:CPLocaleQuotationBeginDelimiterKey];
-
-	// CPLocaleQuotationEndDelimiterKey
-	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.quotationEnd"] forKey:CPLocaleQuotationEndDelimiterKey];
-
-	// CPLocaleAlternateQuotationBeginDelimiterKey
-	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.alternateQuotationStart"] forKey:CPLocaleAlternateQuotationBeginDelimiterKey];
-
-	// CPLocaleAlternateQuotationEndDelimiterKey
-	[additionalData setObject:[cldrData valueForKeyPath:@"delimiters.alternateQuotationEnd"] forKey:CPLocaleAlternateQuotationEndDelimiterKey];
-
+	// print([additionalData description]);
 	return additionalData;
 }
 
 - (CPString)displayNameForKey:(id)key value:(id)value
 {
-	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:[self localeIdentifier]];
+	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:[self localeIdentifier]],
+		localeDisplayNames = [cldrData objectForKey:@"_localeDisplayNames"],
+		localeComponents = [CPLocale componentsFromLocaleIdentifier:value],
+		languageComponent = [localeComponents objectForKey:CPLocaleLanguageCode],
+		language = [[localeDisplayNames objectForKey:CPLocaleLanguageCode] objectForKey:languageComponent],
+		countryComponent = [localeComponents objectForKey:CPLocaleCountryCode],
+		country = [[localeDisplayNames objectForKey:CPLocaleCountryCode] objectForKey:countryComponent];
+
+	if (key == CPLocaleLanguageCode)
+		return language;
+
+	if (key == CPLocaleCountryCode)
+		return country;
+
 	if (key == CPLocaleIdentifier)
-	{
-		var localeComponents = [CPLocale componentsFromLocaleIdentifier:value],
-			language = [[cldrData valueForKeyPath:@"localeDisplayNames.languages"] objectForKey:[localeComponents objectForKey:CPLocaleLanguageCode]],
-			territory = [[cldrData valueForKeyPath:@"localeDisplayNames.territories"] objectForKey:[localeComponents objectForKey:CPLocaleCountryCode]],
-			localePattern = [CPString stringWithCLDRReplacementVariables:[cldrData valueForKeyPath:@"localeDisplayNames.localeDisplayPattern.localePattern"]];
-		return [CPString stringWithFormat:localePattern, language, territory];
-	}
-}
-
-@end
-
-@implementation CPString (CLDRKit)
-
-+ (CPString)stringWithCLDRReplacementVariables:(CPString)string
-{
-	var result = string;
-	for (var position = 0; position < 10; position++)
-		result = result.replace(new RegExp("\\\{" + position + "\\\}"), "%" + (position + 1) + "$@");
-	return result;
+		return [CPString stringWithFormat:[localeDisplayNames objectForKey:@"localePattern"],language,country];
 }
 
 @end

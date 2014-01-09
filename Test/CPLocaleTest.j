@@ -39,13 +39,19 @@
 - (void)testDisplayNameForKeyValue
 {
 	var frLocale = [[CPLocale alloc] initWithLocaleIdentifier:@"fr_FR"];
+	[self assert:@"français" equals: [frLocale displayNameForKey:CPLocaleLanguageCode value:@"fr_FR"]];
+	[self assert:@"anglais" equals: [frLocale displayNameForKey:CPLocaleLanguageCode value:@"en_US"]]
+
+	[self assert:@"France" equals: [frLocale displayNameForKey:CPLocaleCountryCode value:@"fr_FR"]];
+	[self assert:@"États-Unis" equals: [frLocale displayNameForKey:CPLocaleCountryCode value:@"en_US"]]
+
 	[self assert:@"français (France)" equals: [frLocale displayNameForKey:CPLocaleIdentifier value:@"fr_FR"]];
 	[self assert:@"anglais (États-Unis)" equals: [frLocale displayNameForKey:CPLocaleIdentifier value:@"en_US"]]
 }
 
 - (void)testAvailableLocaleIdentifiers
 {
-	[self assert:[CPLocale availableLocaleIdentifiers] equals:([[CLDRDatabase sharedDatabase] availableLocaleIdentifiers]).map(function (each){return each.replace("-", "_")})];
+	[self assert:[CPLocale availableLocaleIdentifiers] equals:[[CLDRDatabase sharedDatabase] availableLocaleIdentifiers]];
 }
 
 - (void)testISOLanguageCodes
@@ -99,7 +105,7 @@
 {
 	var locale = [CPLocale localeWithLocaleIdentifier:@"it"];
 	// Not sure if brackets and space are part of the character set
-	[self assert:[CPCharacterSet characterSetWithCharactersInString:@"[a à b c d e é è f g h i ì j k l m n o ó ò p q r s t u ù v w x y z]"] equals:[locale objectForKey:CPLocaleExemplarCharacterSet]];
+	[self assert:[CPCharacterSet characterSetWithCharactersInString:@"aàbcdeéèfghiìjklmnoóòpqrstuùvwxyz"] equals:[locale objectForKey:CPLocaleExemplarCharacterSet]];
 }
 
 - (void)testCPLocaleCalendar
@@ -138,12 +144,14 @@
 
 - (void)testCPLocaleCurrencySymbol
 {
-	// TODO: CPLocaleCurrencySymbol
+	//[self assert:@"€" equals:[germanLocale objectForKey:CPLocaleCurrencySymbol]];
+	//[self assert:@"$" equals:[usLocale objectForKey:CPLocaleCurrencySymbol]];
 }
 
 - (void)testCPLocaleCurrencyCode
 {
-	// TODO: CPLocaleCurrencyCode
+	//[self assert:@"EUR" equals:[germanLocale objectForKey:CPLocaleCurrencyCode]];
+	//[self assert:@"USD" equals:[usLocale objectForKey:CPLocaleCurrencyCode]];
 }
 
 - (void)testCPLocaleCollatorIdentifier

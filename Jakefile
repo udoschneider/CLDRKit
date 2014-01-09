@@ -28,7 +28,8 @@
 var SYS = require("system"),
     ENV = SYS.env,
     FILE = require("file"),
-    OS = require("os");
+    OS = require("os"),
+    CLDR = require("./cldr");
 
 
 //===========================================================
@@ -115,11 +116,6 @@ var frameworkTask = framework (productName, function(frameworkTask)
         frameworkTask.setCompilerFlags("-O");
 });
 
-var  CLDR_SRC_DIR = "cldr",
-     CLDR_DST_DIR = "Resources/locales",
-     CLDR_ROOT_LOCALES = [ ],
-     CLDR_AVAILABLE_LOCALES = [".*"];
-
 task ("debug", function()
 {
     ENV["CONFIGURATION"] = "Debug";
@@ -158,6 +154,11 @@ task ("install-symlinks", ["debug", "release"], function()
     install("symlink");
 });
 
+task ("cldr", function()
+{
+    CLDR.create();
+});
+
 task ("help", function()
 {
     var app = JAKE.application().name();
@@ -175,121 +176,6 @@ task ("help", function()
     describeTask(app, "clobber", "Removes the intermediate build files and the installed frameworks");
 
     colorPrint("--------------------------------------------------------------------------", "bold+green");
-});
-
-task ("clean-cldr", function(){
-    if (FILE.exists(CLDR_DST_DIR))
-        FILE.rmtree(CLDR_DST_DIR);
-});
-
-task ("cldr", function()
-{
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    colorPrint("CLDRKit - Proccessing source files", "bold+green");
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    // ./Ldml2JsonConverter -d cldr -m "^(de.*|root)$" -t main -r true
-    var root = {},
-        rootRegExp = new RegExp("^(" + CLDR_ROOT_LOCALES.join("|") + ")$"),
-        rootLocales = [],
-        available = {},
-        availableRegExp = new RegExp("^(" + CLDR_AVAILABLE_LOCALES.join("|") + ")$"),
-        availableLocales = [],
-        countryCodes = [],
-        fileRegExp = new RegExp("^(.*)\.json$");
-
-    if (!(FILE.exists(CLDR_DST_DIR)))
-        FILE.mkdirs(CLDR_DST_DIR);
-
-    FILE.list(CLDR_SRC_DIR).forEach(function (locale){
-
-        if (locale != "supplemental" && (locale == "root" || locale.match(rootRegExp) || locale.match(availableRegExp)))
-        {
-            var localeData;
-            FILE.list(FILE.join(CLDR_SRC_DIR, locale)).forEach(function (file){
-                if (file.match(fileRegExp))
-                {
-                    var filename = FILE.join(CLDR_SRC_DIR, locale, file),
-                        contents = FILE.read(filename, "b"),
-                        stringContents = contents.decodeToString("utf-8"),
-                        json = JSON.parse(stringContents);
-                    localeData = mergeRecursive((localeData || {}), json);
-                }
-            });
-
-            if (localeData)
-            {
-                var language,
-                    script,
-                    territory,
-                    variant,
-                    mainLocaleData = localeData["main"][locale]["identity"],
-                    localeIdentifier = "";
-
-                if ("language" in mainLocaleData)
-                    localeIdentifier = (language = mainLocaleData["language"].toLowerCase());
-                if ("script" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (script = mainLocaleData["script"].capitalize());
-                if ("territory" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (territory = mainLocaleData["territory"].toUpperCase());
-                if ("variant" in mainLocaleData)
-                    localeIdentifier = localeIdentifier + "_" + (variant = mainLocaleData["variant"].toUpperCase());
-
-                if (localeIdentifier != "root")
-                    availableLocales = availableLocales.concat(localeIdentifier);
-
-                // localeData = {"main":{ localeIdentifier:localeData["main"][locale]}};
-                var temp = localeData["main"][locale];
-                //localeData = { "main":{}};
-                localeData = {};
-                localeData["main"] = {};
-                localeData["main"][localeIdentifier] = temp;
-                //localeData["main"][localeIdentifier] = localeData["main"][locale];
-                //delete localeData["main"][locale];
-
-                if ( (localeIdentifier == "root") || localeIdentifier.match(rootRegExp))
-                {
-                    rootLocales = rootLocales.concat(localeIdentifier);
-                    root = mergeRecursive(root, localeData);
-                    colorPrint("Parsing locale " + localeIdentifier + "\t(merge into root)", "bold+green");
-                }
-                else
-                {
-                    available[language] = mergeRecursive((available[language] || {}), localeData);
-                    colorPrint("Parsing locale " + localeIdentifier + "\t(merge into " + language + ")", "bold+green");
-                }
-
-                if (localeIdentifier == "en")
-                {
-                    for (var key in localeData["main"][localeIdentifier]["localeDisplayNames"]["territories"])
-                        countryCodes = countryCodes.concat(key);
-                }
-            }
-        }
-    });
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-    for (var language in available)
-    {
-        colorPrint("Storing locale "+language, "bold+green");
-        storeLocale(available[language], language);
-    }
-    colorPrint("Storing locale root", "bold+green");
-    root["rootLocales"] = rootLocales;
-    root["availableLocales"] = availableLocales;
-    root["countryCodes"] = countryCodes;
-
-    var supplementalData;
-    FILE.list(FILE.join(CLDR_SRC_DIR, "supplemental")).forEach(function (file){
-            var filename = FILE.join(CLDR_SRC_DIR, "supplemental", file),
-                contents = FILE.read(filename, "b"),
-                stringContents = contents.decodeToString("utf-8"),
-                json = JSON.parse(stringContents);
-            supplementalData = mergeRecursive((supplementalData || {}), json);
-    });
-    root["supplemental"] = supplementalData["supplemental"];
-
-    storeLocale(root, "root");
-    colorPrint("--------------------------------------------------------------------------", "bold+green");
-
 });
 
 CLEAN.include(buildPath);
@@ -360,63 +246,5 @@ var colorPrint = function(message, color)
         message = "\0bold(" + message + "\0)";
 
     stream.print(message);
-};
-
-var mergeRecursive = function(obj1, obj2) {
-
-  var obj = JSON.parse(JSON.stringify(obj1)); // poor man's deep copy
-  for (var p in obj2) {
-    try {
-      // Property in destination object set; update its value.
-      if ( obj2[p].constructor==Object ) {
-        obj[p] = mergeRecursive(obj[p], obj2[p]);
-
-      } else {
-        obj[p] = obj2[p];
-
-      }
-
-    } catch(e) {
-      // Property in destination object not set; create it and set its value.
-      obj[p] = obj2[p];
-
-    }
-  }
-
-  return obj;
-};
-
-var CFType = function(value) {
-    if (value instanceof Array)
-        return value.map(function(each){return CFType(each)});
-    if (typeof value == "object")
-    {
-        var dic = new CFMutableDictionary();
-        for (var key in value) {
-            dic.addValueForKey(key, CFType(value[key]));
-        }
-        return dic;
-    }
-    return value;
-};
-
-var storeLocale = function (data, filename)
-{
-    FILE.write(FILE.join(CLDR_DST_DIR, filename + ".plist"), CFPropertyList.stringFromPropertyList(CFType(data)));
-    FILE.write(FILE.join(CLDR_DST_DIR, filename + ".json"),  JSON.stringify(data));
-};
-
-Array.prototype.unique = function() {
-    var unique = [];
-    for (var i = 0; i < this.length; i++) {
-        if (unique.indexOf(this[i]) == -1) {
-            unique.push(this[i]);
-        }
-    }
-    return unique;
-};
-
-String.prototype.capitalize = function() {
-    return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
 };
 
