@@ -3,12 +3,13 @@ var stream = require("narwhal/term").stream,
 
 var  CLDR_SRC_DIR = "cldr",
      CLDR_DST_DIR = "Resources/locales",
-     CLDR_ROOT_LOCALES = [ ],
-     CLDR_AVAILABLE_LOCALES = [".*"],
+     CLDR_INITIAL_LOCALES = [ ],
+     CLDR_INITIAL_LOCALES_REGEXP = new RegExp("^(" + CLDR_INITIAL_LOCALES.join("|") + ")$"),
      CLDRData = {},
      CPLocaleData = {
      	locales:{},
      	available:[],
+      loaded:[],
      	languages:[],
      	countries:{},
      };
@@ -53,17 +54,44 @@ CPLocaleLanguageDirectionBottomToTop        = "CPLocaleLanguageDirectionBottomTo
 
 var createCPLocalePropertyLists = function() {
 	readCldrData();
-	storeLocale("DEBUG", CLDRData); // Debug
-	for(var localeIdentifier in CLDRData.main)
+	// storeLocale("DEBUG", CLDRData); // Debug
+	
+  for(var localeIdentifier in CLDRData.main)
 		transformCldrLocaleToCPLocale(localeIdentifier);
-    fillCountryData();
-	print(CFType(CPLocaleData));
-	storeLocale("initial", CPLocaleData);
+  fillCountryData();
+  storeInitial();
+
+  for (var languageIndex = 0; languageIndex < CPLocaleData.languages.length; languageIndex++)
+    storeLanguage(CPLocaleData.languages[languageIndex]);
+
 };
+
+var storeInitial = function()
+{
+  var data = { locales:{} };
+  for(var key in CPLocaleData)
+  {
+    if (key != "locales")
+      data[key] = CPLocaleData[key];
+    else
+      for (var localeIdentifier in CPLocaleData.locales)
+        if (localeIdentifier == "root" || localeIdentifier.match(CLDR_INITIAL_LOCALES_REGEXP))
+          data.locales[localeIdentifier] = CPLocaleData.locales[localeIdentifier];
+  }
+  storeLocale("initial", data);
+};
+
+var storeLanguage = function(languageIdentifier)
+{
+    var data = { locales:{} };
+    for (var localeIdentifier in CPLocaleData.locales)
+      if (!(localeIdentifier.match(CLDR_INITIAL_LOCALES_REGEXP)) && localeIdentifier.match(new RegExp("^" + languageIdentifier + ".*$")))
+        data.locales[localeIdentifier] = CPLocaleData.locales[localeIdentifier];
+    storeLocale(languageIdentifier, data);
+}
 
 var readCldrData = function () {
 	var jsonFileMatch = /^.*json$/;
-	var jsonFileMatch = /^(root|supplemental|en|en-US.*|de.*|fr.*|es.*|it.*)\/.*json$/;
 	FILE.listTree(FILE.join(CLDR_SRC_DIR)).forEach(function (filename){
 		if (filename.match(jsonFileMatch))
 		{
@@ -238,6 +266,7 @@ var CFType = function(value) {
 
 var storeLocale = function (filename, data)
 {
+    colorPrint("Storing " + filename, "bold+green");
     chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".plist"), CFPropertyList.stringFromPropertyList(CFType(data)));
     chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".json"),  JSON.stringify(data));
 };

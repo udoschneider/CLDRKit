@@ -26,14 +26,12 @@
     [self assertTrue:[[sharedDatabase availableLocaleIdentifiers] count] > 0];
 }
 
-/*
 - (void)testLoadLanguage
 {
     [self assertNoThrow:(function() {
         [sharedDatabase _loadLanguage:@"de"];
     })]
 }
-*/
 
 - (void)testLoadInitial
 {
@@ -54,21 +52,22 @@
     })];
 }
 
-/*
 - (void)testLoadAdditialLanguage
 {
+    [self assert:1 equals:[[sharedDatabase loadedLocaleIdentifiers] count]];
+    [self assertTrue:[[sharedDatabase loadedLocaleIdentifiers] containsObject:@"root"]];
     [self assertFalse:[[sharedDatabase loadedLocaleIdentifiers] containsObject:@"it"]];
     [sharedDatabase _mergeLanguage:@"it"];
-    [self assertTrue:[[sharedDatabase loadedLocaleIdentifiers] containsObject:@"it"]];
+    [self assert:3 equals:[[sharedDatabase loadedLocaleIdentifiers] count]];
+    [self assertTrue:[[sharedDatabase loadedLocaleIdentifiers] containsObject:@"it_CH"]];
 }
-*/
-/*
+
 - (void)testLoadedLocaleIdentifiers
 {
-    [self assertTrue:[[sharedDatabase loadedLocaleIdentifiers] count] > 0];
-    [self assertTrue:[[CPSet setWithArray:[sharedDatabase loadedLocaleIdentifiers]] isSubsetOfSet: [CPSet setWithArray:[sharedDatabase rootLocaleIdentifiers]]]];
+    [self assert:1 equals:[[sharedDatabase loadedLocaleIdentifiers] count]];
+    [self assertTrue:[[sharedDatabase loadedLocaleIdentifiers] containsObject:@"root"]];
 }
-*/
+
 - (void)testMergedLocaleWithIdentifier
 {
     var locale;
