@@ -110,6 +110,7 @@
 
 - (CPString)displayNameForKey:(id)key value:(id)value
 {
+	// TODO: cldrData can be cached on per-instance basis
 	var cldrData = [[CLDRDatabase sharedDatabase] mergedLocaleWithIdentifier:[self localeIdentifier]],
 		localeDisplayNames = [cldrData objectForKey:@"_localeDisplayNames"],
 		localeComponents = [CPLocale componentsFromLocaleIdentifier:value],
