@@ -4,7 +4,7 @@ ATTENTION! This is still in alpha stage and absolutely unusable in anything othe
 
 ## Synopsis
 
-*CLDRKit* aims to provide full CPLocale support for the [Cappuccino Web Framework](http://www.cappuccino-project.org/) using the CLDR locale data fron the [CLDR - Unicode Common Locale Data Repository](http://cldr.unicode.org/). CLDR data is maintained by maintained by Unicode consortium and automatically parsed by CLDR kit. So every update by Unicode is automatically usable without any manual interaction!
+*CLDRKit* aims to provide full locale support for the [Cappuccino Web Framework](http://www.cappuccino-project.org/) using the CLDR locale data from the [CLDR - Unicode Common Locale Data Repository](http://cldr.unicode.org/). CLDR data is maintained by Unicode consortium and automatically parsed by CLDRKit. So every update by Unicode is automatically usable without any manual interaction!
 
 
 ## Code Example
@@ -39,13 +39,13 @@ The resulting `CPLocale` instance provides all the basic functionality to query 
 
 ## Motivation
 
-Cocoa provides a comprehensive support for i18n out of the box - for View and core classes. This means all numbers, dates and other locale specific date is displayd/parsed according to the current locale. Cappuccino does not yet implement this locale support although the basic classes (e.g. `CPLocale`) are available. IMHO this is caused by the ammount of work needed for each locale if this data is maintained manually. CLDRKit addresses this by automatically building locales from external data. Thus _l18n will simply be a matter of the framework for every/locale_ ... l10n is another matter though ...
+Cocoa provides a comprehensive support for i18n out of the box - for View and core classes. This means all numbers, dates and other locale specific date is displayed/parsed according to the current locale. Cappuccino does not yet implement this locale support although the basic classes (e.g. `CPLocale`) are available. IMHO this is caused by the amount of work needed for each locale if this data is maintained manually. CLDRKit addresses this by automatically building locales from external data. Thus _l18n will simply be a matter of the framework for every locale_ ... l10n is another matter though ...
 
 ## Installation
 
 ### Using prebuilt locales
 
-Please note that the github repository does contain preparsed plists for all locales. You don't have to generate them manually! _I have to check licensing issues though_
+Please note that the github repository does contain pre-parsed plists for all locales. You don't have to generate them manually! _I have to check licensing issues though_
 
     $ git clone https://github.com/krodelin/CLDRKit
     $ cd CLDRKit
@@ -83,7 +83,7 @@ You might want to change `CLDR_INITIAL_LOCALES` in `cldr.js` to list a number of
 
 ## API Reference
 
-The intended API is identical to the one used by [NSLocale](https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/classes/NSLocale_Class/Reference/Reference.html). The [NSLocale blog enty by NSHipster](http://nshipster.com/nslocale/) provides some additial background (must read!).
+The intended API is identical to the one used by [NSLocale](https://developer.apple.com/library/mac/documentation/cocoa/reference/foundation/classes/NSLocale_Class/Reference/Reference.html). The [NSLocale blog enty by NSHipster](http://nshipster.com/nslocale/) provides some additional background (must read!).
 
 ## Tests
 
@@ -94,9 +94,9 @@ Please note that some tests are either failing (still alpha) or generate warning
 
 ## Background
 
-### CLDR hierachical locales
+### CLDR hierarchical locales
 
-CLDR uses a _hierarchical_ model for locales. E.g. the locale `en_US` denotes a locale for the language english (`en`) and the region/country United States (`US`). Some locales even diffrentiate different scripts. All locale data is part of a tree whose root is calles `root`:
+CLDR uses a _hierarchical_ model for locales. E.g. the locale `en_US` denotes a locale for the language English (`en`) and the region/country United States (`US`). Some locales even differentiate different scripts. All locale data is part of a tree whose root is called `root`:
 
     +-root
       +-de
@@ -118,7 +118,7 @@ This means two option for a framework like CLDRKit:
         1. Each locale requested by the browser can (in theory) be fetched using a single HTTP Request.
     * Con
         1. The deployment size would be huge! Having all (defined) locales pre-merged results in a locale DB with 100s of MB! This might be feasible for a desktop operating systems - for a WebApp it is not!
-        2. CLDR only lists locales for which data (deltas) is known. E.g. _`en_CN` is unknown_ (english in China?) but _not invalid_! CLDR dictates to search up the tree (in this case `en`) until a match is found. This also means that at least the `root` locale will allways match and thus provide sensible defaults.
+        2. CLDR only lists locales for which data (deltas) is known. E.g. _`en_CN` is unknown_ (English in China?) but _not invalid_! CLDR dictates to search up the tree (in this case `en`) until a match is found. This also means that at least the `root` locale will always match and thus provide sensible defaults.
 2. Use demand-loading during runtime
     * Pro
         1. Much smaller filesize as each locale only stores the delta to it's parent
@@ -131,9 +131,9 @@ This means two option for a framework like CLDRKit:
 Even in _full demand loading_ mode (i.e. `CLDR_INITIAL_LOCALES` is empty - in production it should at least contain widely used locales like `en`, `es`, `fr`, `de`. `root` is always included) CLDRKit uses two strategies to reduce the number of requests:
 
 1. `initial.plist`: This plist contains meta-data - especially all the locales known to CLDRKit. This eliminates requests for non-existing locales:
-2. Language locales: Instead of storing each region/country seperately CLDKit combined all locales for a language into one file. E.g. `de.plist` contains the data for `de`, `de_AT`, `de_CH` and `de_DE`.
+2. Language locales: Instead of storing each region/country separately CLDKit combined all locales for a language into one file. E.g. `de.plist` contains the data for `de`, `de_AT`, `de_CH` and `de_DE`.
 
-So in production (e.g. `CLDR_INITIAL_LOCALES = [ 'de.*', 'en.*', 'es.*', 'fr.*', 'pt.*' ]`) requesting a locale for a country/region where the language is either german, english, spanish, french or portugese will only result in _one request_ (fetching `initial.plist`). Any other requested locale will only result in one additional request _per language_!
+So in production (e.g. `CLDR_INITIAL_LOCALES = [ 'de.*', 'en.*', 'es.*', 'fr.*', 'pt.*' ]`) requesting a locale for a country/region where the language is either German, English, Spanish, French or Portuguese will only result in _one request_ (fetching `initial.plist`). Any other requested locale will only result in one additional request _per language_!
 
 The actual demand loading, caching and merging of CLDR data is completely implemented in `CLDRDatabase`.
 
