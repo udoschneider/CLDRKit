@@ -91,6 +91,7 @@ var storeLanguage = function(languageIdentifier)
     storeLocale(languageIdentifier, data);
 }
 
+
 var readCldrData = function () {
 	var jsonFileMatch = /^.*json$/;
 	FILE.listTree(FILE.join(CLDR_SRC_DIR)).forEach(function (filename){
@@ -176,13 +177,14 @@ var transformCldrLocaleToCPLocale = function(localeIdentifier) {
 
 var fillCountryData = function() {
     var cldrRootLocale = CLDRData.main.root,
-        cldrSupplemental = CLDRData.supplemental;
+        cldrSupplemental = CLDRData.supplemental,
+        currencies;
 
     for (var countryCode in cldrSupplemental.territoryInfo)
     {
         CPLocaleData.countries[countryCode] = {};
-        var currencies;
-        if (currencies = keyPath(cldrSupplemental, "currencyData.region." + countryCode))
+        var currencies = keyPath(cldrSupplemental, "currencyData.region." + countryCode);
+        if (currencies)
         {
             var currencyCode = currentCurrencyCode(currencies);
             if (currencyCode)
@@ -197,7 +199,8 @@ var fillCountryData = function() {
 
     for (var territoryCode in cldrSupplemental.territoryContainment)
     {
-      if (var contains = keyPath(cldrSupplemental, "territoryContainment." + territoryCode)))
+      var contains = keyPath(cldrSupplemental, "territoryContainment." + territoryCode);
+      if (contains)
         print(territoryCode + " contains " + JSON.stringify(contains))
     }
 };
