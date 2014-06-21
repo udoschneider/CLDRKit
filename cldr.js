@@ -12,6 +12,7 @@ var  CLDR_SRC_DIR = "cldr",
       loaded:[],
      	languages:[],
      	countries:{},
+      territories:[]
      };
 
 CPLocaleIdentifier                          = "CPLocaleIdentifier";
@@ -54,7 +55,7 @@ CPLocaleLanguageDirectionBottomToTop        = "CPLocaleLanguageDirectionBottomTo
 
 var createCPLocalePropertyLists = function() {
 	readCldrData();
-	// storeLocale("DEBUG", CLDRData); // Debug
+	storeLocale("DEBUG", CLDRData); // Debug
 	
   for(var localeIdentifier in CLDRData.main)
 		transformCldrLocaleToCPLocale(localeIdentifier);
@@ -192,6 +193,12 @@ var fillCountryData = function() {
                     CPLocaleData.countries[countryCode][CPLocaleCurrencySymbol] = currencySymbol;
             }
         }            
+    }
+
+    for (var territoryCode in cldrSupplemental.territoryContainment)
+    {
+      if (var contains = keyPath(cldrSupplemental, "territoryContainment." + territoryCode)))
+        print(territoryCode + " contains " + JSON.stringify(contains))
     }
 };
 
