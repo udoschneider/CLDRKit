@@ -70,8 +70,8 @@ You might want to change `CLDR_INITIAL_LOCALES` in `cldr.js` to list a number of
 #### Generate locales
 
 1. Create JSON data from XML. Please note that CLDR does provide pre-built JSON files. In my experience they are incomplete - in terms of supported locales and included data. So we'll build our own from the full-blown XML
-    a. Generate "main" data in directory `cldr` using `$ ./Ldml2JsonConverter -d cldr -t main -r false -l modern`
-    b. Generate supplemental data in directory `cldr` using `$ ./Ldml2JsonConverter -d cldr -t supplemental -r false -l modern`
+    1. Generate "main" data in directory `cldr` using `$ ./Ldml2JsonConverter -d cldr -t main -r false -l modern`
+    2. Generate supplemental data in directory `cldr` using `$ ./Ldml2JsonConverter -d cldr -t supplemental -r false -l modern`
 2. Create locale plists from JSON in `Ressources/locales` using `$ jake cldr`. `Ressources/locales` will contain the following files:
     * `root.plist`: The data for the root locale
 	* One `.plist` file _per language_: E.g. `de.plist` contains data for `de`, `de_AT`, `de_CH` and `de_DE`.
