@@ -1,0 +1,4 @@
+Resources/locales/*.json
+cldr/build/
+cldr/download/
+cldr/json/
