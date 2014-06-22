@@ -3,227 +3,108 @@ var stream = require("narwhal/term").stream,
 
 var  CLDR_SRC_DIR = "cldr",
      CLDR_DST_DIR = "Resources/locales",
-     CLDR_INITIAL_LOCALES = [ ],
-     CLDR_INITIAL_LOCALES_REGEXP = new RegExp("^(" + CLDR_INITIAL_LOCALES.join("|") + ")$"),
-     CLDRData = {},
-     CPLocaleData = {
-     	locales:{},
-     	available:[],
-      loaded:[],
-     	languages:[],
-     	countries:{},
-      territories:[]
-     };
+     CLDR_INITIAL_LOCALES = [ "de.*" ],
+     CLDR_INITIAL_LOCALES_REGEXP = new RegExp("^(" + CLDR_INITIAL_LOCALES.join("|") + ")$");
 
-CPLocaleIdentifier                          = "CPLocaleIdentifier";
-CPLocaleLanguageCode                        = "CPLocaleLanguageCode";
-CPLocaleCountryCode                         = "CPLocaleCountryCode";
-CPLocaleScriptCode                          = "CPLocaleScriptCode";
-CPLocaleVariantCode                         = "CPLocaleVariantCode";
-CPLocaleExemplarCharacterSet                = "CPLocaleExemplarCharacterSet";
-CPLocaleCalendar                            = "CPLocaleCalendar";
-CPLocaleCollationIdentifier                 = "CPLocaleCollationIdentifier";
-CPLocaleUsesMetricSystem                    = "CPLocaleUsesMetricSystem";
-CPLocaleMeasurementSystem                   = "CPLocaleMeasurementSystem";
-CPLocaleDecimalSeparator                    = "CPLocaleDecimalSeparator";
-CPLocaleGroupingSeparator                   = "CPLocaleGroupingSeparator";
-CPLocaleCurrencySymbol                      = "CPLocaleCurrencySymbol";
-CPLocaleCurrencyCode                        = "CPLocaleCurrencyCode";
-CPLocaleCollatorIdentifier                  = "CPLocaleCollatorIdentifier";
-CPLocaleQuotationBeginDelimiterKey          = "CPLocaleQuotationBeginDelimiterKey";
-CPLocaleQuotationEndDelimiterKey            = "CPLocaleQuotationEndDelimiterKey";
-CPLocaleAlternateQuotationBeginDelimiterKey = "CPLocaleAlternateQuotationBeginDelimiterKey";
-CPLocaleAlternateQuotationEndDelimiterKey   = "CPLocaleAlternateQuotationEndDelimiterKey";
+var DEBUG = true;
 
-CPGregorianCalendar                         = "CPGregorianCalendar";
-CPBuddhistCalendar                          = "CPBuddhistCalendar";
-CPChineseCalendar                           = "CPChineseCalendar";
-CPHebrewCalendar                            = "CPHebrewCalendar";
-CPIslamicCalendar                           = "CPIslamicCalendar";
-CPIslamicCivilCalendar                      = "CPIslamicCivilCalendar";
-CPJapaneseCalendar                          = "CPJapaneseCalendar";
-CPRepublicOfChinaCalendar                   = "CPRepublicOfChinaCalendar";
-CPPersianCalendar                           = "CPPersianCalendar";
-CPIndianCalendar                            = "CPIndianCalendar";
-CPISO8601Calendar                           = "CPISO8601Calendar";
-
-CPLocaleLanguageDirectionUnknown            = "CPLocaleLanguageDirectionUnknown";
-CPLocaleLanguageDirectionLeftToRight        = "CPLocaleLanguageDirectionLeftToRight";
-CPLocaleLanguageDirectionRightToLeft        = "CPLocaleLanguageDirectionRightToLeft";
-CPLocaleLanguageDirectionTopToBottom        = "CPLocaleLanguageDirectionTopToBottom";
-CPLocaleLanguageDirectionBottomToTop        = "CPLocaleLanguageDirectionBottomToTop";
-
-var createCPLocalePropertyLists = function() {
-	readCldrData();
-	storeLocale("DEBUG", CLDRData); // Debug
+var create = function() {
+	var cldrData = readCldrData();
+	if (DEBUG)
+    storeLocale("DEBUG", cldrData); // Debug
 	
-  for(var localeIdentifier in CLDRData.main)
-		transformCldrLocaleToCPLocale(localeIdentifier);
-  fillCountryData();
-  storeInitial();
-
-  for (var languageIndex = 0; languageIndex < CPLocaleData.languages.length; languageIndex++)
-    storeLanguage(CPLocaleData.languages[languageIndex]);
+  storeInitial(cldrData);
+  storeLanguages(cldrData);
 
 };
 
-var storeInitial = function()
+var readCldrData = function () {
+  var cldrData = {},
+    jsonFileMatch = /^.*json$/;
+  FILE.listTree(FILE.join(CLDR_SRC_DIR)).forEach(function (filename){
+    if (filename.match(jsonFileMatch))
+    {
+      var filename = FILE.join(CLDR_SRC_DIR, filename),
+        file = FILE.open(filename, "rb");
+                try {
+                  colorPrint("Loading " + filename, "bold+green");
+                  var contents = file.read(),
+                    stringContents = contents.decodeToString("utf-8"),
+                    json = JSON.parse(stringContents);
+                  cldrData = mergeRecursive(cldrData, json);
+                } finally {
+                  file.close();
+                }
+    }
+  });
+  return cldrData;
+};
+
+var isInitialLocaleIdentifier = function(localeIdentifier)
 {
-  var data = { locales:{} };
-  for(var key in CPLocaleData)
-  {
-    if (key != "locales")
-      data[key] = CPLocaleData[key];
-    else
-      for (var localeIdentifier in CPLocaleData.locales)
-        if (localeIdentifier == "root" || localeIdentifier.match(CLDR_INITIAL_LOCALES_REGEXP))
-          data.locales[localeIdentifier] = CPLocaleData.locales[localeIdentifier];
-  }
+  if (localeIdentifier == "root")
+    return true;
+
+  return localeIdentifier.match(CLDR_INITIAL_LOCALES_REGEXP); 
+}
+
+var isOnDemandLocaleIdentifier = function(localeIdentifier)
+{
+  return !(isInitialLocaleIdentifier(localeIdentifier));
+}
+
+var storeInitial = function(cldrData)
+{
+  var data = {},
+    availableLocales = Object.keys(cldrData.main),
+    initialLocales = availableLocales.filter(isInitialLocaleIdentifier);
+
+  data["supplemental"] = cldrData.supplemental;
+  data["main"] = {};
+  data["availableLocales"] = availableLocales;
+
+  initialLocales.forEach(function(localeIdentifier){data.main[localeIdentifier] = cldrData.main[localeIdentifier];})
+
   storeLocale("initial", data);
 };
 
-var storeLanguage = function(languageIdentifier)
+var storeLanguages = function (cldrData)
 {
-    var data = { locales:{} };
-    for (var localeIdentifier in CPLocaleData.locales)
-      if (!(localeIdentifier.match(CLDR_INITIAL_LOCALES_REGEXP)) && localeIdentifier.match(new RegExp("^" + languageIdentifier + ".*$")))
-        data.locales[localeIdentifier] = CPLocaleData.locales[localeIdentifier];
-    storeLocale(languageIdentifier, data);
+  var availableLocales = Object.keys(cldrData.main),
+  onDemandLocales = availableLocales.filter(isOnDemandLocaleIdentifier),
+  onDemandLanguages = unique(onDemandLocales.map(function (locale){return locale.split("-")[0]}));
+
+  onDemandLanguages.forEach(function (language){
+    var data = { main:{}},
+      languageRegExp = new RegExp("^"+language+".*");
+    onDemandLocales.forEach(function (locale){
+      if(locale.match(languageRegExp))
+        data.main[locale] = cldrData.main[locale];
+    });
+    storeLocale(language, data);
+  });
+
 }
 
-
-var readCldrData = function () {
-	var jsonFileMatch = /^.*json$/;
-	FILE.listTree(FILE.join(CLDR_SRC_DIR)).forEach(function (filename){
-		if (filename.match(jsonFileMatch))
-		{
-			var filename = FILE.join(CLDR_SRC_DIR, filename),
-				file = FILE.open(filename, "rb");
-                try {
-                	var contents = file.read(),
-                		stringContents = contents.decodeToString("utf-8"),
-                		json = JSON.parse(stringContents);
-	                colorPrint("Loaded " + filename, "bold+green");
-	                CLDRData = mergeRecursive(CLDRData, json);
-                } finally {
-                	file.close();
-                }
-		}
-	});
-};
-
-var transformCldrLocaleToCPLocale = function(localeIdentifier) {
-	var cldrLocale = CLDRData.main[localeIdentifier],
-		cpLocale = { _localeDisplayNames:{} },
-		cpLocaleIdentifier = cleanLocaleIdentifier(localeIdentifier),
-		temp;
-
-	cpLocale[CPLocaleIdentifier] = cpLocaleIdentifier;
-
-	var identityData = cldrLocale.identity;
-
-	if (temp = identityData.language)
-	{
-		cpLocale[CPLocaleLanguageCode] = temp;
-		CPLocaleData.languages = unique(CPLocaleData.languages.concat(temp));
-	}
-
-	if (temp = identityData.territory)
-		cpLocale[CPLocaleCountryCode] = temp;
-
-	if (temp = identityData.script)
-		cpLocale[CPLocaleScriptCode] = temp;
-
-	if (temp = identityData.variant)
-		cpLocale[CPLocaleVariantCode] = temp
-
-	if (temp = keyPath(cldrLocale, "characters.exemplarCharacters"))
-		cpLocale["_CPLocaleExemplarCharacterSetString"] = temp.split(/[\[\]\s]/).join("");
-
-	if (temp = keyPath(cldrLocale, "numbers.symbols-numberSystem-latn.decimal"))
-		cpLocale[CPLocaleDecimalSeparator] = temp;
-
-	if (temp = keyPath(cldrLocale, "numbers.symbols-numberSystem-latn.group"))
-		cpLocale[CPLocaleGroupingSeparator] = temp;
-
-	if (temp = keyPath(cldrLocale, "delimiters.quotationStart"))
-		cpLocale[CPLocaleQuotationBeginDelimiterKey] = temp;
-
-	if (temp = keyPath(cldrLocale, "delimiters.quotationEnd"))
-		cpLocale[CPLocaleQuotationEndDelimiterKey] = temp;
-
-	if (temp = keyPath(cldrLocale, "delimiters.alternateQuotationStart"))
-		cpLocale[CPLocaleAlternateQuotationBeginDelimiterKey] = temp;
-	
-	if (temp = keyPath(cldrLocale, "delimiters.alternateQuotationEnd"))
-		cpLocale[CPLocaleAlternateQuotationEndDelimiterKey] = temp;
-
-	if (temp = keyPath(cldrLocale, "localeDisplayNames.languages"))
-		cpLocale["_localeDisplayNames"][CPLocaleLanguageCode] = temp;
-
-	if (temp = keyPath(cldrLocale, "localeDisplayNames.territories"))
-		cpLocale["_localeDisplayNames"][CPLocaleCountryCode] = temp;
-
-	if (temp = keyPath(cldrLocale, "localeDisplayNames.localeDisplayPattern"))
-		for (var key in temp)
-			cpLocale["_localeDisplayNames"][key] = convertPositionalParameter(temp[key]);
-			
-	CPLocaleData.locales[cpLocaleIdentifier] = cpLocale;
-
-	CPLocaleData.available = CPLocaleData.available.concat(cpLocaleIdentifier);
-
-    colorPrint("Transformed " + cpLocaleIdentifier, "bold+green");
-};
-
-var fillCountryData = function() {
-    var cldrRootLocale = CLDRData.main.root,
-        cldrSupplemental = CLDRData.supplemental,
-        currencies;
-
-    for (var countryCode in cldrSupplemental.territoryInfo)
-    {
-        CPLocaleData.countries[countryCode] = {};
-        var currencies = keyPath(cldrSupplemental, "currencyData.region." + countryCode);
-        if (currencies)
-        {
-            var currencyCode = currentCurrencyCode(currencies);
-            if (currencyCode)
-            {
-                CPLocaleData.countries[countryCode][CPLocaleCurrencyCode] = currencyCode;
-                var currencySymbol;
-                if ( (currencySymbol = keyPath(cldrRootLocale, "numbers.currencies." + currencyCode + ".symbol-alt-narrow")) || (currencySymbol = keyPath(cldrRootLocale, "numbers.currencies." + currencyCode + ".symbol")) )
-                    CPLocaleData.countries[countryCode][CPLocaleCurrencySymbol] = currencySymbol;
-            }
-        }            
-    }
-
-    for (var territoryCode in cldrSupplemental.territoryContainment)
-    {
-      var contains = keyPath(cldrSupplemental, "territoryContainment." + territoryCode);
-      if (contains)
-        print(territoryCode + " contains " + JSON.stringify(contains))
-    }
-};
-
-var currentCurrencyCode = function(currencies) {
-    var code;
-    for (var index = 0; index < currencies.length; index++)
-    {
-        for (var currencyCode in currencies[index])
-        {
-            var currencyInfo = currencies[index][currencyCode]
-            if (currencyInfo["_tender"] != "false" && !currencyInfo["_to"])
-                code = currencyCode;  
-        }      
-    }
-    return code;
-};
-
-var cleanLocaleIdentifier = function(localeIdentifier) {
-	return localeIdentifier.split(/[-_]/).join("_");
+var storeLocale = function (filename, data)
+{
+    colorPrint("Storing " + filename, "bold+green");
+    chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".plist"), CFPropertyList.stringFromPropertyList(CFType(data)));
+    if (DEBUG)
+      chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".json"),  JSON.stringify(data, undefined, 4));
 };
 
 // ******** Helper functions
+
+var unique = function(array) {
+    var unique = [];
+    for (var i = 0; i < array.length; i++) {
+        if (unique.indexOf(array[i]) == -1) {
+            unique.push(array[i]);
+        }
+    }
+    return unique;
+};
 
 var mergeRecursive = function(obj1, obj2) {
   for (var p in obj2) {
@@ -274,13 +155,6 @@ var CFType = function(value) {
     return value;
 };
 
-var storeLocale = function (filename, data)
-{
-    colorPrint("Storing " + filename, "bold+green");
-    chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".plist"), CFPropertyList.stringFromPropertyList(CFType(data)));
-    chunkedSave(FILE.join(CLDR_DST_DIR, filename + ".json"),  JSON.stringify(data));
-};
-
 var chunkedSave = function (filename, string) {
 	// Writing directly throws a segmentation fault - paged writing does not ...
 	// A simple FILE.write(filename, string) /should/ be sufficient here ...
@@ -294,39 +168,5 @@ var chunkedSave = function (filename, string) {
 		}
 };
 
-var keyPath = function(hash, keyPath) {
-	var keys = keyPath.split(".");
-	for (var index = 0; index < keys.length; index++) {
-		try {
-			hash = hash[keys[index]];
-		} catch(e) {
-			return undefined;
-		}
-	}
-	return hash;
-};
-
-var unique = function(array) {
-    var unique = [];
-    for (var i = 0; i < array.length; i++) {
-        if (unique.indexOf(array[i]) == -1) {
-            unique.push(array[i]);
-        }
-    }
-    return unique;
-};
-
-var convertPositionalParameter = function(string) {
-	for (var index = 0; index < 10; index++)
-		string = string.replace(new RegExp("\\\{" + index + "\\\}"), "%" + (index + 1) + "$@");
-	return string;
-};
-
-/*
-String.prototype.capitalize = function() {
-    return this.replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
-};
-*/
-
-exports.create = createCPLocalePropertyLists;
+exports.create = create;
 
