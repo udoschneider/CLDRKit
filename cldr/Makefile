@@ -69,11 +69,11 @@ ${Ldml2JsonConverterClass}: ${CLDR_TOOLS_DIR} ${ANT_DIR} ${Ldml2JsonConverterJav
 	@cd ${CLDR_TOOLS_DIR}/tools/java && ${ANT} json > /dev/null
 
 
-json/main/: ${Ldml2JsonConverterClass} ${CLDR_CORE_DIR}
+json/main: ${Ldml2JsonConverterClass} ${CLDR_CORE_DIR}
 	@echo "### Convert main XML to JSON"
 	@CLDR_DIR=${CLDR_CORE_DIR} java -cp ${CLASSPATH} org.unicode.cldr.json.Ldml2JsonConverter -d ${JSON_DIR} -t main -r false -l modern | grep "Processing" # > /dev/null
 
-json/supplemental/: ${Ldml2JsonConverterClass} ${CLDR_CORE_DIR}
+json/supplemental: ${Ldml2JsonConverterClass} ${CLDR_CORE_DIR}
 	@echo "### Convert supplemental XML to JSON"
 	@CLDR_DIR=${CLDR_CORE_DIR} java -cp ${CLASSPATH} org.unicode.cldr.json.Ldml2JsonConverter -d ${JSON_DIR} -t supplemental -r false -l modern | grep "Processing" # > /dev/null
 
@@ -86,6 +86,6 @@ clean-downloads:
 	@echo "### Clean download directory"
 	@rm -fR ${DOWNLOAD_DIR}
 
-all: json/main/ json/supplemental/
+all: json/main json/supplemental
 
-.PHONY: all clean
+.PHONY: all clean clean-downloads
